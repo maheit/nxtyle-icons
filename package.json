@@ -1,16 +1,16 @@
 {
   "name": "nxtyle-icons",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "A modern open source font icon library for applications.",
   "files": [
     "fonts"
   ],
-  "main": "./fonts",
-  "module": "./fonts",
   "exports": {
-    "import": "./fonts",
-    "require": "./fonts"
+    "./": {
+      "import": "./fonts/",
+      "require": "./fonts/"
+    }
   },
   "scripts": {
     "svgfont": "svgtofont --sources build --output font --fontName uiw-font",
