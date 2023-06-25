@@ -1,0 +1,43 @@
+{
+  "name": "nxtyle-icons",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "webfont icons for modern applications",
+  "files": [
+    "fonts"
+  ],
+  "main": "./fonts",
+  "module": "./fonts",
+  "exports": {
+    "import": "./fonts",
+    "require": "./fonts"
+  },
+  "scripts": {
+    "svgfont": "svgtofont --sources build --output font --fontName uiw-font",
+    "optimize-fe-1": "svgo -f svg-icons/feather -o build/fe",
+    "convert-fe-2": "oslllo-svg-fixer -s build/fe -d dist/fe",
+    "build-fe": "fantasticon dist/ -o fe -n nxtyle-icon --selector .nxi -p nxi -n index ",
+    "optimize": "svgo",
+    "compose": "oslllo-svg-fixer",
+    "font": "fantasticon",
+    "build": "node src/pre-build.js"
+  },
+  "keywords": [
+    "icon",
+    "webfont",
+    "icons",
+    "svg"
+  ],
+  "author": "maheit",
+  "devDependencies": {
+    "fantasticon": "^1.2.3",
+    "oslllo-svg-fixer": "^2.2.0",
+    "svgo": "^3.0.2",
+    "svgtofont": "^3.25.4"
+  },
+  "svgtofont": {
+    "css": {
+      "fontSize": "12px"
+    }
+  }
+}

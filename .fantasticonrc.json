@@ -1,0 +1,9 @@
+{
+  "fontTypes": ["ttf", "woff", "woff2", "eot"],
+  "assetTypes": ["ts", "css", "json", "html"],
+  "fontsUrl": "",
+  "templates": {
+    "css": "templates/icon-css.hbs",
+    "html": "templates/icon-view.hbs"
+  }
+}
