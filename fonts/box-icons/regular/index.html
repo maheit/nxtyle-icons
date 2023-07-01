@@ -2,7 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    
     <title>index</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
 
     <style>
         body {
@@ -15,20 +17,23 @@
             width: 160px;
             display: inline-block;
             margin: 10px;
+            box-shadow: 0 0 4px 0px darkgrey;
+            border-radius: 8px;
         }
         .preview .inner {
             display: inline-block;
             width: 100%;
             text-align: center;
-            background: #f5f5f5;
+            
             -webkit-border-radius: 3px 3px 0 0;
             -moz-border-radius: 3px 3px 0 0;
             border-radius: 3px 3px 0 0;
         }
-        .preview .inner  {
-            line-height: 85px;
-            font-size: 40px;
+        .preview .inner i {
+            line-height: 85px !important;
+            font-size: 40px !important;
             color: #333;
+            padding: 16px;
         }
         .label {
             display: inline-block;
@@ -37,23 +42,19 @@
             padding: 5px;
             font-size: 10px;
             font-family: Monaco, monospace;
-            color: #666;
-            white-space: nowrap;
+            white-space: wrap;
             overflow: hidden;
-            text-overflow: ellipsis;
-            background: #ddd;
             -webkit-border-radius: 0 0 3px 3px;
             -moz-border-radius: 0 0 3px 3px;
             border-radius: 0 0 3px 3px;
-            color: #666;
+            color: #000;
         }
     </style>
 
-    <link rel="stylesheet" type="text/css" href="index.css" />
 </head>
 <body>
 
-    <h1>index</h1>
+    <h1 id="header">index</h1>
 
 
         <div class="preview">
@@ -7382,5 +7383,12 @@
         </div>
 
 
+    <script>
+        var header =  document.getElementById('header');
+        if(header && window.location) {
+            const title =  window.location.pathname.split("/").filter(URI => (URI && !URI.includes('index'))).join("/");
+            header.innerText = title;
+        }
+    </script>
 </body>
 </html>

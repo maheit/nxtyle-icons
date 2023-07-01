@@ -1,0 +1,359 @@
+@font-face {
+    font-family: "index";
+    src: url("./index.ttf?f0aa8d086c0786b2819755a1956c3afd") format("truetype"),
+url("./index.woff?f0aa8d086c0786b2819755a1956c3afd") format("woff"),
+url("./index.woff2?f0aa8d086c0786b2819755a1956c3afd") format("woff2"),
+url("./index.eot?f0aa8d086c0786b2819755a1956c3afd#iefix") format("embedded-opentype");
+}
+.nxi {
+    font-size: 1.5rem;
+    display: inline-flex
+}
+
+.nxi:before {
+    font-family: 'index' !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.nxi.nxi-rmx-user-faces-account-box-fill:before {
+    content: "\e8fe";
+}
+.nxi.nxi-rmx-user-faces-account-box-line:before {
+    content: "\e8ff";
+}
+.nxi.nxi-rmx-user-faces-account-circle-fill:before {
+    content: "\e900";
+}
+.nxi.nxi-rmx-user-faces-account-circle-line:before {
+    content: "\e901";
+}
+.nxi.nxi-rmx-user-faces-account-pin-box-fill:before {
+    content: "\e902";
+}
+.nxi.nxi-rmx-user-faces-account-pin-box-line:before {
+    content: "\e903";
+}
+.nxi.nxi-rmx-user-faces-account-pin-circle-fill:before {
+    content: "\e904";
+}
+.nxi.nxi-rmx-user-faces-account-pin-circle-line:before {
+    content: "\e905";
+}
+.nxi.nxi-rmx-user-faces-admin-fill:before {
+    content: "\e906";
+}
+.nxi.nxi-rmx-user-faces-admin-line:before {
+    content: "\e907";
+}
+.nxi.nxi-rmx-user-faces-aliens-fill:before {
+    content: "\e908";
+}
+.nxi.nxi-rmx-user-faces-aliens-line:before {
+    content: "\e909";
+}
+.nxi.nxi-rmx-user-faces-bear-smile-fill:before {
+    content: "\e90a";
+}
+.nxi.nxi-rmx-user-faces-bear-smile-line:before {
+    content: "\e90b";
+}
+.nxi.nxi-rmx-user-faces-body-scan-fill:before {
+    content: "\e90c";
+}
+.nxi.nxi-rmx-user-faces-body-scan-line:before {
+    content: "\e90d";
+}
+.nxi.nxi-rmx-user-faces-contacts-fill:before {
+    content: "\e90e";
+}
+.nxi.nxi-rmx-user-faces-contacts-line:before {
+    content: "\e90f";
+}
+.nxi.nxi-rmx-user-faces-criminal-fill:before {
+    content: "\e910";
+}
+.nxi.nxi-rmx-user-faces-criminal-line:before {
+    content: "\e911";
+}
+.nxi.nxi-rmx-user-faces-emotion-2-fill:before {
+    content: "\e912";
+}
+.nxi.nxi-rmx-user-faces-emotion-2-line:before {
+    content: "\e913";
+}
+.nxi.nxi-rmx-user-faces-emotion-fill:before {
+    content: "\e914";
+}
+.nxi.nxi-rmx-user-faces-emotion-happy-fill:before {
+    content: "\e915";
+}
+.nxi.nxi-rmx-user-faces-emotion-happy-line:before {
+    content: "\e916";
+}
+.nxi.nxi-rmx-user-faces-emotion-laugh-fill:before {
+    content: "\e917";
+}
+.nxi.nxi-rmx-user-faces-emotion-laugh-line:before {
+    content: "\e918";
+}
+.nxi.nxi-rmx-user-faces-emotion-line:before {
+    content: "\e919";
+}
+.nxi.nxi-rmx-user-faces-emotion-normal-fill:before {
+    content: "\e91a";
+}
+.nxi.nxi-rmx-user-faces-emotion-normal-line:before {
+    content: "\e91b";
+}
+.nxi.nxi-rmx-user-faces-emotion-sad-fill:before {
+    content: "\e91c";
+}
+.nxi.nxi-rmx-user-faces-emotion-sad-line:before {
+    content: "\e91d";
+}
+.nxi.nxi-rmx-user-faces-emotion-unhappy-fill:before {
+    content: "\e91e";
+}
+.nxi.nxi-rmx-user-faces-emotion-unhappy-line:before {
+    content: "\e91f";
+}
+.nxi.nxi-rmx-user-faces-genderless-fill:before {
+    content: "\e920";
+}
+.nxi.nxi-rmx-user-faces-genderless-line:before {
+    content: "\e921";
+}
+.nxi.nxi-rmx-user-faces-ghost-2-fill:before {
+    content: "\e922";
+}
+.nxi.nxi-rmx-user-faces-ghost-2-line:before {
+    content: "\e923";
+}
+.nxi.nxi-rmx-user-faces-ghost-fill:before {
+    content: "\e924";
+}
+.nxi.nxi-rmx-user-faces-ghost-line:before {
+    content: "\e925";
+}
+.nxi.nxi-rmx-user-faces-ghost-smile-fill:before {
+    content: "\e926";
+}
+.nxi.nxi-rmx-user-faces-ghost-smile-line:before {
+    content: "\e927";
+}
+.nxi.nxi-rmx-user-faces-group-2-fill:before {
+    content: "\e928";
+}
+.nxi.nxi-rmx-user-faces-group-2-line:before {
+    content: "\e929";
+}
+.nxi.nxi-rmx-user-faces-group-fill:before {
+    content: "\e92a";
+}
+.nxi.nxi-rmx-user-faces-group-line:before {
+    content: "\e92b";
+}
+.nxi.nxi-rmx-user-faces-men-fill:before {
+    content: "\e92c";
+}
+.nxi.nxi-rmx-user-faces-men-line:before {
+    content: "\e92d";
+}
+.nxi.nxi-rmx-user-faces-mickey-fill:before {
+    content: "\e92e";
+}
+.nxi.nxi-rmx-user-faces-mickey-line:before {
+    content: "\e92f";
+}
+.nxi.nxi-rmx-user-faces-open-arm-fill:before {
+    content: "\e930";
+}
+.nxi.nxi-rmx-user-faces-open-arm-line:before {
+    content: "\e931";
+}
+.nxi.nxi-rmx-user-faces-parent-fill:before {
+    content: "\e932";
+}
+.nxi.nxi-rmx-user-faces-parent-line:before {
+    content: "\e933";
+}
+.nxi.nxi-rmx-user-faces-robot-fill:before {
+    content: "\e934";
+}
+.nxi.nxi-rmx-user-faces-robot-line:before {
+    content: "\e935";
+}
+.nxi.nxi-rmx-user-faces-skull-2-fill:before {
+    content: "\e936";
+}
+.nxi.nxi-rmx-user-faces-skull-2-line:before {
+    content: "\e937";
+}
+.nxi.nxi-rmx-user-faces-skull-fill:before {
+    content: "\e938";
+}
+.nxi.nxi-rmx-user-faces-skull-line:before {
+    content: "\e939";
+}
+.nxi.nxi-rmx-user-faces-spy-fill:before {
+    content: "\e93a";
+}
+.nxi.nxi-rmx-user-faces-spy-line:before {
+    content: "\e93b";
+}
+.nxi.nxi-rmx-user-faces-star-smile-fill:before {
+    content: "\e93c";
+}
+.nxi.nxi-rmx-user-faces-star-smile-line:before {
+    content: "\e93d";
+}
+.nxi.nxi-rmx-user-faces-team-fill:before {
+    content: "\e93e";
+}
+.nxi.nxi-rmx-user-faces-team-line:before {
+    content: "\e93f";
+}
+.nxi.nxi-rmx-user-faces-travesti-fill:before {
+    content: "\e940";
+}
+.nxi.nxi-rmx-user-faces-travesti-line:before {
+    content: "\e941";
+}
+.nxi.nxi-rmx-user-faces-user-2-fill:before {
+    content: "\e942";
+}
+.nxi.nxi-rmx-user-faces-user-2-line:before {
+    content: "\e943";
+}
+.nxi.nxi-rmx-user-faces-user-3-fill:before {
+    content: "\e944";
+}
+.nxi.nxi-rmx-user-faces-user-3-line:before {
+    content: "\e945";
+}
+.nxi.nxi-rmx-user-faces-user-4-fill:before {
+    content: "\e946";
+}
+.nxi.nxi-rmx-user-faces-user-4-line:before {
+    content: "\e947";
+}
+.nxi.nxi-rmx-user-faces-user-5-fill:before {
+    content: "\e948";
+}
+.nxi.nxi-rmx-user-faces-user-5-line:before {
+    content: "\e949";
+}
+.nxi.nxi-rmx-user-faces-user-6-fill:before {
+    content: "\e94a";
+}
+.nxi.nxi-rmx-user-faces-user-6-line:before {
+    content: "\e94b";
+}
+.nxi.nxi-rmx-user-faces-user-add-fill:before {
+    content: "\e94c";
+}
+.nxi.nxi-rmx-user-faces-user-add-line:before {
+    content: "\e94d";
+}
+.nxi.nxi-rmx-user-faces-user-fill:before {
+    content: "\e94e";
+}
+.nxi.nxi-rmx-user-faces-user-follow-fill:before {
+    content: "\e94f";
+}
+.nxi.nxi-rmx-user-faces-user-follow-line:before {
+    content: "\e950";
+}
+.nxi.nxi-rmx-user-faces-user-forbid-fill:before {
+    content: "\e951";
+}
+.nxi.nxi-rmx-user-faces-user-forbid-line:before {
+    content: "\e952";
+}
+.nxi.nxi-rmx-user-faces-user-heart-fill:before {
+    content: "\e953";
+}
+.nxi.nxi-rmx-user-faces-user-heart-line:before {
+    content: "\e954";
+}
+.nxi.nxi-rmx-user-faces-user-line:before {
+    content: "\e955";
+}
+.nxi.nxi-rmx-user-faces-user-location-fill:before {
+    content: "\e956";
+}
+.nxi.nxi-rmx-user-faces-user-location-line:before {
+    content: "\e957";
+}
+.nxi.nxi-rmx-user-faces-user-received-2-fill:before {
+    content: "\e958";
+}
+.nxi.nxi-rmx-user-faces-user-received-2-line:before {
+    content: "\e959";
+}
+.nxi.nxi-rmx-user-faces-user-received-fill:before {
+    content: "\e95a";
+}
+.nxi.nxi-rmx-user-faces-user-received-line:before {
+    content: "\e95b";
+}
+.nxi.nxi-rmx-user-faces-user-search-fill:before {
+    content: "\e95c";
+}
+.nxi.nxi-rmx-user-faces-user-search-line:before {
+    content: "\e95d";
+}
+.nxi.nxi-rmx-user-faces-user-settings-fill:before {
+    content: "\e95e";
+}
+.nxi.nxi-rmx-user-faces-user-settings-line:before {
+    content: "\e95f";
+}
+.nxi.nxi-rmx-user-faces-user-shared-2-fill:before {
+    content: "\e960";
+}
+.nxi.nxi-rmx-user-faces-user-shared-2-line:before {
+    content: "\e961";
+}
+.nxi.nxi-rmx-user-faces-user-shared-fill:before {
+    content: "\e962";
+}
+.nxi.nxi-rmx-user-faces-user-shared-line:before {
+    content: "\e963";
+}
+.nxi.nxi-rmx-user-faces-user-smile-fill:before {
+    content: "\e964";
+}
+.nxi.nxi-rmx-user-faces-user-smile-line:before {
+    content: "\e965";
+}
+.nxi.nxi-rmx-user-faces-user-star-fill:before {
+    content: "\e966";
+}
+.nxi.nxi-rmx-user-faces-user-star-line:before {
+    content: "\e967";
+}
+.nxi.nxi-rmx-user-faces-user-unfollow-fill:before {
+    content: "\e968";
+}
+.nxi.nxi-rmx-user-faces-user-unfollow-line:before {
+    content: "\e969";
+}
+.nxi.nxi-rmx-user-faces-user-voice-fill:before {
+    content: "\e96a";
+}
+.nxi.nxi-rmx-user-faces-user-voice-line:before {
+    content: "\e96b";
+}
+.nxi.nxi-rmx-user-faces-women-fill:before {
+    content: "\e96c";
+}
+.nxi.nxi-rmx-user-faces-women-line:before {
+    content: "\e96d";
+}

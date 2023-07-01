@@ -1,6 +1,6 @@
 {
   "name": "nxtyle-icons",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "type": "module",
   "description": "A modern open source font icon library for applications.",
   "files": [
@@ -17,10 +17,12 @@
     "optimize-fe-1": "svgo -f svg-icons/feather -o build/fe",
     "convert-fe-2": "oslllo-svg-fixer -s build/fe -d dist/fe",
     "build-fe": "fantasticon dist/ -o fe -n nxtyle-icon --selector .nxi -p nxi -n index ",
+    "build-test": "fantasticon compose/ -o out --selector .ni -p nxi -n index ",
     "optimize": "svgo",
     "compose": "oslllo-svg-fixer",
     "font": "fantasticon",
-    "build": "node src/pre-build.js"
+    "pre:build": "node src/pre-build.js",
+    "build": "node src/build.js"
   },
   "keywords": [
     "icon",

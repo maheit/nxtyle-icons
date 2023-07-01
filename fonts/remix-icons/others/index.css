@@ -1,0 +1,335 @@
+@font-face {
+    font-family: "index";
+    src: url("./index.ttf?366d63c3029fe20d73d1b70d7e6082f6") format("truetype"),
+url("./index.woff?366d63c3029fe20d73d1b70d7e6082f6") format("woff"),
+url("./index.woff2?366d63c3029fe20d73d1b70d7e6082f6") format("woff2"),
+url("./index.eot?366d63c3029fe20d73d1b70d7e6082f6#iefix") format("embedded-opentype");
+}
+.nxi {
+    font-size: 1.5rem;
+    display: inline-flex
+}
+
+.nxi:before {
+    font-family: 'index' !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.nxi.nxi-rmx-others-basketball-fill:before {
+    content: "\e790";
+}
+.nxi.nxi-rmx-others-basketball-line:before {
+    content: "\e791";
+}
+.nxi.nxi-rmx-others-bell-fill:before {
+    content: "\e792";
+}
+.nxi.nxi-rmx-others-bell-line:before {
+    content: "\e793";
+}
+.nxi.nxi-rmx-others-billiards-fill:before {
+    content: "\e794";
+}
+.nxi.nxi-rmx-others-billiards-line:before {
+    content: "\e795";
+}
+.nxi.nxi-rmx-others-box-1-fill:before {
+    content: "\e796";
+}
+.nxi.nxi-rmx-others-box-1-line:before {
+    content: "\e797";
+}
+.nxi.nxi-rmx-others-box-2-fill:before {
+    content: "\e798";
+}
+.nxi.nxi-rmx-others-box-2-line:before {
+    content: "\e799";
+}
+.nxi.nxi-rmx-others-box-3-fill:before {
+    content: "\e79a";
+}
+.nxi.nxi-rmx-others-box-3-line:before {
+    content: "\e79b";
+}
+.nxi.nxi-rmx-others-boxing-fill:before {
+    content: "\e79c";
+}
+.nxi.nxi-rmx-others-boxing-line:before {
+    content: "\e79d";
+}
+.nxi.nxi-rmx-others-cactus-fill:before {
+    content: "\e79e";
+}
+.nxi.nxi-rmx-others-cactus-line:before {
+    content: "\e79f";
+}
+.nxi.nxi-rmx-others-cake-2-fill:before {
+    content: "\e7a0";
+}
+.nxi.nxi-rmx-others-cake-2-line:before {
+    content: "\e7a1";
+}
+.nxi.nxi-rmx-others-cake-3-fill:before {
+    content: "\e7a2";
+}
+.nxi.nxi-rmx-others-cake-3-line:before {
+    content: "\e7a3";
+}
+.nxi.nxi-rmx-others-cake-fill:before {
+    content: "\e7a4";
+}
+.nxi.nxi-rmx-others-cake-line:before {
+    content: "\e7a5";
+}
+.nxi.nxi-rmx-others-candle-fill:before {
+    content: "\e7a6";
+}
+.nxi.nxi-rmx-others-candle-line:before {
+    content: "\e7a7";
+}
+.nxi.nxi-rmx-others-character-recognition-fill:before {
+    content: "\e7a8";
+}
+.nxi.nxi-rmx-others-character-recognition-line:before {
+    content: "\e7a9";
+}
+.nxi.nxi-rmx-others-cross-fill:before {
+    content: "\e7aa";
+}
+.nxi.nxi-rmx-others-cross-line:before {
+    content: "\e7ab";
+}
+.nxi.nxi-rmx-others-door-closed-fill:before {
+    content: "\e7ac";
+}
+.nxi.nxi-rmx-others-door-closed-line:before {
+    content: "\e7ad";
+}
+.nxi.nxi-rmx-others-door-fill:before {
+    content: "\e7ae";
+}
+.nxi.nxi-rmx-others-door-line:before {
+    content: "\e7af";
+}
+.nxi.nxi-rmx-others-door-lock-box-fill:before {
+    content: "\e7b0";
+}
+.nxi.nxi-rmx-others-door-lock-box-line:before {
+    content: "\e7b1";
+}
+.nxi.nxi-rmx-others-door-lock-fill:before {
+    content: "\e7b2";
+}
+.nxi.nxi-rmx-others-door-lock-line:before {
+    content: "\e7b3";
+}
+.nxi.nxi-rmx-others-door-open-fill:before {
+    content: "\e7b4";
+}
+.nxi.nxi-rmx-others-door-open-line:before {
+    content: "\e7b5";
+}
+.nxi.nxi-rmx-others-football-fill:before {
+    content: "\e7b6";
+}
+.nxi.nxi-rmx-others-football-line:before {
+    content: "\e7b7";
+}
+.nxi.nxi-rmx-others-fridge-fill:before {
+    content: "\e7b8";
+}
+.nxi.nxi-rmx-others-fridge-line:before {
+    content: "\e7b9";
+}
+.nxi.nxi-rmx-others-game-fill:before {
+    content: "\e7ba";
+}
+.nxi.nxi-rmx-others-game-line:before {
+    content: "\e7bb";
+}
+.nxi.nxi-rmx-others-graduation-cap-fill:before {
+    content: "\e7bc";
+}
+.nxi.nxi-rmx-others-graduation-cap-line:before {
+    content: "\e7bd";
+}
+.nxi.nxi-rmx-others-handbag-fill:before {
+    content: "\e7be";
+}
+.nxi.nxi-rmx-others-handbag-line:before {
+    content: "\e7bf";
+}
+.nxi.nxi-rmx-others-infinity-fill:before {
+    content: "\e7c0";
+}
+.nxi.nxi-rmx-others-infinity-line:before {
+    content: "\e7c1";
+}
+.nxi.nxi-rmx-others-key-2-fill:before {
+    content: "\e7c2";
+}
+.nxi.nxi-rmx-others-key-2-line:before {
+    content: "\e7c3";
+}
+.nxi.nxi-rmx-others-key-fill:before {
+    content: "\e7c4";
+}
+.nxi.nxi-rmx-others-key-line:before {
+    content: "\e7c5";
+}
+.nxi.nxi-rmx-others-knife-blood-fill:before {
+    content: "\e7c6";
+}
+.nxi.nxi-rmx-others-knife-blood-line:before {
+    content: "\e7c7";
+}
+.nxi.nxi-rmx-others-knife-fill:before {
+    content: "\e7c8";
+}
+.nxi.nxi-rmx-others-knife-line:before {
+    content: "\e7c9";
+}
+.nxi.nxi-rmx-others-leaf-fill:before {
+    content: "\e7ca";
+}
+.nxi.nxi-rmx-others-leaf-line:before {
+    content: "\e7cb";
+}
+.nxi.nxi-rmx-others-lightbulb-fill:before {
+    content: "\e7cc";
+}
+.nxi.nxi-rmx-others-lightbulb-flash-fill:before {
+    content: "\e7cd";
+}
+.nxi.nxi-rmx-others-lightbulb-flash-line:before {
+    content: "\e7ce";
+}
+.nxi.nxi-rmx-others-lightbulb-line:before {
+    content: "\e7cf";
+}
+.nxi.nxi-rmx-others-outlet-2-fill:before {
+    content: "\e7d0";
+}
+.nxi.nxi-rmx-others-outlet-2-line:before {
+    content: "\e7d1";
+}
+.nxi.nxi-rmx-others-outlet-fill:before {
+    content: "\e7d2";
+}
+.nxi.nxi-rmx-others-outlet-line:before {
+    content: "\e7d3";
+}
+.nxi.nxi-rmx-others-ping-pong-fill:before {
+    content: "\e7d4";
+}
+.nxi.nxi-rmx-others-ping-pong-line:before {
+    content: "\e7d5";
+}
+.nxi.nxi-rmx-others-plant-fill:before {
+    content: "\e7d6";
+}
+.nxi.nxi-rmx-others-plant-line:before {
+    content: "\e7d7";
+}
+.nxi.nxi-rmx-others-plug-2-fill:before {
+    content: "\e7d8";
+}
+.nxi.nxi-rmx-others-plug-2-line:before {
+    content: "\e7d9";
+}
+.nxi.nxi-rmx-others-plug-fill:before {
+    content: "\e7da";
+}
+.nxi.nxi-rmx-others-plug-line:before {
+    content: "\e7db";
+}
+.nxi.nxi-rmx-others-recycle-fill:before {
+    content: "\e7dc";
+}
+.nxi.nxi-rmx-others-recycle-line:before {
+    content: "\e7dd";
+}
+.nxi.nxi-rmx-others-reserved-fill:before {
+    content: "\e7de";
+}
+.nxi.nxi-rmx-others-reserved-line:before {
+    content: "\e7df";
+}
+.nxi.nxi-rmx-others-scales-2-fill:before {
+    content: "\e7e0";
+}
+.nxi.nxi-rmx-others-scales-2-line:before {
+    content: "\e7e1";
+}
+.nxi.nxi-rmx-others-scales-3-fill:before {
+    content: "\e7e2";
+}
+.nxi.nxi-rmx-others-scales-3-line:before {
+    content: "\e7e3";
+}
+.nxi.nxi-rmx-others-scales-fill:before {
+    content: "\e7e4";
+}
+.nxi.nxi-rmx-others-scales-line:before {
+    content: "\e7e5";
+}
+.nxi.nxi-rmx-others-seedling-fill:before {
+    content: "\e7e6";
+}
+.nxi.nxi-rmx-others-seedling-line:before {
+    content: "\e7e7";
+}
+.nxi.nxi-rmx-others-shirt-fill:before {
+    content: "\e7e8";
+}
+.nxi.nxi-rmx-others-shirt-line:before {
+    content: "\e7e9";
+}
+.nxi.nxi-rmx-others-sword-fill:before {
+    content: "\e7ea";
+}
+.nxi.nxi-rmx-others-sword-line:before {
+    content: "\e7eb";
+}
+.nxi.nxi-rmx-others-t-shirt-2-fill:before {
+    content: "\e7ec";
+}
+.nxi.nxi-rmx-others-t-shirt-2-line:before {
+    content: "\e7ed";
+}
+.nxi.nxi-rmx-others-t-shirt-air-fill:before {
+    content: "\e7ee";
+}
+.nxi.nxi-rmx-others-t-shirt-air-line:before {
+    content: "\e7ef";
+}
+.nxi.nxi-rmx-others-t-shirt-fill:before {
+    content: "\e7f0";
+}
+.nxi.nxi-rmx-others-t-shirt-line:before {
+    content: "\e7f1";
+}
+.nxi.nxi-rmx-others-umbrella-fill:before {
+    content: "\e7f2";
+}
+.nxi.nxi-rmx-others-umbrella-line:before {
+    content: "\e7f3";
+}
+.nxi.nxi-rmx-others-voice-recognition-fill:before {
+    content: "\e7f4";
+}
+.nxi.nxi-rmx-others-voice-recognition-line:before {
+    content: "\e7f5";
+}
+.nxi.nxi-rmx-others-wheelchair-fill:before {
+    content: "\e7f6";
+}
+.nxi.nxi-rmx-others-wheelchair-line:before {
+    content: "\e7f7";
+}

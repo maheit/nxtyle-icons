@@ -2,13 +2,17 @@
     font-family: "{{ name }}";
     src: {{{ fontSrc }}};
 }
+{{ selector }} {
+    font-size: 1.5rem;
+    display: inline-flex
+}
 
 {{# if selector }}
 {{ selector }}:before {
 {{ else }}
 {{ tag }}[class^="{{prefix}}-"]:before, {{ tag }}[class*=" {{prefix}}-"]:before {
 {{/ if }}
-    font-family: {{ name }} !important;
+    font-family: '{{ name }}' !important;
     font-style: normal;
     font-weight: normal !important;
     font-variant: normal;

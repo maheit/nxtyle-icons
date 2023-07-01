@@ -1,0 +1,599 @@
+@font-face {
+    font-family: "index";
+    src: url("./index.ttf?b5f72008cd451ba5c886730d532c2555") format("truetype"),
+url("./index.woff?b5f72008cd451ba5c886730d532c2555") format("woff"),
+url("./index.woff2?b5f72008cd451ba5c886730d532c2555") format("woff2"),
+url("./index.eot?b5f72008cd451ba5c886730d532c2555#iefix") format("embedded-opentype");
+}
+.nxi {
+    font-size: 1.5rem;
+    display: inline-flex
+}
+
+.nxi:before {
+    font-family: 'index' !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.nxi.nxi-rmx-business-advertisement-fill:before {
+    content: "\e0a6";
+}
+.nxi.nxi-rmx-business-advertisement-line:before {
+    content: "\e0a7";
+}
+.nxi.nxi-rmx-business-archive-2-fill:before {
+    content: "\e0a8";
+}
+.nxi.nxi-rmx-business-archive-2-line:before {
+    content: "\e0a9";
+}
+.nxi.nxi-rmx-business-archive-drawer-fill:before {
+    content: "\e0aa";
+}
+.nxi.nxi-rmx-business-archive-drawer-line:before {
+    content: "\e0ab";
+}
+.nxi.nxi-rmx-business-archive-fill:before {
+    content: "\e0ac";
+}
+.nxi.nxi-rmx-business-archive-line:before {
+    content: "\e0ad";
+}
+.nxi.nxi-rmx-business-at-fill:before {
+    content: "\e0ae";
+}
+.nxi.nxi-rmx-business-at-line:before {
+    content: "\e0af";
+}
+.nxi.nxi-rmx-business-attachment-fill:before {
+    content: "\e0b0";
+}
+.nxi.nxi-rmx-business-attachment-line:before {
+    content: "\e0b1";
+}
+.nxi.nxi-rmx-business-award-fill:before {
+    content: "\e0b2";
+}
+.nxi.nxi-rmx-business-award-line:before {
+    content: "\e0b3";
+}
+.nxi.nxi-rmx-business-bar-chart-2-fill:before {
+    content: "\e0b4";
+}
+.nxi.nxi-rmx-business-bar-chart-2-line:before {
+    content: "\e0b5";
+}
+.nxi.nxi-rmx-business-bar-chart-box-fill:before {
+    content: "\e0b6";
+}
+.nxi.nxi-rmx-business-bar-chart-box-line:before {
+    content: "\e0b7";
+}
+.nxi.nxi-rmx-business-bar-chart-fill:before {
+    content: "\e0b8";
+}
+.nxi.nxi-rmx-business-bar-chart-grouped-fill:before {
+    content: "\e0b9";
+}
+.nxi.nxi-rmx-business-bar-chart-grouped-line:before {
+    content: "\e0ba";
+}
+.nxi.nxi-rmx-business-bar-chart-horizontal-fill:before {
+    content: "\e0bb";
+}
+.nxi.nxi-rmx-business-bar-chart-horizontal-line:before {
+    content: "\e0bc";
+}
+.nxi.nxi-rmx-business-bar-chart-line:before {
+    content: "\e0bd";
+}
+.nxi.nxi-rmx-business-bookmark-2-fill:before {
+    content: "\e0be";
+}
+.nxi.nxi-rmx-business-bookmark-2-line:before {
+    content: "\e0bf";
+}
+.nxi.nxi-rmx-business-bookmark-3-fill:before {
+    content: "\e0c0";
+}
+.nxi.nxi-rmx-business-bookmark-3-line:before {
+    content: "\e0c1";
+}
+.nxi.nxi-rmx-business-bookmark-fill:before {
+    content: "\e0c2";
+}
+.nxi.nxi-rmx-business-bookmark-line:before {
+    content: "\e0c3";
+}
+.nxi.nxi-rmx-business-briefcase-2-fill:before {
+    content: "\e0c4";
+}
+.nxi.nxi-rmx-business-briefcase-2-line:before {
+    content: "\e0c5";
+}
+.nxi.nxi-rmx-business-briefcase-3-fill:before {
+    content: "\e0c6";
+}
+.nxi.nxi-rmx-business-briefcase-3-line:before {
+    content: "\e0c7";
+}
+.nxi.nxi-rmx-business-briefcase-4-fill:before {
+    content: "\e0c8";
+}
+.nxi.nxi-rmx-business-briefcase-4-line:before {
+    content: "\e0c9";
+}
+.nxi.nxi-rmx-business-briefcase-5-fill:before {
+    content: "\e0ca";
+}
+.nxi.nxi-rmx-business-briefcase-5-line:before {
+    content: "\e0cb";
+}
+.nxi.nxi-rmx-business-briefcase-fill:before {
+    content: "\e0cc";
+}
+.nxi.nxi-rmx-business-briefcase-line:before {
+    content: "\e0cd";
+}
+.nxi.nxi-rmx-business-bubble-chart-fill:before {
+    content: "\e0ce";
+}
+.nxi.nxi-rmx-business-bubble-chart-line:before {
+    content: "\e0cf";
+}
+.nxi.nxi-rmx-business-calculator-fill:before {
+    content: "\e0d0";
+}
+.nxi.nxi-rmx-business-calculator-line:before {
+    content: "\e0d1";
+}
+.nxi.nxi-rmx-business-calendar-2-fill:before {
+    content: "\e0d2";
+}
+.nxi.nxi-rmx-business-calendar-2-line:before {
+    content: "\e0d3";
+}
+.nxi.nxi-rmx-business-calendar-check-fill:before {
+    content: "\e0d4";
+}
+.nxi.nxi-rmx-business-calendar-check-line:before {
+    content: "\e0d5";
+}
+.nxi.nxi-rmx-business-calendar-close-fill:before {
+    content: "\e0d6";
+}
+.nxi.nxi-rmx-business-calendar-close-line:before {
+    content: "\e0d7";
+}
+.nxi.nxi-rmx-business-calendar-event-fill:before {
+    content: "\e0d8";
+}
+.nxi.nxi-rmx-business-calendar-event-line:before {
+    content: "\e0d9";
+}
+.nxi.nxi-rmx-business-calendar-fill:before {
+    content: "\e0da";
+}
+.nxi.nxi-rmx-business-calendar-line:before {
+    content: "\e0db";
+}
+.nxi.nxi-rmx-business-calendar-todo-fill:before {
+    content: "\e0dc";
+}
+.nxi.nxi-rmx-business-calendar-todo-line:before {
+    content: "\e0dd";
+}
+.nxi.nxi-rmx-business-cloud-fill:before {
+    content: "\e0de";
+}
+.nxi.nxi-rmx-business-cloud-line:before {
+    content: "\e0df";
+}
+.nxi.nxi-rmx-business-cloud-off-fill:before {
+    content: "\e0e0";
+}
+.nxi.nxi-rmx-business-cloud-off-line:before {
+    content: "\e0e1";
+}
+.nxi.nxi-rmx-business-copyleft-fill:before {
+    content: "\e0e2";
+}
+.nxi.nxi-rmx-business-copyleft-line:before {
+    content: "\e0e3";
+}
+.nxi.nxi-rmx-business-copyright-fill:before {
+    content: "\e0e4";
+}
+.nxi.nxi-rmx-business-copyright-line:before {
+    content: "\e0e5";
+}
+.nxi.nxi-rmx-business-creative-commons-by-fill:before {
+    content: "\e0e6";
+}
+.nxi.nxi-rmx-business-creative-commons-by-line:before {
+    content: "\e0e7";
+}
+.nxi.nxi-rmx-business-creative-commons-fill:before {
+    content: "\e0e8";
+}
+.nxi.nxi-rmx-business-creative-commons-line:before {
+    content: "\e0e9";
+}
+.nxi.nxi-rmx-business-creative-commons-nc-fill:before {
+    content: "\e0ea";
+}
+.nxi.nxi-rmx-business-creative-commons-nc-line:before {
+    content: "\e0eb";
+}
+.nxi.nxi-rmx-business-creative-commons-nd-fill:before {
+    content: "\e0ec";
+}
+.nxi.nxi-rmx-business-creative-commons-nd-line:before {
+    content: "\e0ed";
+}
+.nxi.nxi-rmx-business-creative-commons-sa-fill:before {
+    content: "\e0ee";
+}
+.nxi.nxi-rmx-business-creative-commons-sa-line:before {
+    content: "\e0ef";
+}
+.nxi.nxi-rmx-business-creative-commons-zero-fill:before {
+    content: "\e0f0";
+}
+.nxi.nxi-rmx-business-creative-commons-zero-line:before {
+    content: "\e0f1";
+}
+.nxi.nxi-rmx-business-customer-service-2-fill:before {
+    content: "\e0f2";
+}
+.nxi.nxi-rmx-business-customer-service-2-line:before {
+    content: "\e0f3";
+}
+.nxi.nxi-rmx-business-customer-service-fill:before {
+    content: "\e0f4";
+}
+.nxi.nxi-rmx-business-customer-service-line:before {
+    content: "\e0f5";
+}
+.nxi.nxi-rmx-business-donut-chart-fill:before {
+    content: "\e0f6";
+}
+.nxi.nxi-rmx-business-donut-chart-line:before {
+    content: "\e0f7";
+}
+.nxi.nxi-rmx-business-flag-2-fill:before {
+    content: "\e0f8";
+}
+.nxi.nxi-rmx-business-flag-2-line:before {
+    content: "\e0f9";
+}
+.nxi.nxi-rmx-business-flag-fill:before {
+    content: "\e0fa";
+}
+.nxi.nxi-rmx-business-flag-line:before {
+    content: "\e0fb";
+}
+.nxi.nxi-rmx-business-global-fill:before {
+    content: "\e0fc";
+}
+.nxi.nxi-rmx-business-global-line:before {
+    content: "\e0fd";
+}
+.nxi.nxi-rmx-business-honour-fill:before {
+    content: "\e0fe";
+}
+.nxi.nxi-rmx-business-honour-line:before {
+    content: "\e0ff";
+}
+.nxi.nxi-rmx-business-inbox-2-fill:before {
+    content: "\e100";
+}
+.nxi.nxi-rmx-business-inbox-2-line:before {
+    content: "\e101";
+}
+.nxi.nxi-rmx-business-inbox-archive-fill:before {
+    content: "\e102";
+}
+.nxi.nxi-rmx-business-inbox-archive-line:before {
+    content: "\e103";
+}
+.nxi.nxi-rmx-business-inbox-fill:before {
+    content: "\e104";
+}
+.nxi.nxi-rmx-business-inbox-line:before {
+    content: "\e105";
+}
+.nxi.nxi-rmx-business-inbox-unarchive-fill:before {
+    content: "\e106";
+}
+.nxi.nxi-rmx-business-inbox-unarchive-line:before {
+    content: "\e107";
+}
+.nxi.nxi-rmx-business-line-chart-fill:before {
+    content: "\e108";
+}
+.nxi.nxi-rmx-business-line-chart-line:before {
+    content: "\e109";
+}
+.nxi.nxi-rmx-business-links-fill:before {
+    content: "\e10a";
+}
+.nxi.nxi-rmx-business-links-line:before {
+    content: "\e10b";
+}
+.nxi.nxi-rmx-business-mail-add-fill:before {
+    content: "\e10c";
+}
+.nxi.nxi-rmx-business-mail-add-line:before {
+    content: "\e10d";
+}
+.nxi.nxi-rmx-business-mail-check-fill:before {
+    content: "\e10e";
+}
+.nxi.nxi-rmx-business-mail-check-line:before {
+    content: "\e10f";
+}
+.nxi.nxi-rmx-business-mail-close-fill:before {
+    content: "\e110";
+}
+.nxi.nxi-rmx-business-mail-close-line:before {
+    content: "\e111";
+}
+.nxi.nxi-rmx-business-mail-download-fill:before {
+    content: "\e112";
+}
+.nxi.nxi-rmx-business-mail-download-line:before {
+    content: "\e113";
+}
+.nxi.nxi-rmx-business-mail-fill:before {
+    content: "\e114";
+}
+.nxi.nxi-rmx-business-mail-forbid-fill:before {
+    content: "\e115";
+}
+.nxi.nxi-rmx-business-mail-forbid-line:before {
+    content: "\e116";
+}
+.nxi.nxi-rmx-business-mail-line:before {
+    content: "\e117";
+}
+.nxi.nxi-rmx-business-mail-lock-fill:before {
+    content: "\e118";
+}
+.nxi.nxi-rmx-business-mail-lock-line:before {
+    content: "\e119";
+}
+.nxi.nxi-rmx-business-mail-open-fill:before {
+    content: "\e11a";
+}
+.nxi.nxi-rmx-business-mail-open-line:before {
+    content: "\e11b";
+}
+.nxi.nxi-rmx-business-mail-send-fill:before {
+    content: "\e11c";
+}
+.nxi.nxi-rmx-business-mail-send-line:before {
+    content: "\e11d";
+}
+.nxi.nxi-rmx-business-mail-settings-fill:before {
+    content: "\e11e";
+}
+.nxi.nxi-rmx-business-mail-settings-line:before {
+    content: "\e11f";
+}
+.nxi.nxi-rmx-business-mail-star-fill:before {
+    content: "\e120";
+}
+.nxi.nxi-rmx-business-mail-star-line:before {
+    content: "\e121";
+}
+.nxi.nxi-rmx-business-mail-unread-fill:before {
+    content: "\e122";
+}
+.nxi.nxi-rmx-business-mail-unread-line:before {
+    content: "\e123";
+}
+.nxi.nxi-rmx-business-mail-volume-fill:before {
+    content: "\e124";
+}
+.nxi.nxi-rmx-business-mail-volume-line:before {
+    content: "\e125";
+}
+.nxi.nxi-rmx-business-medal-2-fill:before {
+    content: "\e126";
+}
+.nxi.nxi-rmx-business-medal-2-line:before {
+    content: "\e127";
+}
+.nxi.nxi-rmx-business-medal-fill:before {
+    content: "\e128";
+}
+.nxi.nxi-rmx-business-medal-line:before {
+    content: "\e129";
+}
+.nxi.nxi-rmx-business-megaphone-fill:before {
+    content: "\e12a";
+}
+.nxi.nxi-rmx-business-megaphone-line:before {
+    content: "\e12b";
+}
+.nxi.nxi-rmx-business-pass-expired-fill:before {
+    content: "\e12c";
+}
+.nxi.nxi-rmx-business-pass-expired-line:before {
+    content: "\e12d";
+}
+.nxi.nxi-rmx-business-pass-pending-fill:before {
+    content: "\e12e";
+}
+.nxi.nxi-rmx-business-pass-pending-line:before {
+    content: "\e12f";
+}
+.nxi.nxi-rmx-business-pass-valid-fill:before {
+    content: "\e130";
+}
+.nxi.nxi-rmx-business-pass-valid-line:before {
+    content: "\e131";
+}
+.nxi.nxi-rmx-business-pie-chart-2-fill:before {
+    content: "\e132";
+}
+.nxi.nxi-rmx-business-pie-chart-2-line:before {
+    content: "\e133";
+}
+.nxi.nxi-rmx-business-pie-chart-box-fill:before {
+    content: "\e134";
+}
+.nxi.nxi-rmx-business-pie-chart-box-line:before {
+    content: "\e135";
+}
+.nxi.nxi-rmx-business-pie-chart-fill:before {
+    content: "\e136";
+}
+.nxi.nxi-rmx-business-pie-chart-line:before {
+    content: "\e137";
+}
+.nxi.nxi-rmx-business-presentation-fill:before {
+    content: "\e138";
+}
+.nxi.nxi-rmx-business-presentation-line:before {
+    content: "\e139";
+}
+.nxi.nxi-rmx-business-printer-cloud-fill:before {
+    content: "\e13a";
+}
+.nxi.nxi-rmx-business-printer-cloud-line:before {
+    content: "\e13b";
+}
+.nxi.nxi-rmx-business-printer-fill:before {
+    content: "\e13c";
+}
+.nxi.nxi-rmx-business-printer-line:before {
+    content: "\e13d";
+}
+.nxi.nxi-rmx-business-profile-fill:before {
+    content: "\e13e";
+}
+.nxi.nxi-rmx-business-profile-line:before {
+    content: "\e13f";
+}
+.nxi.nxi-rmx-business-projector-2-fill:before {
+    content: "\e140";
+}
+.nxi.nxi-rmx-business-projector-2-line:before {
+    content: "\e141";
+}
+.nxi.nxi-rmx-business-projector-fill:before {
+    content: "\e142";
+}
+.nxi.nxi-rmx-business-projector-line:before {
+    content: "\e143";
+}
+.nxi.nxi-rmx-business-record-mail-fill:before {
+    content: "\e144";
+}
+.nxi.nxi-rmx-business-record-mail-line:before {
+    content: "\e145";
+}
+.nxi.nxi-rmx-business-registered-fill:before {
+    content: "\e146";
+}
+.nxi.nxi-rmx-business-registered-line:before {
+    content: "\e147";
+}
+.nxi.nxi-rmx-business-reply-all-fill:before {
+    content: "\e148";
+}
+.nxi.nxi-rmx-business-reply-all-line:before {
+    content: "\e149";
+}
+.nxi.nxi-rmx-business-reply-fill:before {
+    content: "\e14a";
+}
+.nxi.nxi-rmx-business-reply-line:before {
+    content: "\e14b";
+}
+.nxi.nxi-rmx-business-send-plane-2-fill:before {
+    content: "\e14c";
+}
+.nxi.nxi-rmx-business-send-plane-2-line:before {
+    content: "\e14d";
+}
+.nxi.nxi-rmx-business-send-plane-fill:before {
+    content: "\e14e";
+}
+.nxi.nxi-rmx-business-send-plane-line:before {
+    content: "\e14f";
+}
+.nxi.nxi-rmx-business-seo-fill:before {
+    content: "\e150";
+}
+.nxi.nxi-rmx-business-seo-line:before {
+    content: "\e151";
+}
+.nxi.nxi-rmx-business-service-fill:before {
+    content: "\e152";
+}
+.nxi.nxi-rmx-business-service-line:before {
+    content: "\e153";
+}
+.nxi.nxi-rmx-business-shake-hands-fill:before {
+    content: "\e154";
+}
+.nxi.nxi-rmx-business-shake-hands-line:before {
+    content: "\e155";
+}
+.nxi.nxi-rmx-business-slideshow-2-fill:before {
+    content: "\e156";
+}
+.nxi.nxi-rmx-business-slideshow-2-line:before {
+    content: "\e157";
+}
+.nxi.nxi-rmx-business-slideshow-3-fill:before {
+    content: "\e158";
+}
+.nxi.nxi-rmx-business-slideshow-3-line:before {
+    content: "\e159";
+}
+.nxi.nxi-rmx-business-slideshow-4-fill:before {
+    content: "\e15a";
+}
+.nxi.nxi-rmx-business-slideshow-4-line:before {
+    content: "\e15b";
+}
+.nxi.nxi-rmx-business-slideshow-fill:before {
+    content: "\e15c";
+}
+.nxi.nxi-rmx-business-slideshow-line:before {
+    content: "\e15d";
+}
+.nxi.nxi-rmx-business-stack-fill:before {
+    content: "\e15e";
+}
+.nxi.nxi-rmx-business-stack-line:before {
+    content: "\e15f";
+}
+.nxi.nxi-rmx-business-trademark-fill:before {
+    content: "\e160";
+}
+.nxi.nxi-rmx-business-trademark-line:before {
+    content: "\e161";
+}
+.nxi.nxi-rmx-business-window-2-fill:before {
+    content: "\e162";
+}
+.nxi.nxi-rmx-business-window-2-line:before {
+    content: "\e163";
+}
+.nxi.nxi-rmx-business-window-fill:before {
+    content: "\e164";
+}
+.nxi.nxi-rmx-business-window-line:before {
+    content: "\e165";
+}

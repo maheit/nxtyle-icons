@@ -1,0 +1,3767 @@
+@font-face {
+    font-family: "index";
+    src: url("./index.ttf?54c3ec6d929b4f8ec18d90894722395f") format("truetype"),
+url("./index.woff?54c3ec6d929b4f8ec18d90894722395f") format("woff"),
+url("./index.woff2?54c3ec6d929b4f8ec18d90894722395f") format("woff2"),
+url("./index.eot?54c3ec6d929b4f8ec18d90894722395f#iefix") format("embedded-opentype");
+}
+.nxi {
+    font-size: 1.5rem;
+    display: inline-flex
+}
+
+.nxi:before {
+    font-family: 'index' !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.nxi.nxi-pp-address-book-thin:before {
+    content: "\eea0";
+}
+.nxi.nxi-pp-air-traffic-control-thin:before {
+    content: "\eea1";
+}
+.nxi.nxi-pp-airplane-in-flight-thin:before {
+    content: "\eea2";
+}
+.nxi.nxi-pp-airplane-landing-thin:before {
+    content: "\eea3";
+}
+.nxi.nxi-pp-airplane-takeoff-thin:before {
+    content: "\eea4";
+}
+.nxi.nxi-pp-airplane-thin:before {
+    content: "\eea5";
+}
+.nxi.nxi-pp-airplane-tilt-thin:before {
+    content: "\eea6";
+}
+.nxi.nxi-pp-airplay-thin:before {
+    content: "\eea7";
+}
+.nxi.nxi-pp-alarm-thin:before {
+    content: "\eea8";
+}
+.nxi.nxi-pp-alien-thin:before {
+    content: "\eea9";
+}
+.nxi.nxi-pp-align-bottom-simple-thin:before {
+    content: "\eeaa";
+}
+.nxi.nxi-pp-align-bottom-thin:before {
+    content: "\eeab";
+}
+.nxi.nxi-pp-align-center-horizontal-simple-thin:before {
+    content: "\eeac";
+}
+.nxi.nxi-pp-align-center-horizontal-thin:before {
+    content: "\eead";
+}
+.nxi.nxi-pp-align-center-vertical-simple-thin:before {
+    content: "\eeae";
+}
+.nxi.nxi-pp-align-center-vertical-thin:before {
+    content: "\eeaf";
+}
+.nxi.nxi-pp-align-left-simple-thin:before {
+    content: "\eeb0";
+}
+.nxi.nxi-pp-align-left-thin:before {
+    content: "\eeb1";
+}
+.nxi.nxi-pp-align-right-simple-thin:before {
+    content: "\eeb2";
+}
+.nxi.nxi-pp-align-right-thin:before {
+    content: "\eeb3";
+}
+.nxi.nxi-pp-align-top-simple-thin:before {
+    content: "\eeb4";
+}
+.nxi.nxi-pp-align-top-thin:before {
+    content: "\eeb5";
+}
+.nxi.nxi-pp-amazon-logo-thin:before {
+    content: "\eeb6";
+}
+.nxi.nxi-pp-anchor-simple-thin:before {
+    content: "\eeb7";
+}
+.nxi.nxi-pp-anchor-thin:before {
+    content: "\eeb8";
+}
+.nxi.nxi-pp-android-logo-thin:before {
+    content: "\eeb9";
+}
+.nxi.nxi-pp-angular-logo-thin:before {
+    content: "\eeba";
+}
+.nxi.nxi-pp-aperture-thin:before {
+    content: "\eebb";
+}
+.nxi.nxi-pp-app-store-logo-thin:before {
+    content: "\eebc";
+}
+.nxi.nxi-pp-app-window-thin:before {
+    content: "\eebd";
+}
+.nxi.nxi-pp-apple-logo-thin:before {
+    content: "\eebe";
+}
+.nxi.nxi-pp-apple-podcasts-logo-thin:before {
+    content: "\eebf";
+}
+.nxi.nxi-pp-archive-box-thin:before {
+    content: "\eec0";
+}
+.nxi.nxi-pp-archive-thin:before {
+    content: "\eec1";
+}
+.nxi.nxi-pp-archive-tray-thin:before {
+    content: "\eec2";
+}
+.nxi.nxi-pp-armchair-thin:before {
+    content: "\eec3";
+}
+.nxi.nxi-pp-arrow-arc-left-thin:before {
+    content: "\eec4";
+}
+.nxi.nxi-pp-arrow-arc-right-thin:before {
+    content: "\eec5";
+}
+.nxi.nxi-pp-arrow-bend-double-up-left-thin:before {
+    content: "\eec6";
+}
+.nxi.nxi-pp-arrow-bend-double-up-right-thin:before {
+    content: "\eec7";
+}
+.nxi.nxi-pp-arrow-bend-down-left-thin:before {
+    content: "\eec8";
+}
+.nxi.nxi-pp-arrow-bend-down-right-thin:before {
+    content: "\eec9";
+}
+.nxi.nxi-pp-arrow-bend-left-down-thin:before {
+    content: "\eeca";
+}
+.nxi.nxi-pp-arrow-bend-left-up-thin:before {
+    content: "\eecb";
+}
+.nxi.nxi-pp-arrow-bend-right-down-thin:before {
+    content: "\eecc";
+}
+.nxi.nxi-pp-arrow-bend-right-up-thin:before {
+    content: "\eecd";
+}
+.nxi.nxi-pp-arrow-bend-up-left-thin:before {
+    content: "\eece";
+}
+.nxi.nxi-pp-arrow-bend-up-right-thin:before {
+    content: "\eecf";
+}
+.nxi.nxi-pp-arrow-circle-down-left-thin:before {
+    content: "\eed0";
+}
+.nxi.nxi-pp-arrow-circle-down-right-thin:before {
+    content: "\eed1";
+}
+.nxi.nxi-pp-arrow-circle-down-thin:before {
+    content: "\eed2";
+}
+.nxi.nxi-pp-arrow-circle-left-thin:before {
+    content: "\eed3";
+}
+.nxi.nxi-pp-arrow-circle-right-thin:before {
+    content: "\eed4";
+}
+.nxi.nxi-pp-arrow-circle-up-left-thin:before {
+    content: "\eed5";
+}
+.nxi.nxi-pp-arrow-circle-up-right-thin:before {
+    content: "\eed6";
+}
+.nxi.nxi-pp-arrow-circle-up-thin:before {
+    content: "\eed7";
+}
+.nxi.nxi-pp-arrow-clockwise-thin:before {
+    content: "\eed8";
+}
+.nxi.nxi-pp-arrow-counter-clockwise-thin:before {
+    content: "\eed9";
+}
+.nxi.nxi-pp-arrow-down-left-thin:before {
+    content: "\eeda";
+}
+.nxi.nxi-pp-arrow-down-right-thin:before {
+    content: "\eedb";
+}
+.nxi.nxi-pp-arrow-down-thin:before {
+    content: "\eedc";
+}
+.nxi.nxi-pp-arrow-elbow-down-left-thin:before {
+    content: "\eedd";
+}
+.nxi.nxi-pp-arrow-elbow-down-right-thin:before {
+    content: "\eede";
+}
+.nxi.nxi-pp-arrow-elbow-left-down-thin:before {
+    content: "\eedf";
+}
+.nxi.nxi-pp-arrow-elbow-left-thin:before {
+    content: "\eee0";
+}
+.nxi.nxi-pp-arrow-elbow-left-up-thin:before {
+    content: "\eee1";
+}
+.nxi.nxi-pp-arrow-elbow-right-down-thin:before {
+    content: "\eee2";
+}
+.nxi.nxi-pp-arrow-elbow-right-thin:before {
+    content: "\eee3";
+}
+.nxi.nxi-pp-arrow-elbow-right-up-thin:before {
+    content: "\eee4";
+}
+.nxi.nxi-pp-arrow-elbow-up-left-thin:before {
+    content: "\eee5";
+}
+.nxi.nxi-pp-arrow-elbow-up-right-thin:before {
+    content: "\eee6";
+}
+.nxi.nxi-pp-arrow-fat-down-thin:before {
+    content: "\eee7";
+}
+.nxi.nxi-pp-arrow-fat-left-thin:before {
+    content: "\eee8";
+}
+.nxi.nxi-pp-arrow-fat-line-down-thin:before {
+    content: "\eee9";
+}
+.nxi.nxi-pp-arrow-fat-line-left-thin:before {
+    content: "\eeea";
+}
+.nxi.nxi-pp-arrow-fat-line-right-thin:before {
+    content: "\eeeb";
+}
+.nxi.nxi-pp-arrow-fat-line-up-thin:before {
+    content: "\eeec";
+}
+.nxi.nxi-pp-arrow-fat-lines-down-thin:before {
+    content: "\eeed";
+}
+.nxi.nxi-pp-arrow-fat-lines-left-thin:before {
+    content: "\eeee";
+}
+.nxi.nxi-pp-arrow-fat-lines-right-thin:before {
+    content: "\eeef";
+}
+.nxi.nxi-pp-arrow-fat-lines-up-thin:before {
+    content: "\eef0";
+}
+.nxi.nxi-pp-arrow-fat-right-thin:before {
+    content: "\eef1";
+}
+.nxi.nxi-pp-arrow-fat-up-thin:before {
+    content: "\eef2";
+}
+.nxi.nxi-pp-arrow-left-thin:before {
+    content: "\eef3";
+}
+.nxi.nxi-pp-arrow-line-down-left-thin:before {
+    content: "\eef4";
+}
+.nxi.nxi-pp-arrow-line-down-right-thin:before {
+    content: "\eef5";
+}
+.nxi.nxi-pp-arrow-line-down-thin:before {
+    content: "\eef6";
+}
+.nxi.nxi-pp-arrow-line-left-thin:before {
+    content: "\eef7";
+}
+.nxi.nxi-pp-arrow-line-right-thin:before {
+    content: "\eef8";
+}
+.nxi.nxi-pp-arrow-line-up-left-thin:before {
+    content: "\eef9";
+}
+.nxi.nxi-pp-arrow-line-up-right-thin:before {
+    content: "\eefa";
+}
+.nxi.nxi-pp-arrow-line-up-thin:before {
+    content: "\eefb";
+}
+.nxi.nxi-pp-arrow-right-thin:before {
+    content: "\eefc";
+}
+.nxi.nxi-pp-arrow-square-down-left-thin:before {
+    content: "\eefd";
+}
+.nxi.nxi-pp-arrow-square-down-right-thin:before {
+    content: "\eefe";
+}
+.nxi.nxi-pp-arrow-square-down-thin:before {
+    content: "\eeff";
+}
+.nxi.nxi-pp-arrow-square-in-thin:before {
+    content: "\ef00";
+}
+.nxi.nxi-pp-arrow-square-left-thin:before {
+    content: "\ef01";
+}
+.nxi.nxi-pp-arrow-square-out-thin:before {
+    content: "\ef02";
+}
+.nxi.nxi-pp-arrow-square-right-thin:before {
+    content: "\ef03";
+}
+.nxi.nxi-pp-arrow-square-up-left-thin:before {
+    content: "\ef04";
+}
+.nxi.nxi-pp-arrow-square-up-right-thin:before {
+    content: "\ef05";
+}
+.nxi.nxi-pp-arrow-square-up-thin:before {
+    content: "\ef06";
+}
+.nxi.nxi-pp-arrow-u-down-left-thin:before {
+    content: "\ef07";
+}
+.nxi.nxi-pp-arrow-u-down-right-thin:before {
+    content: "\ef08";
+}
+.nxi.nxi-pp-arrow-u-left-down-thin:before {
+    content: "\ef09";
+}
+.nxi.nxi-pp-arrow-u-left-up-thin:before {
+    content: "\ef0a";
+}
+.nxi.nxi-pp-arrow-u-right-down-thin:before {
+    content: "\ef0b";
+}
+.nxi.nxi-pp-arrow-u-right-up-thin:before {
+    content: "\ef0c";
+}
+.nxi.nxi-pp-arrow-u-up-left-thin:before {
+    content: "\ef0d";
+}
+.nxi.nxi-pp-arrow-u-up-right-thin:before {
+    content: "\ef0e";
+}
+.nxi.nxi-pp-arrow-up-left-thin:before {
+    content: "\ef0f";
+}
+.nxi.nxi-pp-arrow-up-right-thin:before {
+    content: "\ef10";
+}
+.nxi.nxi-pp-arrow-up-thin:before {
+    content: "\ef11";
+}
+.nxi.nxi-pp-arrows-clockwise-thin:before {
+    content: "\ef12";
+}
+.nxi.nxi-pp-arrows-counter-clockwise-thin:before {
+    content: "\ef13";
+}
+.nxi.nxi-pp-arrows-down-up-thin:before {
+    content: "\ef14";
+}
+.nxi.nxi-pp-arrows-horizontal-thin:before {
+    content: "\ef15";
+}
+.nxi.nxi-pp-arrows-in-cardinal-thin:before {
+    content: "\ef16";
+}
+.nxi.nxi-pp-arrows-in-line-horizontal-thin:before {
+    content: "\ef17";
+}
+.nxi.nxi-pp-arrows-in-line-vertical-thin:before {
+    content: "\ef18";
+}
+.nxi.nxi-pp-arrows-in-simple-thin:before {
+    content: "\ef19";
+}
+.nxi.nxi-pp-arrows-in-thin:before {
+    content: "\ef1a";
+}
+.nxi.nxi-pp-arrows-left-right-thin:before {
+    content: "\ef1b";
+}
+.nxi.nxi-pp-arrows-merge-thin:before {
+    content: "\ef1c";
+}
+.nxi.nxi-pp-arrows-out-cardinal-thin:before {
+    content: "\ef1d";
+}
+.nxi.nxi-pp-arrows-out-line-horizontal-thin:before {
+    content: "\ef1e";
+}
+.nxi.nxi-pp-arrows-out-line-vertical-thin:before {
+    content: "\ef1f";
+}
+.nxi.nxi-pp-arrows-out-simple-thin:before {
+    content: "\ef20";
+}
+.nxi.nxi-pp-arrows-out-thin:before {
+    content: "\ef21";
+}
+.nxi.nxi-pp-arrows-split-thin:before {
+    content: "\ef22";
+}
+.nxi.nxi-pp-arrows-vertical-thin:before {
+    content: "\ef23";
+}
+.nxi.nxi-pp-article-medium-thin:before {
+    content: "\ef24";
+}
+.nxi.nxi-pp-article-ny-times-thin:before {
+    content: "\ef25";
+}
+.nxi.nxi-pp-article-thin:before {
+    content: "\ef26";
+}
+.nxi.nxi-pp-asterisk-simple-thin:before {
+    content: "\ef27";
+}
+.nxi.nxi-pp-asterisk-thin:before {
+    content: "\ef28";
+}
+.nxi.nxi-pp-at-thin:before {
+    content: "\ef29";
+}
+.nxi.nxi-pp-atom-thin:before {
+    content: "\ef2a";
+}
+.nxi.nxi-pp-baby-thin:before {
+    content: "\ef2b";
+}
+.nxi.nxi-pp-backpack-thin:before {
+    content: "\ef2c";
+}
+.nxi.nxi-pp-backspace-thin:before {
+    content: "\ef2d";
+}
+.nxi.nxi-pp-bag-simple-thin:before {
+    content: "\ef2e";
+}
+.nxi.nxi-pp-bag-thin:before {
+    content: "\ef2f";
+}
+.nxi.nxi-pp-balloon-thin:before {
+    content: "\ef30";
+}
+.nxi.nxi-pp-bandaids-thin:before {
+    content: "\ef31";
+}
+.nxi.nxi-pp-bank-thin:before {
+    content: "\ef32";
+}
+.nxi.nxi-pp-barbell-thin:before {
+    content: "\ef33";
+}
+.nxi.nxi-pp-barcode-thin:before {
+    content: "\ef34";
+}
+.nxi.nxi-pp-barricade-thin:before {
+    content: "\ef35";
+}
+.nxi.nxi-pp-baseball-cap-thin:before {
+    content: "\ef36";
+}
+.nxi.nxi-pp-baseball-thin:before {
+    content: "\ef37";
+}
+.nxi.nxi-pp-basket-thin:before {
+    content: "\ef38";
+}
+.nxi.nxi-pp-basketball-thin:before {
+    content: "\ef39";
+}
+.nxi.nxi-pp-bathtub-thin:before {
+    content: "\ef3a";
+}
+.nxi.nxi-pp-battery-charging-thin:before {
+    content: "\ef3b";
+}
+.nxi.nxi-pp-battery-charging-vertical-thin:before {
+    content: "\ef3c";
+}
+.nxi.nxi-pp-battery-empty-thin:before {
+    content: "\ef3d";
+}
+.nxi.nxi-pp-battery-full-thin:before {
+    content: "\ef3e";
+}
+.nxi.nxi-pp-battery-high-thin:before {
+    content: "\ef3f";
+}
+.nxi.nxi-pp-battery-low-thin:before {
+    content: "\ef40";
+}
+.nxi.nxi-pp-battery-medium-thin:before {
+    content: "\ef41";
+}
+.nxi.nxi-pp-battery-plus-thin:before {
+    content: "\ef42";
+}
+.nxi.nxi-pp-battery-plus-vertical-thin:before {
+    content: "\ef43";
+}
+.nxi.nxi-pp-battery-vertical-empty-thin:before {
+    content: "\ef44";
+}
+.nxi.nxi-pp-battery-vertical-full-thin:before {
+    content: "\ef45";
+}
+.nxi.nxi-pp-battery-vertical-high-thin:before {
+    content: "\ef46";
+}
+.nxi.nxi-pp-battery-vertical-low-thin:before {
+    content: "\ef47";
+}
+.nxi.nxi-pp-battery-vertical-medium-thin:before {
+    content: "\ef48";
+}
+.nxi.nxi-pp-battery-warning-thin:before {
+    content: "\ef49";
+}
+.nxi.nxi-pp-battery-warning-vertical-thin:before {
+    content: "\ef4a";
+}
+.nxi.nxi-pp-bed-thin:before {
+    content: "\ef4b";
+}
+.nxi.nxi-pp-beer-bottle-thin:before {
+    content: "\ef4c";
+}
+.nxi.nxi-pp-beer-stein-thin:before {
+    content: "\ef4d";
+}
+.nxi.nxi-pp-behance-logo-thin:before {
+    content: "\ef4e";
+}
+.nxi.nxi-pp-bell-ringing-thin:before {
+    content: "\ef4f";
+}
+.nxi.nxi-pp-bell-simple-ringing-thin:before {
+    content: "\ef50";
+}
+.nxi.nxi-pp-bell-simple-slash-thin:before {
+    content: "\ef51";
+}
+.nxi.nxi-pp-bell-simple-thin:before {
+    content: "\ef52";
+}
+.nxi.nxi-pp-bell-simple-z-thin:before {
+    content: "\ef53";
+}
+.nxi.nxi-pp-bell-slash-thin:before {
+    content: "\ef54";
+}
+.nxi.nxi-pp-bell-thin:before {
+    content: "\ef55";
+}
+.nxi.nxi-pp-bell-z-thin:before {
+    content: "\ef56";
+}
+.nxi.nxi-pp-bezier-curve-thin:before {
+    content: "\ef57";
+}
+.nxi.nxi-pp-bicycle-thin:before {
+    content: "\ef58";
+}
+.nxi.nxi-pp-binoculars-thin:before {
+    content: "\ef59";
+}
+.nxi.nxi-pp-bird-thin:before {
+    content: "\ef5a";
+}
+.nxi.nxi-pp-bluetooth-connected-thin:before {
+    content: "\ef5b";
+}
+.nxi.nxi-pp-bluetooth-slash-thin:before {
+    content: "\ef5c";
+}
+.nxi.nxi-pp-bluetooth-thin:before {
+    content: "\ef5d";
+}
+.nxi.nxi-pp-bluetooth-x-thin:before {
+    content: "\ef5e";
+}
+.nxi.nxi-pp-boat-thin:before {
+    content: "\ef5f";
+}
+.nxi.nxi-pp-bone-thin:before {
+    content: "\ef60";
+}
+.nxi.nxi-pp-book-bookmark-thin:before {
+    content: "\ef61";
+}
+.nxi.nxi-pp-book-open-text-thin:before {
+    content: "\ef62";
+}
+.nxi.nxi-pp-book-open-thin:before {
+    content: "\ef63";
+}
+.nxi.nxi-pp-book-thin:before {
+    content: "\ef64";
+}
+.nxi.nxi-pp-bookmark-simple-thin:before {
+    content: "\ef65";
+}
+.nxi.nxi-pp-bookmark-thin:before {
+    content: "\ef66";
+}
+.nxi.nxi-pp-bookmarks-simple-thin:before {
+    content: "\ef67";
+}
+.nxi.nxi-pp-bookmarks-thin:before {
+    content: "\ef68";
+}
+.nxi.nxi-pp-books-thin:before {
+    content: "\ef69";
+}
+.nxi.nxi-pp-boot-thin:before {
+    content: "\ef6a";
+}
+.nxi.nxi-pp-bounding-box-thin:before {
+    content: "\ef6b";
+}
+.nxi.nxi-pp-bowl-food-thin:before {
+    content: "\ef6c";
+}
+.nxi.nxi-pp-brackets-angle-thin:before {
+    content: "\ef6d";
+}
+.nxi.nxi-pp-brackets-curly-thin:before {
+    content: "\ef6e";
+}
+.nxi.nxi-pp-brackets-round-thin:before {
+    content: "\ef6f";
+}
+.nxi.nxi-pp-brackets-square-thin:before {
+    content: "\ef70";
+}
+.nxi.nxi-pp-brain-thin:before {
+    content: "\ef71";
+}
+.nxi.nxi-pp-brandy-thin:before {
+    content: "\ef72";
+}
+.nxi.nxi-pp-bridge-thin:before {
+    content: "\ef73";
+}
+.nxi.nxi-pp-briefcase-metal-thin:before {
+    content: "\ef74";
+}
+.nxi.nxi-pp-briefcase-thin:before {
+    content: "\ef75";
+}
+.nxi.nxi-pp-broadcast-thin:before {
+    content: "\ef76";
+}
+.nxi.nxi-pp-broom-thin:before {
+    content: "\ef77";
+}
+.nxi.nxi-pp-browser-thin:before {
+    content: "\ef78";
+}
+.nxi.nxi-pp-browsers-thin:before {
+    content: "\ef79";
+}
+.nxi.nxi-pp-bug-beetle-thin:before {
+    content: "\ef7a";
+}
+.nxi.nxi-pp-bug-droid-thin:before {
+    content: "\ef7b";
+}
+.nxi.nxi-pp-bug-thin:before {
+    content: "\ef7c";
+}
+.nxi.nxi-pp-buildings-thin:before {
+    content: "\ef7d";
+}
+.nxi.nxi-pp-bus-thin:before {
+    content: "\ef7e";
+}
+.nxi.nxi-pp-butterfly-thin:before {
+    content: "\ef7f";
+}
+.nxi.nxi-pp-cactus-thin:before {
+    content: "\ef80";
+}
+.nxi.nxi-pp-cake-thin:before {
+    content: "\ef81";
+}
+.nxi.nxi-pp-calculator-thin:before {
+    content: "\ef82";
+}
+.nxi.nxi-pp-calendar-blank-thin:before {
+    content: "\ef83";
+}
+.nxi.nxi-pp-calendar-check-thin:before {
+    content: "\ef84";
+}
+.nxi.nxi-pp-calendar-plus-thin:before {
+    content: "\ef85";
+}
+.nxi.nxi-pp-calendar-thin:before {
+    content: "\ef86";
+}
+.nxi.nxi-pp-calendar-x-thin:before {
+    content: "\ef87";
+}
+.nxi.nxi-pp-call-bell-thin:before {
+    content: "\ef88";
+}
+.nxi.nxi-pp-camera-plus-thin:before {
+    content: "\ef89";
+}
+.nxi.nxi-pp-camera-rotate-thin:before {
+    content: "\ef8a";
+}
+.nxi.nxi-pp-camera-slash-thin:before {
+    content: "\ef8b";
+}
+.nxi.nxi-pp-camera-thin:before {
+    content: "\ef8c";
+}
+.nxi.nxi-pp-campfire-thin:before {
+    content: "\ef8d";
+}
+.nxi.nxi-pp-car-profile-thin:before {
+    content: "\ef8e";
+}
+.nxi.nxi-pp-car-simple-thin:before {
+    content: "\ef8f";
+}
+.nxi.nxi-pp-car-thin:before {
+    content: "\ef90";
+}
+.nxi.nxi-pp-cardholder-thin:before {
+    content: "\ef91";
+}
+.nxi.nxi-pp-cards-thin:before {
+    content: "\ef92";
+}
+.nxi.nxi-pp-caret-circle-double-down-thin:before {
+    content: "\ef93";
+}
+.nxi.nxi-pp-caret-circle-double-left-thin:before {
+    content: "\ef94";
+}
+.nxi.nxi-pp-caret-circle-double-right-thin:before {
+    content: "\ef95";
+}
+.nxi.nxi-pp-caret-circle-double-up-thin:before {
+    content: "\ef96";
+}
+.nxi.nxi-pp-caret-circle-down-thin:before {
+    content: "\ef97";
+}
+.nxi.nxi-pp-caret-circle-left-thin:before {
+    content: "\ef98";
+}
+.nxi.nxi-pp-caret-circle-right-thin:before {
+    content: "\ef99";
+}
+.nxi.nxi-pp-caret-circle-up-down-thin:before {
+    content: "\ef9a";
+}
+.nxi.nxi-pp-caret-circle-up-thin:before {
+    content: "\ef9b";
+}
+.nxi.nxi-pp-caret-double-down-thin:before {
+    content: "\ef9c";
+}
+.nxi.nxi-pp-caret-double-left-thin:before {
+    content: "\ef9d";
+}
+.nxi.nxi-pp-caret-double-right-thin:before {
+    content: "\ef9e";
+}
+.nxi.nxi-pp-caret-double-up-thin:before {
+    content: "\ef9f";
+}
+.nxi.nxi-pp-caret-down-thin:before {
+    content: "\efa0";
+}
+.nxi.nxi-pp-caret-left-thin:before {
+    content: "\efa1";
+}
+.nxi.nxi-pp-caret-right-thin:before {
+    content: "\efa2";
+}
+.nxi.nxi-pp-caret-up-down-thin:before {
+    content: "\efa3";
+}
+.nxi.nxi-pp-caret-up-thin:before {
+    content: "\efa4";
+}
+.nxi.nxi-pp-carrot-thin:before {
+    content: "\efa5";
+}
+.nxi.nxi-pp-cassette-tape-thin:before {
+    content: "\efa6";
+}
+.nxi.nxi-pp-castle-turret-thin:before {
+    content: "\efa7";
+}
+.nxi.nxi-pp-cat-thin:before {
+    content: "\efa8";
+}
+.nxi.nxi-pp-cell-signal-full-thin:before {
+    content: "\efa9";
+}
+.nxi.nxi-pp-cell-signal-high-thin:before {
+    content: "\efaa";
+}
+.nxi.nxi-pp-cell-signal-low-thin:before {
+    content: "\efab";
+}
+.nxi.nxi-pp-cell-signal-medium-thin:before {
+    content: "\efac";
+}
+.nxi.nxi-pp-cell-signal-none-thin:before {
+    content: "\efad";
+}
+.nxi.nxi-pp-cell-signal-slash-thin:before {
+    content: "\efae";
+}
+.nxi.nxi-pp-cell-signal-x-thin:before {
+    content: "\efaf";
+}
+.nxi.nxi-pp-certificate-thin:before {
+    content: "\efb0";
+}
+.nxi.nxi-pp-chair-thin:before {
+    content: "\efb1";
+}
+.nxi.nxi-pp-chalkboard-simple-thin:before {
+    content: "\efb2";
+}
+.nxi.nxi-pp-chalkboard-teacher-thin:before {
+    content: "\efb3";
+}
+.nxi.nxi-pp-chalkboard-thin:before {
+    content: "\efb4";
+}
+.nxi.nxi-pp-champagne-thin:before {
+    content: "\efb5";
+}
+.nxi.nxi-pp-charging-station-thin:before {
+    content: "\efb6";
+}
+.nxi.nxi-pp-chart-bar-horizontal-thin:before {
+    content: "\efb7";
+}
+.nxi.nxi-pp-chart-bar-thin:before {
+    content: "\efb8";
+}
+.nxi.nxi-pp-chart-donut-thin:before {
+    content: "\efb9";
+}
+.nxi.nxi-pp-chart-line-down-thin:before {
+    content: "\efba";
+}
+.nxi.nxi-pp-chart-line-thin:before {
+    content: "\efbb";
+}
+.nxi.nxi-pp-chart-line-up-thin:before {
+    content: "\efbc";
+}
+.nxi.nxi-pp-chart-pie-slice-thin:before {
+    content: "\efbd";
+}
+.nxi.nxi-pp-chart-pie-thin:before {
+    content: "\efbe";
+}
+.nxi.nxi-pp-chart-polar-thin:before {
+    content: "\efbf";
+}
+.nxi.nxi-pp-chart-scatter-thin:before {
+    content: "\efc0";
+}
+.nxi.nxi-pp-chat-centered-dots-thin:before {
+    content: "\efc1";
+}
+.nxi.nxi-pp-chat-centered-text-thin:before {
+    content: "\efc2";
+}
+.nxi.nxi-pp-chat-centered-thin:before {
+    content: "\efc3";
+}
+.nxi.nxi-pp-chat-circle-dots-thin:before {
+    content: "\efc4";
+}
+.nxi.nxi-pp-chat-circle-text-thin:before {
+    content: "\efc5";
+}
+.nxi.nxi-pp-chat-circle-thin:before {
+    content: "\efc6";
+}
+.nxi.nxi-pp-chat-dots-thin:before {
+    content: "\efc7";
+}
+.nxi.nxi-pp-chat-teardrop-dots-thin:before {
+    content: "\efc8";
+}
+.nxi.nxi-pp-chat-teardrop-text-thin:before {
+    content: "\efc9";
+}
+.nxi.nxi-pp-chat-teardrop-thin:before {
+    content: "\efca";
+}
+.nxi.nxi-pp-chat-text-thin:before {
+    content: "\efcb";
+}
+.nxi.nxi-pp-chat-thin:before {
+    content: "\efcc";
+}
+.nxi.nxi-pp-chats-circle-thin:before {
+    content: "\efcd";
+}
+.nxi.nxi-pp-chats-teardrop-thin:before {
+    content: "\efce";
+}
+.nxi.nxi-pp-chats-thin:before {
+    content: "\efcf";
+}
+.nxi.nxi-pp-check-circle-thin:before {
+    content: "\efd0";
+}
+.nxi.nxi-pp-check-fat-thin:before {
+    content: "\efd1";
+}
+.nxi.nxi-pp-check-square-offset-thin:before {
+    content: "\efd2";
+}
+.nxi.nxi-pp-check-square-thin:before {
+    content: "\efd3";
+}
+.nxi.nxi-pp-check-thin:before {
+    content: "\efd4";
+}
+.nxi.nxi-pp-checks-thin:before {
+    content: "\efd5";
+}
+.nxi.nxi-pp-church-thin:before {
+    content: "\efd6";
+}
+.nxi.nxi-pp-circle-dashed-thin:before {
+    content: "\efd7";
+}
+.nxi.nxi-pp-circle-half-thin:before {
+    content: "\efd8";
+}
+.nxi.nxi-pp-circle-half-tilt-thin:before {
+    content: "\efd9";
+}
+.nxi.nxi-pp-circle-notch-thin:before {
+    content: "\efda";
+}
+.nxi.nxi-pp-circle-thin:before {
+    content: "\efdb";
+}
+.nxi.nxi-pp-circles-four-thin:before {
+    content: "\efdc";
+}
+.nxi.nxi-pp-circles-three-plus-thin:before {
+    content: "\efdd";
+}
+.nxi.nxi-pp-circles-three-thin:before {
+    content: "\efde";
+}
+.nxi.nxi-pp-circuitry-thin:before {
+    content: "\efdf";
+}
+.nxi.nxi-pp-clipboard-text-thin:before {
+    content: "\efe0";
+}
+.nxi.nxi-pp-clipboard-thin:before {
+    content: "\efe1";
+}
+.nxi.nxi-pp-clock-afternoon-thin:before {
+    content: "\efe2";
+}
+.nxi.nxi-pp-clock-clockwise-thin:before {
+    content: "\efe3";
+}
+.nxi.nxi-pp-clock-countdown-thin:before {
+    content: "\efe4";
+}
+.nxi.nxi-pp-clock-counter-clockwise-thin:before {
+    content: "\efe5";
+}
+.nxi.nxi-pp-clock-thin:before {
+    content: "\efe6";
+}
+.nxi.nxi-pp-closed-captioning-thin:before {
+    content: "\efe7";
+}
+.nxi.nxi-pp-cloud-arrow-down-thin:before {
+    content: "\efe8";
+}
+.nxi.nxi-pp-cloud-arrow-up-thin:before {
+    content: "\efe9";
+}
+.nxi.nxi-pp-cloud-check-thin:before {
+    content: "\efea";
+}
+.nxi.nxi-pp-cloud-fog-thin:before {
+    content: "\efeb";
+}
+.nxi.nxi-pp-cloud-lightning-thin:before {
+    content: "\efec";
+}
+.nxi.nxi-pp-cloud-moon-thin:before {
+    content: "\efed";
+}
+.nxi.nxi-pp-cloud-rain-thin:before {
+    content: "\efee";
+}
+.nxi.nxi-pp-cloud-slash-thin:before {
+    content: "\efef";
+}
+.nxi.nxi-pp-cloud-snow-thin:before {
+    content: "\eff0";
+}
+.nxi.nxi-pp-cloud-sun-thin:before {
+    content: "\eff1";
+}
+.nxi.nxi-pp-cloud-thin:before {
+    content: "\eff2";
+}
+.nxi.nxi-pp-cloud-warning-thin:before {
+    content: "\eff3";
+}
+.nxi.nxi-pp-cloud-x-thin:before {
+    content: "\eff4";
+}
+.nxi.nxi-pp-club-thin:before {
+    content: "\eff5";
+}
+.nxi.nxi-pp-coat-hanger-thin:before {
+    content: "\eff6";
+}
+.nxi.nxi-pp-coda-logo-thin:before {
+    content: "\eff7";
+}
+.nxi.nxi-pp-code-block-thin:before {
+    content: "\eff8";
+}
+.nxi.nxi-pp-code-simple-thin:before {
+    content: "\eff9";
+}
+.nxi.nxi-pp-code-thin:before {
+    content: "\effa";
+}
+.nxi.nxi-pp-codepen-logo-thin:before {
+    content: "\effb";
+}
+.nxi.nxi-pp-codesandbox-logo-thin:before {
+    content: "\effc";
+}
+.nxi.nxi-pp-coffee-thin:before {
+    content: "\effd";
+}
+.nxi.nxi-pp-coin-thin:before {
+    content: "\effe";
+}
+.nxi.nxi-pp-coin-vertical-thin:before {
+    content: "\efff";
+}
+.nxi.nxi-pp-coins-thin:before {
+    content: "\f000";
+}
+.nxi.nxi-pp-columns-thin:before {
+    content: "\f001";
+}
+.nxi.nxi-pp-command-thin:before {
+    content: "\f002";
+}
+.nxi.nxi-pp-compass-thin:before {
+    content: "\f003";
+}
+.nxi.nxi-pp-compass-tool-thin:before {
+    content: "\f004";
+}
+.nxi.nxi-pp-computer-tower-thin:before {
+    content: "\f005";
+}
+.nxi.nxi-pp-confetti-thin:before {
+    content: "\f006";
+}
+.nxi.nxi-pp-contactless-payment-thin:before {
+    content: "\f007";
+}
+.nxi.nxi-pp-control-thin:before {
+    content: "\f008";
+}
+.nxi.nxi-pp-cookie-thin:before {
+    content: "\f009";
+}
+.nxi.nxi-pp-cooking-pot-thin:before {
+    content: "\f00a";
+}
+.nxi.nxi-pp-copy-simple-thin:before {
+    content: "\f00b";
+}
+.nxi.nxi-pp-copy-thin:before {
+    content: "\f00c";
+}
+.nxi.nxi-pp-copyleft-thin:before {
+    content: "\f00d";
+}
+.nxi.nxi-pp-copyright-thin:before {
+    content: "\f00e";
+}
+.nxi.nxi-pp-corners-in-thin:before {
+    content: "\f00f";
+}
+.nxi.nxi-pp-corners-out-thin:before {
+    content: "\f010";
+}
+.nxi.nxi-pp-couch-thin:before {
+    content: "\f011";
+}
+.nxi.nxi-pp-cpu-thin:before {
+    content: "\f012";
+}
+.nxi.nxi-pp-credit-card-thin:before {
+    content: "\f013";
+}
+.nxi.nxi-pp-crop-thin:before {
+    content: "\f014";
+}
+.nxi.nxi-pp-cross-thin:before {
+    content: "\f015";
+}
+.nxi.nxi-pp-crosshair-simple-thin:before {
+    content: "\f016";
+}
+.nxi.nxi-pp-crosshair-thin:before {
+    content: "\f017";
+}
+.nxi.nxi-pp-crown-simple-thin:before {
+    content: "\f018";
+}
+.nxi.nxi-pp-crown-thin:before {
+    content: "\f019";
+}
+.nxi.nxi-pp-cube-focus-thin:before {
+    content: "\f01a";
+}
+.nxi.nxi-pp-cube-thin:before {
+    content: "\f01b";
+}
+.nxi.nxi-pp-cube-transparent-thin:before {
+    content: "\f01c";
+}
+.nxi.nxi-pp-currency-btc-thin:before {
+    content: "\f01d";
+}
+.nxi.nxi-pp-currency-circle-dollar-thin:before {
+    content: "\f01e";
+}
+.nxi.nxi-pp-currency-cny-thin:before {
+    content: "\f01f";
+}
+.nxi.nxi-pp-currency-dollar-simple-thin:before {
+    content: "\f020";
+}
+.nxi.nxi-pp-currency-dollar-thin:before {
+    content: "\f021";
+}
+.nxi.nxi-pp-currency-eth-thin:before {
+    content: "\f022";
+}
+.nxi.nxi-pp-currency-eur-thin:before {
+    content: "\f023";
+}
+.nxi.nxi-pp-currency-gbp-thin:before {
+    content: "\f024";
+}
+.nxi.nxi-pp-currency-inr-thin:before {
+    content: "\f025";
+}
+.nxi.nxi-pp-currency-jpy-thin:before {
+    content: "\f026";
+}
+.nxi.nxi-pp-currency-krw-thin:before {
+    content: "\f027";
+}
+.nxi.nxi-pp-currency-kzt-thin:before {
+    content: "\f028";
+}
+.nxi.nxi-pp-currency-ngn-thin:before {
+    content: "\f029";
+}
+.nxi.nxi-pp-currency-rub-thin:before {
+    content: "\f02a";
+}
+.nxi.nxi-pp-cursor-click-thin:before {
+    content: "\f02b";
+}
+.nxi.nxi-pp-cursor-text-thin:before {
+    content: "\f02c";
+}
+.nxi.nxi-pp-cursor-thin:before {
+    content: "\f02d";
+}
+.nxi.nxi-pp-cylinder-thin:before {
+    content: "\f02e";
+}
+.nxi.nxi-pp-database-thin:before {
+    content: "\f02f";
+}
+.nxi.nxi-pp-desktop-thin:before {
+    content: "\f030";
+}
+.nxi.nxi-pp-desktop-tower-thin:before {
+    content: "\f031";
+}
+.nxi.nxi-pp-detective-thin:before {
+    content: "\f032";
+}
+.nxi.nxi-pp-dev-to-logo-thin:before {
+    content: "\f033";
+}
+.nxi.nxi-pp-device-mobile-camera-thin:before {
+    content: "\f034";
+}
+.nxi.nxi-pp-device-mobile-speaker-thin:before {
+    content: "\f035";
+}
+.nxi.nxi-pp-device-mobile-thin:before {
+    content: "\f036";
+}
+.nxi.nxi-pp-device-tablet-camera-thin:before {
+    content: "\f037";
+}
+.nxi.nxi-pp-device-tablet-speaker-thin:before {
+    content: "\f038";
+}
+.nxi.nxi-pp-device-tablet-thin:before {
+    content: "\f039";
+}
+.nxi.nxi-pp-devices-thin:before {
+    content: "\f03a";
+}
+.nxi.nxi-pp-diamond-thin:before {
+    content: "\f03b";
+}
+.nxi.nxi-pp-diamonds-four-thin:before {
+    content: "\f03c";
+}
+.nxi.nxi-pp-dice-five-thin:before {
+    content: "\f03d";
+}
+.nxi.nxi-pp-dice-four-thin:before {
+    content: "\f03e";
+}
+.nxi.nxi-pp-dice-one-thin:before {
+    content: "\f03f";
+}
+.nxi.nxi-pp-dice-six-thin:before {
+    content: "\f040";
+}
+.nxi.nxi-pp-dice-three-thin:before {
+    content: "\f041";
+}
+.nxi.nxi-pp-dice-two-thin:before {
+    content: "\f042";
+}
+.nxi.nxi-pp-disc-thin:before {
+    content: "\f043";
+}
+.nxi.nxi-pp-discord-logo-thin:before {
+    content: "\f044";
+}
+.nxi.nxi-pp-divide-thin:before {
+    content: "\f045";
+}
+.nxi.nxi-pp-dna-thin:before {
+    content: "\f046";
+}
+.nxi.nxi-pp-dog-thin:before {
+    content: "\f047";
+}
+.nxi.nxi-pp-door-open-thin:before {
+    content: "\f048";
+}
+.nxi.nxi-pp-door-thin:before {
+    content: "\f049";
+}
+.nxi.nxi-pp-dot-outline-thin:before {
+    content: "\f04a";
+}
+.nxi.nxi-pp-dot-thin:before {
+    content: "\f04b";
+}
+.nxi.nxi-pp-dots-nine-thin:before {
+    content: "\f04c";
+}
+.nxi.nxi-pp-dots-six-thin:before {
+    content: "\f04d";
+}
+.nxi.nxi-pp-dots-six-vertical-thin:before {
+    content: "\f04e";
+}
+.nxi.nxi-pp-dots-three-circle-thin:before {
+    content: "\f04f";
+}
+.nxi.nxi-pp-dots-three-circle-vertical-thin:before {
+    content: "\f050";
+}
+.nxi.nxi-pp-dots-three-outline-thin:before {
+    content: "\f051";
+}
+.nxi.nxi-pp-dots-three-outline-vertical-thin:before {
+    content: "\f052";
+}
+.nxi.nxi-pp-dots-three-thin:before {
+    content: "\f053";
+}
+.nxi.nxi-pp-dots-three-vertical-thin:before {
+    content: "\f054";
+}
+.nxi.nxi-pp-download-simple-thin:before {
+    content: "\f055";
+}
+.nxi.nxi-pp-download-thin:before {
+    content: "\f056";
+}
+.nxi.nxi-pp-dress-thin:before {
+    content: "\f057";
+}
+.nxi.nxi-pp-dribbble-logo-thin:before {
+    content: "\f058";
+}
+.nxi.nxi-pp-drop-half-bottom-thin:before {
+    content: "\f059";
+}
+.nxi.nxi-pp-drop-half-thin:before {
+    content: "\f05a";
+}
+.nxi.nxi-pp-drop-thin:before {
+    content: "\f05b";
+}
+.nxi.nxi-pp-dropbox-logo-thin:before {
+    content: "\f05c";
+}
+.nxi.nxi-pp-ear-slash-thin:before {
+    content: "\f05d";
+}
+.nxi.nxi-pp-ear-thin:before {
+    content: "\f05e";
+}
+.nxi.nxi-pp-egg-crack-thin:before {
+    content: "\f05f";
+}
+.nxi.nxi-pp-egg-thin:before {
+    content: "\f060";
+}
+.nxi.nxi-pp-eject-simple-thin:before {
+    content: "\f061";
+}
+.nxi.nxi-pp-eject-thin:before {
+    content: "\f062";
+}
+.nxi.nxi-pp-elevator-thin:before {
+    content: "\f063";
+}
+.nxi.nxi-pp-engine-thin:before {
+    content: "\f064";
+}
+.nxi.nxi-pp-envelope-open-thin:before {
+    content: "\f065";
+}
+.nxi.nxi-pp-envelope-simple-open-thin:before {
+    content: "\f066";
+}
+.nxi.nxi-pp-envelope-simple-thin:before {
+    content: "\f067";
+}
+.nxi.nxi-pp-envelope-thin:before {
+    content: "\f068";
+}
+.nxi.nxi-pp-equalizer-thin:before {
+    content: "\f069";
+}
+.nxi.nxi-pp-equals-thin:before {
+    content: "\f06a";
+}
+.nxi.nxi-pp-eraser-thin:before {
+    content: "\f06b";
+}
+.nxi.nxi-pp-escalator-down-thin:before {
+    content: "\f06c";
+}
+.nxi.nxi-pp-escalator-up-thin:before {
+    content: "\f06d";
+}
+.nxi.nxi-pp-exam-thin:before {
+    content: "\f06e";
+}
+.nxi.nxi-pp-exclude-square-thin:before {
+    content: "\f06f";
+}
+.nxi.nxi-pp-exclude-thin:before {
+    content: "\f070";
+}
+.nxi.nxi-pp-export-thin:before {
+    content: "\f071";
+}
+.nxi.nxi-pp-eye-closed-thin:before {
+    content: "\f072";
+}
+.nxi.nxi-pp-eye-slash-thin:before {
+    content: "\f073";
+}
+.nxi.nxi-pp-eye-thin:before {
+    content: "\f074";
+}
+.nxi.nxi-pp-eyedropper-sample-thin:before {
+    content: "\f075";
+}
+.nxi.nxi-pp-eyedropper-thin:before {
+    content: "\f076";
+}
+.nxi.nxi-pp-eyeglasses-thin:before {
+    content: "\f077";
+}
+.nxi.nxi-pp-face-mask-thin:before {
+    content: "\f078";
+}
+.nxi.nxi-pp-facebook-logo-thin:before {
+    content: "\f079";
+}
+.nxi.nxi-pp-factory-thin:before {
+    content: "\f07a";
+}
+.nxi.nxi-pp-faders-horizontal-thin:before {
+    content: "\f07b";
+}
+.nxi.nxi-pp-faders-thin:before {
+    content: "\f07c";
+}
+.nxi.nxi-pp-fan-thin:before {
+    content: "\f07d";
+}
+.nxi.nxi-pp-fast-forward-circle-thin:before {
+    content: "\f07e";
+}
+.nxi.nxi-pp-fast-forward-thin:before {
+    content: "\f07f";
+}
+.nxi.nxi-pp-feather-thin:before {
+    content: "\f080";
+}
+.nxi.nxi-pp-figma-logo-thin:before {
+    content: "\f081";
+}
+.nxi.nxi-pp-file-archive-thin:before {
+    content: "\f082";
+}
+.nxi.nxi-pp-file-arrow-down-thin:before {
+    content: "\f083";
+}
+.nxi.nxi-pp-file-arrow-up-thin:before {
+    content: "\f084";
+}
+.nxi.nxi-pp-file-audio-thin:before {
+    content: "\f085";
+}
+.nxi.nxi-pp-file-cloud-thin:before {
+    content: "\f086";
+}
+.nxi.nxi-pp-file-code-thin:before {
+    content: "\f087";
+}
+.nxi.nxi-pp-file-css-thin:before {
+    content: "\f088";
+}
+.nxi.nxi-pp-file-csv-thin:before {
+    content: "\f089";
+}
+.nxi.nxi-pp-file-dashed-thin:before {
+    content: "\f08a";
+}
+.nxi.nxi-pp-file-doc-thin:before {
+    content: "\f08b";
+}
+.nxi.nxi-pp-file-html-thin:before {
+    content: "\f08c";
+}
+.nxi.nxi-pp-file-image-thin:before {
+    content: "\f08d";
+}
+.nxi.nxi-pp-file-jpg-thin:before {
+    content: "\f08e";
+}
+.nxi.nxi-pp-file-js-thin:before {
+    content: "\f08f";
+}
+.nxi.nxi-pp-file-jsx-thin:before {
+    content: "\f090";
+}
+.nxi.nxi-pp-file-lock-thin:before {
+    content: "\f091";
+}
+.nxi.nxi-pp-file-magnifying-glass-thin:before {
+    content: "\f092";
+}
+.nxi.nxi-pp-file-minus-thin:before {
+    content: "\f093";
+}
+.nxi.nxi-pp-file-pdf-thin:before {
+    content: "\f094";
+}
+.nxi.nxi-pp-file-plus-thin:before {
+    content: "\f095";
+}
+.nxi.nxi-pp-file-png-thin:before {
+    content: "\f096";
+}
+.nxi.nxi-pp-file-ppt-thin:before {
+    content: "\f097";
+}
+.nxi.nxi-pp-file-rs-thin:before {
+    content: "\f098";
+}
+.nxi.nxi-pp-file-sql-thin:before {
+    content: "\f099";
+}
+.nxi.nxi-pp-file-svg-thin:before {
+    content: "\f09a";
+}
+.nxi.nxi-pp-file-text-thin:before {
+    content: "\f09b";
+}
+.nxi.nxi-pp-file-thin:before {
+    content: "\f09c";
+}
+.nxi.nxi-pp-file-ts-thin:before {
+    content: "\f09d";
+}
+.nxi.nxi-pp-file-tsx-thin:before {
+    content: "\f09e";
+}
+.nxi.nxi-pp-file-video-thin:before {
+    content: "\f09f";
+}
+.nxi.nxi-pp-file-vue-thin:before {
+    content: "\f0a0";
+}
+.nxi.nxi-pp-file-x-thin:before {
+    content: "\f0a1";
+}
+.nxi.nxi-pp-file-xls-thin:before {
+    content: "\f0a2";
+}
+.nxi.nxi-pp-file-zip-thin:before {
+    content: "\f0a3";
+}
+.nxi.nxi-pp-files-thin:before {
+    content: "\f0a4";
+}
+.nxi.nxi-pp-film-reel-thin:before {
+    content: "\f0a5";
+}
+.nxi.nxi-pp-film-script-thin:before {
+    content: "\f0a6";
+}
+.nxi.nxi-pp-film-slate-thin:before {
+    content: "\f0a7";
+}
+.nxi.nxi-pp-film-strip-thin:before {
+    content: "\f0a8";
+}
+.nxi.nxi-pp-fingerprint-simple-thin:before {
+    content: "\f0a9";
+}
+.nxi.nxi-pp-fingerprint-thin:before {
+    content: "\f0aa";
+}
+.nxi.nxi-pp-finn-the-human-thin:before {
+    content: "\f0ab";
+}
+.nxi.nxi-pp-fire-extinguisher-thin:before {
+    content: "\f0ac";
+}
+.nxi.nxi-pp-fire-simple-thin:before {
+    content: "\f0ad";
+}
+.nxi.nxi-pp-fire-thin:before {
+    content: "\f0ae";
+}
+.nxi.nxi-pp-first-aid-kit-thin:before {
+    content: "\f0af";
+}
+.nxi.nxi-pp-first-aid-thin:before {
+    content: "\f0b0";
+}
+.nxi.nxi-pp-fish-simple-thin:before {
+    content: "\f0b1";
+}
+.nxi.nxi-pp-fish-thin:before {
+    content: "\f0b2";
+}
+.nxi.nxi-pp-flag-banner-thin:before {
+    content: "\f0b3";
+}
+.nxi.nxi-pp-flag-checkered-thin:before {
+    content: "\f0b4";
+}
+.nxi.nxi-pp-flag-pennant-thin:before {
+    content: "\f0b5";
+}
+.nxi.nxi-pp-flag-thin:before {
+    content: "\f0b6";
+}
+.nxi.nxi-pp-flame-thin:before {
+    content: "\f0b7";
+}
+.nxi.nxi-pp-flashlight-thin:before {
+    content: "\f0b8";
+}
+.nxi.nxi-pp-flask-thin:before {
+    content: "\f0b9";
+}
+.nxi.nxi-pp-floppy-disk-back-thin:before {
+    content: "\f0ba";
+}
+.nxi.nxi-pp-floppy-disk-thin:before {
+    content: "\f0bb";
+}
+.nxi.nxi-pp-flow-arrow-thin:before {
+    content: "\f0bc";
+}
+.nxi.nxi-pp-flower-lotus-thin:before {
+    content: "\f0bd";
+}
+.nxi.nxi-pp-flower-thin:before {
+    content: "\f0be";
+}
+.nxi.nxi-pp-flower-tulip-thin:before {
+    content: "\f0bf";
+}
+.nxi.nxi-pp-flying-saucer-thin:before {
+    content: "\f0c0";
+}
+.nxi.nxi-pp-folder-dashed-thin:before {
+    content: "\f0c1";
+}
+.nxi.nxi-pp-folder-lock-thin:before {
+    content: "\f0c2";
+}
+.nxi.nxi-pp-folder-minus-thin:before {
+    content: "\f0c3";
+}
+.nxi.nxi-pp-folder-notch-minus-thin:before {
+    content: "\f0c4";
+}
+.nxi.nxi-pp-folder-notch-open-thin:before {
+    content: "\f0c5";
+}
+.nxi.nxi-pp-folder-notch-plus-thin:before {
+    content: "\f0c6";
+}
+.nxi.nxi-pp-folder-notch-thin:before {
+    content: "\f0c7";
+}
+.nxi.nxi-pp-folder-open-thin:before {
+    content: "\f0c8";
+}
+.nxi.nxi-pp-folder-plus-thin:before {
+    content: "\f0c9";
+}
+.nxi.nxi-pp-folder-simple-dashed-thin:before {
+    content: "\f0ca";
+}
+.nxi.nxi-pp-folder-simple-lock-thin:before {
+    content: "\f0cb";
+}
+.nxi.nxi-pp-folder-simple-minus-thin:before {
+    content: "\f0cc";
+}
+.nxi.nxi-pp-folder-simple-plus-thin:before {
+    content: "\f0cd";
+}
+.nxi.nxi-pp-folder-simple-star-thin:before {
+    content: "\f0ce";
+}
+.nxi.nxi-pp-folder-simple-thin:before {
+    content: "\f0cf";
+}
+.nxi.nxi-pp-folder-simple-user-thin:before {
+    content: "\f0d0";
+}
+.nxi.nxi-pp-folder-star-thin:before {
+    content: "\f0d1";
+}
+.nxi.nxi-pp-folder-thin:before {
+    content: "\f0d2";
+}
+.nxi.nxi-pp-folder-user-thin:before {
+    content: "\f0d3";
+}
+.nxi.nxi-pp-folders-thin:before {
+    content: "\f0d4";
+}
+.nxi.nxi-pp-football-thin:before {
+    content: "\f0d5";
+}
+.nxi.nxi-pp-footprints-thin:before {
+    content: "\f0d6";
+}
+.nxi.nxi-pp-fork-knife-thin:before {
+    content: "\f0d7";
+}
+.nxi.nxi-pp-frame-corners-thin:before {
+    content: "\f0d8";
+}
+.nxi.nxi-pp-framer-logo-thin:before {
+    content: "\f0d9";
+}
+.nxi.nxi-pp-function-thin:before {
+    content: "\f0da";
+}
+.nxi.nxi-pp-funnel-simple-thin:before {
+    content: "\f0db";
+}
+.nxi.nxi-pp-funnel-thin:before {
+    content: "\f0dc";
+}
+.nxi.nxi-pp-game-controller-thin:before {
+    content: "\f0dd";
+}
+.nxi.nxi-pp-garage-thin:before {
+    content: "\f0de";
+}
+.nxi.nxi-pp-gas-can-thin:before {
+    content: "\f0df";
+}
+.nxi.nxi-pp-gas-pump-thin:before {
+    content: "\f0e0";
+}
+.nxi.nxi-pp-gauge-thin:before {
+    content: "\f0e1";
+}
+.nxi.nxi-pp-gavel-thin:before {
+    content: "\f0e2";
+}
+.nxi.nxi-pp-gear-fine-thin:before {
+    content: "\f0e3";
+}
+.nxi.nxi-pp-gear-six-thin:before {
+    content: "\f0e4";
+}
+.nxi.nxi-pp-gear-thin:before {
+    content: "\f0e5";
+}
+.nxi.nxi-pp-gender-female-thin:before {
+    content: "\f0e6";
+}
+.nxi.nxi-pp-gender-intersex-thin:before {
+    content: "\f0e7";
+}
+.nxi.nxi-pp-gender-male-thin:before {
+    content: "\f0e8";
+}
+.nxi.nxi-pp-gender-neuter-thin:before {
+    content: "\f0e9";
+}
+.nxi.nxi-pp-gender-nonbinary-thin:before {
+    content: "\f0ea";
+}
+.nxi.nxi-pp-gender-transgender-thin:before {
+    content: "\f0eb";
+}
+.nxi.nxi-pp-ghost-thin:before {
+    content: "\f0ec";
+}
+.nxi.nxi-pp-gif-thin:before {
+    content: "\f0ed";
+}
+.nxi.nxi-pp-gift-thin:before {
+    content: "\f0ee";
+}
+.nxi.nxi-pp-git-branch-thin:before {
+    content: "\f0ef";
+}
+.nxi.nxi-pp-git-commit-thin:before {
+    content: "\f0f0";
+}
+.nxi.nxi-pp-git-diff-thin:before {
+    content: "\f0f1";
+}
+.nxi.nxi-pp-git-fork-thin:before {
+    content: "\f0f2";
+}
+.nxi.nxi-pp-git-merge-thin:before {
+    content: "\f0f3";
+}
+.nxi.nxi-pp-git-pull-request-thin:before {
+    content: "\f0f4";
+}
+.nxi.nxi-pp-github-logo-thin:before {
+    content: "\f0f5";
+}
+.nxi.nxi-pp-gitlab-logo-simple-thin:before {
+    content: "\f0f6";
+}
+.nxi.nxi-pp-gitlab-logo-thin:before {
+    content: "\f0f7";
+}
+.nxi.nxi-pp-globe-hemisphere-east-thin:before {
+    content: "\f0f8";
+}
+.nxi.nxi-pp-globe-hemisphere-west-thin:before {
+    content: "\f0f9";
+}
+.nxi.nxi-pp-globe-simple-thin:before {
+    content: "\f0fa";
+}
+.nxi.nxi-pp-globe-stand-thin:before {
+    content: "\f0fb";
+}
+.nxi.nxi-pp-globe-thin:before {
+    content: "\f0fc";
+}
+.nxi.nxi-pp-goggles-thin:before {
+    content: "\f0fd";
+}
+.nxi.nxi-pp-goodreads-logo-thin:before {
+    content: "\f0fe";
+}
+.nxi.nxi-pp-google-cardboard-logo-thin:before {
+    content: "\f0ff";
+}
+.nxi.nxi-pp-google-chrome-logo-thin:before {
+    content: "\f100";
+}
+.nxi.nxi-pp-google-drive-logo-thin:before {
+    content: "\f101";
+}
+.nxi.nxi-pp-google-logo-thin:before {
+    content: "\f102";
+}
+.nxi.nxi-pp-google-photos-logo-thin:before {
+    content: "\f103";
+}
+.nxi.nxi-pp-google-play-logo-thin:before {
+    content: "\f104";
+}
+.nxi.nxi-pp-google-podcasts-logo-thin:before {
+    content: "\f105";
+}
+.nxi.nxi-pp-gradient-thin:before {
+    content: "\f106";
+}
+.nxi.nxi-pp-graduation-cap-thin:before {
+    content: "\f107";
+}
+.nxi.nxi-pp-grains-slash-thin:before {
+    content: "\f108";
+}
+.nxi.nxi-pp-grains-thin:before {
+    content: "\f109";
+}
+.nxi.nxi-pp-graph-thin:before {
+    content: "\f10a";
+}
+.nxi.nxi-pp-grid-four-thin:before {
+    content: "\f10b";
+}
+.nxi.nxi-pp-grid-nine-thin:before {
+    content: "\f10c";
+}
+.nxi.nxi-pp-guitar-thin:before {
+    content: "\f10d";
+}
+.nxi.nxi-pp-hamburger-thin:before {
+    content: "\f10e";
+}
+.nxi.nxi-pp-hammer-thin:before {
+    content: "\f10f";
+}
+.nxi.nxi-pp-hand-coins-thin:before {
+    content: "\f110";
+}
+.nxi.nxi-pp-hand-eye-thin:before {
+    content: "\f111";
+}
+.nxi.nxi-pp-hand-fist-thin:before {
+    content: "\f112";
+}
+.nxi.nxi-pp-hand-grabbing-thin:before {
+    content: "\f113";
+}
+.nxi.nxi-pp-hand-heart-thin:before {
+    content: "\f114";
+}
+.nxi.nxi-pp-hand-palm-thin:before {
+    content: "\f115";
+}
+.nxi.nxi-pp-hand-pointing-thin:before {
+    content: "\f116";
+}
+.nxi.nxi-pp-hand-soap-thin:before {
+    content: "\f117";
+}
+.nxi.nxi-pp-hand-swipe-left-thin:before {
+    content: "\f118";
+}
+.nxi.nxi-pp-hand-swipe-right-thin:before {
+    content: "\f119";
+}
+.nxi.nxi-pp-hand-tap-thin:before {
+    content: "\f11a";
+}
+.nxi.nxi-pp-hand-thin:before {
+    content: "\f11b";
+}
+.nxi.nxi-pp-hand-waving-thin:before {
+    content: "\f11c";
+}
+.nxi.nxi-pp-handbag-simple-thin:before {
+    content: "\f11d";
+}
+.nxi.nxi-pp-handbag-thin:before {
+    content: "\f11e";
+}
+.nxi.nxi-pp-hands-clapping-thin:before {
+    content: "\f11f";
+}
+.nxi.nxi-pp-hands-praying-thin:before {
+    content: "\f120";
+}
+.nxi.nxi-pp-handshake-thin:before {
+    content: "\f121";
+}
+.nxi.nxi-pp-hard-drive-thin:before {
+    content: "\f122";
+}
+.nxi.nxi-pp-hard-drives-thin:before {
+    content: "\f123";
+}
+.nxi.nxi-pp-hash-straight-thin:before {
+    content: "\f124";
+}
+.nxi.nxi-pp-hash-thin:before {
+    content: "\f125";
+}
+.nxi.nxi-pp-headlights-thin:before {
+    content: "\f126";
+}
+.nxi.nxi-pp-headphones-thin:before {
+    content: "\f127";
+}
+.nxi.nxi-pp-headset-thin:before {
+    content: "\f128";
+}
+.nxi.nxi-pp-heart-break-thin:before {
+    content: "\f129";
+}
+.nxi.nxi-pp-heart-half-thin:before {
+    content: "\f12a";
+}
+.nxi.nxi-pp-heart-straight-break-thin:before {
+    content: "\f12b";
+}
+.nxi.nxi-pp-heart-straight-thin:before {
+    content: "\f12c";
+}
+.nxi.nxi-pp-heart-thin:before {
+    content: "\f12d";
+}
+.nxi.nxi-pp-heartbeat-thin:before {
+    content: "\f12e";
+}
+.nxi.nxi-pp-hexagon-thin:before {
+    content: "\f12f";
+}
+.nxi.nxi-pp-high-heel-thin:before {
+    content: "\f130";
+}
+.nxi.nxi-pp-highlighter-circle-thin:before {
+    content: "\f131";
+}
+.nxi.nxi-pp-hoodie-thin:before {
+    content: "\f132";
+}
+.nxi.nxi-pp-horse-thin:before {
+    content: "\f133";
+}
+.nxi.nxi-pp-hourglass-high-thin:before {
+    content: "\f134";
+}
+.nxi.nxi-pp-hourglass-low-thin:before {
+    content: "\f135";
+}
+.nxi.nxi-pp-hourglass-medium-thin:before {
+    content: "\f136";
+}
+.nxi.nxi-pp-hourglass-simple-high-thin:before {
+    content: "\f137";
+}
+.nxi.nxi-pp-hourglass-simple-low-thin:before {
+    content: "\f138";
+}
+.nxi.nxi-pp-hourglass-simple-medium-thin:before {
+    content: "\f139";
+}
+.nxi.nxi-pp-hourglass-simple-thin:before {
+    content: "\f13a";
+}
+.nxi.nxi-pp-hourglass-thin:before {
+    content: "\f13b";
+}
+.nxi.nxi-pp-house-line-thin:before {
+    content: "\f13c";
+}
+.nxi.nxi-pp-house-simple-thin:before {
+    content: "\f13d";
+}
+.nxi.nxi-pp-house-thin:before {
+    content: "\f13e";
+}
+.nxi.nxi-pp-ice-cream-thin:before {
+    content: "\f13f";
+}
+.nxi.nxi-pp-identification-badge-thin:before {
+    content: "\f140";
+}
+.nxi.nxi-pp-identification-card-thin:before {
+    content: "\f141";
+}
+.nxi.nxi-pp-image-square-thin:before {
+    content: "\f142";
+}
+.nxi.nxi-pp-image-thin:before {
+    content: "\f143";
+}
+.nxi.nxi-pp-images-square-thin:before {
+    content: "\f144";
+}
+.nxi.nxi-pp-images-thin:before {
+    content: "\f145";
+}
+.nxi.nxi-pp-infinity-thin:before {
+    content: "\f146";
+}
+.nxi.nxi-pp-info-thin:before {
+    content: "\f147";
+}
+.nxi.nxi-pp-instagram-logo-thin:before {
+    content: "\f148";
+}
+.nxi.nxi-pp-intersect-square-thin:before {
+    content: "\f149";
+}
+.nxi.nxi-pp-intersect-thin:before {
+    content: "\f14a";
+}
+.nxi.nxi-pp-intersect-three-thin:before {
+    content: "\f14b";
+}
+.nxi.nxi-pp-jeep-thin:before {
+    content: "\f14c";
+}
+.nxi.nxi-pp-kanban-thin:before {
+    content: "\f14d";
+}
+.nxi.nxi-pp-key-return-thin:before {
+    content: "\f14e";
+}
+.nxi.nxi-pp-key-thin:before {
+    content: "\f14f";
+}
+.nxi.nxi-pp-keyboard-thin:before {
+    content: "\f150";
+}
+.nxi.nxi-pp-keyhole-thin:before {
+    content: "\f151";
+}
+.nxi.nxi-pp-knife-thin:before {
+    content: "\f152";
+}
+.nxi.nxi-pp-ladder-simple-thin:before {
+    content: "\f153";
+}
+.nxi.nxi-pp-ladder-thin:before {
+    content: "\f154";
+}
+.nxi.nxi-pp-lamp-thin:before {
+    content: "\f155";
+}
+.nxi.nxi-pp-laptop-thin:before {
+    content: "\f156";
+}
+.nxi.nxi-pp-layout-thin:before {
+    content: "\f157";
+}
+.nxi.nxi-pp-leaf-thin:before {
+    content: "\f158";
+}
+.nxi.nxi-pp-lifebuoy-thin:before {
+    content: "\f159";
+}
+.nxi.nxi-pp-lightbulb-filament-thin:before {
+    content: "\f15a";
+}
+.nxi.nxi-pp-lightbulb-thin:before {
+    content: "\f15b";
+}
+.nxi.nxi-pp-lighthouse-thin:before {
+    content: "\f15c";
+}
+.nxi.nxi-pp-lightning-a-thin:before {
+    content: "\f15d";
+}
+.nxi.nxi-pp-lightning-slash-thin:before {
+    content: "\f15e";
+}
+.nxi.nxi-pp-lightning-thin:before {
+    content: "\f15f";
+}
+.nxi.nxi-pp-line-segment-thin:before {
+    content: "\f160";
+}
+.nxi.nxi-pp-line-segments-thin:before {
+    content: "\f161";
+}
+.nxi.nxi-pp-link-break-thin:before {
+    content: "\f162";
+}
+.nxi.nxi-pp-link-simple-break-thin:before {
+    content: "\f163";
+}
+.nxi.nxi-pp-link-simple-horizontal-break-thin:before {
+    content: "\f164";
+}
+.nxi.nxi-pp-link-simple-horizontal-thin:before {
+    content: "\f165";
+}
+.nxi.nxi-pp-link-simple-thin:before {
+    content: "\f166";
+}
+.nxi.nxi-pp-link-thin:before {
+    content: "\f167";
+}
+.nxi.nxi-pp-linkedin-logo-thin:before {
+    content: "\f168";
+}
+.nxi.nxi-pp-linux-logo-thin:before {
+    content: "\f169";
+}
+.nxi.nxi-pp-list-bullets-thin:before {
+    content: "\f16a";
+}
+.nxi.nxi-pp-list-checks-thin:before {
+    content: "\f16b";
+}
+.nxi.nxi-pp-list-dashes-thin:before {
+    content: "\f16c";
+}
+.nxi.nxi-pp-list-magnifying-glass-thin:before {
+    content: "\f16d";
+}
+.nxi.nxi-pp-list-numbers-thin:before {
+    content: "\f16e";
+}
+.nxi.nxi-pp-list-plus-thin:before {
+    content: "\f16f";
+}
+.nxi.nxi-pp-list-thin:before {
+    content: "\f170";
+}
+.nxi.nxi-pp-lock-key-open-thin:before {
+    content: "\f171";
+}
+.nxi.nxi-pp-lock-key-thin:before {
+    content: "\f172";
+}
+.nxi.nxi-pp-lock-laminated-open-thin:before {
+    content: "\f173";
+}
+.nxi.nxi-pp-lock-laminated-thin:before {
+    content: "\f174";
+}
+.nxi.nxi-pp-lock-open-thin:before {
+    content: "\f175";
+}
+.nxi.nxi-pp-lock-simple-open-thin:before {
+    content: "\f176";
+}
+.nxi.nxi-pp-lock-simple-thin:before {
+    content: "\f177";
+}
+.nxi.nxi-pp-lock-thin:before {
+    content: "\f178";
+}
+.nxi.nxi-pp-lockers-thin:before {
+    content: "\f179";
+}
+.nxi.nxi-pp-magic-wand-thin:before {
+    content: "\f17a";
+}
+.nxi.nxi-pp-magnet-straight-thin:before {
+    content: "\f17b";
+}
+.nxi.nxi-pp-magnet-thin:before {
+    content: "\f17c";
+}
+.nxi.nxi-pp-magnifying-glass-minus-thin:before {
+    content: "\f17d";
+}
+.nxi.nxi-pp-magnifying-glass-plus-thin:before {
+    content: "\f17e";
+}
+.nxi.nxi-pp-magnifying-glass-thin:before {
+    content: "\f17f";
+}
+.nxi.nxi-pp-map-pin-line-thin:before {
+    content: "\f180";
+}
+.nxi.nxi-pp-map-pin-thin:before {
+    content: "\f181";
+}
+.nxi.nxi-pp-map-trifold-thin:before {
+    content: "\f182";
+}
+.nxi.nxi-pp-marker-circle-thin:before {
+    content: "\f183";
+}
+.nxi.nxi-pp-martini-thin:before {
+    content: "\f184";
+}
+.nxi.nxi-pp-mask-happy-thin:before {
+    content: "\f185";
+}
+.nxi.nxi-pp-mask-sad-thin:before {
+    content: "\f186";
+}
+.nxi.nxi-pp-math-operations-thin:before {
+    content: "\f187";
+}
+.nxi.nxi-pp-medal-military-thin:before {
+    content: "\f188";
+}
+.nxi.nxi-pp-medal-thin:before {
+    content: "\f189";
+}
+.nxi.nxi-pp-medium-logo-thin:before {
+    content: "\f18a";
+}
+.nxi.nxi-pp-megaphone-simple-thin:before {
+    content: "\f18b";
+}
+.nxi.nxi-pp-megaphone-thin:before {
+    content: "\f18c";
+}
+.nxi.nxi-pp-messenger-logo-thin:before {
+    content: "\f18d";
+}
+.nxi.nxi-pp-meta-logo-thin:before {
+    content: "\f18e";
+}
+.nxi.nxi-pp-metronome-thin:before {
+    content: "\f18f";
+}
+.nxi.nxi-pp-microphone-slash-thin:before {
+    content: "\f190";
+}
+.nxi.nxi-pp-microphone-stage-thin:before {
+    content: "\f191";
+}
+.nxi.nxi-pp-microphone-thin:before {
+    content: "\f192";
+}
+.nxi.nxi-pp-microsoft-excel-logo-thin:before {
+    content: "\f193";
+}
+.nxi.nxi-pp-microsoft-outlook-logo-thin:before {
+    content: "\f194";
+}
+.nxi.nxi-pp-microsoft-powerpoint-logo-thin:before {
+    content: "\f195";
+}
+.nxi.nxi-pp-microsoft-teams-logo-thin:before {
+    content: "\f196";
+}
+.nxi.nxi-pp-microsoft-word-logo-thin:before {
+    content: "\f197";
+}
+.nxi.nxi-pp-minus-circle-thin:before {
+    content: "\f198";
+}
+.nxi.nxi-pp-minus-square-thin:before {
+    content: "\f199";
+}
+.nxi.nxi-pp-minus-thin:before {
+    content: "\f19a";
+}
+.nxi.nxi-pp-money-thin:before {
+    content: "\f19b";
+}
+.nxi.nxi-pp-monitor-play-thin:before {
+    content: "\f19c";
+}
+.nxi.nxi-pp-monitor-thin:before {
+    content: "\f19d";
+}
+.nxi.nxi-pp-moon-stars-thin:before {
+    content: "\f19e";
+}
+.nxi.nxi-pp-moon-thin:before {
+    content: "\f19f";
+}
+.nxi.nxi-pp-moped-front-thin:before {
+    content: "\f1a0";
+}
+.nxi.nxi-pp-moped-thin:before {
+    content: "\f1a1";
+}
+.nxi.nxi-pp-mosque-thin:before {
+    content: "\f1a2";
+}
+.nxi.nxi-pp-motorcycle-thin:before {
+    content: "\f1a3";
+}
+.nxi.nxi-pp-mountains-thin:before {
+    content: "\f1a4";
+}
+.nxi.nxi-pp-mouse-simple-thin:before {
+    content: "\f1a5";
+}
+.nxi.nxi-pp-mouse-thin:before {
+    content: "\f1a6";
+}
+.nxi.nxi-pp-music-note-simple-thin:before {
+    content: "\f1a7";
+}
+.nxi.nxi-pp-music-note-thin:before {
+    content: "\f1a8";
+}
+.nxi.nxi-pp-music-notes-plus-thin:before {
+    content: "\f1a9";
+}
+.nxi.nxi-pp-music-notes-simple-thin:before {
+    content: "\f1aa";
+}
+.nxi.nxi-pp-music-notes-thin:before {
+    content: "\f1ab";
+}
+.nxi.nxi-pp-navigation-arrow-thin:before {
+    content: "\f1ac";
+}
+.nxi.nxi-pp-needle-thin:before {
+    content: "\f1ad";
+}
+.nxi.nxi-pp-newspaper-clipping-thin:before {
+    content: "\f1ae";
+}
+.nxi.nxi-pp-newspaper-thin:before {
+    content: "\f1af";
+}
+.nxi.nxi-pp-notches-thin:before {
+    content: "\f1b0";
+}
+.nxi.nxi-pp-note-blank-thin:before {
+    content: "\f1b1";
+}
+.nxi.nxi-pp-note-pencil-thin:before {
+    content: "\f1b2";
+}
+.nxi.nxi-pp-note-thin:before {
+    content: "\f1b3";
+}
+.nxi.nxi-pp-notebook-thin:before {
+    content: "\f1b4";
+}
+.nxi.nxi-pp-notepad-thin:before {
+    content: "\f1b5";
+}
+.nxi.nxi-pp-notification-thin:before {
+    content: "\f1b6";
+}
+.nxi.nxi-pp-notion-logo-thin:before {
+    content: "\f1b7";
+}
+.nxi.nxi-pp-number-circle-eight-thin:before {
+    content: "\f1b8";
+}
+.nxi.nxi-pp-number-circle-five-thin:before {
+    content: "\f1b9";
+}
+.nxi.nxi-pp-number-circle-four-thin:before {
+    content: "\f1ba";
+}
+.nxi.nxi-pp-number-circle-nine-thin:before {
+    content: "\f1bb";
+}
+.nxi.nxi-pp-number-circle-one-thin:before {
+    content: "\f1bc";
+}
+.nxi.nxi-pp-number-circle-seven-thin:before {
+    content: "\f1bd";
+}
+.nxi.nxi-pp-number-circle-six-thin:before {
+    content: "\f1be";
+}
+.nxi.nxi-pp-number-circle-three-thin:before {
+    content: "\f1bf";
+}
+.nxi.nxi-pp-number-circle-two-thin:before {
+    content: "\f1c0";
+}
+.nxi.nxi-pp-number-circle-zero-thin:before {
+    content: "\f1c1";
+}
+.nxi.nxi-pp-number-eight-thin:before {
+    content: "\f1c2";
+}
+.nxi.nxi-pp-number-five-thin:before {
+    content: "\f1c3";
+}
+.nxi.nxi-pp-number-four-thin:before {
+    content: "\f1c4";
+}
+.nxi.nxi-pp-number-nine-thin:before {
+    content: "\f1c5";
+}
+.nxi.nxi-pp-number-one-thin:before {
+    content: "\f1c6";
+}
+.nxi.nxi-pp-number-seven-thin:before {
+    content: "\f1c7";
+}
+.nxi.nxi-pp-number-six-thin:before {
+    content: "\f1c8";
+}
+.nxi.nxi-pp-number-square-eight-thin:before {
+    content: "\f1c9";
+}
+.nxi.nxi-pp-number-square-five-thin:before {
+    content: "\f1ca";
+}
+.nxi.nxi-pp-number-square-four-thin:before {
+    content: "\f1cb";
+}
+.nxi.nxi-pp-number-square-nine-thin:before {
+    content: "\f1cc";
+}
+.nxi.nxi-pp-number-square-one-thin:before {
+    content: "\f1cd";
+}
+.nxi.nxi-pp-number-square-seven-thin:before {
+    content: "\f1ce";
+}
+.nxi.nxi-pp-number-square-six-thin:before {
+    content: "\f1cf";
+}
+.nxi.nxi-pp-number-square-three-thin:before {
+    content: "\f1d0";
+}
+.nxi.nxi-pp-number-square-two-thin:before {
+    content: "\f1d1";
+}
+.nxi.nxi-pp-number-square-zero-thin:before {
+    content: "\f1d2";
+}
+.nxi.nxi-pp-number-three-thin:before {
+    content: "\f1d3";
+}
+.nxi.nxi-pp-number-two-thin:before {
+    content: "\f1d4";
+}
+.nxi.nxi-pp-number-zero-thin:before {
+    content: "\f1d5";
+}
+.nxi.nxi-pp-nut-thin:before {
+    content: "\f1d6";
+}
+.nxi.nxi-pp-ny-times-logo-thin:before {
+    content: "\f1d7";
+}
+.nxi.nxi-pp-octagon-thin:before {
+    content: "\f1d8";
+}
+.nxi.nxi-pp-office-chair-thin:before {
+    content: "\f1d9";
+}
+.nxi.nxi-pp-option-thin:before {
+    content: "\f1da";
+}
+.nxi.nxi-pp-orange-slice-thin:before {
+    content: "\f1db";
+}
+.nxi.nxi-pp-package-thin:before {
+    content: "\f1dc";
+}
+.nxi.nxi-pp-paint-brush-broad-thin:before {
+    content: "\f1dd";
+}
+.nxi.nxi-pp-paint-brush-household-thin:before {
+    content: "\f1de";
+}
+.nxi.nxi-pp-paint-brush-thin:before {
+    content: "\f1df";
+}
+.nxi.nxi-pp-paint-bucket-thin:before {
+    content: "\f1e0";
+}
+.nxi.nxi-pp-paint-roller-thin:before {
+    content: "\f1e1";
+}
+.nxi.nxi-pp-palette-thin:before {
+    content: "\f1e2";
+}
+.nxi.nxi-pp-pants-thin:before {
+    content: "\f1e3";
+}
+.nxi.nxi-pp-paper-plane-right-thin:before {
+    content: "\f1e4";
+}
+.nxi.nxi-pp-paper-plane-thin:before {
+    content: "\f1e5";
+}
+.nxi.nxi-pp-paper-plane-tilt-thin:before {
+    content: "\f1e6";
+}
+.nxi.nxi-pp-paperclip-horizontal-thin:before {
+    content: "\f1e7";
+}
+.nxi.nxi-pp-paperclip-thin:before {
+    content: "\f1e8";
+}
+.nxi.nxi-pp-parachute-thin:before {
+    content: "\f1e9";
+}
+.nxi.nxi-pp-paragraph-thin:before {
+    content: "\f1ea";
+}
+.nxi.nxi-pp-parallelogram-thin:before {
+    content: "\f1eb";
+}
+.nxi.nxi-pp-park-thin:before {
+    content: "\f1ec";
+}
+.nxi.nxi-pp-password-thin:before {
+    content: "\f1ed";
+}
+.nxi.nxi-pp-path-thin:before {
+    content: "\f1ee";
+}
+.nxi.nxi-pp-patreon-logo-thin:before {
+    content: "\f1ef";
+}
+.nxi.nxi-pp-pause-circle-thin:before {
+    content: "\f1f0";
+}
+.nxi.nxi-pp-pause-thin:before {
+    content: "\f1f1";
+}
+.nxi.nxi-pp-paw-print-thin:before {
+    content: "\f1f2";
+}
+.nxi.nxi-pp-paypal-logo-thin:before {
+    content: "\f1f3";
+}
+.nxi.nxi-pp-peace-thin:before {
+    content: "\f1f4";
+}
+.nxi.nxi-pp-pen-nib-straight-thin:before {
+    content: "\f1f5";
+}
+.nxi.nxi-pp-pen-nib-thin:before {
+    content: "\f1f6";
+}
+.nxi.nxi-pp-pen-thin:before {
+    content: "\f1f7";
+}
+.nxi.nxi-pp-pencil-circle-thin:before {
+    content: "\f1f8";
+}
+.nxi.nxi-pp-pencil-line-thin:before {
+    content: "\f1f9";
+}
+.nxi.nxi-pp-pencil-simple-line-thin:before {
+    content: "\f1fa";
+}
+.nxi.nxi-pp-pencil-simple-slash-thin:before {
+    content: "\f1fb";
+}
+.nxi.nxi-pp-pencil-simple-thin:before {
+    content: "\f1fc";
+}
+.nxi.nxi-pp-pencil-slash-thin:before {
+    content: "\f1fd";
+}
+.nxi.nxi-pp-pencil-thin:before {
+    content: "\f1fe";
+}
+.nxi.nxi-pp-pentagram-thin:before {
+    content: "\f1ff";
+}
+.nxi.nxi-pp-pepper-thin:before {
+    content: "\f200";
+}
+.nxi.nxi-pp-percent-thin:before {
+    content: "\f201";
+}
+.nxi.nxi-pp-person-arms-spread-thin:before {
+    content: "\f202";
+}
+.nxi.nxi-pp-person-simple-bike-thin:before {
+    content: "\f203";
+}
+.nxi.nxi-pp-person-simple-run-thin:before {
+    content: "\f204";
+}
+.nxi.nxi-pp-person-simple-thin:before {
+    content: "\f205";
+}
+.nxi.nxi-pp-person-simple-throw-thin:before {
+    content: "\f206";
+}
+.nxi.nxi-pp-person-simple-walk-thin:before {
+    content: "\f207";
+}
+.nxi.nxi-pp-person-thin:before {
+    content: "\f208";
+}
+.nxi.nxi-pp-perspective-thin:before {
+    content: "\f209";
+}
+.nxi.nxi-pp-phone-call-thin:before {
+    content: "\f20a";
+}
+.nxi.nxi-pp-phone-disconnect-thin:before {
+    content: "\f20b";
+}
+.nxi.nxi-pp-phone-incoming-thin:before {
+    content: "\f20c";
+}
+.nxi.nxi-pp-phone-outgoing-thin:before {
+    content: "\f20d";
+}
+.nxi.nxi-pp-phone-plus-thin:before {
+    content: "\f20e";
+}
+.nxi.nxi-pp-phone-slash-thin:before {
+    content: "\f20f";
+}
+.nxi.nxi-pp-phone-thin:before {
+    content: "\f210";
+}
+.nxi.nxi-pp-phone-x-thin:before {
+    content: "\f211";
+}
+.nxi.nxi-pp-phosphor-logo-thin:before {
+    content: "\f212";
+}
+.nxi.nxi-pp-pi-thin:before {
+    content: "\f213";
+}
+.nxi.nxi-pp-piano-keys-thin:before {
+    content: "\f214";
+}
+.nxi.nxi-pp-picture-in-picture-thin:before {
+    content: "\f215";
+}
+.nxi.nxi-pp-piggy-bank-thin:before {
+    content: "\f216";
+}
+.nxi.nxi-pp-pill-thin:before {
+    content: "\f217";
+}
+.nxi.nxi-pp-pinterest-logo-thin:before {
+    content: "\f218";
+}
+.nxi.nxi-pp-pinwheel-thin:before {
+    content: "\f219";
+}
+.nxi.nxi-pp-pizza-thin:before {
+    content: "\f21a";
+}
+.nxi.nxi-pp-placeholder-thin:before {
+    content: "\f21b";
+}
+.nxi.nxi-pp-planet-thin:before {
+    content: "\f21c";
+}
+.nxi.nxi-pp-plant-thin:before {
+    content: "\f21d";
+}
+.nxi.nxi-pp-play-circle-thin:before {
+    content: "\f21e";
+}
+.nxi.nxi-pp-play-pause-thin:before {
+    content: "\f21f";
+}
+.nxi.nxi-pp-play-thin:before {
+    content: "\f220";
+}
+.nxi.nxi-pp-playlist-thin:before {
+    content: "\f221";
+}
+.nxi.nxi-pp-plug-charging-thin:before {
+    content: "\f222";
+}
+.nxi.nxi-pp-plug-thin:before {
+    content: "\f223";
+}
+.nxi.nxi-pp-plugs-connected-thin:before {
+    content: "\f224";
+}
+.nxi.nxi-pp-plugs-thin:before {
+    content: "\f225";
+}
+.nxi.nxi-pp-plus-circle-thin:before {
+    content: "\f226";
+}
+.nxi.nxi-pp-plus-minus-thin:before {
+    content: "\f227";
+}
+.nxi.nxi-pp-plus-square-thin:before {
+    content: "\f228";
+}
+.nxi.nxi-pp-plus-thin:before {
+    content: "\f229";
+}
+.nxi.nxi-pp-poker-chip-thin:before {
+    content: "\f22a";
+}
+.nxi.nxi-pp-police-car-thin:before {
+    content: "\f22b";
+}
+.nxi.nxi-pp-polygon-thin:before {
+    content: "\f22c";
+}
+.nxi.nxi-pp-popcorn-thin:before {
+    content: "\f22d";
+}
+.nxi.nxi-pp-potted-plant-thin:before {
+    content: "\f22e";
+}
+.nxi.nxi-pp-power-thin:before {
+    content: "\f22f";
+}
+.nxi.nxi-pp-prescription-thin:before {
+    content: "\f230";
+}
+.nxi.nxi-pp-presentation-chart-thin:before {
+    content: "\f231";
+}
+.nxi.nxi-pp-presentation-thin:before {
+    content: "\f232";
+}
+.nxi.nxi-pp-printer-thin:before {
+    content: "\f233";
+}
+.nxi.nxi-pp-prohibit-inset-thin:before {
+    content: "\f234";
+}
+.nxi.nxi-pp-prohibit-thin:before {
+    content: "\f235";
+}
+.nxi.nxi-pp-projector-screen-chart-thin:before {
+    content: "\f236";
+}
+.nxi.nxi-pp-projector-screen-thin:before {
+    content: "\f237";
+}
+.nxi.nxi-pp-pulse-thin:before {
+    content: "\f238";
+}
+.nxi.nxi-pp-push-pin-simple-slash-thin:before {
+    content: "\f239";
+}
+.nxi.nxi-pp-push-pin-simple-thin:before {
+    content: "\f23a";
+}
+.nxi.nxi-pp-push-pin-slash-thin:before {
+    content: "\f23b";
+}
+.nxi.nxi-pp-push-pin-thin:before {
+    content: "\f23c";
+}
+.nxi.nxi-pp-puzzle-piece-thin:before {
+    content: "\f23d";
+}
+.nxi.nxi-pp-qr-code-thin:before {
+    content: "\f23e";
+}
+.nxi.nxi-pp-question-thin:before {
+    content: "\f23f";
+}
+.nxi.nxi-pp-queue-thin:before {
+    content: "\f240";
+}
+.nxi.nxi-pp-quotes-thin:before {
+    content: "\f241";
+}
+.nxi.nxi-pp-radical-thin:before {
+    content: "\f242";
+}
+.nxi.nxi-pp-radio-button-thin:before {
+    content: "\f243";
+}
+.nxi.nxi-pp-radio-thin:before {
+    content: "\f244";
+}
+.nxi.nxi-pp-radioactive-thin:before {
+    content: "\f245";
+}
+.nxi.nxi-pp-rainbow-cloud-thin:before {
+    content: "\f246";
+}
+.nxi.nxi-pp-rainbow-thin:before {
+    content: "\f247";
+}
+.nxi.nxi-pp-read-cv-logo-thin:before {
+    content: "\f248";
+}
+.nxi.nxi-pp-receipt-thin:before {
+    content: "\f249";
+}
+.nxi.nxi-pp-receipt-x-thin:before {
+    content: "\f24a";
+}
+.nxi.nxi-pp-record-thin:before {
+    content: "\f24b";
+}
+.nxi.nxi-pp-rectangle-thin:before {
+    content: "\f24c";
+}
+.nxi.nxi-pp-recycle-thin:before {
+    content: "\f24d";
+}
+.nxi.nxi-pp-reddit-logo-thin:before {
+    content: "\f24e";
+}
+.nxi.nxi-pp-repeat-once-thin:before {
+    content: "\f24f";
+}
+.nxi.nxi-pp-repeat-thin:before {
+    content: "\f250";
+}
+.nxi.nxi-pp-rewind-circle-thin:before {
+    content: "\f251";
+}
+.nxi.nxi-pp-rewind-thin:before {
+    content: "\f252";
+}
+.nxi.nxi-pp-road-horizon-thin:before {
+    content: "\f253";
+}
+.nxi.nxi-pp-robot-thin:before {
+    content: "\f254";
+}
+.nxi.nxi-pp-rocket-launch-thin:before {
+    content: "\f255";
+}
+.nxi.nxi-pp-rocket-thin:before {
+    content: "\f256";
+}
+.nxi.nxi-pp-rows-thin:before {
+    content: "\f257";
+}
+.nxi.nxi-pp-rss-simple-thin:before {
+    content: "\f258";
+}
+.nxi.nxi-pp-rss-thin:before {
+    content: "\f259";
+}
+.nxi.nxi-pp-rug-thin:before {
+    content: "\f25a";
+}
+.nxi.nxi-pp-ruler-thin:before {
+    content: "\f25b";
+}
+.nxi.nxi-pp-scales-thin:before {
+    content: "\f25c";
+}
+.nxi.nxi-pp-scan-thin:before {
+    content: "\f25d";
+}
+.nxi.nxi-pp-scissors-thin:before {
+    content: "\f25e";
+}
+.nxi.nxi-pp-scooter-thin:before {
+    content: "\f25f";
+}
+.nxi.nxi-pp-screencast-thin:before {
+    content: "\f260";
+}
+.nxi.nxi-pp-scribble-loop-thin:before {
+    content: "\f261";
+}
+.nxi.nxi-pp-scroll-thin:before {
+    content: "\f262";
+}
+.nxi.nxi-pp-seal-check-thin:before {
+    content: "\f263";
+}
+.nxi.nxi-pp-seal-question-thin:before {
+    content: "\f264";
+}
+.nxi.nxi-pp-seal-thin:before {
+    content: "\f265";
+}
+.nxi.nxi-pp-seal-warning-thin:before {
+    content: "\f266";
+}
+.nxi.nxi-pp-selection-all-thin:before {
+    content: "\f267";
+}
+.nxi.nxi-pp-selection-background-thin:before {
+    content: "\f268";
+}
+.nxi.nxi-pp-selection-foreground-thin:before {
+    content: "\f269";
+}
+.nxi.nxi-pp-selection-inverse-thin:before {
+    content: "\f26a";
+}
+.nxi.nxi-pp-selection-plus-thin:before {
+    content: "\f26b";
+}
+.nxi.nxi-pp-selection-slash-thin:before {
+    content: "\f26c";
+}
+.nxi.nxi-pp-selection-thin:before {
+    content: "\f26d";
+}
+.nxi.nxi-pp-shapes-thin:before {
+    content: "\f26e";
+}
+.nxi.nxi-pp-share-fat-thin:before {
+    content: "\f26f";
+}
+.nxi.nxi-pp-share-network-thin:before {
+    content: "\f270";
+}
+.nxi.nxi-pp-share-thin:before {
+    content: "\f271";
+}
+.nxi.nxi-pp-shield-check-thin:before {
+    content: "\f272";
+}
+.nxi.nxi-pp-shield-checkered-thin:before {
+    content: "\f273";
+}
+.nxi.nxi-pp-shield-chevron-thin:before {
+    content: "\f274";
+}
+.nxi.nxi-pp-shield-plus-thin:before {
+    content: "\f275";
+}
+.nxi.nxi-pp-shield-slash-thin:before {
+    content: "\f276";
+}
+.nxi.nxi-pp-shield-star-thin:before {
+    content: "\f277";
+}
+.nxi.nxi-pp-shield-thin:before {
+    content: "\f278";
+}
+.nxi.nxi-pp-shield-warning-thin:before {
+    content: "\f279";
+}
+.nxi.nxi-pp-shirt-folded-thin:before {
+    content: "\f27a";
+}
+.nxi.nxi-pp-shooting-star-thin:before {
+    content: "\f27b";
+}
+.nxi.nxi-pp-shopping-bag-open-thin:before {
+    content: "\f27c";
+}
+.nxi.nxi-pp-shopping-bag-thin:before {
+    content: "\f27d";
+}
+.nxi.nxi-pp-shopping-cart-simple-thin:before {
+    content: "\f27e";
+}
+.nxi.nxi-pp-shopping-cart-thin:before {
+    content: "\f27f";
+}
+.nxi.nxi-pp-shower-thin:before {
+    content: "\f280";
+}
+.nxi.nxi-pp-shrimp-thin:before {
+    content: "\f281";
+}
+.nxi.nxi-pp-shuffle-angular-thin:before {
+    content: "\f282";
+}
+.nxi.nxi-pp-shuffle-simple-thin:before {
+    content: "\f283";
+}
+.nxi.nxi-pp-shuffle-thin:before {
+    content: "\f284";
+}
+.nxi.nxi-pp-sidebar-simple-thin:before {
+    content: "\f285";
+}
+.nxi.nxi-pp-sidebar-thin:before {
+    content: "\f286";
+}
+.nxi.nxi-pp-sigma-thin:before {
+    content: "\f287";
+}
+.nxi.nxi-pp-sign-in-thin:before {
+    content: "\f288";
+}
+.nxi.nxi-pp-sign-out-thin:before {
+    content: "\f289";
+}
+.nxi.nxi-pp-signature-thin:before {
+    content: "\f28a";
+}
+.nxi.nxi-pp-signpost-thin:before {
+    content: "\f28b";
+}
+.nxi.nxi-pp-sim-card-thin:before {
+    content: "\f28c";
+}
+.nxi.nxi-pp-siren-thin:before {
+    content: "\f28d";
+}
+.nxi.nxi-pp-sketch-logo-thin:before {
+    content: "\f28e";
+}
+.nxi.nxi-pp-skip-back-circle-thin:before {
+    content: "\f28f";
+}
+.nxi.nxi-pp-skip-back-thin:before {
+    content: "\f290";
+}
+.nxi.nxi-pp-skip-forward-circle-thin:before {
+    content: "\f291";
+}
+.nxi.nxi-pp-skip-forward-thin:before {
+    content: "\f292";
+}
+.nxi.nxi-pp-skull-thin:before {
+    content: "\f293";
+}
+.nxi.nxi-pp-slack-logo-thin:before {
+    content: "\f294";
+}
+.nxi.nxi-pp-sliders-horizontal-thin:before {
+    content: "\f295";
+}
+.nxi.nxi-pp-sliders-thin:before {
+    content: "\f296";
+}
+.nxi.nxi-pp-slideshow-thin:before {
+    content: "\f297";
+}
+.nxi.nxi-pp-smiley-angry-thin:before {
+    content: "\f298";
+}
+.nxi.nxi-pp-smiley-blank-thin:before {
+    content: "\f299";
+}
+.nxi.nxi-pp-smiley-meh-thin:before {
+    content: "\f29a";
+}
+.nxi.nxi-pp-smiley-nervous-thin:before {
+    content: "\f29b";
+}
+.nxi.nxi-pp-smiley-sad-thin:before {
+    content: "\f29c";
+}
+.nxi.nxi-pp-smiley-sticker-thin:before {
+    content: "\f29d";
+}
+.nxi.nxi-pp-smiley-thin:before {
+    content: "\f29e";
+}
+.nxi.nxi-pp-smiley-wink-thin:before {
+    content: "\f29f";
+}
+.nxi.nxi-pp-smiley-x-eyes-thin:before {
+    content: "\f2a0";
+}
+.nxi.nxi-pp-snapchat-logo-thin:before {
+    content: "\f2a1";
+}
+.nxi.nxi-pp-sneaker-move-thin:before {
+    content: "\f2a2";
+}
+.nxi.nxi-pp-sneaker-thin:before {
+    content: "\f2a3";
+}
+.nxi.nxi-pp-snowflake-thin:before {
+    content: "\f2a4";
+}
+.nxi.nxi-pp-soccer-ball-thin:before {
+    content: "\f2a5";
+}
+.nxi.nxi-pp-sort-ascending-thin:before {
+    content: "\f2a6";
+}
+.nxi.nxi-pp-sort-descending-thin:before {
+    content: "\f2a7";
+}
+.nxi.nxi-pp-soundcloud-logo-thin:before {
+    content: "\f2a8";
+}
+.nxi.nxi-pp-spade-thin:before {
+    content: "\f2a9";
+}
+.nxi.nxi-pp-sparkle-thin:before {
+    content: "\f2aa";
+}
+.nxi.nxi-pp-speaker-hifi-thin:before {
+    content: "\f2ab";
+}
+.nxi.nxi-pp-speaker-high-thin:before {
+    content: "\f2ac";
+}
+.nxi.nxi-pp-speaker-low-thin:before {
+    content: "\f2ad";
+}
+.nxi.nxi-pp-speaker-none-thin:before {
+    content: "\f2ae";
+}
+.nxi.nxi-pp-speaker-simple-high-thin:before {
+    content: "\f2af";
+}
+.nxi.nxi-pp-speaker-simple-low-thin:before {
+    content: "\f2b0";
+}
+.nxi.nxi-pp-speaker-simple-none-thin:before {
+    content: "\f2b1";
+}
+.nxi.nxi-pp-speaker-simple-slash-thin:before {
+    content: "\f2b2";
+}
+.nxi.nxi-pp-speaker-simple-x-thin:before {
+    content: "\f2b3";
+}
+.nxi.nxi-pp-speaker-slash-thin:before {
+    content: "\f2b4";
+}
+.nxi.nxi-pp-speaker-x-thin:before {
+    content: "\f2b5";
+}
+.nxi.nxi-pp-spinner-gap-thin:before {
+    content: "\f2b6";
+}
+.nxi.nxi-pp-spinner-thin:before {
+    content: "\f2b7";
+}
+.nxi.nxi-pp-spiral-thin:before {
+    content: "\f2b8";
+}
+.nxi.nxi-pp-split-horizontal-thin:before {
+    content: "\f2b9";
+}
+.nxi.nxi-pp-split-vertical-thin:before {
+    content: "\f2ba";
+}
+.nxi.nxi-pp-spotify-logo-thin:before {
+    content: "\f2bb";
+}
+.nxi.nxi-pp-square-half-bottom-thin:before {
+    content: "\f2bc";
+}
+.nxi.nxi-pp-square-half-thin:before {
+    content: "\f2bd";
+}
+.nxi.nxi-pp-square-logo-thin:before {
+    content: "\f2be";
+}
+.nxi.nxi-pp-square-split-horizontal-thin:before {
+    content: "\f2bf";
+}
+.nxi.nxi-pp-square-split-vertical-thin:before {
+    content: "\f2c0";
+}
+.nxi.nxi-pp-square-thin:before {
+    content: "\f2c1";
+}
+.nxi.nxi-pp-squares-four-thin:before {
+    content: "\f2c2";
+}
+.nxi.nxi-pp-stack-overflow-logo-thin:before {
+    content: "\f2c3";
+}
+.nxi.nxi-pp-stack-simple-thin:before {
+    content: "\f2c4";
+}
+.nxi.nxi-pp-stack-thin:before {
+    content: "\f2c5";
+}
+.nxi.nxi-pp-stairs-thin:before {
+    content: "\f2c6";
+}
+.nxi.nxi-pp-stamp-thin:before {
+    content: "\f2c7";
+}
+.nxi.nxi-pp-star-and-crescent-thin:before {
+    content: "\f2c8";
+}
+.nxi.nxi-pp-star-four-thin:before {
+    content: "\f2c9";
+}
+.nxi.nxi-pp-star-half-thin:before {
+    content: "\f2ca";
+}
+.nxi.nxi-pp-star-of-david-thin:before {
+    content: "\f2cb";
+}
+.nxi.nxi-pp-star-thin:before {
+    content: "\f2cc";
+}
+.nxi.nxi-pp-steering-wheel-thin:before {
+    content: "\f2cd";
+}
+.nxi.nxi-pp-steps-thin:before {
+    content: "\f2ce";
+}
+.nxi.nxi-pp-stethoscope-thin:before {
+    content: "\f2cf";
+}
+.nxi.nxi-pp-sticker-thin:before {
+    content: "\f2d0";
+}
+.nxi.nxi-pp-stool-thin:before {
+    content: "\f2d1";
+}
+.nxi.nxi-pp-stop-circle-thin:before {
+    content: "\f2d2";
+}
+.nxi.nxi-pp-stop-thin:before {
+    content: "\f2d3";
+}
+.nxi.nxi-pp-storefront-thin:before {
+    content: "\f2d4";
+}
+.nxi.nxi-pp-strategy-thin:before {
+    content: "\f2d5";
+}
+.nxi.nxi-pp-stripe-logo-thin:before {
+    content: "\f2d6";
+}
+.nxi.nxi-pp-student-thin:before {
+    content: "\f2d7";
+}
+.nxi.nxi-pp-subtitles-thin:before {
+    content: "\f2d8";
+}
+.nxi.nxi-pp-subtract-square-thin:before {
+    content: "\f2d9";
+}
+.nxi.nxi-pp-subtract-thin:before {
+    content: "\f2da";
+}
+.nxi.nxi-pp-suitcase-rolling-thin:before {
+    content: "\f2db";
+}
+.nxi.nxi-pp-suitcase-simple-thin:before {
+    content: "\f2dc";
+}
+.nxi.nxi-pp-suitcase-thin:before {
+    content: "\f2dd";
+}
+.nxi.nxi-pp-sun-dim-thin:before {
+    content: "\f2de";
+}
+.nxi.nxi-pp-sun-horizon-thin:before {
+    content: "\f2df";
+}
+.nxi.nxi-pp-sun-thin:before {
+    content: "\f2e0";
+}
+.nxi.nxi-pp-sunglasses-thin:before {
+    content: "\f2e1";
+}
+.nxi.nxi-pp-swap-thin:before {
+    content: "\f2e2";
+}
+.nxi.nxi-pp-swatches-thin:before {
+    content: "\f2e3";
+}
+.nxi.nxi-pp-swimming-pool-thin:before {
+    content: "\f2e4";
+}
+.nxi.nxi-pp-sword-thin:before {
+    content: "\f2e5";
+}
+.nxi.nxi-pp-synagogue-thin:before {
+    content: "\f2e6";
+}
+.nxi.nxi-pp-syringe-thin:before {
+    content: "\f2e7";
+}
+.nxi.nxi-pp-t-shirt-thin:before {
+    content: "\f2e8";
+}
+.nxi.nxi-pp-table-thin:before {
+    content: "\f2e9";
+}
+.nxi.nxi-pp-tabs-thin:before {
+    content: "\f2ea";
+}
+.nxi.nxi-pp-tag-chevron-thin:before {
+    content: "\f2eb";
+}
+.nxi.nxi-pp-tag-simple-thin:before {
+    content: "\f2ec";
+}
+.nxi.nxi-pp-tag-thin:before {
+    content: "\f2ed";
+}
+.nxi.nxi-pp-target-thin:before {
+    content: "\f2ee";
+}
+.nxi.nxi-pp-taxi-thin:before {
+    content: "\f2ef";
+}
+.nxi.nxi-pp-telegram-logo-thin:before {
+    content: "\f2f0";
+}
+.nxi.nxi-pp-television-simple-thin:before {
+    content: "\f2f1";
+}
+.nxi.nxi-pp-television-thin:before {
+    content: "\f2f2";
+}
+.nxi.nxi-pp-tennis-ball-thin:before {
+    content: "\f2f3";
+}
+.nxi.nxi-pp-tent-thin:before {
+    content: "\f2f4";
+}
+.nxi.nxi-pp-terminal-thin:before {
+    content: "\f2f5";
+}
+.nxi.nxi-pp-terminal-window-thin:before {
+    content: "\f2f6";
+}
+.nxi.nxi-pp-test-tube-thin:before {
+    content: "\f2f7";
+}
+.nxi.nxi-pp-text-a-underline-thin:before {
+    content: "\f2f8";
+}
+.nxi.nxi-pp-text-aa-thin:before {
+    content: "\f2f9";
+}
+.nxi.nxi-pp-text-align-center-thin:before {
+    content: "\f2fa";
+}
+.nxi.nxi-pp-text-align-justify-thin:before {
+    content: "\f2fb";
+}
+.nxi.nxi-pp-text-align-left-thin:before {
+    content: "\f2fc";
+}
+.nxi.nxi-pp-text-align-right-thin:before {
+    content: "\f2fd";
+}
+.nxi.nxi-pp-text-b-thin:before {
+    content: "\f2fe";
+}
+.nxi.nxi-pp-text-columns-thin:before {
+    content: "\f2ff";
+}
+.nxi.nxi-pp-text-h-five-thin:before {
+    content: "\f300";
+}
+.nxi.nxi-pp-text-h-four-thin:before {
+    content: "\f301";
+}
+.nxi.nxi-pp-text-h-one-thin:before {
+    content: "\f302";
+}
+.nxi.nxi-pp-text-h-six-thin:before {
+    content: "\f303";
+}
+.nxi.nxi-pp-text-h-thin:before {
+    content: "\f304";
+}
+.nxi.nxi-pp-text-h-three-thin:before {
+    content: "\f305";
+}
+.nxi.nxi-pp-text-h-two-thin:before {
+    content: "\f306";
+}
+.nxi.nxi-pp-text-indent-thin:before {
+    content: "\f307";
+}
+.nxi.nxi-pp-text-italic-thin:before {
+    content: "\f308";
+}
+.nxi.nxi-pp-text-outdent-thin:before {
+    content: "\f309";
+}
+.nxi.nxi-pp-text-strikethrough-thin:before {
+    content: "\f30a";
+}
+.nxi.nxi-pp-text-t-thin:before {
+    content: "\f30b";
+}
+.nxi.nxi-pp-text-underline-thin:before {
+    content: "\f30c";
+}
+.nxi.nxi-pp-textbox-thin:before {
+    content: "\f30d";
+}
+.nxi.nxi-pp-thermometer-cold-thin:before {
+    content: "\f30e";
+}
+.nxi.nxi-pp-thermometer-hot-thin:before {
+    content: "\f30f";
+}
+.nxi.nxi-pp-thermometer-simple-thin:before {
+    content: "\f310";
+}
+.nxi.nxi-pp-thermometer-thin:before {
+    content: "\f311";
+}
+.nxi.nxi-pp-thumbs-down-thin:before {
+    content: "\f312";
+}
+.nxi.nxi-pp-thumbs-up-thin:before {
+    content: "\f313";
+}
+.nxi.nxi-pp-ticket-thin:before {
+    content: "\f314";
+}
+.nxi.nxi-pp-tidal-logo-thin:before {
+    content: "\f315";
+}
+.nxi.nxi-pp-tiktok-logo-thin:before {
+    content: "\f316";
+}
+.nxi.nxi-pp-timer-thin:before {
+    content: "\f317";
+}
+.nxi.nxi-pp-tipi-thin:before {
+    content: "\f318";
+}
+.nxi.nxi-pp-toggle-left-thin:before {
+    content: "\f319";
+}
+.nxi.nxi-pp-toggle-right-thin:before {
+    content: "\f31a";
+}
+.nxi.nxi-pp-toilet-paper-thin:before {
+    content: "\f31b";
+}
+.nxi.nxi-pp-toilet-thin:before {
+    content: "\f31c";
+}
+.nxi.nxi-pp-toolbox-thin:before {
+    content: "\f31d";
+}
+.nxi.nxi-pp-tooth-thin:before {
+    content: "\f31e";
+}
+.nxi.nxi-pp-tote-simple-thin:before {
+    content: "\f31f";
+}
+.nxi.nxi-pp-tote-thin:before {
+    content: "\f320";
+}
+.nxi.nxi-pp-trademark-registered-thin:before {
+    content: "\f321";
+}
+.nxi.nxi-pp-trademark-thin:before {
+    content: "\f322";
+}
+.nxi.nxi-pp-traffic-cone-thin:before {
+    content: "\f323";
+}
+.nxi.nxi-pp-traffic-sign-thin:before {
+    content: "\f324";
+}
+.nxi.nxi-pp-traffic-signal-thin:before {
+    content: "\f325";
+}
+.nxi.nxi-pp-train-regional-thin:before {
+    content: "\f326";
+}
+.nxi.nxi-pp-train-simple-thin:before {
+    content: "\f327";
+}
+.nxi.nxi-pp-train-thin:before {
+    content: "\f328";
+}
+.nxi.nxi-pp-tram-thin:before {
+    content: "\f329";
+}
+.nxi.nxi-pp-translate-thin:before {
+    content: "\f32a";
+}
+.nxi.nxi-pp-trash-simple-thin:before {
+    content: "\f32b";
+}
+.nxi.nxi-pp-trash-thin:before {
+    content: "\f32c";
+}
+.nxi.nxi-pp-tray-thin:before {
+    content: "\f32d";
+}
+.nxi.nxi-pp-tree-evergreen-thin:before {
+    content: "\f32e";
+}
+.nxi.nxi-pp-tree-palm-thin:before {
+    content: "\f32f";
+}
+.nxi.nxi-pp-tree-structure-thin:before {
+    content: "\f330";
+}
+.nxi.nxi-pp-tree-thin:before {
+    content: "\f331";
+}
+.nxi.nxi-pp-trend-down-thin:before {
+    content: "\f332";
+}
+.nxi.nxi-pp-trend-up-thin:before {
+    content: "\f333";
+}
+.nxi.nxi-pp-triangle-thin:before {
+    content: "\f334";
+}
+.nxi.nxi-pp-trophy-thin:before {
+    content: "\f335";
+}
+.nxi.nxi-pp-truck-thin:before {
+    content: "\f336";
+}
+.nxi.nxi-pp-twitch-logo-thin:before {
+    content: "\f337";
+}
+.nxi.nxi-pp-twitter-logo-thin:before {
+    content: "\f338";
+}
+.nxi.nxi-pp-umbrella-simple-thin:before {
+    content: "\f339";
+}
+.nxi.nxi-pp-umbrella-thin:before {
+    content: "\f33a";
+}
+.nxi.nxi-pp-unite-square-thin:before {
+    content: "\f33b";
+}
+.nxi.nxi-pp-unite-thin:before {
+    content: "\f33c";
+}
+.nxi.nxi-pp-upload-simple-thin:before {
+    content: "\f33d";
+}
+.nxi.nxi-pp-upload-thin:before {
+    content: "\f33e";
+}
+.nxi.nxi-pp-usb-thin:before {
+    content: "\f33f";
+}
+.nxi.nxi-pp-user-circle-gear-thin:before {
+    content: "\f340";
+}
+.nxi.nxi-pp-user-circle-minus-thin:before {
+    content: "\f341";
+}
+.nxi.nxi-pp-user-circle-plus-thin:before {
+    content: "\f342";
+}
+.nxi.nxi-pp-user-circle-thin:before {
+    content: "\f343";
+}
+.nxi.nxi-pp-user-focus-thin:before {
+    content: "\f344";
+}
+.nxi.nxi-pp-user-gear-thin:before {
+    content: "\f345";
+}
+.nxi.nxi-pp-user-list-thin:before {
+    content: "\f346";
+}
+.nxi.nxi-pp-user-minus-thin:before {
+    content: "\f347";
+}
+.nxi.nxi-pp-user-plus-thin:before {
+    content: "\f348";
+}
+.nxi.nxi-pp-user-rectangle-thin:before {
+    content: "\f349";
+}
+.nxi.nxi-pp-user-square-thin:before {
+    content: "\f34a";
+}
+.nxi.nxi-pp-user-switch-thin:before {
+    content: "\f34b";
+}
+.nxi.nxi-pp-user-thin:before {
+    content: "\f34c";
+}
+.nxi.nxi-pp-users-four-thin:before {
+    content: "\f34d";
+}
+.nxi.nxi-pp-users-thin:before {
+    content: "\f34e";
+}
+.nxi.nxi-pp-users-three-thin:before {
+    content: "\f34f";
+}
+.nxi.nxi-pp-van-thin:before {
+    content: "\f350";
+}
+.nxi.nxi-pp-vault-thin:before {
+    content: "\f351";
+}
+.nxi.nxi-pp-vibrate-thin:before {
+    content: "\f352";
+}
+.nxi.nxi-pp-video-camera-slash-thin:before {
+    content: "\f353";
+}
+.nxi.nxi-pp-video-camera-thin:before {
+    content: "\f354";
+}
+.nxi.nxi-pp-video-thin:before {
+    content: "\f355";
+}
+.nxi.nxi-pp-vignette-thin:before {
+    content: "\f356";
+}
+.nxi.nxi-pp-vinyl-record-thin:before {
+    content: "\f357";
+}
+.nxi.nxi-pp-virtual-reality-thin:before {
+    content: "\f358";
+}
+.nxi.nxi-pp-virus-thin:before {
+    content: "\f359";
+}
+.nxi.nxi-pp-voicemail-thin:before {
+    content: "\f35a";
+}
+.nxi.nxi-pp-volleyball-thin:before {
+    content: "\f35b";
+}
+.nxi.nxi-pp-wall-thin:before {
+    content: "\f35c";
+}
+.nxi.nxi-pp-wallet-thin:before {
+    content: "\f35d";
+}
+.nxi.nxi-pp-warehouse-thin:before {
+    content: "\f35e";
+}
+.nxi.nxi-pp-warning-circle-thin:before {
+    content: "\f35f";
+}
+.nxi.nxi-pp-warning-diamond-thin:before {
+    content: "\f360";
+}
+.nxi.nxi-pp-warning-octagon-thin:before {
+    content: "\f361";
+}
+.nxi.nxi-pp-warning-thin:before {
+    content: "\f362";
+}
+.nxi.nxi-pp-watch-thin:before {
+    content: "\f363";
+}
+.nxi.nxi-pp-wave-sawtooth-thin:before {
+    content: "\f364";
+}
+.nxi.nxi-pp-wave-sine-thin:before {
+    content: "\f365";
+}
+.nxi.nxi-pp-wave-square-thin:before {
+    content: "\f366";
+}
+.nxi.nxi-pp-wave-triangle-thin:before {
+    content: "\f367";
+}
+.nxi.nxi-pp-waveform-thin:before {
+    content: "\f368";
+}
+.nxi.nxi-pp-waves-thin:before {
+    content: "\f369";
+}
+.nxi.nxi-pp-webcam-slash-thin:before {
+    content: "\f36a";
+}
+.nxi.nxi-pp-webcam-thin:before {
+    content: "\f36b";
+}
+.nxi.nxi-pp-webhooks-logo-thin:before {
+    content: "\f36c";
+}
+.nxi.nxi-pp-wechat-logo-thin:before {
+    content: "\f36d";
+}
+.nxi.nxi-pp-whatsapp-logo-thin:before {
+    content: "\f36e";
+}
+.nxi.nxi-pp-wheelchair-motion-thin:before {
+    content: "\f36f";
+}
+.nxi.nxi-pp-wheelchair-thin:before {
+    content: "\f370";
+}
+.nxi.nxi-pp-wifi-high-thin:before {
+    content: "\f371";
+}
+.nxi.nxi-pp-wifi-low-thin:before {
+    content: "\f372";
+}
+.nxi.nxi-pp-wifi-medium-thin:before {
+    content: "\f373";
+}
+.nxi.nxi-pp-wifi-none-thin:before {
+    content: "\f374";
+}
+.nxi.nxi-pp-wifi-slash-thin:before {
+    content: "\f375";
+}
+.nxi.nxi-pp-wifi-x-thin:before {
+    content: "\f376";
+}
+.nxi.nxi-pp-wind-thin:before {
+    content: "\f377";
+}
+.nxi.nxi-pp-windows-logo-thin:before {
+    content: "\f378";
+}
+.nxi.nxi-pp-wine-thin:before {
+    content: "\f379";
+}
+.nxi.nxi-pp-wrench-thin:before {
+    content: "\f37a";
+}
+.nxi.nxi-pp-x-circle-thin:before {
+    content: "\f37b";
+}
+.nxi.nxi-pp-x-square-thin:before {
+    content: "\f37c";
+}
+.nxi.nxi-pp-x-thin:before {
+    content: "\f37d";
+}
+.nxi.nxi-pp-yin-yang-thin:before {
+    content: "\f37e";
+}
+.nxi.nxi-pp-youtube-logo-thin:before {
+    content: "\f37f";
+}

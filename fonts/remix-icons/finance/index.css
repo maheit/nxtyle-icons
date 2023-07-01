@@ -1,0 +1,443 @@
+@font-face {
+    font-family: "index";
+    src: url("./index.ttf?14bdc19894977db362ed49e324bec1b4") format("truetype"),
+url("./index.woff?14bdc19894977db362ed49e324bec1b4") format("woff"),
+url("./index.woff2?14bdc19894977db362ed49e324bec1b4") format("woff2"),
+url("./index.eot?14bdc19894977db362ed49e324bec1b4#iefix") format("embedded-opentype");
+}
+.nxi {
+    font-size: 1.5rem;
+    display: inline-flex
+}
+
+.nxi:before {
+    font-family: 'index' !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.nxi.nxi-rmx-finance-24-hours-fill:before {
+    content: "\e45e";
+}
+.nxi.nxi-rmx-finance-24-hours-line:before {
+    content: "\e45f";
+}
+.nxi.nxi-rmx-finance-auction-fill:before {
+    content: "\e460";
+}
+.nxi.nxi-rmx-finance-auction-line:before {
+    content: "\e461";
+}
+.nxi.nxi-rmx-finance-bank-card-2-fill:before {
+    content: "\e462";
+}
+.nxi.nxi-rmx-finance-bank-card-2-line:before {
+    content: "\e463";
+}
+.nxi.nxi-rmx-finance-bank-card-fill:before {
+    content: "\e464";
+}
+.nxi.nxi-rmx-finance-bank-card-line:before {
+    content: "\e465";
+}
+.nxi.nxi-rmx-finance-bit-coin-fill:before {
+    content: "\e466";
+}
+.nxi.nxi-rmx-finance-bit-coin-line:before {
+    content: "\e467";
+}
+.nxi.nxi-rmx-finance-cash-fill:before {
+    content: "\e468";
+}
+.nxi.nxi-rmx-finance-cash-line:before {
+    content: "\e469";
+}
+.nxi.nxi-rmx-finance-coin-fill:before {
+    content: "\e46a";
+}
+.nxi.nxi-rmx-finance-coin-line:before {
+    content: "\e46b";
+}
+.nxi.nxi-rmx-finance-coins-fill:before {
+    content: "\e46c";
+}
+.nxi.nxi-rmx-finance-coins-line:before {
+    content: "\e46d";
+}
+.nxi.nxi-rmx-finance-copper-coin-fill:before {
+    content: "\e46e";
+}
+.nxi.nxi-rmx-finance-copper-coin-line:before {
+    content: "\e46f";
+}
+.nxi.nxi-rmx-finance-copper-diamond-fill:before {
+    content: "\e470";
+}
+.nxi.nxi-rmx-finance-copper-diamond-line:before {
+    content: "\e471";
+}
+.nxi.nxi-rmx-finance-coupon-2-fill:before {
+    content: "\e472";
+}
+.nxi.nxi-rmx-finance-coupon-2-line:before {
+    content: "\e473";
+}
+.nxi.nxi-rmx-finance-coupon-3-fill:before {
+    content: "\e474";
+}
+.nxi.nxi-rmx-finance-coupon-3-line:before {
+    content: "\e475";
+}
+.nxi.nxi-rmx-finance-coupon-4-fill:before {
+    content: "\e476";
+}
+.nxi.nxi-rmx-finance-coupon-4-line:before {
+    content: "\e477";
+}
+.nxi.nxi-rmx-finance-coupon-5-fill:before {
+    content: "\e478";
+}
+.nxi.nxi-rmx-finance-coupon-5-line:before {
+    content: "\e479";
+}
+.nxi.nxi-rmx-finance-coupon-fill:before {
+    content: "\e47a";
+}
+.nxi.nxi-rmx-finance-coupon-line:before {
+    content: "\e47b";
+}
+.nxi.nxi-rmx-finance-currency-fill:before {
+    content: "\e47c";
+}
+.nxi.nxi-rmx-finance-currency-line:before {
+    content: "\e47d";
+}
+.nxi.nxi-rmx-finance-exchange-box-fill:before {
+    content: "\e47e";
+}
+.nxi.nxi-rmx-finance-exchange-box-line:before {
+    content: "\e47f";
+}
+.nxi.nxi-rmx-finance-exchange-cny-fill:before {
+    content: "\e480";
+}
+.nxi.nxi-rmx-finance-exchange-cny-line:before {
+    content: "\e481";
+}
+.nxi.nxi-rmx-finance-exchange-dollar-fill:before {
+    content: "\e482";
+}
+.nxi.nxi-rmx-finance-exchange-dollar-line:before {
+    content: "\e483";
+}
+.nxi.nxi-rmx-finance-exchange-fill:before {
+    content: "\e484";
+}
+.nxi.nxi-rmx-finance-exchange-funds-fill:before {
+    content: "\e485";
+}
+.nxi.nxi-rmx-finance-exchange-funds-line:before {
+    content: "\e486";
+}
+.nxi.nxi-rmx-finance-exchange-line:before {
+    content: "\e487";
+}
+.nxi.nxi-rmx-finance-funds-box-fill:before {
+    content: "\e488";
+}
+.nxi.nxi-rmx-finance-funds-box-line:before {
+    content: "\e489";
+}
+.nxi.nxi-rmx-finance-funds-fill:before {
+    content: "\e48a";
+}
+.nxi.nxi-rmx-finance-funds-line:before {
+    content: "\e48b";
+}
+.nxi.nxi-rmx-finance-gift-2-fill:before {
+    content: "\e48c";
+}
+.nxi.nxi-rmx-finance-gift-2-line:before {
+    content: "\e48d";
+}
+.nxi.nxi-rmx-finance-gift-fill:before {
+    content: "\e48e";
+}
+.nxi.nxi-rmx-finance-gift-line:before {
+    content: "\e48f";
+}
+.nxi.nxi-rmx-finance-hand-coin-fill:before {
+    content: "\e490";
+}
+.nxi.nxi-rmx-finance-hand-coin-line:before {
+    content: "\e491";
+}
+.nxi.nxi-rmx-finance-hand-heart-fill:before {
+    content: "\e492";
+}
+.nxi.nxi-rmx-finance-hand-heart-line:before {
+    content: "\e493";
+}
+.nxi.nxi-rmx-finance-increase-decrease-fill:before {
+    content: "\e494";
+}
+.nxi.nxi-rmx-finance-increase-decrease-line:before {
+    content: "\e495";
+}
+.nxi.nxi-rmx-finance-money-cny-box-fill:before {
+    content: "\e496";
+}
+.nxi.nxi-rmx-finance-money-cny-box-line:before {
+    content: "\e497";
+}
+.nxi.nxi-rmx-finance-money-cny-circle-fill:before {
+    content: "\e498";
+}
+.nxi.nxi-rmx-finance-money-cny-circle-line:before {
+    content: "\e499";
+}
+.nxi.nxi-rmx-finance-money-dollar-box-fill:before {
+    content: "\e49a";
+}
+.nxi.nxi-rmx-finance-money-dollar-box-line:before {
+    content: "\e49b";
+}
+.nxi.nxi-rmx-finance-money-dollar-circle-fill:before {
+    content: "\e49c";
+}
+.nxi.nxi-rmx-finance-money-dollar-circle-line:before {
+    content: "\e49d";
+}
+.nxi.nxi-rmx-finance-money-euro-box-fill:before {
+    content: "\e49e";
+}
+.nxi.nxi-rmx-finance-money-euro-box-line:before {
+    content: "\e49f";
+}
+.nxi.nxi-rmx-finance-money-euro-circle-fill:before {
+    content: "\e4a0";
+}
+.nxi.nxi-rmx-finance-money-euro-circle-line:before {
+    content: "\e4a1";
+}
+.nxi.nxi-rmx-finance-money-pound-box-fill:before {
+    content: "\e4a2";
+}
+.nxi.nxi-rmx-finance-money-pound-box-line:before {
+    content: "\e4a3";
+}
+.nxi.nxi-rmx-finance-money-pound-circle-fill:before {
+    content: "\e4a4";
+}
+.nxi.nxi-rmx-finance-money-pound-circle-line:before {
+    content: "\e4a5";
+}
+.nxi.nxi-rmx-finance-nft-fill:before {
+    content: "\e4a6";
+}
+.nxi.nxi-rmx-finance-nft-line:before {
+    content: "\e4a7";
+}
+.nxi.nxi-rmx-finance-p2p-fill:before {
+    content: "\e4a8";
+}
+.nxi.nxi-rmx-finance-p2p-line:before {
+    content: "\e4a9";
+}
+.nxi.nxi-rmx-finance-percent-fill:before {
+    content: "\e4aa";
+}
+.nxi.nxi-rmx-finance-percent-line:before {
+    content: "\e4ab";
+}
+.nxi.nxi-rmx-finance-price-tag-2-fill:before {
+    content: "\e4ac";
+}
+.nxi.nxi-rmx-finance-price-tag-2-line:before {
+    content: "\e4ad";
+}
+.nxi.nxi-rmx-finance-price-tag-3-fill:before {
+    content: "\e4ae";
+}
+.nxi.nxi-rmx-finance-price-tag-3-line:before {
+    content: "\e4af";
+}
+.nxi.nxi-rmx-finance-price-tag-fill:before {
+    content: "\e4b0";
+}
+.nxi.nxi-rmx-finance-price-tag-line:before {
+    content: "\e4b1";
+}
+.nxi.nxi-rmx-finance-red-packet-fill:before {
+    content: "\e4b2";
+}
+.nxi.nxi-rmx-finance-red-packet-line:before {
+    content: "\e4b3";
+}
+.nxi.nxi-rmx-finance-refund-2-fill:before {
+    content: "\e4b4";
+}
+.nxi.nxi-rmx-finance-refund-2-line:before {
+    content: "\e4b5";
+}
+.nxi.nxi-rmx-finance-refund-fill:before {
+    content: "\e4b6";
+}
+.nxi.nxi-rmx-finance-refund-line:before {
+    content: "\e4b7";
+}
+.nxi.nxi-rmx-finance-safe-2-fill:before {
+    content: "\e4b8";
+}
+.nxi.nxi-rmx-finance-safe-2-line:before {
+    content: "\e4b9";
+}
+.nxi.nxi-rmx-finance-safe-fill:before {
+    content: "\e4ba";
+}
+.nxi.nxi-rmx-finance-safe-line:before {
+    content: "\e4bb";
+}
+.nxi.nxi-rmx-finance-secure-payment-fill:before {
+    content: "\e4bc";
+}
+.nxi.nxi-rmx-finance-secure-payment-line:before {
+    content: "\e4bd";
+}
+.nxi.nxi-rmx-finance-shopping-bag-2-fill:before {
+    content: "\e4be";
+}
+.nxi.nxi-rmx-finance-shopping-bag-2-line:before {
+    content: "\e4bf";
+}
+.nxi.nxi-rmx-finance-shopping-bag-3-fill:before {
+    content: "\e4c0";
+}
+.nxi.nxi-rmx-finance-shopping-bag-3-line:before {
+    content: "\e4c1";
+}
+.nxi.nxi-rmx-finance-shopping-bag-fill:before {
+    content: "\e4c2";
+}
+.nxi.nxi-rmx-finance-shopping-bag-line:before {
+    content: "\e4c3";
+}
+.nxi.nxi-rmx-finance-shopping-basket-2-fill:before {
+    content: "\e4c4";
+}
+.nxi.nxi-rmx-finance-shopping-basket-2-line:before {
+    content: "\e4c5";
+}
+.nxi.nxi-rmx-finance-shopping-basket-fill:before {
+    content: "\e4c6";
+}
+.nxi.nxi-rmx-finance-shopping-basket-line:before {
+    content: "\e4c7";
+}
+.nxi.nxi-rmx-finance-shopping-cart-2-fill:before {
+    content: "\e4c8";
+}
+.nxi.nxi-rmx-finance-shopping-cart-2-line:before {
+    content: "\e4c9";
+}
+.nxi.nxi-rmx-finance-shopping-cart-fill:before {
+    content: "\e4ca";
+}
+.nxi.nxi-rmx-finance-shopping-cart-line:before {
+    content: "\e4cb";
+}
+.nxi.nxi-rmx-finance-stock-fill:before {
+    content: "\e4cc";
+}
+.nxi.nxi-rmx-finance-stock-line:before {
+    content: "\e4cd";
+}
+.nxi.nxi-rmx-finance-swap-box-fill:before {
+    content: "\e4ce";
+}
+.nxi.nxi-rmx-finance-swap-box-line:before {
+    content: "\e4cf";
+}
+.nxi.nxi-rmx-finance-swap-fill:before {
+    content: "\e4d0";
+}
+.nxi.nxi-rmx-finance-swap-line:before {
+    content: "\e4d1";
+}
+.nxi.nxi-rmx-finance-ticket-2-fill:before {
+    content: "\e4d2";
+}
+.nxi.nxi-rmx-finance-ticket-2-line:before {
+    content: "\e4d3";
+}
+.nxi.nxi-rmx-finance-ticket-fill:before {
+    content: "\e4d4";
+}
+.nxi.nxi-rmx-finance-ticket-line:before {
+    content: "\e4d5";
+}
+.nxi.nxi-rmx-finance-token-swap-fill:before {
+    content: "\e4d6";
+}
+.nxi.nxi-rmx-finance-token-swap-line:before {
+    content: "\e4d7";
+}
+.nxi.nxi-rmx-finance-trophy-fill:before {
+    content: "\e4d8";
+}
+.nxi.nxi-rmx-finance-trophy-line:before {
+    content: "\e4d9";
+}
+.nxi.nxi-rmx-finance-vip-crown-2-fill:before {
+    content: "\e4da";
+}
+.nxi.nxi-rmx-finance-vip-crown-2-line:before {
+    content: "\e4db";
+}
+.nxi.nxi-rmx-finance-vip-crown-fill:before {
+    content: "\e4dc";
+}
+.nxi.nxi-rmx-finance-vip-crown-line:before {
+    content: "\e4dd";
+}
+.nxi.nxi-rmx-finance-vip-diamond-fill:before {
+    content: "\e4de";
+}
+.nxi.nxi-rmx-finance-vip-diamond-line:before {
+    content: "\e4df";
+}
+.nxi.nxi-rmx-finance-vip-fill:before {
+    content: "\e4e0";
+}
+.nxi.nxi-rmx-finance-vip-line:before {
+    content: "\e4e1";
+}
+.nxi.nxi-rmx-finance-wallet-2-fill:before {
+    content: "\e4e2";
+}
+.nxi.nxi-rmx-finance-wallet-2-line:before {
+    content: "\e4e3";
+}
+.nxi.nxi-rmx-finance-wallet-3-fill:before {
+    content: "\e4e4";
+}
+.nxi.nxi-rmx-finance-wallet-3-line:before {
+    content: "\e4e5";
+}
+.nxi.nxi-rmx-finance-wallet-fill:before {
+    content: "\e4e6";
+}
+.nxi.nxi-rmx-finance-wallet-line:before {
+    content: "\e4e7";
+}
+.nxi.nxi-rmx-finance-water-flash-fill:before {
+    content: "\e4e8";
+}
+.nxi.nxi-rmx-finance-water-flash-line:before {
+    content: "\e4e9";
+}

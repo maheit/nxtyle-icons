@@ -1,0 +1,215 @@
+@font-face {
+    font-family: "index";
+    src: url("./index.ttf?423ca63e5926809bd07f93c9e5cb280a") format("truetype"),
+url("./index.woff?423ca63e5926809bd07f93c9e5cb280a") format("woff"),
+url("./index.woff2?423ca63e5926809bd07f93c9e5cb280a") format("woff2"),
+url("./index.eot?423ca63e5926809bd07f93c9e5cb280a#iefix") format("embedded-opentype");
+}
+.nxi {
+    font-size: 1.5rem;
+    display: inline-flex
+}
+
+.nxi:before {
+    font-family: 'index' !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.nxi.nxi-rmx-communication-chat-1-fill:before {
+    content: "\e166";
+}
+.nxi.nxi-rmx-communication-chat-1-line:before {
+    content: "\e167";
+}
+.nxi.nxi-rmx-communication-chat-2-fill:before {
+    content: "\e168";
+}
+.nxi.nxi-rmx-communication-chat-2-line:before {
+    content: "\e169";
+}
+.nxi.nxi-rmx-communication-chat-3-fill:before {
+    content: "\e16a";
+}
+.nxi.nxi-rmx-communication-chat-3-line:before {
+    content: "\e16b";
+}
+.nxi.nxi-rmx-communication-chat-4-fill:before {
+    content: "\e16c";
+}
+.nxi.nxi-rmx-communication-chat-4-line:before {
+    content: "\e16d";
+}
+.nxi.nxi-rmx-communication-chat-check-fill:before {
+    content: "\e16e";
+}
+.nxi.nxi-rmx-communication-chat-check-line:before {
+    content: "\e16f";
+}
+.nxi.nxi-rmx-communication-chat-delete-fill:before {
+    content: "\e170";
+}
+.nxi.nxi-rmx-communication-chat-delete-line:before {
+    content: "\e171";
+}
+.nxi.nxi-rmx-communication-chat-download-fill:before {
+    content: "\e172";
+}
+.nxi.nxi-rmx-communication-chat-download-line:before {
+    content: "\e173";
+}
+.nxi.nxi-rmx-communication-chat-follow-up-fill:before {
+    content: "\e174";
+}
+.nxi.nxi-rmx-communication-chat-follow-up-line:before {
+    content: "\e175";
+}
+.nxi.nxi-rmx-communication-chat-forward-fill:before {
+    content: "\e176";
+}
+.nxi.nxi-rmx-communication-chat-forward-line:before {
+    content: "\e177";
+}
+.nxi.nxi-rmx-communication-chat-heart-fill:before {
+    content: "\e178";
+}
+.nxi.nxi-rmx-communication-chat-heart-line:before {
+    content: "\e179";
+}
+.nxi.nxi-rmx-communication-chat-history-fill:before {
+    content: "\e17a";
+}
+.nxi.nxi-rmx-communication-chat-history-line:before {
+    content: "\e17b";
+}
+.nxi.nxi-rmx-communication-chat-new-fill:before {
+    content: "\e17c";
+}
+.nxi.nxi-rmx-communication-chat-new-line:before {
+    content: "\e17d";
+}
+.nxi.nxi-rmx-communication-chat-off-fill:before {
+    content: "\e17e";
+}
+.nxi.nxi-rmx-communication-chat-off-line:before {
+    content: "\e17f";
+}
+.nxi.nxi-rmx-communication-chat-poll-fill:before {
+    content: "\e180";
+}
+.nxi.nxi-rmx-communication-chat-poll-line:before {
+    content: "\e181";
+}
+.nxi.nxi-rmx-communication-chat-private-fill:before {
+    content: "\e182";
+}
+.nxi.nxi-rmx-communication-chat-private-line:before {
+    content: "\e183";
+}
+.nxi.nxi-rmx-communication-chat-quote-fill:before {
+    content: "\e184";
+}
+.nxi.nxi-rmx-communication-chat-quote-line:before {
+    content: "\e185";
+}
+.nxi.nxi-rmx-communication-chat-settings-fill:before {
+    content: "\e186";
+}
+.nxi.nxi-rmx-communication-chat-settings-line:before {
+    content: "\e187";
+}
+.nxi.nxi-rmx-communication-chat-smile-2-fill:before {
+    content: "\e188";
+}
+.nxi.nxi-rmx-communication-chat-smile-2-line:before {
+    content: "\e189";
+}
+.nxi.nxi-rmx-communication-chat-smile-3-fill:before {
+    content: "\e18a";
+}
+.nxi.nxi-rmx-communication-chat-smile-3-line:before {
+    content: "\e18b";
+}
+.nxi.nxi-rmx-communication-chat-smile-fill:before {
+    content: "\e18c";
+}
+.nxi.nxi-rmx-communication-chat-smile-line:before {
+    content: "\e18d";
+}
+.nxi.nxi-rmx-communication-chat-upload-fill:before {
+    content: "\e18e";
+}
+.nxi.nxi-rmx-communication-chat-upload-line:before {
+    content: "\e18f";
+}
+.nxi.nxi-rmx-communication-chat-voice-fill:before {
+    content: "\e190";
+}
+.nxi.nxi-rmx-communication-chat-voice-line:before {
+    content: "\e191";
+}
+.nxi.nxi-rmx-communication-discuss-fill:before {
+    content: "\e192";
+}
+.nxi.nxi-rmx-communication-discuss-line:before {
+    content: "\e193";
+}
+.nxi.nxi-rmx-communication-emoji-sticker-fill:before {
+    content: "\e194";
+}
+.nxi.nxi-rmx-communication-emoji-sticker-line:before {
+    content: "\e195";
+}
+.nxi.nxi-rmx-communication-feedback-fill:before {
+    content: "\e196";
+}
+.nxi.nxi-rmx-communication-feedback-line:before {
+    content: "\e197";
+}
+.nxi.nxi-rmx-communication-message-2-fill:before {
+    content: "\e198";
+}
+.nxi.nxi-rmx-communication-message-2-line:before {
+    content: "\e199";
+}
+.nxi.nxi-rmx-communication-message-3-fill:before {
+    content: "\e19a";
+}
+.nxi.nxi-rmx-communication-message-3-line:before {
+    content: "\e19b";
+}
+.nxi.nxi-rmx-communication-message-fill:before {
+    content: "\e19c";
+}
+.nxi.nxi-rmx-communication-message-line:before {
+    content: "\e19d";
+}
+.nxi.nxi-rmx-communication-question-answer-fill:before {
+    content: "\e19e";
+}
+.nxi.nxi-rmx-communication-question-answer-line:before {
+    content: "\e19f";
+}
+.nxi.nxi-rmx-communication-questionnaire-fill:before {
+    content: "\e1a0";
+}
+.nxi.nxi-rmx-communication-questionnaire-line:before {
+    content: "\e1a1";
+}
+.nxi.nxi-rmx-communication-speak-fill:before {
+    content: "\e1a2";
+}
+.nxi.nxi-rmx-communication-speak-line:before {
+    content: "\e1a3";
+}
+.nxi.nxi-rmx-communication-video-chat-fill:before {
+    content: "\e1a4";
+}
+.nxi.nxi-rmx-communication-video-chat-line:before {
+    content: "\e1a5";
+}

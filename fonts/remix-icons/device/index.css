@@ -1,0 +1,521 @@
+@font-face {
+    font-family: "index";
+    src: url("./index.ttf?90f20edc37752285817c83fdf098ee11") format("truetype"),
+url("./index.woff?90f20edc37752285817c83fdf098ee11") format("woff"),
+url("./index.woff2?90f20edc37752285817c83fdf098ee11") format("woff2"),
+url("./index.eot?90f20edc37752285817c83fdf098ee11#iefix") format("embedded-opentype");
+}
+.nxi {
+    font-size: 1.5rem;
+    display: inline-flex
+}
+
+.nxi:before {
+    font-family: 'index' !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.nxi.nxi-rmx-device-airplay-fill:before {
+    content: "\e27c";
+}
+.nxi.nxi-rmx-device-airplay-line:before {
+    content: "\e27d";
+}
+.nxi.nxi-rmx-device-barcode-box-fill:before {
+    content: "\e27e";
+}
+.nxi.nxi-rmx-device-barcode-box-line:before {
+    content: "\e27f";
+}
+.nxi.nxi-rmx-device-barcode-fill:before {
+    content: "\e280";
+}
+.nxi.nxi-rmx-device-barcode-line:before {
+    content: "\e281";
+}
+.nxi.nxi-rmx-device-base-station-fill:before {
+    content: "\e282";
+}
+.nxi.nxi-rmx-device-base-station-line:before {
+    content: "\e283";
+}
+.nxi.nxi-rmx-device-battery-2-charge-fill:before {
+    content: "\e284";
+}
+.nxi.nxi-rmx-device-battery-2-charge-line:before {
+    content: "\e285";
+}
+.nxi.nxi-rmx-device-battery-2-fill:before {
+    content: "\e286";
+}
+.nxi.nxi-rmx-device-battery-2-line:before {
+    content: "\e287";
+}
+.nxi.nxi-rmx-device-battery-charge-fill:before {
+    content: "\e288";
+}
+.nxi.nxi-rmx-device-battery-charge-line:before {
+    content: "\e289";
+}
+.nxi.nxi-rmx-device-battery-fill:before {
+    content: "\e28a";
+}
+.nxi.nxi-rmx-device-battery-line:before {
+    content: "\e28b";
+}
+.nxi.nxi-rmx-device-battery-low-fill:before {
+    content: "\e28c";
+}
+.nxi.nxi-rmx-device-battery-low-line:before {
+    content: "\e28d";
+}
+.nxi.nxi-rmx-device-battery-saver-fill:before {
+    content: "\e28e";
+}
+.nxi.nxi-rmx-device-battery-saver-line:before {
+    content: "\e28f";
+}
+.nxi.nxi-rmx-device-battery-share-fill:before {
+    content: "\e290";
+}
+.nxi.nxi-rmx-device-battery-share-line:before {
+    content: "\e291";
+}
+.nxi.nxi-rmx-device-bluetooth-connect-fill:before {
+    content: "\e292";
+}
+.nxi.nxi-rmx-device-bluetooth-connect-line:before {
+    content: "\e293";
+}
+.nxi.nxi-rmx-device-bluetooth-fill:before {
+    content: "\e294";
+}
+.nxi.nxi-rmx-device-bluetooth-line:before {
+    content: "\e295";
+}
+.nxi.nxi-rmx-device-cast-fill:before {
+    content: "\e296";
+}
+.nxi.nxi-rmx-device-cast-line:before {
+    content: "\e297";
+}
+.nxi.nxi-rmx-device-cellphone-fill:before {
+    content: "\e298";
+}
+.nxi.nxi-rmx-device-cellphone-line:before {
+    content: "\e299";
+}
+.nxi.nxi-rmx-device-computer-fill:before {
+    content: "\e29a";
+}
+.nxi.nxi-rmx-device-computer-line:before {
+    content: "\e29b";
+}
+.nxi.nxi-rmx-device-cpu-fill:before {
+    content: "\e29c";
+}
+.nxi.nxi-rmx-device-cpu-line:before {
+    content: "\e29d";
+}
+.nxi.nxi-rmx-device-dashboard-2-fill:before {
+    content: "\e29e";
+}
+.nxi.nxi-rmx-device-dashboard-2-line:before {
+    content: "\e29f";
+}
+.nxi.nxi-rmx-device-dashboard-3-fill:before {
+    content: "\e2a0";
+}
+.nxi.nxi-rmx-device-dashboard-3-line:before {
+    content: "\e2a1";
+}
+.nxi.nxi-rmx-device-database-2-fill:before {
+    content: "\e2a2";
+}
+.nxi.nxi-rmx-device-database-2-line:before {
+    content: "\e2a3";
+}
+.nxi.nxi-rmx-device-database-fill:before {
+    content: "\e2a4";
+}
+.nxi.nxi-rmx-device-database-line:before {
+    content: "\e2a5";
+}
+.nxi.nxi-rmx-device-device-fill:before {
+    content: "\e2a6";
+}
+.nxi.nxi-rmx-device-device-line:before {
+    content: "\e2a7";
+}
+.nxi.nxi-rmx-device-device-recover-fill:before {
+    content: "\e2a8";
+}
+.nxi.nxi-rmx-device-device-recover-line:before {
+    content: "\e2a9";
+}
+.nxi.nxi-rmx-device-dual-sim-1-fill:before {
+    content: "\e2aa";
+}
+.nxi.nxi-rmx-device-dual-sim-1-line:before {
+    content: "\e2ab";
+}
+.nxi.nxi-rmx-device-dual-sim-2-fill:before {
+    content: "\e2ac";
+}
+.nxi.nxi-rmx-device-dual-sim-2-line:before {
+    content: "\e2ad";
+}
+.nxi.nxi-rmx-device-fingerprint-2-fill:before {
+    content: "\e2ae";
+}
+.nxi.nxi-rmx-device-fingerprint-2-line:before {
+    content: "\e2af";
+}
+.nxi.nxi-rmx-device-fingerprint-fill:before {
+    content: "\e2b0";
+}
+.nxi.nxi-rmx-device-fingerprint-line:before {
+    content: "\e2b1";
+}
+.nxi.nxi-rmx-device-gamepad-fill:before {
+    content: "\e2b2";
+}
+.nxi.nxi-rmx-device-gamepad-line:before {
+    content: "\e2b3";
+}
+.nxi.nxi-rmx-device-gps-fill:before {
+    content: "\e2b4";
+}
+.nxi.nxi-rmx-device-gps-line:before {
+    content: "\e2b5";
+}
+.nxi.nxi-rmx-device-gradienter-fill:before {
+    content: "\e2b6";
+}
+.nxi.nxi-rmx-device-gradienter-line:before {
+    content: "\e2b7";
+}
+.nxi.nxi-rmx-device-hard-drive-2-fill:before {
+    content: "\e2b8";
+}
+.nxi.nxi-rmx-device-hard-drive-2-line:before {
+    content: "\e2b9";
+}
+.nxi.nxi-rmx-device-hard-drive-3-fill:before {
+    content: "\e2ba";
+}
+.nxi.nxi-rmx-device-hard-drive-3-line:before {
+    content: "\e2bb";
+}
+.nxi.nxi-rmx-device-hard-drive-fill:before {
+    content: "\e2bc";
+}
+.nxi.nxi-rmx-device-hard-drive-line:before {
+    content: "\e2bd";
+}
+.nxi.nxi-rmx-device-hotspot-fill:before {
+    content: "\e2be";
+}
+.nxi.nxi-rmx-device-hotspot-line:before {
+    content: "\e2bf";
+}
+.nxi.nxi-rmx-device-install-fill:before {
+    content: "\e2c0";
+}
+.nxi.nxi-rmx-device-install-line:before {
+    content: "\e2c1";
+}
+.nxi.nxi-rmx-device-instance-fill:before {
+    content: "\e2c2";
+}
+.nxi.nxi-rmx-device-instance-line:before {
+    content: "\e2c3";
+}
+.nxi.nxi-rmx-device-keyboard-box-fill:before {
+    content: "\e2c4";
+}
+.nxi.nxi-rmx-device-keyboard-box-line:before {
+    content: "\e2c5";
+}
+.nxi.nxi-rmx-device-keyboard-fill:before {
+    content: "\e2c6";
+}
+.nxi.nxi-rmx-device-keyboard-line:before {
+    content: "\e2c7";
+}
+.nxi.nxi-rmx-device-mac-fill:before {
+    content: "\e2c8";
+}
+.nxi.nxi-rmx-device-mac-line:before {
+    content: "\e2c9";
+}
+.nxi.nxi-rmx-device-macbook-fill:before {
+    content: "\e2ca";
+}
+.nxi.nxi-rmx-device-macbook-line:before {
+    content: "\e2cb";
+}
+.nxi.nxi-rmx-device-mouse-fill:before {
+    content: "\e2cc";
+}
+.nxi.nxi-rmx-device-mouse-line:before {
+    content: "\e2cd";
+}
+.nxi.nxi-rmx-device-phone-fill:before {
+    content: "\e2ce";
+}
+.nxi.nxi-rmx-device-phone-find-fill:before {
+    content: "\e2cf";
+}
+.nxi.nxi-rmx-device-phone-find-line:before {
+    content: "\e2d0";
+}
+.nxi.nxi-rmx-device-phone-line:before {
+    content: "\e2d1";
+}
+.nxi.nxi-rmx-device-phone-lock-fill:before {
+    content: "\e2d2";
+}
+.nxi.nxi-rmx-device-phone-lock-line:before {
+    content: "\e2d3";
+}
+.nxi.nxi-rmx-device-qr-code-fill:before {
+    content: "\e2d4";
+}
+.nxi.nxi-rmx-device-qr-code-line:before {
+    content: "\e2d5";
+}
+.nxi.nxi-rmx-device-qr-scan-2-fill:before {
+    content: "\e2d6";
+}
+.nxi.nxi-rmx-device-qr-scan-2-line:before {
+    content: "\e2d7";
+}
+.nxi.nxi-rmx-device-qr-scan-fill:before {
+    content: "\e2d8";
+}
+.nxi.nxi-rmx-device-qr-scan-line:before {
+    content: "\e2d9";
+}
+.nxi.nxi-rmx-device-radar-fill:before {
+    content: "\e2da";
+}
+.nxi.nxi-rmx-device-radar-line:before {
+    content: "\e2db";
+}
+.nxi.nxi-rmx-device-remote-control-2-fill:before {
+    content: "\e2dc";
+}
+.nxi.nxi-rmx-device-remote-control-2-line:before {
+    content: "\e2dd";
+}
+.nxi.nxi-rmx-device-remote-control-fill:before {
+    content: "\e2de";
+}
+.nxi.nxi-rmx-device-remote-control-line:before {
+    content: "\e2df";
+}
+.nxi.nxi-rmx-device-restart-fill:before {
+    content: "\e2e0";
+}
+.nxi.nxi-rmx-device-restart-line:before {
+    content: "\e2e1";
+}
+.nxi.nxi-rmx-device-rfid-fill:before {
+    content: "\e2e2";
+}
+.nxi.nxi-rmx-device-rfid-line:before {
+    content: "\e2e3";
+}
+.nxi.nxi-rmx-device-rotate-lock-fill:before {
+    content: "\e2e4";
+}
+.nxi.nxi-rmx-device-rotate-lock-line:before {
+    content: "\e2e5";
+}
+.nxi.nxi-rmx-device-router-fill:before {
+    content: "\e2e6";
+}
+.nxi.nxi-rmx-device-router-line:before {
+    content: "\e2e7";
+}
+.nxi.nxi-rmx-device-rss-fill:before {
+    content: "\e2e8";
+}
+.nxi.nxi-rmx-device-rss-line:before {
+    content: "\e2e9";
+}
+.nxi.nxi-rmx-device-save-2-fill:before {
+    content: "\e2ea";
+}
+.nxi.nxi-rmx-device-save-2-line:before {
+    content: "\e2eb";
+}
+.nxi.nxi-rmx-device-save-3-fill:before {
+    content: "\e2ec";
+}
+.nxi.nxi-rmx-device-save-3-line:before {
+    content: "\e2ed";
+}
+.nxi.nxi-rmx-device-save-fill:before {
+    content: "\e2ee";
+}
+.nxi.nxi-rmx-device-save-line:before {
+    content: "\e2ef";
+}
+.nxi.nxi-rmx-device-scan-2-fill:before {
+    content: "\e2f0";
+}
+.nxi.nxi-rmx-device-scan-2-line:before {
+    content: "\e2f1";
+}
+.nxi.nxi-rmx-device-scan-fill:before {
+    content: "\e2f2";
+}
+.nxi.nxi-rmx-device-scan-line:before {
+    content: "\e2f3";
+}
+.nxi.nxi-rmx-device-sd-card-fill:before {
+    content: "\e2f4";
+}
+.nxi.nxi-rmx-device-sd-card-line:before {
+    content: "\e2f5";
+}
+.nxi.nxi-rmx-device-sd-card-mini-fill:before {
+    content: "\e2f6";
+}
+.nxi.nxi-rmx-device-sd-card-mini-line:before {
+    content: "\e2f7";
+}
+.nxi.nxi-rmx-device-sensor-fill:before {
+    content: "\e2f8";
+}
+.nxi.nxi-rmx-device-sensor-line:before {
+    content: "\e2f9";
+}
+.nxi.nxi-rmx-device-server-fill:before {
+    content: "\e2fa";
+}
+.nxi.nxi-rmx-device-server-line:before {
+    content: "\e2fb";
+}
+.nxi.nxi-rmx-device-shut-down-fill:before {
+    content: "\e2fc";
+}
+.nxi.nxi-rmx-device-shut-down-line:before {
+    content: "\e2fd";
+}
+.nxi.nxi-rmx-device-signal-wifi-1-fill:before {
+    content: "\e2fe";
+}
+.nxi.nxi-rmx-device-signal-wifi-1-line:before {
+    content: "\e2ff";
+}
+.nxi.nxi-rmx-device-signal-wifi-2-fill:before {
+    content: "\e300";
+}
+.nxi.nxi-rmx-device-signal-wifi-2-line:before {
+    content: "\e301";
+}
+.nxi.nxi-rmx-device-signal-wifi-3-fill:before {
+    content: "\e302";
+}
+.nxi.nxi-rmx-device-signal-wifi-3-line:before {
+    content: "\e303";
+}
+.nxi.nxi-rmx-device-signal-wifi-error-fill:before {
+    content: "\e304";
+}
+.nxi.nxi-rmx-device-signal-wifi-error-line:before {
+    content: "\e305";
+}
+.nxi.nxi-rmx-device-signal-wifi-fill:before {
+    content: "\e306";
+}
+.nxi.nxi-rmx-device-signal-wifi-line:before {
+    content: "\e307";
+}
+.nxi.nxi-rmx-device-signal-wifi-off-fill:before {
+    content: "\e308";
+}
+.nxi.nxi-rmx-device-signal-wifi-off-line:before {
+    content: "\e309";
+}
+.nxi.nxi-rmx-device-sim-card-2-fill:before {
+    content: "\e30a";
+}
+.nxi.nxi-rmx-device-sim-card-2-line:before {
+    content: "\e30b";
+}
+.nxi.nxi-rmx-device-sim-card-fill:before {
+    content: "\e30c";
+}
+.nxi.nxi-rmx-device-sim-card-line:before {
+    content: "\e30d";
+}
+.nxi.nxi-rmx-device-smartphone-fill:before {
+    content: "\e30e";
+}
+.nxi.nxi-rmx-device-smartphone-line:before {
+    content: "\e30f";
+}
+.nxi.nxi-rmx-device-tablet-fill:before {
+    content: "\e310";
+}
+.nxi.nxi-rmx-device-tablet-line:before {
+    content: "\e311";
+}
+.nxi.nxi-rmx-device-tv-2-fill:before {
+    content: "\e312";
+}
+.nxi.nxi-rmx-device-tv-2-line:before {
+    content: "\e313";
+}
+.nxi.nxi-rmx-device-tv-fill:before {
+    content: "\e314";
+}
+.nxi.nxi-rmx-device-tv-line:before {
+    content: "\e315";
+}
+.nxi.nxi-rmx-device-u-disk-fill:before {
+    content: "\e316";
+}
+.nxi.nxi-rmx-device-u-disk-line:before {
+    content: "\e317";
+}
+.nxi.nxi-rmx-device-uninstall-fill:before {
+    content: "\e318";
+}
+.nxi.nxi-rmx-device-uninstall-line:before {
+    content: "\e319";
+}
+.nxi.nxi-rmx-device-usb-fill:before {
+    content: "\e31a";
+}
+.nxi.nxi-rmx-device-usb-line:before {
+    content: "\e31b";
+}
+.nxi.nxi-rmx-device-wifi-fill:before {
+    content: "\e31c";
+}
+.nxi.nxi-rmx-device-wifi-line:before {
+    content: "\e31d";
+}
+.nxi.nxi-rmx-device-wifi-off-fill:before {
+    content: "\e31e";
+}
+.nxi.nxi-rmx-device-wifi-off-line:before {
+    content: "\e31f";
+}
+.nxi.nxi-rmx-device-wireless-charging-fill:before {
+    content: "\e320";
+}
+.nxi.nxi-rmx-device-wireless-charging-line:before {
+    content: "\e321";
+}

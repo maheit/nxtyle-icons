@@ -1,0 +1,173 @@
+@font-face {
+    font-family: "index";
+    src: url("./index.ttf?b5425c05c995bd195ce32d8a131f69a5") format("truetype"),
+url("./index.woff?b5425c05c995bd195ce32d8a131f69a5") format("woff"),
+url("./index.woff2?b5425c05c995bd195ce32d8a131f69a5") format("woff2"),
+url("./index.eot?b5425c05c995bd195ce32d8a131f69a5#iefix") format("embedded-opentype");
+}
+.nxi {
+    font-size: 1.5rem;
+    display: inline-flex
+}
+
+.nxi:before {
+    font-family: 'index' !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.nxi.nxi-rmx-development-braces-fill:before {
+    content: "\e24a";
+}
+.nxi.nxi-rmx-development-braces-line:before {
+    content: "\e24b";
+}
+.nxi.nxi-rmx-development-brackets-fill:before {
+    content: "\e24c";
+}
+.nxi.nxi-rmx-development-brackets-line:before {
+    content: "\e24d";
+}
+.nxi.nxi-rmx-development-bug-2-fill:before {
+    content: "\e24e";
+}
+.nxi.nxi-rmx-development-bug-2-line:before {
+    content: "\e24f";
+}
+.nxi.nxi-rmx-development-bug-fill:before {
+    content: "\e250";
+}
+.nxi.nxi-rmx-development-bug-line:before {
+    content: "\e251";
+}
+.nxi.nxi-rmx-development-code-box-fill:before {
+    content: "\e252";
+}
+.nxi.nxi-rmx-development-code-box-line:before {
+    content: "\e253";
+}
+.nxi.nxi-rmx-development-code-fill:before {
+    content: "\e254";
+}
+.nxi.nxi-rmx-development-code-line:before {
+    content: "\e255";
+}
+.nxi.nxi-rmx-development-code-s-fill:before {
+    content: "\e256";
+}
+.nxi.nxi-rmx-development-code-s-line:before {
+    content: "\e257";
+}
+.nxi.nxi-rmx-development-code-s-slash-fill:before {
+    content: "\e258";
+}
+.nxi.nxi-rmx-development-code-s-slash-line:before {
+    content: "\e259";
+}
+.nxi.nxi-rmx-development-command-fill:before {
+    content: "\e25a";
+}
+.nxi.nxi-rmx-development-command-line:before {
+    content: "\e25b";
+}
+.nxi.nxi-rmx-development-css3-fill:before {
+    content: "\e25c";
+}
+.nxi.nxi-rmx-development-css3-line:before {
+    content: "\e25d";
+}
+.nxi.nxi-rmx-development-cursor-fill:before {
+    content: "\e25e";
+}
+.nxi.nxi-rmx-development-cursor-line:before {
+    content: "\e25f";
+}
+.nxi.nxi-rmx-development-git-branch-fill:before {
+    content: "\e260";
+}
+.nxi.nxi-rmx-development-git-branch-line:before {
+    content: "\e261";
+}
+.nxi.nxi-rmx-development-git-close-pull-request-fill:before {
+    content: "\e262";
+}
+.nxi.nxi-rmx-development-git-close-pull-request-line:before {
+    content: "\e263";
+}
+.nxi.nxi-rmx-development-git-commit-fill:before {
+    content: "\e264";
+}
+.nxi.nxi-rmx-development-git-commit-line:before {
+    content: "\e265";
+}
+.nxi.nxi-rmx-development-git-merge-fill:before {
+    content: "\e266";
+}
+.nxi.nxi-rmx-development-git-merge-line:before {
+    content: "\e267";
+}
+.nxi.nxi-rmx-development-git-pull-request-fill:before {
+    content: "\e268";
+}
+.nxi.nxi-rmx-development-git-pull-request-line:before {
+    content: "\e269";
+}
+.nxi.nxi-rmx-development-git-repository-commits-fill:before {
+    content: "\e26a";
+}
+.nxi.nxi-rmx-development-git-repository-commits-line:before {
+    content: "\e26b";
+}
+.nxi.nxi-rmx-development-git-repository-fill:before {
+    content: "\e26c";
+}
+.nxi.nxi-rmx-development-git-repository-line:before {
+    content: "\e26d";
+}
+.nxi.nxi-rmx-development-git-repository-private-fill:before {
+    content: "\e26e";
+}
+.nxi.nxi-rmx-development-git-repository-private-line:before {
+    content: "\e26f";
+}
+.nxi.nxi-rmx-development-html5-fill:before {
+    content: "\e270";
+}
+.nxi.nxi-rmx-development-html5-line:before {
+    content: "\e271";
+}
+.nxi.nxi-rmx-development-javascript-fill:before {
+    content: "\e272";
+}
+.nxi.nxi-rmx-development-javascript-line:before {
+    content: "\e273";
+}
+.nxi.nxi-rmx-development-parentheses-fill:before {
+    content: "\e274";
+}
+.nxi.nxi-rmx-development-parentheses-line:before {
+    content: "\e275";
+}
+.nxi.nxi-rmx-development-terminal-box-fill:before {
+    content: "\e276";
+}
+.nxi.nxi-rmx-development-terminal-box-line:before {
+    content: "\e277";
+}
+.nxi.nxi-rmx-development-terminal-fill:before {
+    content: "\e278";
+}
+.nxi.nxi-rmx-development-terminal-line:before {
+    content: "\e279";
+}
+.nxi.nxi-rmx-development-terminal-window-fill:before {
+    content: "\e27a";
+}
+.nxi.nxi-rmx-development-terminal-window-line:before {
+    content: "\e27b";
+}

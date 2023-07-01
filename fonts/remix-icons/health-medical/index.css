@@ -1,0 +1,209 @@
+@font-face {
+    font-family: "index";
+    src: url("./index.ttf?358f96529d478d428e9edf8fbb54e8de") format("truetype"),
+url("./index.woff?358f96529d478d428e9edf8fbb54e8de") format("woff"),
+url("./index.woff2?358f96529d478d428e9edf8fbb54e8de") format("woff2"),
+url("./index.eot?358f96529d478d428e9edf8fbb54e8de#iefix") format("embedded-opentype");
+}
+.nxi {
+    font-size: 1.5rem;
+    display: inline-flex
+}
+
+.nxi:before {
+    font-family: 'index' !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.nxi.nxi-rmx-health-medical-brain-fill:before {
+    content: "\e4ea";
+}
+.nxi.nxi-rmx-health-medical-brain-line:before {
+    content: "\e4eb";
+}
+.nxi.nxi-rmx-health-medical-capsule-fill:before {
+    content: "\e4ec";
+}
+.nxi.nxi-rmx-health-medical-capsule-line:before {
+    content: "\e4ed";
+}
+.nxi.nxi-rmx-health-medical-dislike-fill:before {
+    content: "\e4ee";
+}
+.nxi.nxi-rmx-health-medical-dislike-line:before {
+    content: "\e4ef";
+}
+.nxi.nxi-rmx-health-medical-dossier-fill:before {
+    content: "\e4f0";
+}
+.nxi.nxi-rmx-health-medical-dossier-line:before {
+    content: "\e4f1";
+}
+.nxi.nxi-rmx-health-medical-empathize-fill:before {
+    content: "\e4f2";
+}
+.nxi.nxi-rmx-health-medical-empathize-line:before {
+    content: "\e4f3";
+}
+.nxi.nxi-rmx-health-medical-first-aid-kit-fill:before {
+    content: "\e4f4";
+}
+.nxi.nxi-rmx-health-medical-first-aid-kit-line:before {
+    content: "\e4f5";
+}
+.nxi.nxi-rmx-health-medical-flask-fill:before {
+    content: "\e4f6";
+}
+.nxi.nxi-rmx-health-medical-flask-line:before {
+    content: "\e4f7";
+}
+.nxi.nxi-rmx-health-medical-hand-sanitizer-fill:before {
+    content: "\e4f8";
+}
+.nxi.nxi-rmx-health-medical-hand-sanitizer-line:before {
+    content: "\e4f9";
+}
+.nxi.nxi-rmx-health-medical-health-book-fill:before {
+    content: "\e4fa";
+}
+.nxi.nxi-rmx-health-medical-health-book-line:before {
+    content: "\e4fb";
+}
+.nxi.nxi-rmx-health-medical-heart-2-fill:before {
+    content: "\e4fc";
+}
+.nxi.nxi-rmx-health-medical-heart-2-line:before {
+    content: "\e4fd";
+}
+.nxi.nxi-rmx-health-medical-heart-3-fill:before {
+    content: "\e4fe";
+}
+.nxi.nxi-rmx-health-medical-heart-3-line:before {
+    content: "\e4ff";
+}
+.nxi.nxi-rmx-health-medical-heart-add-fill:before {
+    content: "\e500";
+}
+.nxi.nxi-rmx-health-medical-heart-add-line:before {
+    content: "\e501";
+}
+.nxi.nxi-rmx-health-medical-heart-fill:before {
+    content: "\e502";
+}
+.nxi.nxi-rmx-health-medical-heart-line:before {
+    content: "\e503";
+}
+.nxi.nxi-rmx-health-medical-heart-pulse-fill:before {
+    content: "\e504";
+}
+.nxi.nxi-rmx-health-medical-heart-pulse-line:before {
+    content: "\e505";
+}
+.nxi.nxi-rmx-health-medical-hearts-fill:before {
+    content: "\e506";
+}
+.nxi.nxi-rmx-health-medical-hearts-line:before {
+    content: "\e507";
+}
+.nxi.nxi-rmx-health-medical-infrared-thermometer-fill:before {
+    content: "\e508";
+}
+.nxi.nxi-rmx-health-medical-infrared-thermometer-line:before {
+    content: "\e509";
+}
+.nxi.nxi-rmx-health-medical-lungs-fill:before {
+    content: "\e50a";
+}
+.nxi.nxi-rmx-health-medical-lungs-line:before {
+    content: "\e50b";
+}
+.nxi.nxi-rmx-health-medical-medicine-bottle-fill:before {
+    content: "\e50c";
+}
+.nxi.nxi-rmx-health-medical-medicine-bottle-line:before {
+    content: "\e50d";
+}
+.nxi.nxi-rmx-health-medical-mental-health-fill:before {
+    content: "\e50e";
+}
+.nxi.nxi-rmx-health-medical-mental-health-line:before {
+    content: "\e50f";
+}
+.nxi.nxi-rmx-health-medical-microscope-fill:before {
+    content: "\e510";
+}
+.nxi.nxi-rmx-health-medical-microscope-line:before {
+    content: "\e511";
+}
+.nxi.nxi-rmx-health-medical-nurse-fill:before {
+    content: "\e512";
+}
+.nxi.nxi-rmx-health-medical-nurse-line:before {
+    content: "\e513";
+}
+.nxi.nxi-rmx-health-medical-psychotherapy-fill:before {
+    content: "\e514";
+}
+.nxi.nxi-rmx-health-medical-psychotherapy-line:before {
+    content: "\e515";
+}
+.nxi.nxi-rmx-health-medical-pulse-fill:before {
+    content: "\e516";
+}
+.nxi.nxi-rmx-health-medical-pulse-line:before {
+    content: "\e517";
+}
+.nxi.nxi-rmx-health-medical-rest-time-fill:before {
+    content: "\e518";
+}
+.nxi.nxi-rmx-health-medical-rest-time-line:before {
+    content: "\e519";
+}
+.nxi.nxi-rmx-health-medical-stethoscope-fill:before {
+    content: "\e51a";
+}
+.nxi.nxi-rmx-health-medical-stethoscope-line:before {
+    content: "\e51b";
+}
+.nxi.nxi-rmx-health-medical-surgical-mask-fill:before {
+    content: "\e51c";
+}
+.nxi.nxi-rmx-health-medical-surgical-mask-line:before {
+    content: "\e51d";
+}
+.nxi.nxi-rmx-health-medical-syringe-fill:before {
+    content: "\e51e";
+}
+.nxi.nxi-rmx-health-medical-syringe-line:before {
+    content: "\e51f";
+}
+.nxi.nxi-rmx-health-medical-test-tube-fill:before {
+    content: "\e520";
+}
+.nxi.nxi-rmx-health-medical-test-tube-line:before {
+    content: "\e521";
+}
+.nxi.nxi-rmx-health-medical-thermometer-fill:before {
+    content: "\e522";
+}
+.nxi.nxi-rmx-health-medical-thermometer-line:before {
+    content: "\e523";
+}
+.nxi.nxi-rmx-health-medical-virus-fill:before {
+    content: "\e524";
+}
+.nxi.nxi-rmx-health-medical-virus-line:before {
+    content: "\e525";
+}
+.nxi.nxi-rmx-health-medical-zzz-fill:before {
+    content: "\e526";
+}
+.nxi.nxi-rmx-health-medical-zzz-line:before {
+    content: "\e527";
+}

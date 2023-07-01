@@ -1,0 +1,677 @@
+@font-face {
+    font-family: "index";
+    src: url("./index.ttf?ab7b499b7901bd99b447059b3eddfaf4") format("truetype"),
+url("./index.woff?ab7b499b7901bd99b447059b3eddfaf4") format("woff"),
+url("./index.woff2?ab7b499b7901bd99b447059b3eddfaf4") format("woff2"),
+url("./index.eot?ab7b499b7901bd99b447059b3eddfaf4#iefix") format("embedded-opentype");
+}
+.nxi {
+    font-size: 1.5rem;
+    display: inline-flex
+}
+
+.nxi:before {
+    font-family: 'index' !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.nxi.nxi-rmx-media-4k-fill:before {
+    content: "\e6b6";
+}
+.nxi.nxi-rmx-media-4k-line:before {
+    content: "\e6b7";
+}
+.nxi.nxi-rmx-media-album-fill:before {
+    content: "\e6b8";
+}
+.nxi.nxi-rmx-media-album-line:before {
+    content: "\e6b9";
+}
+.nxi.nxi-rmx-media-aspect-ratio-fill:before {
+    content: "\e6ba";
+}
+.nxi.nxi-rmx-media-aspect-ratio-line:before {
+    content: "\e6bb";
+}
+.nxi.nxi-rmx-media-broadcast-fill:before {
+    content: "\e6bc";
+}
+.nxi.nxi-rmx-media-broadcast-line:before {
+    content: "\e6bd";
+}
+.nxi.nxi-rmx-media-camera-2-fill:before {
+    content: "\e6be";
+}
+.nxi.nxi-rmx-media-camera-2-line:before {
+    content: "\e6bf";
+}
+.nxi.nxi-rmx-media-camera-3-fill:before {
+    content: "\e6c0";
+}
+.nxi.nxi-rmx-media-camera-3-line:before {
+    content: "\e6c1";
+}
+.nxi.nxi-rmx-media-camera-fill:before {
+    content: "\e6c2";
+}
+.nxi.nxi-rmx-media-camera-lens-fill:before {
+    content: "\e6c3";
+}
+.nxi.nxi-rmx-media-camera-lens-line:before {
+    content: "\e6c4";
+}
+.nxi.nxi-rmx-media-camera-line:before {
+    content: "\e6c5";
+}
+.nxi.nxi-rmx-media-camera-off-fill:before {
+    content: "\e6c6";
+}
+.nxi.nxi-rmx-media-camera-off-line:before {
+    content: "\e6c7";
+}
+.nxi.nxi-rmx-media-camera-switch-fill:before {
+    content: "\e6c8";
+}
+.nxi.nxi-rmx-media-camera-switch-line:before {
+    content: "\e6c9";
+}
+.nxi.nxi-rmx-media-clapperboard-fill:before {
+    content: "\e6ca";
+}
+.nxi.nxi-rmx-media-clapperboard-line:before {
+    content: "\e6cb";
+}
+.nxi.nxi-rmx-media-closed-captioning-fill:before {
+    content: "\e6cc";
+}
+.nxi.nxi-rmx-media-closed-captioning-line:before {
+    content: "\e6cd";
+}
+.nxi.nxi-rmx-media-disc-fill:before {
+    content: "\e6ce";
+}
+.nxi.nxi-rmx-media-disc-line:before {
+    content: "\e6cf";
+}
+.nxi.nxi-rmx-media-dv-fill:before {
+    content: "\e6d0";
+}
+.nxi.nxi-rmx-media-dv-line:before {
+    content: "\e6d1";
+}
+.nxi.nxi-rmx-media-dvd-fill:before {
+    content: "\e6d2";
+}
+.nxi.nxi-rmx-media-dvd-line:before {
+    content: "\e6d3";
+}
+.nxi.nxi-rmx-media-eject-fill:before {
+    content: "\e6d4";
+}
+.nxi.nxi-rmx-media-eject-line:before {
+    content: "\e6d5";
+}
+.nxi.nxi-rmx-media-equalizer-fill:before {
+    content: "\e6d6";
+}
+.nxi.nxi-rmx-media-equalizer-line:before {
+    content: "\e6d7";
+}
+.nxi.nxi-rmx-media-film-fill:before {
+    content: "\e6d8";
+}
+.nxi.nxi-rmx-media-film-line:before {
+    content: "\e6d9";
+}
+.nxi.nxi-rmx-media-forward-10-fill:before {
+    content: "\e6da";
+}
+.nxi.nxi-rmx-media-forward-10-line:before {
+    content: "\e6db";
+}
+.nxi.nxi-rmx-media-forward-15-fill:before {
+    content: "\e6dc";
+}
+.nxi.nxi-rmx-media-forward-15-line:before {
+    content: "\e6dd";
+}
+.nxi.nxi-rmx-media-forward-30-fill:before {
+    content: "\e6de";
+}
+.nxi.nxi-rmx-media-forward-30-line:before {
+    content: "\e6df";
+}
+.nxi.nxi-rmx-media-forward-5-fill:before {
+    content: "\e6e0";
+}
+.nxi.nxi-rmx-media-forward-5-line:before {
+    content: "\e6e1";
+}
+.nxi.nxi-rmx-media-fullscreen-exit-fill:before {
+    content: "\e6e2";
+}
+.nxi.nxi-rmx-media-fullscreen-exit-line:before {
+    content: "\e6e3";
+}
+.nxi.nxi-rmx-media-fullscreen-fill:before {
+    content: "\e6e4";
+}
+.nxi.nxi-rmx-media-fullscreen-line:before {
+    content: "\e6e5";
+}
+.nxi.nxi-rmx-media-gallery-fill:before {
+    content: "\e6e6";
+}
+.nxi.nxi-rmx-media-gallery-line:before {
+    content: "\e6e7";
+}
+.nxi.nxi-rmx-media-gallery-upload-fill:before {
+    content: "\e6e8";
+}
+.nxi.nxi-rmx-media-gallery-upload-line:before {
+    content: "\e6e9";
+}
+.nxi.nxi-rmx-media-hd-fill:before {
+    content: "\e6ea";
+}
+.nxi.nxi-rmx-media-hd-line:before {
+    content: "\e6eb";
+}
+.nxi.nxi-rmx-media-headphone-fill:before {
+    content: "\e6ec";
+}
+.nxi.nxi-rmx-media-headphone-line:before {
+    content: "\e6ed";
+}
+.nxi.nxi-rmx-media-hq-fill:before {
+    content: "\e6ee";
+}
+.nxi.nxi-rmx-media-hq-line:before {
+    content: "\e6ef";
+}
+.nxi.nxi-rmx-media-image-2-fill:before {
+    content: "\e6f0";
+}
+.nxi.nxi-rmx-media-image-2-line:before {
+    content: "\e6f1";
+}
+.nxi.nxi-rmx-media-image-add-fill:before {
+    content: "\e6f2";
+}
+.nxi.nxi-rmx-media-image-add-line:before {
+    content: "\e6f3";
+}
+.nxi.nxi-rmx-media-image-edit-fill:before {
+    content: "\e6f4";
+}
+.nxi.nxi-rmx-media-image-edit-line:before {
+    content: "\e6f5";
+}
+.nxi.nxi-rmx-media-image-fill:before {
+    content: "\e6f6";
+}
+.nxi.nxi-rmx-media-image-line:before {
+    content: "\e6f7";
+}
+.nxi.nxi-rmx-media-landscape-fill:before {
+    content: "\e6f8";
+}
+.nxi.nxi-rmx-media-landscape-line:before {
+    content: "\e6f9";
+}
+.nxi.nxi-rmx-media-live-fill:before {
+    content: "\e6fa";
+}
+.nxi.nxi-rmx-media-live-line:before {
+    content: "\e6fb";
+}
+.nxi.nxi-rmx-media-memories-fill:before {
+    content: "\e6fc";
+}
+.nxi.nxi-rmx-media-memories-line:before {
+    content: "\e6fd";
+}
+.nxi.nxi-rmx-media-mic-2-fill:before {
+    content: "\e6fe";
+}
+.nxi.nxi-rmx-media-mic-2-line:before {
+    content: "\e6ff";
+}
+.nxi.nxi-rmx-media-mic-fill:before {
+    content: "\e700";
+}
+.nxi.nxi-rmx-media-mic-line:before {
+    content: "\e701";
+}
+.nxi.nxi-rmx-media-mic-off-fill:before {
+    content: "\e702";
+}
+.nxi.nxi-rmx-media-mic-off-line:before {
+    content: "\e703";
+}
+.nxi.nxi-rmx-media-movie-2-fill:before {
+    content: "\e704";
+}
+.nxi.nxi-rmx-media-movie-2-line:before {
+    content: "\e705";
+}
+.nxi.nxi-rmx-media-movie-fill:before {
+    content: "\e706";
+}
+.nxi.nxi-rmx-media-movie-line:before {
+    content: "\e707";
+}
+.nxi.nxi-rmx-media-music-2-fill:before {
+    content: "\e708";
+}
+.nxi.nxi-rmx-media-music-2-line:before {
+    content: "\e709";
+}
+.nxi.nxi-rmx-media-music-fill:before {
+    content: "\e70a";
+}
+.nxi.nxi-rmx-media-music-line:before {
+    content: "\e70b";
+}
+.nxi.nxi-rmx-media-mv-fill:before {
+    content: "\e70c";
+}
+.nxi.nxi-rmx-media-mv-line:before {
+    content: "\e70d";
+}
+.nxi.nxi-rmx-media-notification-2-fill:before {
+    content: "\e70e";
+}
+.nxi.nxi-rmx-media-notification-2-line:before {
+    content: "\e70f";
+}
+.nxi.nxi-rmx-media-notification-3-fill:before {
+    content: "\e710";
+}
+.nxi.nxi-rmx-media-notification-3-line:before {
+    content: "\e711";
+}
+.nxi.nxi-rmx-media-notification-4-fill:before {
+    content: "\e712";
+}
+.nxi.nxi-rmx-media-notification-4-line:before {
+    content: "\e713";
+}
+.nxi.nxi-rmx-media-notification-fill:before {
+    content: "\e714";
+}
+.nxi.nxi-rmx-media-notification-line:before {
+    content: "\e715";
+}
+.nxi.nxi-rmx-media-notification-off-fill:before {
+    content: "\e716";
+}
+.nxi.nxi-rmx-media-notification-off-line:before {
+    content: "\e717";
+}
+.nxi.nxi-rmx-media-order-play-fill:before {
+    content: "\e718";
+}
+.nxi.nxi-rmx-media-order-play-line:before {
+    content: "\e719";
+}
+.nxi.nxi-rmx-media-pause-circle-fill:before {
+    content: "\e71a";
+}
+.nxi.nxi-rmx-media-pause-circle-line:before {
+    content: "\e71b";
+}
+.nxi.nxi-rmx-media-pause-fill:before {
+    content: "\e71c";
+}
+.nxi.nxi-rmx-media-pause-line:before {
+    content: "\e71d";
+}
+.nxi.nxi-rmx-media-pause-mini-fill:before {
+    content: "\e71e";
+}
+.nxi.nxi-rmx-media-pause-mini-line:before {
+    content: "\e71f";
+}
+.nxi.nxi-rmx-media-phone-camera-fill:before {
+    content: "\e720";
+}
+.nxi.nxi-rmx-media-phone-camera-line:before {
+    content: "\e721";
+}
+.nxi.nxi-rmx-media-picture-in-picture-2-fill:before {
+    content: "\e722";
+}
+.nxi.nxi-rmx-media-picture-in-picture-2-line:before {
+    content: "\e723";
+}
+.nxi.nxi-rmx-media-picture-in-picture-exit-fill:before {
+    content: "\e724";
+}
+.nxi.nxi-rmx-media-picture-in-picture-exit-line:before {
+    content: "\e725";
+}
+.nxi.nxi-rmx-media-picture-in-picture-fill:before {
+    content: "\e726";
+}
+.nxi.nxi-rmx-media-picture-in-picture-line:before {
+    content: "\e727";
+}
+.nxi.nxi-rmx-media-play-circle-fill:before {
+    content: "\e728";
+}
+.nxi.nxi-rmx-media-play-circle-line:before {
+    content: "\e729";
+}
+.nxi.nxi-rmx-media-play-fill:before {
+    content: "\e72a";
+}
+.nxi.nxi-rmx-media-play-line:before {
+    content: "\e72b";
+}
+.nxi.nxi-rmx-media-play-list-2-fill:before {
+    content: "\e72c";
+}
+.nxi.nxi-rmx-media-play-list-2-line:before {
+    content: "\e72d";
+}
+.nxi.nxi-rmx-media-play-list-add-fill:before {
+    content: "\e72e";
+}
+.nxi.nxi-rmx-media-play-list-add-line:before {
+    content: "\e72f";
+}
+.nxi.nxi-rmx-media-play-list-fill:before {
+    content: "\e730";
+}
+.nxi.nxi-rmx-media-play-list-line:before {
+    content: "\e731";
+}
+.nxi.nxi-rmx-media-play-mini-fill:before {
+    content: "\e732";
+}
+.nxi.nxi-rmx-media-play-mini-line:before {
+    content: "\e733";
+}
+.nxi.nxi-rmx-media-polaroid-2-fill:before {
+    content: "\e734";
+}
+.nxi.nxi-rmx-media-polaroid-2-line:before {
+    content: "\e735";
+}
+.nxi.nxi-rmx-media-polaroid-fill:before {
+    content: "\e736";
+}
+.nxi.nxi-rmx-media-polaroid-line:before {
+    content: "\e737";
+}
+.nxi.nxi-rmx-media-radio-2-fill:before {
+    content: "\e738";
+}
+.nxi.nxi-rmx-media-radio-2-line:before {
+    content: "\e739";
+}
+.nxi.nxi-rmx-media-radio-fill:before {
+    content: "\e73a";
+}
+.nxi.nxi-rmx-media-radio-line:before {
+    content: "\e73b";
+}
+.nxi.nxi-rmx-media-record-circle-fill:before {
+    content: "\e73c";
+}
+.nxi.nxi-rmx-media-record-circle-line:before {
+    content: "\e73d";
+}
+.nxi.nxi-rmx-media-repeat-2-fill:before {
+    content: "\e73e";
+}
+.nxi.nxi-rmx-media-repeat-2-line:before {
+    content: "\e73f";
+}
+.nxi.nxi-rmx-media-repeat-fill:before {
+    content: "\e740";
+}
+.nxi.nxi-rmx-media-repeat-line:before {
+    content: "\e741";
+}
+.nxi.nxi-rmx-media-repeat-one-fill:before {
+    content: "\e742";
+}
+.nxi.nxi-rmx-media-repeat-one-line:before {
+    content: "\e743";
+}
+.nxi.nxi-rmx-media-replay-10-fill:before {
+    content: "\e744";
+}
+.nxi.nxi-rmx-media-replay-10-line:before {
+    content: "\e745";
+}
+.nxi.nxi-rmx-media-replay-15-fill:before {
+    content: "\e746";
+}
+.nxi.nxi-rmx-media-replay-15-line:before {
+    content: "\e747";
+}
+.nxi.nxi-rmx-media-replay-30-fill:before {
+    content: "\e748";
+}
+.nxi.nxi-rmx-media-replay-30-line:before {
+    content: "\e749";
+}
+.nxi.nxi-rmx-media-replay-5-fill:before {
+    content: "\e74a";
+}
+.nxi.nxi-rmx-media-replay-5-line:before {
+    content: "\e74b";
+}
+.nxi.nxi-rmx-media-rewind-fill:before {
+    content: "\e74c";
+}
+.nxi.nxi-rmx-media-rewind-line:before {
+    content: "\e74d";
+}
+.nxi.nxi-rmx-media-rewind-mini-fill:before {
+    content: "\e74e";
+}
+.nxi.nxi-rmx-media-rewind-mini-line:before {
+    content: "\e74f";
+}
+.nxi.nxi-rmx-media-rhythm-fill:before {
+    content: "\e750";
+}
+.nxi.nxi-rmx-media-rhythm-line:before {
+    content: "\e751";
+}
+.nxi.nxi-rmx-media-shuffle-fill:before {
+    content: "\e752";
+}
+.nxi.nxi-rmx-media-shuffle-line:before {
+    content: "\e753";
+}
+.nxi.nxi-rmx-media-skip-back-fill:before {
+    content: "\e754";
+}
+.nxi.nxi-rmx-media-skip-back-line:before {
+    content: "\e755";
+}
+.nxi.nxi-rmx-media-skip-back-mini-fill:before {
+    content: "\e756";
+}
+.nxi.nxi-rmx-media-skip-back-mini-line:before {
+    content: "\e757";
+}
+.nxi.nxi-rmx-media-skip-forward-fill:before {
+    content: "\e758";
+}
+.nxi.nxi-rmx-media-skip-forward-line:before {
+    content: "\e759";
+}
+.nxi.nxi-rmx-media-skip-forward-mini-fill:before {
+    content: "\e75a";
+}
+.nxi.nxi-rmx-media-skip-forward-mini-line:before {
+    content: "\e75b";
+}
+.nxi.nxi-rmx-media-slow-down-fill:before {
+    content: "\e75c";
+}
+.nxi.nxi-rmx-media-slow-down-line:before {
+    content: "\e75d";
+}
+.nxi.nxi-rmx-media-sound-module-fill:before {
+    content: "\e75e";
+}
+.nxi.nxi-rmx-media-sound-module-line:before {
+    content: "\e75f";
+}
+.nxi.nxi-rmx-media-speaker-2-fill:before {
+    content: "\e760";
+}
+.nxi.nxi-rmx-media-speaker-2-line:before {
+    content: "\e761";
+}
+.nxi.nxi-rmx-media-speaker-3-fill:before {
+    content: "\e762";
+}
+.nxi.nxi-rmx-media-speaker-3-line:before {
+    content: "\e763";
+}
+.nxi.nxi-rmx-media-speaker-fill:before {
+    content: "\e764";
+}
+.nxi.nxi-rmx-media-speaker-line:before {
+    content: "\e765";
+}
+.nxi.nxi-rmx-media-speed-fill:before {
+    content: "\e766";
+}
+.nxi.nxi-rmx-media-speed-line:before {
+    content: "\e767";
+}
+.nxi.nxi-rmx-media-speed-mini-fill:before {
+    content: "\e768";
+}
+.nxi.nxi-rmx-media-speed-mini-line:before {
+    content: "\e769";
+}
+.nxi.nxi-rmx-media-speed-up-fill:before {
+    content: "\e76a";
+}
+.nxi.nxi-rmx-media-speed-up-line:before {
+    content: "\e76b";
+}
+.nxi.nxi-rmx-media-stop-circle-fill:before {
+    content: "\e76c";
+}
+.nxi.nxi-rmx-media-stop-circle-line:before {
+    content: "\e76d";
+}
+.nxi.nxi-rmx-media-stop-fill:before {
+    content: "\e76e";
+}
+.nxi.nxi-rmx-media-stop-line:before {
+    content: "\e76f";
+}
+.nxi.nxi-rmx-media-stop-mini-fill:before {
+    content: "\e770";
+}
+.nxi.nxi-rmx-media-stop-mini-line:before {
+    content: "\e771";
+}
+.nxi.nxi-rmx-media-surround-sound-fill:before {
+    content: "\e772";
+}
+.nxi.nxi-rmx-media-surround-sound-line:before {
+    content: "\e773";
+}
+.nxi.nxi-rmx-media-tape-fill:before {
+    content: "\e774";
+}
+.nxi.nxi-rmx-media-tape-line:before {
+    content: "\e775";
+}
+.nxi.nxi-rmx-media-video-add-fill:before {
+    content: "\e776";
+}
+.nxi.nxi-rmx-media-video-add-line:before {
+    content: "\e777";
+}
+.nxi.nxi-rmx-media-video-download-fill:before {
+    content: "\e778";
+}
+.nxi.nxi-rmx-media-video-download-line:before {
+    content: "\e779";
+}
+.nxi.nxi-rmx-media-video-fill:before {
+    content: "\e77a";
+}
+.nxi.nxi-rmx-media-video-line:before {
+    content: "\e77b";
+}
+.nxi.nxi-rmx-media-video-upload-fill:before {
+    content: "\e77c";
+}
+.nxi.nxi-rmx-media-video-upload-line:before {
+    content: "\e77d";
+}
+.nxi.nxi-rmx-media-vidicon-2-fill:before {
+    content: "\e77e";
+}
+.nxi.nxi-rmx-media-vidicon-2-line:before {
+    content: "\e77f";
+}
+.nxi.nxi-rmx-media-vidicon-fill:before {
+    content: "\e780";
+}
+.nxi.nxi-rmx-media-vidicon-line:before {
+    content: "\e781";
+}
+.nxi.nxi-rmx-media-voiceprint-fill:before {
+    content: "\e782";
+}
+.nxi.nxi-rmx-media-voiceprint-line:before {
+    content: "\e783";
+}
+.nxi.nxi-rmx-media-volume-down-fill:before {
+    content: "\e784";
+}
+.nxi.nxi-rmx-media-volume-down-line:before {
+    content: "\e785";
+}
+.nxi.nxi-rmx-media-volume-mute-fill:before {
+    content: "\e786";
+}
+.nxi.nxi-rmx-media-volume-mute-line:before {
+    content: "\e787";
+}
+.nxi.nxi-rmx-media-volume-off-vibrate-fill:before {
+    content: "\e788";
+}
+.nxi.nxi-rmx-media-volume-off-vibrate-line:before {
+    content: "\e789";
+}
+.nxi.nxi-rmx-media-volume-up-fill:before {
+    content: "\e78a";
+}
+.nxi.nxi-rmx-media-volume-up-line:before {
+    content: "\e78b";
+}
+.nxi.nxi-rmx-media-volume-vibrate-fill:before {
+    content: "\e78c";
+}
+.nxi.nxi-rmx-media-volume-vibrate-line:before {
+    content: "\e78d";
+}
+.nxi.nxi-rmx-media-webcam-fill:before {
+    content: "\e78e";
+}
+.nxi.nxi-rmx-media-webcam-line:before {
+    content: "\e78f";
+}

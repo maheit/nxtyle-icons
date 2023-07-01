@@ -1,0 +1,197 @@
+@font-face {
+    font-family: "index";
+    src: url("./index.ttf?1e318cbc65b98bed12e29a76b626ebcd") format("truetype"),
+url("./index.woff?1e318cbc65b98bed12e29a76b626ebcd") format("woff"),
+url("./index.woff2?1e318cbc65b98bed12e29a76b626ebcd") format("woff2"),
+url("./index.eot?1e318cbc65b98bed12e29a76b626ebcd#iefix") format("embedded-opentype");
+}
+.nxi {
+    font-size: 1.5rem;
+    display: inline-flex
+}
+
+.nxi:before {
+    font-family: 'index' !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.nxi.nxi-rmx-buildings-ancient-gate-fill:before {
+    content: "\e06c";
+}
+.nxi.nxi-rmx-buildings-ancient-gate-line:before {
+    content: "\e06d";
+}
+.nxi.nxi-rmx-buildings-ancient-pavilion-fill:before {
+    content: "\e06e";
+}
+.nxi.nxi-rmx-buildings-ancient-pavilion-line:before {
+    content: "\e06f";
+}
+.nxi.nxi-rmx-buildings-bank-fill:before {
+    content: "\e070";
+}
+.nxi.nxi-rmx-buildings-bank-line:before {
+    content: "\e071";
+}
+.nxi.nxi-rmx-buildings-building-2-fill:before {
+    content: "\e072";
+}
+.nxi.nxi-rmx-buildings-building-2-line:before {
+    content: "\e073";
+}
+.nxi.nxi-rmx-buildings-building-3-fill:before {
+    content: "\e074";
+}
+.nxi.nxi-rmx-buildings-building-3-line:before {
+    content: "\e075";
+}
+.nxi.nxi-rmx-buildings-building-4-fill:before {
+    content: "\e076";
+}
+.nxi.nxi-rmx-buildings-building-4-line:before {
+    content: "\e077";
+}
+.nxi.nxi-rmx-buildings-building-fill:before {
+    content: "\e078";
+}
+.nxi.nxi-rmx-buildings-building-line:before {
+    content: "\e079";
+}
+.nxi.nxi-rmx-buildings-community-fill:before {
+    content: "\e07a";
+}
+.nxi.nxi-rmx-buildings-community-line:before {
+    content: "\e07b";
+}
+.nxi.nxi-rmx-buildings-government-fill:before {
+    content: "\e07c";
+}
+.nxi.nxi-rmx-buildings-government-line:before {
+    content: "\e07d";
+}
+.nxi.nxi-rmx-buildings-home-2-fill:before {
+    content: "\e07e";
+}
+.nxi.nxi-rmx-buildings-home-2-line:before {
+    content: "\e07f";
+}
+.nxi.nxi-rmx-buildings-home-3-fill:before {
+    content: "\e080";
+}
+.nxi.nxi-rmx-buildings-home-3-line:before {
+    content: "\e081";
+}
+.nxi.nxi-rmx-buildings-home-4-fill:before {
+    content: "\e082";
+}
+.nxi.nxi-rmx-buildings-home-4-line:before {
+    content: "\e083";
+}
+.nxi.nxi-rmx-buildings-home-5-fill:before {
+    content: "\e084";
+}
+.nxi.nxi-rmx-buildings-home-5-line:before {
+    content: "\e085";
+}
+.nxi.nxi-rmx-buildings-home-6-fill:before {
+    content: "\e086";
+}
+.nxi.nxi-rmx-buildings-home-6-line:before {
+    content: "\e087";
+}
+.nxi.nxi-rmx-buildings-home-7-fill:before {
+    content: "\e088";
+}
+.nxi.nxi-rmx-buildings-home-7-line:before {
+    content: "\e089";
+}
+.nxi.nxi-rmx-buildings-home-8-fill:before {
+    content: "\e08a";
+}
+.nxi.nxi-rmx-buildings-home-8-line:before {
+    content: "\e08b";
+}
+.nxi.nxi-rmx-buildings-home-fill:before {
+    content: "\e08c";
+}
+.nxi.nxi-rmx-buildings-home-gear-fill:before {
+    content: "\e08d";
+}
+.nxi.nxi-rmx-buildings-home-gear-line:before {
+    content: "\e08e";
+}
+.nxi.nxi-rmx-buildings-home-heart-fill:before {
+    content: "\e08f";
+}
+.nxi.nxi-rmx-buildings-home-heart-line:before {
+    content: "\e090";
+}
+.nxi.nxi-rmx-buildings-home-line:before {
+    content: "\e091";
+}
+.nxi.nxi-rmx-buildings-home-office-fill:before {
+    content: "\e092";
+}
+.nxi.nxi-rmx-buildings-home-office-line:before {
+    content: "\e093";
+}
+.nxi.nxi-rmx-buildings-home-smile-2-fill:before {
+    content: "\e094";
+}
+.nxi.nxi-rmx-buildings-home-smile-2-line:before {
+    content: "\e095";
+}
+.nxi.nxi-rmx-buildings-home-smile-fill:before {
+    content: "\e096";
+}
+.nxi.nxi-rmx-buildings-home-smile-line:before {
+    content: "\e097";
+}
+.nxi.nxi-rmx-buildings-home-wifi-fill:before {
+    content: "\e098";
+}
+.nxi.nxi-rmx-buildings-home-wifi-line:before {
+    content: "\e099";
+}
+.nxi.nxi-rmx-buildings-hospital-fill:before {
+    content: "\e09a";
+}
+.nxi.nxi-rmx-buildings-hospital-line:before {
+    content: "\e09b";
+}
+.nxi.nxi-rmx-buildings-hotel-fill:before {
+    content: "\e09c";
+}
+.nxi.nxi-rmx-buildings-hotel-line:before {
+    content: "\e09d";
+}
+.nxi.nxi-rmx-buildings-school-fill:before {
+    content: "\e09e";
+}
+.nxi.nxi-rmx-buildings-school-line:before {
+    content: "\e09f";
+}
+.nxi.nxi-rmx-buildings-store-2-fill:before {
+    content: "\e0a0";
+}
+.nxi.nxi-rmx-buildings-store-2-line:before {
+    content: "\e0a1";
+}
+.nxi.nxi-rmx-buildings-store-3-fill:before {
+    content: "\e0a2";
+}
+.nxi.nxi-rmx-buildings-store-3-line:before {
+    content: "\e0a3";
+}
+.nxi.nxi-rmx-buildings-store-fill:before {
+    content: "\e0a4";
+}
+.nxi.nxi-rmx-buildings-store-line:before {
+    content: "\e0a5";
+}

@@ -25,20 +25,20 @@ export default {
         keepImportant: false,
       },
     },
-    // {
-    //   name: "removeViewBox",
-    //   params: {
-    //     width: "24",
-    //     height: "24",
-    //   },
-    // },
     {
-      name: "removeDimensions",
+      name: "removeViewBox",
       params: {
         width: "24",
         height: "24",
       },
     },
+    // {
+    //   name: "removeDimensions",
+    //   params: {
+    //     width: "24",
+    //     height: "24",
+    //   },
+    // },
     {
       name: "removeAttrs",
       params: {

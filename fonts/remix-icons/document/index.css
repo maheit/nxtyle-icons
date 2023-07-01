@@ -1,0 +1,629 @@
+@font-face {
+    font-family: "index";
+    src: url("./index.ttf?d4dff071693a18c29435175a38e3c9c5") format("truetype"),
+url("./index.woff?d4dff071693a18c29435175a38e3c9c5") format("woff"),
+url("./index.woff2?d4dff071693a18c29435175a38e3c9c5") format("woff2"),
+url("./index.eot?d4dff071693a18c29435175a38e3c9c5#iefix") format("embedded-opentype");
+}
+.nxi {
+    font-size: 1.5rem;
+    display: inline-flex
+}
+
+.nxi:before {
+    font-family: 'index' !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.nxi.nxi-rmx-document-article-fill:before {
+    content: "\e322";
+}
+.nxi.nxi-rmx-document-article-line:before {
+    content: "\e323";
+}
+.nxi.nxi-rmx-document-bill-fill:before {
+    content: "\e324";
+}
+.nxi.nxi-rmx-document-bill-line:before {
+    content: "\e325";
+}
+.nxi.nxi-rmx-document-book-2-fill:before {
+    content: "\e326";
+}
+.nxi.nxi-rmx-document-book-2-line:before {
+    content: "\e327";
+}
+.nxi.nxi-rmx-document-book-3-fill:before {
+    content: "\e328";
+}
+.nxi.nxi-rmx-document-book-3-line:before {
+    content: "\e329";
+}
+.nxi.nxi-rmx-document-book-fill:before {
+    content: "\e32a";
+}
+.nxi.nxi-rmx-document-book-line:before {
+    content: "\e32b";
+}
+.nxi.nxi-rmx-document-book-mark-fill:before {
+    content: "\e32c";
+}
+.nxi.nxi-rmx-document-book-mark-line:before {
+    content: "\e32d";
+}
+.nxi.nxi-rmx-document-book-open-fill:before {
+    content: "\e32e";
+}
+.nxi.nxi-rmx-document-book-open-line:before {
+    content: "\e32f";
+}
+.nxi.nxi-rmx-document-book-read-fill:before {
+    content: "\e330";
+}
+.nxi.nxi-rmx-document-book-read-line:before {
+    content: "\e331";
+}
+.nxi.nxi-rmx-document-booklet-fill:before {
+    content: "\e332";
+}
+.nxi.nxi-rmx-document-booklet-line:before {
+    content: "\e333";
+}
+.nxi.nxi-rmx-document-clipboard-fill:before {
+    content: "\e334";
+}
+.nxi.nxi-rmx-document-clipboard-line:before {
+    content: "\e335";
+}
+.nxi.nxi-rmx-document-contacts-book-2-fill:before {
+    content: "\e336";
+}
+.nxi.nxi-rmx-document-contacts-book-2-line:before {
+    content: "\e337";
+}
+.nxi.nxi-rmx-document-contacts-book-fill:before {
+    content: "\e338";
+}
+.nxi.nxi-rmx-document-contacts-book-line:before {
+    content: "\e339";
+}
+.nxi.nxi-rmx-document-contacts-book-upload-fill:before {
+    content: "\e33a";
+}
+.nxi.nxi-rmx-document-contacts-book-upload-line:before {
+    content: "\e33b";
+}
+.nxi.nxi-rmx-document-draft-fill:before {
+    content: "\e33c";
+}
+.nxi.nxi-rmx-document-draft-line:before {
+    content: "\e33d";
+}
+.nxi.nxi-rmx-document-file-2-fill:before {
+    content: "\e33e";
+}
+.nxi.nxi-rmx-document-file-2-line:before {
+    content: "\e33f";
+}
+.nxi.nxi-rmx-document-file-3-fill:before {
+    content: "\e340";
+}
+.nxi.nxi-rmx-document-file-3-line:before {
+    content: "\e341";
+}
+.nxi.nxi-rmx-document-file-4-fill:before {
+    content: "\e342";
+}
+.nxi.nxi-rmx-document-file-4-line:before {
+    content: "\e343";
+}
+.nxi.nxi-rmx-document-file-add-fill:before {
+    content: "\e344";
+}
+.nxi.nxi-rmx-document-file-add-line:before {
+    content: "\e345";
+}
+.nxi.nxi-rmx-document-file-chart-2-fill:before {
+    content: "\e346";
+}
+.nxi.nxi-rmx-document-file-chart-2-line:before {
+    content: "\e347";
+}
+.nxi.nxi-rmx-document-file-chart-fill:before {
+    content: "\e348";
+}
+.nxi.nxi-rmx-document-file-chart-line:before {
+    content: "\e349";
+}
+.nxi.nxi-rmx-document-file-close-fill:before {
+    content: "\e34a";
+}
+.nxi.nxi-rmx-document-file-close-line:before {
+    content: "\e34b";
+}
+.nxi.nxi-rmx-document-file-cloud-fill:before {
+    content: "\e34c";
+}
+.nxi.nxi-rmx-document-file-cloud-line:before {
+    content: "\e34d";
+}
+.nxi.nxi-rmx-document-file-code-fill:before {
+    content: "\e34e";
+}
+.nxi.nxi-rmx-document-file-code-line:before {
+    content: "\e34f";
+}
+.nxi.nxi-rmx-document-file-copy-2-fill:before {
+    content: "\e350";
+}
+.nxi.nxi-rmx-document-file-copy-2-line:before {
+    content: "\e351";
+}
+.nxi.nxi-rmx-document-file-copy-fill:before {
+    content: "\e352";
+}
+.nxi.nxi-rmx-document-file-copy-line:before {
+    content: "\e353";
+}
+.nxi.nxi-rmx-document-file-damage-fill:before {
+    content: "\e354";
+}
+.nxi.nxi-rmx-document-file-damage-line:before {
+    content: "\e355";
+}
+.nxi.nxi-rmx-document-file-download-fill:before {
+    content: "\e356";
+}
+.nxi.nxi-rmx-document-file-download-line:before {
+    content: "\e357";
+}
+.nxi.nxi-rmx-document-file-edit-fill:before {
+    content: "\e358";
+}
+.nxi.nxi-rmx-document-file-edit-line:before {
+    content: "\e359";
+}
+.nxi.nxi-rmx-document-file-excel-2-fill:before {
+    content: "\e35a";
+}
+.nxi.nxi-rmx-document-file-excel-2-line:before {
+    content: "\e35b";
+}
+.nxi.nxi-rmx-document-file-excel-fill:before {
+    content: "\e35c";
+}
+.nxi.nxi-rmx-document-file-excel-line:before {
+    content: "\e35d";
+}
+.nxi.nxi-rmx-document-file-fill:before {
+    content: "\e35e";
+}
+.nxi.nxi-rmx-document-file-forbid-fill:before {
+    content: "\e35f";
+}
+.nxi.nxi-rmx-document-file-forbid-line:before {
+    content: "\e360";
+}
+.nxi.nxi-rmx-document-file-gif-fill:before {
+    content: "\e361";
+}
+.nxi.nxi-rmx-document-file-gif-line:before {
+    content: "\e362";
+}
+.nxi.nxi-rmx-document-file-history-fill:before {
+    content: "\e363";
+}
+.nxi.nxi-rmx-document-file-history-line:before {
+    content: "\e364";
+}
+.nxi.nxi-rmx-document-file-hwp-fill:before {
+    content: "\e365";
+}
+.nxi.nxi-rmx-document-file-hwp-line:before {
+    content: "\e366";
+}
+.nxi.nxi-rmx-document-file-info-fill:before {
+    content: "\e367";
+}
+.nxi.nxi-rmx-document-file-info-line:before {
+    content: "\e368";
+}
+.nxi.nxi-rmx-document-file-line:before {
+    content: "\e369";
+}
+.nxi.nxi-rmx-document-file-list-2-fill:before {
+    content: "\e36a";
+}
+.nxi.nxi-rmx-document-file-list-2-line:before {
+    content: "\e36b";
+}
+.nxi.nxi-rmx-document-file-list-3-fill:before {
+    content: "\e36c";
+}
+.nxi.nxi-rmx-document-file-list-3-line:before {
+    content: "\e36d";
+}
+.nxi.nxi-rmx-document-file-list-fill:before {
+    content: "\e36e";
+}
+.nxi.nxi-rmx-document-file-list-line:before {
+    content: "\e36f";
+}
+.nxi.nxi-rmx-document-file-lock-fill:before {
+    content: "\e370";
+}
+.nxi.nxi-rmx-document-file-lock-line:before {
+    content: "\e371";
+}
+.nxi.nxi-rmx-document-file-mark-fill:before {
+    content: "\e372";
+}
+.nxi.nxi-rmx-document-file-mark-line:before {
+    content: "\e373";
+}
+.nxi.nxi-rmx-document-file-music-fill:before {
+    content: "\e374";
+}
+.nxi.nxi-rmx-document-file-music-line:before {
+    content: "\e375";
+}
+.nxi.nxi-rmx-document-file-paper-2-fill:before {
+    content: "\e376";
+}
+.nxi.nxi-rmx-document-file-paper-2-line:before {
+    content: "\e377";
+}
+.nxi.nxi-rmx-document-file-paper-fill:before {
+    content: "\e378";
+}
+.nxi.nxi-rmx-document-file-paper-line:before {
+    content: "\e379";
+}
+.nxi.nxi-rmx-document-file-pdf-fill:before {
+    content: "\e37a";
+}
+.nxi.nxi-rmx-document-file-pdf-line:before {
+    content: "\e37b";
+}
+.nxi.nxi-rmx-document-file-ppt-2-fill:before {
+    content: "\e37c";
+}
+.nxi.nxi-rmx-document-file-ppt-2-line:before {
+    content: "\e37d";
+}
+.nxi.nxi-rmx-document-file-ppt-fill:before {
+    content: "\e37e";
+}
+.nxi.nxi-rmx-document-file-ppt-line:before {
+    content: "\e37f";
+}
+.nxi.nxi-rmx-document-file-reduce-fill:before {
+    content: "\e380";
+}
+.nxi.nxi-rmx-document-file-reduce-line:before {
+    content: "\e381";
+}
+.nxi.nxi-rmx-document-file-search-fill:before {
+    content: "\e382";
+}
+.nxi.nxi-rmx-document-file-search-line:before {
+    content: "\e383";
+}
+.nxi.nxi-rmx-document-file-settings-fill:before {
+    content: "\e384";
+}
+.nxi.nxi-rmx-document-file-settings-line:before {
+    content: "\e385";
+}
+.nxi.nxi-rmx-document-file-shield-2-fill:before {
+    content: "\e386";
+}
+.nxi.nxi-rmx-document-file-shield-2-line:before {
+    content: "\e387";
+}
+.nxi.nxi-rmx-document-file-shield-fill:before {
+    content: "\e388";
+}
+.nxi.nxi-rmx-document-file-shield-line:before {
+    content: "\e389";
+}
+.nxi.nxi-rmx-document-file-shred-fill:before {
+    content: "\e38a";
+}
+.nxi.nxi-rmx-document-file-shred-line:before {
+    content: "\e38b";
+}
+.nxi.nxi-rmx-document-file-text-fill:before {
+    content: "\e38c";
+}
+.nxi.nxi-rmx-document-file-text-line:before {
+    content: "\e38d";
+}
+.nxi.nxi-rmx-document-file-transfer-fill:before {
+    content: "\e38e";
+}
+.nxi.nxi-rmx-document-file-transfer-line:before {
+    content: "\e38f";
+}
+.nxi.nxi-rmx-document-file-unknow-fill:before {
+    content: "\e390";
+}
+.nxi.nxi-rmx-document-file-unknow-line:before {
+    content: "\e391";
+}
+.nxi.nxi-rmx-document-file-upload-fill:before {
+    content: "\e392";
+}
+.nxi.nxi-rmx-document-file-upload-line:before {
+    content: "\e393";
+}
+.nxi.nxi-rmx-document-file-user-fill:before {
+    content: "\e394";
+}
+.nxi.nxi-rmx-document-file-user-line:before {
+    content: "\e395";
+}
+.nxi.nxi-rmx-document-file-warning-fill:before {
+    content: "\e396";
+}
+.nxi.nxi-rmx-document-file-warning-line:before {
+    content: "\e397";
+}
+.nxi.nxi-rmx-document-file-word-2-fill:before {
+    content: "\e398";
+}
+.nxi.nxi-rmx-document-file-word-2-line:before {
+    content: "\e399";
+}
+.nxi.nxi-rmx-document-file-word-fill:before {
+    content: "\e39a";
+}
+.nxi.nxi-rmx-document-file-word-line:before {
+    content: "\e39b";
+}
+.nxi.nxi-rmx-document-file-zip-fill:before {
+    content: "\e39c";
+}
+.nxi.nxi-rmx-document-file-zip-line:before {
+    content: "\e39d";
+}
+.nxi.nxi-rmx-document-folder-2-fill:before {
+    content: "\e39e";
+}
+.nxi.nxi-rmx-document-folder-2-line:before {
+    content: "\e39f";
+}
+.nxi.nxi-rmx-document-folder-3-fill:before {
+    content: "\e3a0";
+}
+.nxi.nxi-rmx-document-folder-3-line:before {
+    content: "\e3a1";
+}
+.nxi.nxi-rmx-document-folder-4-fill:before {
+    content: "\e3a2";
+}
+.nxi.nxi-rmx-document-folder-4-line:before {
+    content: "\e3a3";
+}
+.nxi.nxi-rmx-document-folder-5-fill:before {
+    content: "\e3a4";
+}
+.nxi.nxi-rmx-document-folder-5-line:before {
+    content: "\e3a5";
+}
+.nxi.nxi-rmx-document-folder-add-fill:before {
+    content: "\e3a6";
+}
+.nxi.nxi-rmx-document-folder-add-line:before {
+    content: "\e3a7";
+}
+.nxi.nxi-rmx-document-folder-chart-2-fill:before {
+    content: "\e3a8";
+}
+.nxi.nxi-rmx-document-folder-chart-2-line:before {
+    content: "\e3a9";
+}
+.nxi.nxi-rmx-document-folder-chart-fill:before {
+    content: "\e3aa";
+}
+.nxi.nxi-rmx-document-folder-chart-line:before {
+    content: "\e3ab";
+}
+.nxi.nxi-rmx-document-folder-download-fill:before {
+    content: "\e3ac";
+}
+.nxi.nxi-rmx-document-folder-download-line:before {
+    content: "\e3ad";
+}
+.nxi.nxi-rmx-document-folder-fill:before {
+    content: "\e3ae";
+}
+.nxi.nxi-rmx-document-folder-forbid-fill:before {
+    content: "\e3af";
+}
+.nxi.nxi-rmx-document-folder-forbid-line:before {
+    content: "\e3b0";
+}
+.nxi.nxi-rmx-document-folder-history-fill:before {
+    content: "\e3b1";
+}
+.nxi.nxi-rmx-document-folder-history-line:before {
+    content: "\e3b2";
+}
+.nxi.nxi-rmx-document-folder-info-fill:before {
+    content: "\e3b3";
+}
+.nxi.nxi-rmx-document-folder-info-line:before {
+    content: "\e3b4";
+}
+.nxi.nxi-rmx-document-folder-keyhole-fill:before {
+    content: "\e3b5";
+}
+.nxi.nxi-rmx-document-folder-keyhole-line:before {
+    content: "\e3b6";
+}
+.nxi.nxi-rmx-document-folder-line:before {
+    content: "\e3b7";
+}
+.nxi.nxi-rmx-document-folder-lock-fill:before {
+    content: "\e3b8";
+}
+.nxi.nxi-rmx-document-folder-lock-line:before {
+    content: "\e3b9";
+}
+.nxi.nxi-rmx-document-folder-music-fill:before {
+    content: "\e3ba";
+}
+.nxi.nxi-rmx-document-folder-music-line:before {
+    content: "\e3bb";
+}
+.nxi.nxi-rmx-document-folder-open-fill:before {
+    content: "\e3bc";
+}
+.nxi.nxi-rmx-document-folder-open-line:before {
+    content: "\e3bd";
+}
+.nxi.nxi-rmx-document-folder-received-fill:before {
+    content: "\e3be";
+}
+.nxi.nxi-rmx-document-folder-received-line:before {
+    content: "\e3bf";
+}
+.nxi.nxi-rmx-document-folder-reduce-fill:before {
+    content: "\e3c0";
+}
+.nxi.nxi-rmx-document-folder-reduce-line:before {
+    content: "\e3c1";
+}
+.nxi.nxi-rmx-document-folder-settings-fill:before {
+    content: "\e3c2";
+}
+.nxi.nxi-rmx-document-folder-settings-line:before {
+    content: "\e3c3";
+}
+.nxi.nxi-rmx-document-folder-shared-fill:before {
+    content: "\e3c4";
+}
+.nxi.nxi-rmx-document-folder-shared-line:before {
+    content: "\e3c5";
+}
+.nxi.nxi-rmx-document-folder-shield-2-fill:before {
+    content: "\e3c6";
+}
+.nxi.nxi-rmx-document-folder-shield-2-line:before {
+    content: "\e3c7";
+}
+.nxi.nxi-rmx-document-folder-shield-fill:before {
+    content: "\e3c8";
+}
+.nxi.nxi-rmx-document-folder-shield-line:before {
+    content: "\e3c9";
+}
+.nxi.nxi-rmx-document-folder-transfer-fill:before {
+    content: "\e3ca";
+}
+.nxi.nxi-rmx-document-folder-transfer-line:before {
+    content: "\e3cb";
+}
+.nxi.nxi-rmx-document-folder-unknow-fill:before {
+    content: "\e3cc";
+}
+.nxi.nxi-rmx-document-folder-unknow-line:before {
+    content: "\e3cd";
+}
+.nxi.nxi-rmx-document-folder-upload-fill:before {
+    content: "\e3ce";
+}
+.nxi.nxi-rmx-document-folder-upload-line:before {
+    content: "\e3cf";
+}
+.nxi.nxi-rmx-document-folder-user-fill:before {
+    content: "\e3d0";
+}
+.nxi.nxi-rmx-document-folder-user-line:before {
+    content: "\e3d1";
+}
+.nxi.nxi-rmx-document-folder-warning-fill:before {
+    content: "\e3d2";
+}
+.nxi.nxi-rmx-document-folder-warning-line:before {
+    content: "\e3d3";
+}
+.nxi.nxi-rmx-document-folder-zip-fill:before {
+    content: "\e3d4";
+}
+.nxi.nxi-rmx-document-folder-zip-line:before {
+    content: "\e3d5";
+}
+.nxi.nxi-rmx-document-folders-fill:before {
+    content: "\e3d6";
+}
+.nxi.nxi-rmx-document-folders-line:before {
+    content: "\e3d7";
+}
+.nxi.nxi-rmx-document-keynote-fill:before {
+    content: "\e3d8";
+}
+.nxi.nxi-rmx-document-keynote-line:before {
+    content: "\e3d9";
+}
+.nxi.nxi-rmx-document-markdown-fill:before {
+    content: "\e3da";
+}
+.nxi.nxi-rmx-document-markdown-line:before {
+    content: "\e3db";
+}
+.nxi.nxi-rmx-document-newspaper-fill:before {
+    content: "\e3dc";
+}
+.nxi.nxi-rmx-document-newspaper-line:before {
+    content: "\e3dd";
+}
+.nxi.nxi-rmx-document-numbers-fill:before {
+    content: "\e3de";
+}
+.nxi.nxi-rmx-document-numbers-line:before {
+    content: "\e3df";
+}
+.nxi.nxi-rmx-document-pages-fill:before {
+    content: "\e3e0";
+}
+.nxi.nxi-rmx-document-pages-line:before {
+    content: "\e3e1";
+}
+.nxi.nxi-rmx-document-sticky-note-2-fill:before {
+    content: "\e3e2";
+}
+.nxi.nxi-rmx-document-sticky-note-2-line:before {
+    content: "\e3e3";
+}
+.nxi.nxi-rmx-document-sticky-note-fill:before {
+    content: "\e3e4";
+}
+.nxi.nxi-rmx-document-sticky-note-line:before {
+    content: "\e3e5";
+}
+.nxi.nxi-rmx-document-survey-fill:before {
+    content: "\e3e6";
+}
+.nxi.nxi-rmx-document-survey-line:before {
+    content: "\e3e7";
+}
+.nxi.nxi-rmx-document-task-fill:before {
+    content: "\e3e8";
+}
+.nxi.nxi-rmx-document-task-line:before {
+    content: "\e3e9";
+}
+.nxi.nxi-rmx-document-todo-fill:before {
+    content: "\e3ea";
+}
+.nxi.nxi-rmx-document-todo-line:before {
+    content: "\e3eb";
+}

@@ -1,0 +1,3767 @@
+@font-face {
+    font-family: "index";
+    src: url("./index.ttf?31e313b7001bde50c819661991176212") format("truetype"),
+url("./index.woff?31e313b7001bde50c819661991176212") format("woff"),
+url("./index.woff2?31e313b7001bde50c819661991176212") format("woff2"),
+url("./index.eot?31e313b7001bde50c819661991176212#iefix") format("embedded-opentype");
+}
+.nxi {
+    font-size: 1.5rem;
+    display: inline-flex
+}
+
+.nxi:before {
+    font-family: 'index' !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.nxi.nxi-pp-address-book-duotone:before {
+    content: "\f860";
+}
+.nxi.nxi-pp-air-traffic-control-duotone:before {
+    content: "\f861";
+}
+.nxi.nxi-pp-airplane-duotone:before {
+    content: "\f862";
+}
+.nxi.nxi-pp-airplane-in-flight-duotone:before {
+    content: "\f863";
+}
+.nxi.nxi-pp-airplane-landing-duotone:before {
+    content: "\f864";
+}
+.nxi.nxi-pp-airplane-takeoff-duotone:before {
+    content: "\f865";
+}
+.nxi.nxi-pp-airplane-tilt-duotone:before {
+    content: "\f866";
+}
+.nxi.nxi-pp-airplay-duotone:before {
+    content: "\f867";
+}
+.nxi.nxi-pp-alarm-duotone:before {
+    content: "\f868";
+}
+.nxi.nxi-pp-alien-duotone:before {
+    content: "\f869";
+}
+.nxi.nxi-pp-align-bottom-duotone:before {
+    content: "\f86a";
+}
+.nxi.nxi-pp-align-bottom-simple-duotone:before {
+    content: "\f86b";
+}
+.nxi.nxi-pp-align-center-horizontal-duotone:before {
+    content: "\f86c";
+}
+.nxi.nxi-pp-align-center-horizontal-simple-duotone:before {
+    content: "\f86d";
+}
+.nxi.nxi-pp-align-center-vertical-duotone:before {
+    content: "\f86e";
+}
+.nxi.nxi-pp-align-center-vertical-simple-duotone:before {
+    content: "\f86f";
+}
+.nxi.nxi-pp-align-left-duotone:before {
+    content: "\f870";
+}
+.nxi.nxi-pp-align-left-simple-duotone:before {
+    content: "\f871";
+}
+.nxi.nxi-pp-align-right-duotone:before {
+    content: "\f872";
+}
+.nxi.nxi-pp-align-right-simple-duotone:before {
+    content: "\f873";
+}
+.nxi.nxi-pp-align-top-duotone:before {
+    content: "\f874";
+}
+.nxi.nxi-pp-align-top-simple-duotone:before {
+    content: "\f875";
+}
+.nxi.nxi-pp-amazon-logo-duotone:before {
+    content: "\f876";
+}
+.nxi.nxi-pp-anchor-duotone:before {
+    content: "\f877";
+}
+.nxi.nxi-pp-anchor-simple-duotone:before {
+    content: "\f878";
+}
+.nxi.nxi-pp-android-logo-duotone:before {
+    content: "\f879";
+}
+.nxi.nxi-pp-angular-logo-duotone:before {
+    content: "\f87a";
+}
+.nxi.nxi-pp-aperture-duotone:before {
+    content: "\f87b";
+}
+.nxi.nxi-pp-app-store-logo-duotone:before {
+    content: "\f87c";
+}
+.nxi.nxi-pp-app-window-duotone:before {
+    content: "\f87d";
+}
+.nxi.nxi-pp-apple-logo-duotone:before {
+    content: "\f87e";
+}
+.nxi.nxi-pp-apple-podcasts-logo-duotone:before {
+    content: "\f87f";
+}
+.nxi.nxi-pp-archive-box-duotone:before {
+    content: "\f880";
+}
+.nxi.nxi-pp-archive-duotone:before {
+    content: "\f881";
+}
+.nxi.nxi-pp-archive-tray-duotone:before {
+    content: "\f882";
+}
+.nxi.nxi-pp-armchair-duotone:before {
+    content: "\f883";
+}
+.nxi.nxi-pp-arrow-arc-left-duotone:before {
+    content: "\f884";
+}
+.nxi.nxi-pp-arrow-arc-right-duotone:before {
+    content: "\f885";
+}
+.nxi.nxi-pp-arrow-bend-double-up-left-duotone:before {
+    content: "\f886";
+}
+.nxi.nxi-pp-arrow-bend-double-up-right-duotone:before {
+    content: "\f887";
+}
+.nxi.nxi-pp-arrow-bend-down-left-duotone:before {
+    content: "\f888";
+}
+.nxi.nxi-pp-arrow-bend-down-right-duotone:before {
+    content: "\f889";
+}
+.nxi.nxi-pp-arrow-bend-left-down-duotone:before {
+    content: "\f88a";
+}
+.nxi.nxi-pp-arrow-bend-left-up-duotone:before {
+    content: "\f88b";
+}
+.nxi.nxi-pp-arrow-bend-right-down-duotone:before {
+    content: "\f88c";
+}
+.nxi.nxi-pp-arrow-bend-right-up-duotone:before {
+    content: "\f88d";
+}
+.nxi.nxi-pp-arrow-bend-up-left-duotone:before {
+    content: "\f88e";
+}
+.nxi.nxi-pp-arrow-bend-up-right-duotone:before {
+    content: "\f88f";
+}
+.nxi.nxi-pp-arrow-circle-down-duotone:before {
+    content: "\f890";
+}
+.nxi.nxi-pp-arrow-circle-down-left-duotone:before {
+    content: "\f891";
+}
+.nxi.nxi-pp-arrow-circle-down-right-duotone:before {
+    content: "\f892";
+}
+.nxi.nxi-pp-arrow-circle-left-duotone:before {
+    content: "\f893";
+}
+.nxi.nxi-pp-arrow-circle-right-duotone:before {
+    content: "\f894";
+}
+.nxi.nxi-pp-arrow-circle-up-duotone:before {
+    content: "\f895";
+}
+.nxi.nxi-pp-arrow-circle-up-left-duotone:before {
+    content: "\f896";
+}
+.nxi.nxi-pp-arrow-circle-up-right-duotone:before {
+    content: "\f897";
+}
+.nxi.nxi-pp-arrow-clockwise-duotone:before {
+    content: "\f898";
+}
+.nxi.nxi-pp-arrow-counter-clockwise-duotone:before {
+    content: "\f899";
+}
+.nxi.nxi-pp-arrow-down-duotone:before {
+    content: "\f89a";
+}
+.nxi.nxi-pp-arrow-down-left-duotone:before {
+    content: "\f89b";
+}
+.nxi.nxi-pp-arrow-down-right-duotone:before {
+    content: "\f89c";
+}
+.nxi.nxi-pp-arrow-elbow-down-left-duotone:before {
+    content: "\f89d";
+}
+.nxi.nxi-pp-arrow-elbow-down-right-duotone:before {
+    content: "\f89e";
+}
+.nxi.nxi-pp-arrow-elbow-left-down-duotone:before {
+    content: "\f89f";
+}
+.nxi.nxi-pp-arrow-elbow-left-duotone:before {
+    content: "\f8a0";
+}
+.nxi.nxi-pp-arrow-elbow-left-up-duotone:before {
+    content: "\f8a1";
+}
+.nxi.nxi-pp-arrow-elbow-right-down-duotone:before {
+    content: "\f8a2";
+}
+.nxi.nxi-pp-arrow-elbow-right-duotone:before {
+    content: "\f8a3";
+}
+.nxi.nxi-pp-arrow-elbow-right-up-duotone:before {
+    content: "\f8a4";
+}
+.nxi.nxi-pp-arrow-elbow-up-left-duotone:before {
+    content: "\f8a5";
+}
+.nxi.nxi-pp-arrow-elbow-up-right-duotone:before {
+    content: "\f8a6";
+}
+.nxi.nxi-pp-arrow-fat-down-duotone:before {
+    content: "\f8a7";
+}
+.nxi.nxi-pp-arrow-fat-left-duotone:before {
+    content: "\f8a8";
+}
+.nxi.nxi-pp-arrow-fat-line-down-duotone:before {
+    content: "\f8a9";
+}
+.nxi.nxi-pp-arrow-fat-line-left-duotone:before {
+    content: "\f8aa";
+}
+.nxi.nxi-pp-arrow-fat-line-right-duotone:before {
+    content: "\f8ab";
+}
+.nxi.nxi-pp-arrow-fat-line-up-duotone:before {
+    content: "\f8ac";
+}
+.nxi.nxi-pp-arrow-fat-lines-down-duotone:before {
+    content: "\f8ad";
+}
+.nxi.nxi-pp-arrow-fat-lines-left-duotone:before {
+    content: "\f8ae";
+}
+.nxi.nxi-pp-arrow-fat-lines-right-duotone:before {
+    content: "\f8af";
+}
+.nxi.nxi-pp-arrow-fat-lines-up-duotone:before {
+    content: "\f8b0";
+}
+.nxi.nxi-pp-arrow-fat-right-duotone:before {
+    content: "\f8b1";
+}
+.nxi.nxi-pp-arrow-fat-up-duotone:before {
+    content: "\f8b2";
+}
+.nxi.nxi-pp-arrow-left-duotone:before {
+    content: "\f8b3";
+}
+.nxi.nxi-pp-arrow-line-down-duotone:before {
+    content: "\f8b4";
+}
+.nxi.nxi-pp-arrow-line-down-left-duotone:before {
+    content: "\f8b5";
+}
+.nxi.nxi-pp-arrow-line-down-right-duotone:before {
+    content: "\f8b6";
+}
+.nxi.nxi-pp-arrow-line-left-duotone:before {
+    content: "\f8b7";
+}
+.nxi.nxi-pp-arrow-line-right-duotone:before {
+    content: "\f8b8";
+}
+.nxi.nxi-pp-arrow-line-up-duotone:before {
+    content: "\f8b9";
+}
+.nxi.nxi-pp-arrow-line-up-left-duotone:before {
+    content: "\f8ba";
+}
+.nxi.nxi-pp-arrow-line-up-right-duotone:before {
+    content: "\f8bb";
+}
+.nxi.nxi-pp-arrow-right-duotone:before {
+    content: "\f8bc";
+}
+.nxi.nxi-pp-arrow-square-down-duotone:before {
+    content: "\f8bd";
+}
+.nxi.nxi-pp-arrow-square-down-left-duotone:before {
+    content: "\f8be";
+}
+.nxi.nxi-pp-arrow-square-down-right-duotone:before {
+    content: "\f8bf";
+}
+.nxi.nxi-pp-arrow-square-in-duotone:before {
+    content: "\f8c0";
+}
+.nxi.nxi-pp-arrow-square-left-duotone:before {
+    content: "\f8c1";
+}
+.nxi.nxi-pp-arrow-square-out-duotone:before {
+    content: "\f8c2";
+}
+.nxi.nxi-pp-arrow-square-right-duotone:before {
+    content: "\f8c3";
+}
+.nxi.nxi-pp-arrow-square-up-duotone:before {
+    content: "\f8c4";
+}
+.nxi.nxi-pp-arrow-square-up-left-duotone:before {
+    content: "\f8c5";
+}
+.nxi.nxi-pp-arrow-square-up-right-duotone:before {
+    content: "\f8c6";
+}
+.nxi.nxi-pp-arrow-u-down-left-duotone:before {
+    content: "\f8c7";
+}
+.nxi.nxi-pp-arrow-u-down-right-duotone:before {
+    content: "\f8c8";
+}
+.nxi.nxi-pp-arrow-u-left-down-duotone:before {
+    content: "\f8c9";
+}
+.nxi.nxi-pp-arrow-u-left-up-duotone:before {
+    content: "\f8ca";
+}
+.nxi.nxi-pp-arrow-u-right-down-duotone:before {
+    content: "\f8cb";
+}
+.nxi.nxi-pp-arrow-u-right-up-duotone:before {
+    content: "\f8cc";
+}
+.nxi.nxi-pp-arrow-u-up-left-duotone:before {
+    content: "\f8cd";
+}
+.nxi.nxi-pp-arrow-u-up-right-duotone:before {
+    content: "\f8ce";
+}
+.nxi.nxi-pp-arrow-up-duotone:before {
+    content: "\f8cf";
+}
+.nxi.nxi-pp-arrow-up-left-duotone:before {
+    content: "\f8d0";
+}
+.nxi.nxi-pp-arrow-up-right-duotone:before {
+    content: "\f8d1";
+}
+.nxi.nxi-pp-arrows-clockwise-duotone:before {
+    content: "\f8d2";
+}
+.nxi.nxi-pp-arrows-counter-clockwise-duotone:before {
+    content: "\f8d3";
+}
+.nxi.nxi-pp-arrows-down-up-duotone:before {
+    content: "\f8d4";
+}
+.nxi.nxi-pp-arrows-horizontal-duotone:before {
+    content: "\f8d5";
+}
+.nxi.nxi-pp-arrows-in-cardinal-duotone:before {
+    content: "\f8d6";
+}
+.nxi.nxi-pp-arrows-in-duotone:before {
+    content: "\f8d7";
+}
+.nxi.nxi-pp-arrows-in-line-horizontal-duotone:before {
+    content: "\f8d8";
+}
+.nxi.nxi-pp-arrows-in-line-vertical-duotone:before {
+    content: "\f8d9";
+}
+.nxi.nxi-pp-arrows-in-simple-duotone:before {
+    content: "\f8da";
+}
+.nxi.nxi-pp-arrows-left-right-duotone:before {
+    content: "\f8db";
+}
+.nxi.nxi-pp-arrows-merge-duotone:before {
+    content: "\f8dc";
+}
+.nxi.nxi-pp-arrows-out-cardinal-duotone:before {
+    content: "\f8dd";
+}
+.nxi.nxi-pp-arrows-out-duotone:before {
+    content: "\f8de";
+}
+.nxi.nxi-pp-arrows-out-line-horizontal-duotone:before {
+    content: "\f8df";
+}
+.nxi.nxi-pp-arrows-out-line-vertical-duotone:before {
+    content: "\f8e0";
+}
+.nxi.nxi-pp-arrows-out-simple-duotone:before {
+    content: "\f8e1";
+}
+.nxi.nxi-pp-arrows-split-duotone:before {
+    content: "\f8e2";
+}
+.nxi.nxi-pp-arrows-vertical-duotone:before {
+    content: "\f8e3";
+}
+.nxi.nxi-pp-article-duotone:before {
+    content: "\f8e4";
+}
+.nxi.nxi-pp-article-medium-duotone:before {
+    content: "\f8e5";
+}
+.nxi.nxi-pp-article-ny-times-duotone:before {
+    content: "\f8e6";
+}
+.nxi.nxi-pp-asterisk-duotone:before {
+    content: "\f8e7";
+}
+.nxi.nxi-pp-asterisk-simple-duotone:before {
+    content: "\f8e8";
+}
+.nxi.nxi-pp-at-duotone:before {
+    content: "\f8e9";
+}
+.nxi.nxi-pp-atom-duotone:before {
+    content: "\f8ea";
+}
+.nxi.nxi-pp-baby-duotone:before {
+    content: "\f8eb";
+}
+.nxi.nxi-pp-backpack-duotone:before {
+    content: "\f8ec";
+}
+.nxi.nxi-pp-backspace-duotone:before {
+    content: "\f8ed";
+}
+.nxi.nxi-pp-bag-duotone:before {
+    content: "\f8ee";
+}
+.nxi.nxi-pp-bag-simple-duotone:before {
+    content: "\f8ef";
+}
+.nxi.nxi-pp-balloon-duotone:before {
+    content: "\f8f0";
+}
+.nxi.nxi-pp-bandaids-duotone:before {
+    content: "\f8f1";
+}
+.nxi.nxi-pp-bank-duotone:before {
+    content: "\f8f2";
+}
+.nxi.nxi-pp-barbell-duotone:before {
+    content: "\f8f3";
+}
+.nxi.nxi-pp-barcode-duotone:before {
+    content: "\f8f4";
+}
+.nxi.nxi-pp-barricade-duotone:before {
+    content: "\f8f5";
+}
+.nxi.nxi-pp-baseball-cap-duotone:before {
+    content: "\f8f6";
+}
+.nxi.nxi-pp-baseball-duotone:before {
+    content: "\f8f7";
+}
+.nxi.nxi-pp-basket-duotone:before {
+    content: "\f8f8";
+}
+.nxi.nxi-pp-basketball-duotone:before {
+    content: "\f8f9";
+}
+.nxi.nxi-pp-bathtub-duotone:before {
+    content: "\f8fa";
+}
+.nxi.nxi-pp-battery-charging-duotone:before {
+    content: "\f8fb";
+}
+.nxi.nxi-pp-battery-charging-vertical-duotone:before {
+    content: "\f8fc";
+}
+.nxi.nxi-pp-battery-empty-duotone:before {
+    content: "\f8fd";
+}
+.nxi.nxi-pp-battery-full-duotone:before {
+    content: "\f8fe";
+}
+.nxi.nxi-pp-battery-high-duotone:before {
+    content: "\f8ff";
+}
+.nxi.nxi-pp-battery-low-duotone:before {
+    content: "\f900";
+}
+.nxi.nxi-pp-battery-medium-duotone:before {
+    content: "\f901";
+}
+.nxi.nxi-pp-battery-plus-duotone:before {
+    content: "\f902";
+}
+.nxi.nxi-pp-battery-plus-vertical-duotone:before {
+    content: "\f903";
+}
+.nxi.nxi-pp-battery-vertical-empty-duotone:before {
+    content: "\f904";
+}
+.nxi.nxi-pp-battery-vertical-full-duotone:before {
+    content: "\f905";
+}
+.nxi.nxi-pp-battery-vertical-high-duotone:before {
+    content: "\f906";
+}
+.nxi.nxi-pp-battery-vertical-low-duotone:before {
+    content: "\f907";
+}
+.nxi.nxi-pp-battery-vertical-medium-duotone:before {
+    content: "\f908";
+}
+.nxi.nxi-pp-battery-warning-duotone:before {
+    content: "\f909";
+}
+.nxi.nxi-pp-battery-warning-vertical-duotone:before {
+    content: "\f90a";
+}
+.nxi.nxi-pp-bed-duotone:before {
+    content: "\f90b";
+}
+.nxi.nxi-pp-beer-bottle-duotone:before {
+    content: "\f90c";
+}
+.nxi.nxi-pp-beer-stein-duotone:before {
+    content: "\f90d";
+}
+.nxi.nxi-pp-behance-logo-duotone:before {
+    content: "\f90e";
+}
+.nxi.nxi-pp-bell-duotone:before {
+    content: "\f90f";
+}
+.nxi.nxi-pp-bell-ringing-duotone:before {
+    content: "\f910";
+}
+.nxi.nxi-pp-bell-simple-duotone:before {
+    content: "\f911";
+}
+.nxi.nxi-pp-bell-simple-ringing-duotone:before {
+    content: "\f912";
+}
+.nxi.nxi-pp-bell-simple-slash-duotone:before {
+    content: "\f913";
+}
+.nxi.nxi-pp-bell-simple-z-duotone:before {
+    content: "\f914";
+}
+.nxi.nxi-pp-bell-slash-duotone:before {
+    content: "\f915";
+}
+.nxi.nxi-pp-bell-z-duotone:before {
+    content: "\f916";
+}
+.nxi.nxi-pp-bezier-curve-duotone:before {
+    content: "\f917";
+}
+.nxi.nxi-pp-bicycle-duotone:before {
+    content: "\f918";
+}
+.nxi.nxi-pp-binoculars-duotone:before {
+    content: "\f919";
+}
+.nxi.nxi-pp-bird-duotone:before {
+    content: "\f91a";
+}
+.nxi.nxi-pp-bluetooth-connected-duotone:before {
+    content: "\f91b";
+}
+.nxi.nxi-pp-bluetooth-duotone:before {
+    content: "\f91c";
+}
+.nxi.nxi-pp-bluetooth-slash-duotone:before {
+    content: "\f91d";
+}
+.nxi.nxi-pp-bluetooth-x-duotone:before {
+    content: "\f91e";
+}
+.nxi.nxi-pp-boat-duotone:before {
+    content: "\f91f";
+}
+.nxi.nxi-pp-bone-duotone:before {
+    content: "\f920";
+}
+.nxi.nxi-pp-book-bookmark-duotone:before {
+    content: "\f921";
+}
+.nxi.nxi-pp-book-duotone:before {
+    content: "\f922";
+}
+.nxi.nxi-pp-book-open-duotone:before {
+    content: "\f923";
+}
+.nxi.nxi-pp-book-open-text-duotone:before {
+    content: "\f924";
+}
+.nxi.nxi-pp-bookmark-duotone:before {
+    content: "\f925";
+}
+.nxi.nxi-pp-bookmark-simple-duotone:before {
+    content: "\f926";
+}
+.nxi.nxi-pp-bookmarks-duotone:before {
+    content: "\f927";
+}
+.nxi.nxi-pp-bookmarks-simple-duotone:before {
+    content: "\f928";
+}
+.nxi.nxi-pp-books-duotone:before {
+    content: "\f929";
+}
+.nxi.nxi-pp-boot-duotone:before {
+    content: "\f92a";
+}
+.nxi.nxi-pp-bounding-box-duotone:before {
+    content: "\f92b";
+}
+.nxi.nxi-pp-bowl-food-duotone:before {
+    content: "\f92c";
+}
+.nxi.nxi-pp-brackets-angle-duotone:before {
+    content: "\f92d";
+}
+.nxi.nxi-pp-brackets-curly-duotone:before {
+    content: "\f92e";
+}
+.nxi.nxi-pp-brackets-round-duotone:before {
+    content: "\f92f";
+}
+.nxi.nxi-pp-brackets-square-duotone:before {
+    content: "\f930";
+}
+.nxi.nxi-pp-brain-duotone:before {
+    content: "\f931";
+}
+.nxi.nxi-pp-brandy-duotone:before {
+    content: "\f932";
+}
+.nxi.nxi-pp-bridge-duotone:before {
+    content: "\f933";
+}
+.nxi.nxi-pp-briefcase-duotone:before {
+    content: "\f934";
+}
+.nxi.nxi-pp-briefcase-metal-duotone:before {
+    content: "\f935";
+}
+.nxi.nxi-pp-broadcast-duotone:before {
+    content: "\f936";
+}
+.nxi.nxi-pp-broom-duotone:before {
+    content: "\f937";
+}
+.nxi.nxi-pp-browser-duotone:before {
+    content: "\f938";
+}
+.nxi.nxi-pp-browsers-duotone:before {
+    content: "\f939";
+}
+.nxi.nxi-pp-bug-beetle-duotone:before {
+    content: "\f93a";
+}
+.nxi.nxi-pp-bug-droid-duotone:before {
+    content: "\f93b";
+}
+.nxi.nxi-pp-bug-duotone:before {
+    content: "\f93c";
+}
+.nxi.nxi-pp-buildings-duotone:before {
+    content: "\f93d";
+}
+.nxi.nxi-pp-bus-duotone:before {
+    content: "\f93e";
+}
+.nxi.nxi-pp-butterfly-duotone:before {
+    content: "\f93f";
+}
+.nxi.nxi-pp-cactus-duotone:before {
+    content: "\f940";
+}
+.nxi.nxi-pp-cake-duotone:before {
+    content: "\f941";
+}
+.nxi.nxi-pp-calculator-duotone:before {
+    content: "\f942";
+}
+.nxi.nxi-pp-calendar-blank-duotone:before {
+    content: "\f943";
+}
+.nxi.nxi-pp-calendar-check-duotone:before {
+    content: "\f944";
+}
+.nxi.nxi-pp-calendar-duotone:before {
+    content: "\f945";
+}
+.nxi.nxi-pp-calendar-plus-duotone:before {
+    content: "\f946";
+}
+.nxi.nxi-pp-calendar-x-duotone:before {
+    content: "\f947";
+}
+.nxi.nxi-pp-call-bell-duotone:before {
+    content: "\f948";
+}
+.nxi.nxi-pp-camera-duotone:before {
+    content: "\f949";
+}
+.nxi.nxi-pp-camera-plus-duotone:before {
+    content: "\f94a";
+}
+.nxi.nxi-pp-camera-rotate-duotone:before {
+    content: "\f94b";
+}
+.nxi.nxi-pp-camera-slash-duotone:before {
+    content: "\f94c";
+}
+.nxi.nxi-pp-campfire-duotone:before {
+    content: "\f94d";
+}
+.nxi.nxi-pp-car-duotone:before {
+    content: "\f94e";
+}
+.nxi.nxi-pp-car-profile-duotone:before {
+    content: "\f94f";
+}
+.nxi.nxi-pp-car-simple-duotone:before {
+    content: "\f950";
+}
+.nxi.nxi-pp-cardholder-duotone:before {
+    content: "\f951";
+}
+.nxi.nxi-pp-cards-duotone:before {
+    content: "\f952";
+}
+.nxi.nxi-pp-caret-circle-double-down-duotone:before {
+    content: "\f953";
+}
+.nxi.nxi-pp-caret-circle-double-left-duotone:before {
+    content: "\f954";
+}
+.nxi.nxi-pp-caret-circle-double-right-duotone:before {
+    content: "\f955";
+}
+.nxi.nxi-pp-caret-circle-double-up-duotone:before {
+    content: "\f956";
+}
+.nxi.nxi-pp-caret-circle-down-duotone:before {
+    content: "\f957";
+}
+.nxi.nxi-pp-caret-circle-left-duotone:before {
+    content: "\f958";
+}
+.nxi.nxi-pp-caret-circle-right-duotone:before {
+    content: "\f959";
+}
+.nxi.nxi-pp-caret-circle-up-down-duotone:before {
+    content: "\f95a";
+}
+.nxi.nxi-pp-caret-circle-up-duotone:before {
+    content: "\f95b";
+}
+.nxi.nxi-pp-caret-double-down-duotone:before {
+    content: "\f95c";
+}
+.nxi.nxi-pp-caret-double-left-duotone:before {
+    content: "\f95d";
+}
+.nxi.nxi-pp-caret-double-right-duotone:before {
+    content: "\f95e";
+}
+.nxi.nxi-pp-caret-double-up-duotone:before {
+    content: "\f95f";
+}
+.nxi.nxi-pp-caret-down-duotone:before {
+    content: "\f960";
+}
+.nxi.nxi-pp-caret-left-duotone:before {
+    content: "\f961";
+}
+.nxi.nxi-pp-caret-right-duotone:before {
+    content: "\f962";
+}
+.nxi.nxi-pp-caret-up-down-duotone:before {
+    content: "\f963";
+}
+.nxi.nxi-pp-caret-up-duotone:before {
+    content: "\f964";
+}
+.nxi.nxi-pp-carrot-duotone:before {
+    content: "\f965";
+}
+.nxi.nxi-pp-cassette-tape-duotone:before {
+    content: "\f966";
+}
+.nxi.nxi-pp-castle-turret-duotone:before {
+    content: "\f967";
+}
+.nxi.nxi-pp-cat-duotone:before {
+    content: "\f968";
+}
+.nxi.nxi-pp-cell-signal-full-duotone:before {
+    content: "\f969";
+}
+.nxi.nxi-pp-cell-signal-high-duotone:before {
+    content: "\f96a";
+}
+.nxi.nxi-pp-cell-signal-low-duotone:before {
+    content: "\f96b";
+}
+.nxi.nxi-pp-cell-signal-medium-duotone:before {
+    content: "\f96c";
+}
+.nxi.nxi-pp-cell-signal-none-duotone:before {
+    content: "\f96d";
+}
+.nxi.nxi-pp-cell-signal-slash-duotone:before {
+    content: "\f96e";
+}
+.nxi.nxi-pp-cell-signal-x-duotone:before {
+    content: "\f96f";
+}
+.nxi.nxi-pp-certificate-duotone:before {
+    content: "\f970";
+}
+.nxi.nxi-pp-chair-duotone:before {
+    content: "\f971";
+}
+.nxi.nxi-pp-chalkboard-duotone:before {
+    content: "\f972";
+}
+.nxi.nxi-pp-chalkboard-simple-duotone:before {
+    content: "\f973";
+}
+.nxi.nxi-pp-chalkboard-teacher-duotone:before {
+    content: "\f974";
+}
+.nxi.nxi-pp-champagne-duotone:before {
+    content: "\f975";
+}
+.nxi.nxi-pp-charging-station-duotone:before {
+    content: "\f976";
+}
+.nxi.nxi-pp-chart-bar-duotone:before {
+    content: "\f977";
+}
+.nxi.nxi-pp-chart-bar-horizontal-duotone:before {
+    content: "\f978";
+}
+.nxi.nxi-pp-chart-donut-duotone:before {
+    content: "\f979";
+}
+.nxi.nxi-pp-chart-line-down-duotone:before {
+    content: "\f97a";
+}
+.nxi.nxi-pp-chart-line-duotone:before {
+    content: "\f97b";
+}
+.nxi.nxi-pp-chart-line-up-duotone:before {
+    content: "\f97c";
+}
+.nxi.nxi-pp-chart-pie-duotone:before {
+    content: "\f97d";
+}
+.nxi.nxi-pp-chart-pie-slice-duotone:before {
+    content: "\f97e";
+}
+.nxi.nxi-pp-chart-polar-duotone:before {
+    content: "\f97f";
+}
+.nxi.nxi-pp-chart-scatter-duotone:before {
+    content: "\f980";
+}
+.nxi.nxi-pp-chat-centered-dots-duotone:before {
+    content: "\f981";
+}
+.nxi.nxi-pp-chat-centered-duotone:before {
+    content: "\f982";
+}
+.nxi.nxi-pp-chat-centered-text-duotone:before {
+    content: "\f983";
+}
+.nxi.nxi-pp-chat-circle-dots-duotone:before {
+    content: "\f984";
+}
+.nxi.nxi-pp-chat-circle-duotone:before {
+    content: "\f985";
+}
+.nxi.nxi-pp-chat-circle-text-duotone:before {
+    content: "\f986";
+}
+.nxi.nxi-pp-chat-dots-duotone:before {
+    content: "\f987";
+}
+.nxi.nxi-pp-chat-duotone:before {
+    content: "\f988";
+}
+.nxi.nxi-pp-chat-teardrop-dots-duotone:before {
+    content: "\f989";
+}
+.nxi.nxi-pp-chat-teardrop-duotone:before {
+    content: "\f98a";
+}
+.nxi.nxi-pp-chat-teardrop-text-duotone:before {
+    content: "\f98b";
+}
+.nxi.nxi-pp-chat-text-duotone:before {
+    content: "\f98c";
+}
+.nxi.nxi-pp-chats-circle-duotone:before {
+    content: "\f98d";
+}
+.nxi.nxi-pp-chats-duotone:before {
+    content: "\f98e";
+}
+.nxi.nxi-pp-chats-teardrop-duotone:before {
+    content: "\f98f";
+}
+.nxi.nxi-pp-check-circle-duotone:before {
+    content: "\f990";
+}
+.nxi.nxi-pp-check-duotone:before {
+    content: "\f991";
+}
+.nxi.nxi-pp-check-fat-duotone:before {
+    content: "\f992";
+}
+.nxi.nxi-pp-check-square-duotone:before {
+    content: "\f993";
+}
+.nxi.nxi-pp-check-square-offset-duotone:before {
+    content: "\f994";
+}
+.nxi.nxi-pp-checks-duotone:before {
+    content: "\f995";
+}
+.nxi.nxi-pp-church-duotone:before {
+    content: "\f996";
+}
+.nxi.nxi-pp-circle-dashed-duotone:before {
+    content: "\f997";
+}
+.nxi.nxi-pp-circle-duotone:before {
+    content: "\f998";
+}
+.nxi.nxi-pp-circle-half-duotone:before {
+    content: "\f999";
+}
+.nxi.nxi-pp-circle-half-tilt-duotone:before {
+    content: "\f99a";
+}
+.nxi.nxi-pp-circle-notch-duotone:before {
+    content: "\f99b";
+}
+.nxi.nxi-pp-circles-four-duotone:before {
+    content: "\f99c";
+}
+.nxi.nxi-pp-circles-three-duotone:before {
+    content: "\f99d";
+}
+.nxi.nxi-pp-circles-three-plus-duotone:before {
+    content: "\f99e";
+}
+.nxi.nxi-pp-circuitry-duotone:before {
+    content: "\f99f";
+}
+.nxi.nxi-pp-clipboard-duotone:before {
+    content: "\f9a0";
+}
+.nxi.nxi-pp-clipboard-text-duotone:before {
+    content: "\f9a1";
+}
+.nxi.nxi-pp-clock-afternoon-duotone:before {
+    content: "\f9a2";
+}
+.nxi.nxi-pp-clock-clockwise-duotone:before {
+    content: "\f9a3";
+}
+.nxi.nxi-pp-clock-countdown-duotone:before {
+    content: "\f9a4";
+}
+.nxi.nxi-pp-clock-counter-clockwise-duotone:before {
+    content: "\f9a5";
+}
+.nxi.nxi-pp-clock-duotone:before {
+    content: "\f9a6";
+}
+.nxi.nxi-pp-closed-captioning-duotone:before {
+    content: "\f9a7";
+}
+.nxi.nxi-pp-cloud-arrow-down-duotone:before {
+    content: "\f9a8";
+}
+.nxi.nxi-pp-cloud-arrow-up-duotone:before {
+    content: "\f9a9";
+}
+.nxi.nxi-pp-cloud-check-duotone:before {
+    content: "\f9aa";
+}
+.nxi.nxi-pp-cloud-duotone:before {
+    content: "\f9ab";
+}
+.nxi.nxi-pp-cloud-fog-duotone:before {
+    content: "\f9ac";
+}
+.nxi.nxi-pp-cloud-lightning-duotone:before {
+    content: "\f9ad";
+}
+.nxi.nxi-pp-cloud-moon-duotone:before {
+    content: "\f9ae";
+}
+.nxi.nxi-pp-cloud-rain-duotone:before {
+    content: "\f9af";
+}
+.nxi.nxi-pp-cloud-slash-duotone:before {
+    content: "\f9b0";
+}
+.nxi.nxi-pp-cloud-snow-duotone:before {
+    content: "\f9b1";
+}
+.nxi.nxi-pp-cloud-sun-duotone:before {
+    content: "\f9b2";
+}
+.nxi.nxi-pp-cloud-warning-duotone:before {
+    content: "\f9b3";
+}
+.nxi.nxi-pp-cloud-x-duotone:before {
+    content: "\f9b4";
+}
+.nxi.nxi-pp-club-duotone:before {
+    content: "\f9b5";
+}
+.nxi.nxi-pp-coat-hanger-duotone:before {
+    content: "\f9b6";
+}
+.nxi.nxi-pp-coda-logo-duotone:before {
+    content: "\f9b7";
+}
+.nxi.nxi-pp-code-block-duotone:before {
+    content: "\f9b8";
+}
+.nxi.nxi-pp-code-duotone:before {
+    content: "\f9b9";
+}
+.nxi.nxi-pp-code-simple-duotone:before {
+    content: "\f9ba";
+}
+.nxi.nxi-pp-codepen-logo-duotone:before {
+    content: "\f9bb";
+}
+.nxi.nxi-pp-codesandbox-logo-duotone:before {
+    content: "\f9bc";
+}
+.nxi.nxi-pp-coffee-duotone:before {
+    content: "\f9bd";
+}
+.nxi.nxi-pp-coin-duotone:before {
+    content: "\f9be";
+}
+.nxi.nxi-pp-coin-vertical-duotone:before {
+    content: "\f9bf";
+}
+.nxi.nxi-pp-coins-duotone:before {
+    content: "\f9c0";
+}
+.nxi.nxi-pp-columns-duotone:before {
+    content: "\f9c1";
+}
+.nxi.nxi-pp-command-duotone:before {
+    content: "\f9c2";
+}
+.nxi.nxi-pp-compass-duotone:before {
+    content: "\f9c3";
+}
+.nxi.nxi-pp-compass-tool-duotone:before {
+    content: "\f9c4";
+}
+.nxi.nxi-pp-computer-tower-duotone:before {
+    content: "\f9c5";
+}
+.nxi.nxi-pp-confetti-duotone:before {
+    content: "\f9c6";
+}
+.nxi.nxi-pp-contactless-payment-duotone:before {
+    content: "\f9c7";
+}
+.nxi.nxi-pp-control-duotone:before {
+    content: "\f9c8";
+}
+.nxi.nxi-pp-cookie-duotone:before {
+    content: "\f9c9";
+}
+.nxi.nxi-pp-cooking-pot-duotone:before {
+    content: "\f9ca";
+}
+.nxi.nxi-pp-copy-duotone:before {
+    content: "\f9cb";
+}
+.nxi.nxi-pp-copy-simple-duotone:before {
+    content: "\f9cc";
+}
+.nxi.nxi-pp-copyleft-duotone:before {
+    content: "\f9cd";
+}
+.nxi.nxi-pp-copyright-duotone:before {
+    content: "\f9ce";
+}
+.nxi.nxi-pp-corners-in-duotone:before {
+    content: "\f9cf";
+}
+.nxi.nxi-pp-corners-out-duotone:before {
+    content: "\f9d0";
+}
+.nxi.nxi-pp-couch-duotone:before {
+    content: "\f9d1";
+}
+.nxi.nxi-pp-cpu-duotone:before {
+    content: "\f9d2";
+}
+.nxi.nxi-pp-credit-card-duotone:before {
+    content: "\f9d3";
+}
+.nxi.nxi-pp-crop-duotone:before {
+    content: "\f9d4";
+}
+.nxi.nxi-pp-cross-duotone:before {
+    content: "\f9d5";
+}
+.nxi.nxi-pp-crosshair-duotone:before {
+    content: "\f9d6";
+}
+.nxi.nxi-pp-crosshair-simple-duotone:before {
+    content: "\f9d7";
+}
+.nxi.nxi-pp-crown-duotone:before {
+    content: "\f9d8";
+}
+.nxi.nxi-pp-crown-simple-duotone:before {
+    content: "\f9d9";
+}
+.nxi.nxi-pp-cube-duotone:before {
+    content: "\f9da";
+}
+.nxi.nxi-pp-cube-focus-duotone:before {
+    content: "\f9db";
+}
+.nxi.nxi-pp-cube-transparent-duotone:before {
+    content: "\f9dc";
+}
+.nxi.nxi-pp-currency-btc-duotone:before {
+    content: "\f9dd";
+}
+.nxi.nxi-pp-currency-circle-dollar-duotone:before {
+    content: "\f9de";
+}
+.nxi.nxi-pp-currency-cny-duotone:before {
+    content: "\f9df";
+}
+.nxi.nxi-pp-currency-dollar-duotone:before {
+    content: "\f9e0";
+}
+.nxi.nxi-pp-currency-dollar-simple-duotone:before {
+    content: "\f9e1";
+}
+.nxi.nxi-pp-currency-eth-duotone:before {
+    content: "\f9e2";
+}
+.nxi.nxi-pp-currency-eur-duotone:before {
+    content: "\f9e3";
+}
+.nxi.nxi-pp-currency-gbp-duotone:before {
+    content: "\f9e4";
+}
+.nxi.nxi-pp-currency-inr-duotone:before {
+    content: "\f9e5";
+}
+.nxi.nxi-pp-currency-jpy-duotone:before {
+    content: "\f9e6";
+}
+.nxi.nxi-pp-currency-krw-duotone:before {
+    content: "\f9e7";
+}
+.nxi.nxi-pp-currency-kzt-duotone:before {
+    content: "\f9e8";
+}
+.nxi.nxi-pp-currency-ngn-duotone:before {
+    content: "\f9e9";
+}
+.nxi.nxi-pp-currency-rub-duotone:before {
+    content: "\f9ea";
+}
+.nxi.nxi-pp-cursor-click-duotone:before {
+    content: "\f9eb";
+}
+.nxi.nxi-pp-cursor-duotone:before {
+    content: "\f9ec";
+}
+.nxi.nxi-pp-cursor-text-duotone:before {
+    content: "\f9ed";
+}
+.nxi.nxi-pp-cylinder-duotone:before {
+    content: "\f9ee";
+}
+.nxi.nxi-pp-database-duotone:before {
+    content: "\f9ef";
+}
+.nxi.nxi-pp-desktop-duotone:before {
+    content: "\f9f0";
+}
+.nxi.nxi-pp-desktop-tower-duotone:before {
+    content: "\f9f1";
+}
+.nxi.nxi-pp-detective-duotone:before {
+    content: "\f9f2";
+}
+.nxi.nxi-pp-dev-to-logo-duotone:before {
+    content: "\f9f3";
+}
+.nxi.nxi-pp-device-mobile-camera-duotone:before {
+    content: "\f9f4";
+}
+.nxi.nxi-pp-device-mobile-duotone:before {
+    content: "\f9f5";
+}
+.nxi.nxi-pp-device-mobile-speaker-duotone:before {
+    content: "\f9f6";
+}
+.nxi.nxi-pp-device-tablet-camera-duotone:before {
+    content: "\f9f7";
+}
+.nxi.nxi-pp-device-tablet-duotone:before {
+    content: "\f9f8";
+}
+.nxi.nxi-pp-device-tablet-speaker-duotone:before {
+    content: "\f9f9";
+}
+.nxi.nxi-pp-devices-duotone:before {
+    content: "\f9fa";
+}
+.nxi.nxi-pp-diamond-duotone:before {
+    content: "\f9fb";
+}
+.nxi.nxi-pp-diamonds-four-duotone:before {
+    content: "\f9fc";
+}
+.nxi.nxi-pp-dice-five-duotone:before {
+    content: "\f9fd";
+}
+.nxi.nxi-pp-dice-four-duotone:before {
+    content: "\f9fe";
+}
+.nxi.nxi-pp-dice-one-duotone:before {
+    content: "\f9ff";
+}
+.nxi.nxi-pp-dice-six-duotone:before {
+    content: "\fa00";
+}
+.nxi.nxi-pp-dice-three-duotone:before {
+    content: "\fa01";
+}
+.nxi.nxi-pp-dice-two-duotone:before {
+    content: "\fa02";
+}
+.nxi.nxi-pp-disc-duotone:before {
+    content: "\fa03";
+}
+.nxi.nxi-pp-discord-logo-duotone:before {
+    content: "\fa04";
+}
+.nxi.nxi-pp-divide-duotone:before {
+    content: "\fa05";
+}
+.nxi.nxi-pp-dna-duotone:before {
+    content: "\fa06";
+}
+.nxi.nxi-pp-dog-duotone:before {
+    content: "\fa07";
+}
+.nxi.nxi-pp-door-duotone:before {
+    content: "\fa08";
+}
+.nxi.nxi-pp-door-open-duotone:before {
+    content: "\fa09";
+}
+.nxi.nxi-pp-dot-duotone:before {
+    content: "\fa0a";
+}
+.nxi.nxi-pp-dot-outline-duotone:before {
+    content: "\fa0b";
+}
+.nxi.nxi-pp-dots-nine-duotone:before {
+    content: "\fa0c";
+}
+.nxi.nxi-pp-dots-six-duotone:before {
+    content: "\fa0d";
+}
+.nxi.nxi-pp-dots-six-vertical-duotone:before {
+    content: "\fa0e";
+}
+.nxi.nxi-pp-dots-three-circle-duotone:before {
+    content: "\fa0f";
+}
+.nxi.nxi-pp-dots-three-circle-vertical-duotone:before {
+    content: "\fa10";
+}
+.nxi.nxi-pp-dots-three-duotone:before {
+    content: "\fa11";
+}
+.nxi.nxi-pp-dots-three-outline-duotone:before {
+    content: "\fa12";
+}
+.nxi.nxi-pp-dots-three-outline-vertical-duotone:before {
+    content: "\fa13";
+}
+.nxi.nxi-pp-dots-three-vertical-duotone:before {
+    content: "\fa14";
+}
+.nxi.nxi-pp-download-duotone:before {
+    content: "\fa15";
+}
+.nxi.nxi-pp-download-simple-duotone:before {
+    content: "\fa16";
+}
+.nxi.nxi-pp-dress-duotone:before {
+    content: "\fa17";
+}
+.nxi.nxi-pp-dribbble-logo-duotone:before {
+    content: "\fa18";
+}
+.nxi.nxi-pp-drop-duotone:before {
+    content: "\fa19";
+}
+.nxi.nxi-pp-drop-half-bottom-duotone:before {
+    content: "\fa1a";
+}
+.nxi.nxi-pp-drop-half-duotone:before {
+    content: "\fa1b";
+}
+.nxi.nxi-pp-dropbox-logo-duotone:before {
+    content: "\fa1c";
+}
+.nxi.nxi-pp-ear-duotone:before {
+    content: "\fa1d";
+}
+.nxi.nxi-pp-ear-slash-duotone:before {
+    content: "\fa1e";
+}
+.nxi.nxi-pp-egg-crack-duotone:before {
+    content: "\fa1f";
+}
+.nxi.nxi-pp-egg-duotone:before {
+    content: "\fa20";
+}
+.nxi.nxi-pp-eject-duotone:before {
+    content: "\fa21";
+}
+.nxi.nxi-pp-eject-simple-duotone:before {
+    content: "\fa22";
+}
+.nxi.nxi-pp-elevator-duotone:before {
+    content: "\fa23";
+}
+.nxi.nxi-pp-engine-duotone:before {
+    content: "\fa24";
+}
+.nxi.nxi-pp-envelope-duotone:before {
+    content: "\fa25";
+}
+.nxi.nxi-pp-envelope-open-duotone:before {
+    content: "\fa26";
+}
+.nxi.nxi-pp-envelope-simple-duotone:before {
+    content: "\fa27";
+}
+.nxi.nxi-pp-envelope-simple-open-duotone:before {
+    content: "\fa28";
+}
+.nxi.nxi-pp-equalizer-duotone:before {
+    content: "\fa29";
+}
+.nxi.nxi-pp-equals-duotone:before {
+    content: "\fa2a";
+}
+.nxi.nxi-pp-eraser-duotone:before {
+    content: "\fa2b";
+}
+.nxi.nxi-pp-escalator-down-duotone:before {
+    content: "\fa2c";
+}
+.nxi.nxi-pp-escalator-up-duotone:before {
+    content: "\fa2d";
+}
+.nxi.nxi-pp-exam-duotone:before {
+    content: "\fa2e";
+}
+.nxi.nxi-pp-exclude-duotone:before {
+    content: "\fa2f";
+}
+.nxi.nxi-pp-exclude-square-duotone:before {
+    content: "\fa30";
+}
+.nxi.nxi-pp-export-duotone:before {
+    content: "\fa31";
+}
+.nxi.nxi-pp-eye-closed-duotone:before {
+    content: "\fa32";
+}
+.nxi.nxi-pp-eye-duotone:before {
+    content: "\fa33";
+}
+.nxi.nxi-pp-eye-slash-duotone:before {
+    content: "\fa34";
+}
+.nxi.nxi-pp-eyedropper-duotone:before {
+    content: "\fa35";
+}
+.nxi.nxi-pp-eyedropper-sample-duotone:before {
+    content: "\fa36";
+}
+.nxi.nxi-pp-eyeglasses-duotone:before {
+    content: "\fa37";
+}
+.nxi.nxi-pp-face-mask-duotone:before {
+    content: "\fa38";
+}
+.nxi.nxi-pp-facebook-logo-duotone:before {
+    content: "\fa39";
+}
+.nxi.nxi-pp-factory-duotone:before {
+    content: "\fa3a";
+}
+.nxi.nxi-pp-faders-duotone:before {
+    content: "\fa3b";
+}
+.nxi.nxi-pp-faders-horizontal-duotone:before {
+    content: "\fa3c";
+}
+.nxi.nxi-pp-fan-duotone:before {
+    content: "\fa3d";
+}
+.nxi.nxi-pp-fast-forward-circle-duotone:before {
+    content: "\fa3e";
+}
+.nxi.nxi-pp-fast-forward-duotone:before {
+    content: "\fa3f";
+}
+.nxi.nxi-pp-feather-duotone:before {
+    content: "\fa40";
+}
+.nxi.nxi-pp-figma-logo-duotone:before {
+    content: "\fa41";
+}
+.nxi.nxi-pp-file-archive-duotone:before {
+    content: "\fa42";
+}
+.nxi.nxi-pp-file-arrow-down-duotone:before {
+    content: "\fa43";
+}
+.nxi.nxi-pp-file-arrow-up-duotone:before {
+    content: "\fa44";
+}
+.nxi.nxi-pp-file-audio-duotone:before {
+    content: "\fa45";
+}
+.nxi.nxi-pp-file-cloud-duotone:before {
+    content: "\fa46";
+}
+.nxi.nxi-pp-file-code-duotone:before {
+    content: "\fa47";
+}
+.nxi.nxi-pp-file-css-duotone:before {
+    content: "\fa48";
+}
+.nxi.nxi-pp-file-csv-duotone:before {
+    content: "\fa49";
+}
+.nxi.nxi-pp-file-dashed-duotone:before {
+    content: "\fa4a";
+}
+.nxi.nxi-pp-file-doc-duotone:before {
+    content: "\fa4b";
+}
+.nxi.nxi-pp-file-duotone:before {
+    content: "\fa4c";
+}
+.nxi.nxi-pp-file-html-duotone:before {
+    content: "\fa4d";
+}
+.nxi.nxi-pp-file-image-duotone:before {
+    content: "\fa4e";
+}
+.nxi.nxi-pp-file-jpg-duotone:before {
+    content: "\fa4f";
+}
+.nxi.nxi-pp-file-js-duotone:before {
+    content: "\fa50";
+}
+.nxi.nxi-pp-file-jsx-duotone:before {
+    content: "\fa51";
+}
+.nxi.nxi-pp-file-lock-duotone:before {
+    content: "\fa52";
+}
+.nxi.nxi-pp-file-magnifying-glass-duotone:before {
+    content: "\fa53";
+}
+.nxi.nxi-pp-file-minus-duotone:before {
+    content: "\fa54";
+}
+.nxi.nxi-pp-file-pdf-duotone:before {
+    content: "\fa55";
+}
+.nxi.nxi-pp-file-plus-duotone:before {
+    content: "\fa56";
+}
+.nxi.nxi-pp-file-png-duotone:before {
+    content: "\fa57";
+}
+.nxi.nxi-pp-file-ppt-duotone:before {
+    content: "\fa58";
+}
+.nxi.nxi-pp-file-rs-duotone:before {
+    content: "\fa59";
+}
+.nxi.nxi-pp-file-sql-duotone:before {
+    content: "\fa5a";
+}
+.nxi.nxi-pp-file-svg-duotone:before {
+    content: "\fa5b";
+}
+.nxi.nxi-pp-file-text-duotone:before {
+    content: "\fa5c";
+}
+.nxi.nxi-pp-file-ts-duotone:before {
+    content: "\fa5d";
+}
+.nxi.nxi-pp-file-tsx-duotone:before {
+    content: "\fa5e";
+}
+.nxi.nxi-pp-file-video-duotone:before {
+    content: "\fa5f";
+}
+.nxi.nxi-pp-file-vue-duotone:before {
+    content: "\fa60";
+}
+.nxi.nxi-pp-file-x-duotone:before {
+    content: "\fa61";
+}
+.nxi.nxi-pp-file-xls-duotone:before {
+    content: "\fa62";
+}
+.nxi.nxi-pp-file-zip-duotone:before {
+    content: "\fa63";
+}
+.nxi.nxi-pp-files-duotone:before {
+    content: "\fa64";
+}
+.nxi.nxi-pp-film-reel-duotone:before {
+    content: "\fa65";
+}
+.nxi.nxi-pp-film-script-duotone:before {
+    content: "\fa66";
+}
+.nxi.nxi-pp-film-slate-duotone:before {
+    content: "\fa67";
+}
+.nxi.nxi-pp-film-strip-duotone:before {
+    content: "\fa68";
+}
+.nxi.nxi-pp-fingerprint-duotone:before {
+    content: "\fa69";
+}
+.nxi.nxi-pp-fingerprint-simple-duotone:before {
+    content: "\fa6a";
+}
+.nxi.nxi-pp-finn-the-human-duotone:before {
+    content: "\fa6b";
+}
+.nxi.nxi-pp-fire-duotone:before {
+    content: "\fa6c";
+}
+.nxi.nxi-pp-fire-extinguisher-duotone:before {
+    content: "\fa6d";
+}
+.nxi.nxi-pp-fire-simple-duotone:before {
+    content: "\fa6e";
+}
+.nxi.nxi-pp-first-aid-duotone:before {
+    content: "\fa6f";
+}
+.nxi.nxi-pp-first-aid-kit-duotone:before {
+    content: "\fa70";
+}
+.nxi.nxi-pp-fish-duotone:before {
+    content: "\fa71";
+}
+.nxi.nxi-pp-fish-simple-duotone:before {
+    content: "\fa72";
+}
+.nxi.nxi-pp-flag-banner-duotone:before {
+    content: "\fa73";
+}
+.nxi.nxi-pp-flag-checkered-duotone:before {
+    content: "\fa74";
+}
+.nxi.nxi-pp-flag-duotone:before {
+    content: "\fa75";
+}
+.nxi.nxi-pp-flag-pennant-duotone:before {
+    content: "\fa76";
+}
+.nxi.nxi-pp-flame-duotone:before {
+    content: "\fa77";
+}
+.nxi.nxi-pp-flashlight-duotone:before {
+    content: "\fa78";
+}
+.nxi.nxi-pp-flask-duotone:before {
+    content: "\fa79";
+}
+.nxi.nxi-pp-floppy-disk-back-duotone:before {
+    content: "\fa7a";
+}
+.nxi.nxi-pp-floppy-disk-duotone:before {
+    content: "\fa7b";
+}
+.nxi.nxi-pp-flow-arrow-duotone:before {
+    content: "\fa7c";
+}
+.nxi.nxi-pp-flower-duotone:before {
+    content: "\fa7d";
+}
+.nxi.nxi-pp-flower-lotus-duotone:before {
+    content: "\fa7e";
+}
+.nxi.nxi-pp-flower-tulip-duotone:before {
+    content: "\fa7f";
+}
+.nxi.nxi-pp-flying-saucer-duotone:before {
+    content: "\fa80";
+}
+.nxi.nxi-pp-folder-dashed-duotone:before {
+    content: "\fa81";
+}
+.nxi.nxi-pp-folder-duotone:before {
+    content: "\fa82";
+}
+.nxi.nxi-pp-folder-lock-duotone:before {
+    content: "\fa83";
+}
+.nxi.nxi-pp-folder-minus-duotone:before {
+    content: "\fa84";
+}
+.nxi.nxi-pp-folder-notch-duotone:before {
+    content: "\fa85";
+}
+.nxi.nxi-pp-folder-notch-minus-duotone:before {
+    content: "\fa86";
+}
+.nxi.nxi-pp-folder-notch-open-duotone:before {
+    content: "\fa87";
+}
+.nxi.nxi-pp-folder-notch-plus-duotone:before {
+    content: "\fa88";
+}
+.nxi.nxi-pp-folder-open-duotone:before {
+    content: "\fa89";
+}
+.nxi.nxi-pp-folder-plus-duotone:before {
+    content: "\fa8a";
+}
+.nxi.nxi-pp-folder-simple-dashed-duotone:before {
+    content: "\fa8b";
+}
+.nxi.nxi-pp-folder-simple-duotone:before {
+    content: "\fa8c";
+}
+.nxi.nxi-pp-folder-simple-lock-duotone:before {
+    content: "\fa8d";
+}
+.nxi.nxi-pp-folder-simple-minus-duotone:before {
+    content: "\fa8e";
+}
+.nxi.nxi-pp-folder-simple-plus-duotone:before {
+    content: "\fa8f";
+}
+.nxi.nxi-pp-folder-simple-star-duotone:before {
+    content: "\fa90";
+}
+.nxi.nxi-pp-folder-simple-user-duotone:before {
+    content: "\fa91";
+}
+.nxi.nxi-pp-folder-star-duotone:before {
+    content: "\fa92";
+}
+.nxi.nxi-pp-folder-user-duotone:before {
+    content: "\fa93";
+}
+.nxi.nxi-pp-folders-duotone:before {
+    content: "\fa94";
+}
+.nxi.nxi-pp-football-duotone:before {
+    content: "\fa95";
+}
+.nxi.nxi-pp-footprints-duotone:before {
+    content: "\fa96";
+}
+.nxi.nxi-pp-fork-knife-duotone:before {
+    content: "\fa97";
+}
+.nxi.nxi-pp-frame-corners-duotone:before {
+    content: "\fa98";
+}
+.nxi.nxi-pp-framer-logo-duotone:before {
+    content: "\fa99";
+}
+.nxi.nxi-pp-function-duotone:before {
+    content: "\fa9a";
+}
+.nxi.nxi-pp-funnel-duotone:before {
+    content: "\fa9b";
+}
+.nxi.nxi-pp-funnel-simple-duotone:before {
+    content: "\fa9c";
+}
+.nxi.nxi-pp-game-controller-duotone:before {
+    content: "\fa9d";
+}
+.nxi.nxi-pp-garage-duotone:before {
+    content: "\fa9e";
+}
+.nxi.nxi-pp-gas-can-duotone:before {
+    content: "\fa9f";
+}
+.nxi.nxi-pp-gas-pump-duotone:before {
+    content: "\faa0";
+}
+.nxi.nxi-pp-gauge-duotone:before {
+    content: "\faa1";
+}
+.nxi.nxi-pp-gavel-duotone:before {
+    content: "\faa2";
+}
+.nxi.nxi-pp-gear-duotone:before {
+    content: "\faa3";
+}
+.nxi.nxi-pp-gear-fine-duotone:before {
+    content: "\faa4";
+}
+.nxi.nxi-pp-gear-six-duotone:before {
+    content: "\faa5";
+}
+.nxi.nxi-pp-gender-female-duotone:before {
+    content: "\faa6";
+}
+.nxi.nxi-pp-gender-intersex-duotone:before {
+    content: "\faa7";
+}
+.nxi.nxi-pp-gender-male-duotone:before {
+    content: "\faa8";
+}
+.nxi.nxi-pp-gender-neuter-duotone:before {
+    content: "\faa9";
+}
+.nxi.nxi-pp-gender-nonbinary-duotone:before {
+    content: "\faaa";
+}
+.nxi.nxi-pp-gender-transgender-duotone:before {
+    content: "\faab";
+}
+.nxi.nxi-pp-ghost-duotone:before {
+    content: "\faac";
+}
+.nxi.nxi-pp-gif-duotone:before {
+    content: "\faad";
+}
+.nxi.nxi-pp-gift-duotone:before {
+    content: "\faae";
+}
+.nxi.nxi-pp-git-branch-duotone:before {
+    content: "\faaf";
+}
+.nxi.nxi-pp-git-commit-duotone:before {
+    content: "\fab0";
+}
+.nxi.nxi-pp-git-diff-duotone:before {
+    content: "\fab1";
+}
+.nxi.nxi-pp-git-fork-duotone:before {
+    content: "\fab2";
+}
+.nxi.nxi-pp-git-merge-duotone:before {
+    content: "\fab3";
+}
+.nxi.nxi-pp-git-pull-request-duotone:before {
+    content: "\fab4";
+}
+.nxi.nxi-pp-github-logo-duotone:before {
+    content: "\fab5";
+}
+.nxi.nxi-pp-gitlab-logo-duotone:before {
+    content: "\fab6";
+}
+.nxi.nxi-pp-gitlab-logo-simple-duotone:before {
+    content: "\fab7";
+}
+.nxi.nxi-pp-globe-duotone:before {
+    content: "\fab8";
+}
+.nxi.nxi-pp-globe-hemisphere-east-duotone:before {
+    content: "\fab9";
+}
+.nxi.nxi-pp-globe-hemisphere-west-duotone:before {
+    content: "\faba";
+}
+.nxi.nxi-pp-globe-simple-duotone:before {
+    content: "\fabb";
+}
+.nxi.nxi-pp-globe-stand-duotone:before {
+    content: "\fabc";
+}
+.nxi.nxi-pp-goggles-duotone:before {
+    content: "\fabd";
+}
+.nxi.nxi-pp-goodreads-logo-duotone:before {
+    content: "\fabe";
+}
+.nxi.nxi-pp-google-cardboard-logo-duotone:before {
+    content: "\fabf";
+}
+.nxi.nxi-pp-google-chrome-logo-duotone:before {
+    content: "\fac0";
+}
+.nxi.nxi-pp-google-drive-logo-duotone:before {
+    content: "\fac1";
+}
+.nxi.nxi-pp-google-logo-duotone:before {
+    content: "\fac2";
+}
+.nxi.nxi-pp-google-photos-logo-duotone:before {
+    content: "\fac3";
+}
+.nxi.nxi-pp-google-play-logo-duotone:before {
+    content: "\fac4";
+}
+.nxi.nxi-pp-google-podcasts-logo-duotone:before {
+    content: "\fac5";
+}
+.nxi.nxi-pp-gradient-duotone:before {
+    content: "\fac6";
+}
+.nxi.nxi-pp-graduation-cap-duotone:before {
+    content: "\fac7";
+}
+.nxi.nxi-pp-grains-duotone:before {
+    content: "\fac8";
+}
+.nxi.nxi-pp-grains-slash-duotone:before {
+    content: "\fac9";
+}
+.nxi.nxi-pp-graph-duotone:before {
+    content: "\faca";
+}
+.nxi.nxi-pp-grid-four-duotone:before {
+    content: "\facb";
+}
+.nxi.nxi-pp-grid-nine-duotone:before {
+    content: "\facc";
+}
+.nxi.nxi-pp-guitar-duotone:before {
+    content: "\facd";
+}
+.nxi.nxi-pp-hamburger-duotone:before {
+    content: "\face";
+}
+.nxi.nxi-pp-hammer-duotone:before {
+    content: "\facf";
+}
+.nxi.nxi-pp-hand-coins-duotone:before {
+    content: "\fad0";
+}
+.nxi.nxi-pp-hand-duotone:before {
+    content: "\fad1";
+}
+.nxi.nxi-pp-hand-eye-duotone:before {
+    content: "\fad2";
+}
+.nxi.nxi-pp-hand-fist-duotone:before {
+    content: "\fad3";
+}
+.nxi.nxi-pp-hand-grabbing-duotone:before {
+    content: "\fad4";
+}
+.nxi.nxi-pp-hand-heart-duotone:before {
+    content: "\fad5";
+}
+.nxi.nxi-pp-hand-palm-duotone:before {
+    content: "\fad6";
+}
+.nxi.nxi-pp-hand-pointing-duotone:before {
+    content: "\fad7";
+}
+.nxi.nxi-pp-hand-soap-duotone:before {
+    content: "\fad8";
+}
+.nxi.nxi-pp-hand-swipe-left-duotone:before {
+    content: "\fad9";
+}
+.nxi.nxi-pp-hand-swipe-right-duotone:before {
+    content: "\fada";
+}
+.nxi.nxi-pp-hand-tap-duotone:before {
+    content: "\fadb";
+}
+.nxi.nxi-pp-hand-waving-duotone:before {
+    content: "\fadc";
+}
+.nxi.nxi-pp-handbag-duotone:before {
+    content: "\fadd";
+}
+.nxi.nxi-pp-handbag-simple-duotone:before {
+    content: "\fade";
+}
+.nxi.nxi-pp-hands-clapping-duotone:before {
+    content: "\fadf";
+}
+.nxi.nxi-pp-hands-praying-duotone:before {
+    content: "\fae0";
+}
+.nxi.nxi-pp-handshake-duotone:before {
+    content: "\fae1";
+}
+.nxi.nxi-pp-hard-drive-duotone:before {
+    content: "\fae2";
+}
+.nxi.nxi-pp-hard-drives-duotone:before {
+    content: "\fae3";
+}
+.nxi.nxi-pp-hash-duotone:before {
+    content: "\fae4";
+}
+.nxi.nxi-pp-hash-straight-duotone:before {
+    content: "\fae5";
+}
+.nxi.nxi-pp-headlights-duotone:before {
+    content: "\fae6";
+}
+.nxi.nxi-pp-headphones-duotone:before {
+    content: "\fae7";
+}
+.nxi.nxi-pp-headset-duotone:before {
+    content: "\fae8";
+}
+.nxi.nxi-pp-heart-break-duotone:before {
+    content: "\fae9";
+}
+.nxi.nxi-pp-heart-duotone:before {
+    content: "\faea";
+}
+.nxi.nxi-pp-heart-half-duotone:before {
+    content: "\faeb";
+}
+.nxi.nxi-pp-heart-straight-break-duotone:before {
+    content: "\faec";
+}
+.nxi.nxi-pp-heart-straight-duotone:before {
+    content: "\faed";
+}
+.nxi.nxi-pp-heartbeat-duotone:before {
+    content: "\faee";
+}
+.nxi.nxi-pp-hexagon-duotone:before {
+    content: "\faef";
+}
+.nxi.nxi-pp-high-heel-duotone:before {
+    content: "\faf0";
+}
+.nxi.nxi-pp-highlighter-circle-duotone:before {
+    content: "\faf1";
+}
+.nxi.nxi-pp-hoodie-duotone:before {
+    content: "\faf2";
+}
+.nxi.nxi-pp-horse-duotone:before {
+    content: "\faf3";
+}
+.nxi.nxi-pp-hourglass-duotone:before {
+    content: "\faf4";
+}
+.nxi.nxi-pp-hourglass-high-duotone:before {
+    content: "\faf5";
+}
+.nxi.nxi-pp-hourglass-low-duotone:before {
+    content: "\faf6";
+}
+.nxi.nxi-pp-hourglass-medium-duotone:before {
+    content: "\faf7";
+}
+.nxi.nxi-pp-hourglass-simple-duotone:before {
+    content: "\faf8";
+}
+.nxi.nxi-pp-hourglass-simple-high-duotone:before {
+    content: "\faf9";
+}
+.nxi.nxi-pp-hourglass-simple-low-duotone:before {
+    content: "\fafa";
+}
+.nxi.nxi-pp-hourglass-simple-medium-duotone:before {
+    content: "\fafb";
+}
+.nxi.nxi-pp-house-duotone:before {
+    content: "\fafc";
+}
+.nxi.nxi-pp-house-line-duotone:before {
+    content: "\fafd";
+}
+.nxi.nxi-pp-house-simple-duotone:before {
+    content: "\fafe";
+}
+.nxi.nxi-pp-ice-cream-duotone:before {
+    content: "\faff";
+}
+.nxi.nxi-pp-identification-badge-duotone:before {
+    content: "\fb00";
+}
+.nxi.nxi-pp-identification-card-duotone:before {
+    content: "\fb01";
+}
+.nxi.nxi-pp-image-duotone:before {
+    content: "\fb02";
+}
+.nxi.nxi-pp-image-square-duotone:before {
+    content: "\fb03";
+}
+.nxi.nxi-pp-images-duotone:before {
+    content: "\fb04";
+}
+.nxi.nxi-pp-images-square-duotone:before {
+    content: "\fb05";
+}
+.nxi.nxi-pp-infinity-duotone:before {
+    content: "\fb06";
+}
+.nxi.nxi-pp-info-duotone:before {
+    content: "\fb07";
+}
+.nxi.nxi-pp-instagram-logo-duotone:before {
+    content: "\fb08";
+}
+.nxi.nxi-pp-intersect-duotone:before {
+    content: "\fb09";
+}
+.nxi.nxi-pp-intersect-square-duotone:before {
+    content: "\fb0a";
+}
+.nxi.nxi-pp-intersect-three-duotone:before {
+    content: "\fb0b";
+}
+.nxi.nxi-pp-jeep-duotone:before {
+    content: "\fb0c";
+}
+.nxi.nxi-pp-kanban-duotone:before {
+    content: "\fb0d";
+}
+.nxi.nxi-pp-key-duotone:before {
+    content: "\fb0e";
+}
+.nxi.nxi-pp-key-return-duotone:before {
+    content: "\fb0f";
+}
+.nxi.nxi-pp-keyboard-duotone:before {
+    content: "\fb10";
+}
+.nxi.nxi-pp-keyhole-duotone:before {
+    content: "\fb11";
+}
+.nxi.nxi-pp-knife-duotone:before {
+    content: "\fb12";
+}
+.nxi.nxi-pp-ladder-duotone:before {
+    content: "\fb13";
+}
+.nxi.nxi-pp-ladder-simple-duotone:before {
+    content: "\fb14";
+}
+.nxi.nxi-pp-lamp-duotone:before {
+    content: "\fb15";
+}
+.nxi.nxi-pp-laptop-duotone:before {
+    content: "\fb16";
+}
+.nxi.nxi-pp-layout-duotone:before {
+    content: "\fb17";
+}
+.nxi.nxi-pp-leaf-duotone:before {
+    content: "\fb18";
+}
+.nxi.nxi-pp-lifebuoy-duotone:before {
+    content: "\fb19";
+}
+.nxi.nxi-pp-lightbulb-duotone:before {
+    content: "\fb1a";
+}
+.nxi.nxi-pp-lightbulb-filament-duotone:before {
+    content: "\fb1b";
+}
+.nxi.nxi-pp-lighthouse-duotone:before {
+    content: "\fb1c";
+}
+.nxi.nxi-pp-lightning-a-duotone:before {
+    content: "\fb1d";
+}
+.nxi.nxi-pp-lightning-duotone:before {
+    content: "\fb1e";
+}
+.nxi.nxi-pp-lightning-slash-duotone:before {
+    content: "\fb1f";
+}
+.nxi.nxi-pp-line-segment-duotone:before {
+    content: "\fb20";
+}
+.nxi.nxi-pp-line-segments-duotone:before {
+    content: "\fb21";
+}
+.nxi.nxi-pp-link-break-duotone:before {
+    content: "\fb22";
+}
+.nxi.nxi-pp-link-duotone:before {
+    content: "\fb23";
+}
+.nxi.nxi-pp-link-simple-break-duotone:before {
+    content: "\fb24";
+}
+.nxi.nxi-pp-link-simple-duotone:before {
+    content: "\fb25";
+}
+.nxi.nxi-pp-link-simple-horizontal-break-duotone:before {
+    content: "\fb26";
+}
+.nxi.nxi-pp-link-simple-horizontal-duotone:before {
+    content: "\fb27";
+}
+.nxi.nxi-pp-linkedin-logo-duotone:before {
+    content: "\fb28";
+}
+.nxi.nxi-pp-linux-logo-duotone:before {
+    content: "\fb29";
+}
+.nxi.nxi-pp-list-bullets-duotone:before {
+    content: "\fb2a";
+}
+.nxi.nxi-pp-list-checks-duotone:before {
+    content: "\fb2b";
+}
+.nxi.nxi-pp-list-dashes-duotone:before {
+    content: "\fb2c";
+}
+.nxi.nxi-pp-list-duotone:before {
+    content: "\fb2d";
+}
+.nxi.nxi-pp-list-magnifying-glass-duotone:before {
+    content: "\fb2e";
+}
+.nxi.nxi-pp-list-numbers-duotone:before {
+    content: "\fb2f";
+}
+.nxi.nxi-pp-list-plus-duotone:before {
+    content: "\fb30";
+}
+.nxi.nxi-pp-lock-duotone:before {
+    content: "\fb31";
+}
+.nxi.nxi-pp-lock-key-duotone:before {
+    content: "\fb32";
+}
+.nxi.nxi-pp-lock-key-open-duotone:before {
+    content: "\fb33";
+}
+.nxi.nxi-pp-lock-laminated-duotone:before {
+    content: "\fb34";
+}
+.nxi.nxi-pp-lock-laminated-open-duotone:before {
+    content: "\fb35";
+}
+.nxi.nxi-pp-lock-open-duotone:before {
+    content: "\fb36";
+}
+.nxi.nxi-pp-lock-simple-duotone:before {
+    content: "\fb37";
+}
+.nxi.nxi-pp-lock-simple-open-duotone:before {
+    content: "\fb38";
+}
+.nxi.nxi-pp-lockers-duotone:before {
+    content: "\fb39";
+}
+.nxi.nxi-pp-magic-wand-duotone:before {
+    content: "\fb3a";
+}
+.nxi.nxi-pp-magnet-duotone:before {
+    content: "\fb3b";
+}
+.nxi.nxi-pp-magnet-straight-duotone:before {
+    content: "\fb3c";
+}
+.nxi.nxi-pp-magnifying-glass-duotone:before {
+    content: "\fb3d";
+}
+.nxi.nxi-pp-magnifying-glass-minus-duotone:before {
+    content: "\fb3e";
+}
+.nxi.nxi-pp-magnifying-glass-plus-duotone:before {
+    content: "\fb3f";
+}
+.nxi.nxi-pp-map-pin-duotone:before {
+    content: "\fb40";
+}
+.nxi.nxi-pp-map-pin-line-duotone:before {
+    content: "\fb41";
+}
+.nxi.nxi-pp-map-trifold-duotone:before {
+    content: "\fb42";
+}
+.nxi.nxi-pp-marker-circle-duotone:before {
+    content: "\fb43";
+}
+.nxi.nxi-pp-martini-duotone:before {
+    content: "\fb44";
+}
+.nxi.nxi-pp-mask-happy-duotone:before {
+    content: "\fb45";
+}
+.nxi.nxi-pp-mask-sad-duotone:before {
+    content: "\fb46";
+}
+.nxi.nxi-pp-math-operations-duotone:before {
+    content: "\fb47";
+}
+.nxi.nxi-pp-medal-duotone:before {
+    content: "\fb48";
+}
+.nxi.nxi-pp-medal-military-duotone:before {
+    content: "\fb49";
+}
+.nxi.nxi-pp-medium-logo-duotone:before {
+    content: "\fb4a";
+}
+.nxi.nxi-pp-megaphone-duotone:before {
+    content: "\fb4b";
+}
+.nxi.nxi-pp-megaphone-simple-duotone:before {
+    content: "\fb4c";
+}
+.nxi.nxi-pp-messenger-logo-duotone:before {
+    content: "\fb4d";
+}
+.nxi.nxi-pp-meta-logo-duotone:before {
+    content: "\fb4e";
+}
+.nxi.nxi-pp-metronome-duotone:before {
+    content: "\fb4f";
+}
+.nxi.nxi-pp-microphone-duotone:before {
+    content: "\fb50";
+}
+.nxi.nxi-pp-microphone-slash-duotone:before {
+    content: "\fb51";
+}
+.nxi.nxi-pp-microphone-stage-duotone:before {
+    content: "\fb52";
+}
+.nxi.nxi-pp-microsoft-excel-logo-duotone:before {
+    content: "\fb53";
+}
+.nxi.nxi-pp-microsoft-outlook-logo-duotone:before {
+    content: "\fb54";
+}
+.nxi.nxi-pp-microsoft-powerpoint-logo-duotone:before {
+    content: "\fb55";
+}
+.nxi.nxi-pp-microsoft-teams-logo-duotone:before {
+    content: "\fb56";
+}
+.nxi.nxi-pp-microsoft-word-logo-duotone:before {
+    content: "\fb57";
+}
+.nxi.nxi-pp-minus-circle-duotone:before {
+    content: "\fb58";
+}
+.nxi.nxi-pp-minus-duotone:before {
+    content: "\fb59";
+}
+.nxi.nxi-pp-minus-square-duotone:before {
+    content: "\fb5a";
+}
+.nxi.nxi-pp-money-duotone:before {
+    content: "\fb5b";
+}
+.nxi.nxi-pp-monitor-duotone:before {
+    content: "\fb5c";
+}
+.nxi.nxi-pp-monitor-play-duotone:before {
+    content: "\fb5d";
+}
+.nxi.nxi-pp-moon-duotone:before {
+    content: "\fb5e";
+}
+.nxi.nxi-pp-moon-stars-duotone:before {
+    content: "\fb5f";
+}
+.nxi.nxi-pp-moped-duotone:before {
+    content: "\fb60";
+}
+.nxi.nxi-pp-moped-front-duotone:before {
+    content: "\fb61";
+}
+.nxi.nxi-pp-mosque-duotone:before {
+    content: "\fb62";
+}
+.nxi.nxi-pp-motorcycle-duotone:before {
+    content: "\fb63";
+}
+.nxi.nxi-pp-mountains-duotone:before {
+    content: "\fb64";
+}
+.nxi.nxi-pp-mouse-duotone:before {
+    content: "\fb65";
+}
+.nxi.nxi-pp-mouse-simple-duotone:before {
+    content: "\fb66";
+}
+.nxi.nxi-pp-music-note-duotone:before {
+    content: "\fb67";
+}
+.nxi.nxi-pp-music-note-simple-duotone:before {
+    content: "\fb68";
+}
+.nxi.nxi-pp-music-notes-duotone:before {
+    content: "\fb69";
+}
+.nxi.nxi-pp-music-notes-plus-duotone:before {
+    content: "\fb6a";
+}
+.nxi.nxi-pp-music-notes-simple-duotone:before {
+    content: "\fb6b";
+}
+.nxi.nxi-pp-navigation-arrow-duotone:before {
+    content: "\fb6c";
+}
+.nxi.nxi-pp-needle-duotone:before {
+    content: "\fb6d";
+}
+.nxi.nxi-pp-newspaper-clipping-duotone:before {
+    content: "\fb6e";
+}
+.nxi.nxi-pp-newspaper-duotone:before {
+    content: "\fb6f";
+}
+.nxi.nxi-pp-notches-duotone:before {
+    content: "\fb70";
+}
+.nxi.nxi-pp-note-blank-duotone:before {
+    content: "\fb71";
+}
+.nxi.nxi-pp-note-duotone:before {
+    content: "\fb72";
+}
+.nxi.nxi-pp-note-pencil-duotone:before {
+    content: "\fb73";
+}
+.nxi.nxi-pp-notebook-duotone:before {
+    content: "\fb74";
+}
+.nxi.nxi-pp-notepad-duotone:before {
+    content: "\fb75";
+}
+.nxi.nxi-pp-notification-duotone:before {
+    content: "\fb76";
+}
+.nxi.nxi-pp-notion-logo-duotone:before {
+    content: "\fb77";
+}
+.nxi.nxi-pp-number-circle-eight-duotone:before {
+    content: "\fb78";
+}
+.nxi.nxi-pp-number-circle-five-duotone:before {
+    content: "\fb79";
+}
+.nxi.nxi-pp-number-circle-four-duotone:before {
+    content: "\fb7a";
+}
+.nxi.nxi-pp-number-circle-nine-duotone:before {
+    content: "\fb7b";
+}
+.nxi.nxi-pp-number-circle-one-duotone:before {
+    content: "\fb7c";
+}
+.nxi.nxi-pp-number-circle-seven-duotone:before {
+    content: "\fb7d";
+}
+.nxi.nxi-pp-number-circle-six-duotone:before {
+    content: "\fb7e";
+}
+.nxi.nxi-pp-number-circle-three-duotone:before {
+    content: "\fb7f";
+}
+.nxi.nxi-pp-number-circle-two-duotone:before {
+    content: "\fb80";
+}
+.nxi.nxi-pp-number-circle-zero-duotone:before {
+    content: "\fb81";
+}
+.nxi.nxi-pp-number-eight-duotone:before {
+    content: "\fb82";
+}
+.nxi.nxi-pp-number-five-duotone:before {
+    content: "\fb83";
+}
+.nxi.nxi-pp-number-four-duotone:before {
+    content: "\fb84";
+}
+.nxi.nxi-pp-number-nine-duotone:before {
+    content: "\fb85";
+}
+.nxi.nxi-pp-number-one-duotone:before {
+    content: "\fb86";
+}
+.nxi.nxi-pp-number-seven-duotone:before {
+    content: "\fb87";
+}
+.nxi.nxi-pp-number-six-duotone:before {
+    content: "\fb88";
+}
+.nxi.nxi-pp-number-square-eight-duotone:before {
+    content: "\fb89";
+}
+.nxi.nxi-pp-number-square-five-duotone:before {
+    content: "\fb8a";
+}
+.nxi.nxi-pp-number-square-four-duotone:before {
+    content: "\fb8b";
+}
+.nxi.nxi-pp-number-square-nine-duotone:before {
+    content: "\fb8c";
+}
+.nxi.nxi-pp-number-square-one-duotone:before {
+    content: "\fb8d";
+}
+.nxi.nxi-pp-number-square-seven-duotone:before {
+    content: "\fb8e";
+}
+.nxi.nxi-pp-number-square-six-duotone:before {
+    content: "\fb8f";
+}
+.nxi.nxi-pp-number-square-three-duotone:before {
+    content: "\fb90";
+}
+.nxi.nxi-pp-number-square-two-duotone:before {
+    content: "\fb91";
+}
+.nxi.nxi-pp-number-square-zero-duotone:before {
+    content: "\fb92";
+}
+.nxi.nxi-pp-number-three-duotone:before {
+    content: "\fb93";
+}
+.nxi.nxi-pp-number-two-duotone:before {
+    content: "\fb94";
+}
+.nxi.nxi-pp-number-zero-duotone:before {
+    content: "\fb95";
+}
+.nxi.nxi-pp-nut-duotone:before {
+    content: "\fb96";
+}
+.nxi.nxi-pp-ny-times-logo-duotone:before {
+    content: "\fb97";
+}
+.nxi.nxi-pp-octagon-duotone:before {
+    content: "\fb98";
+}
+.nxi.nxi-pp-office-chair-duotone:before {
+    content: "\fb99";
+}
+.nxi.nxi-pp-option-duotone:before {
+    content: "\fb9a";
+}
+.nxi.nxi-pp-orange-slice-duotone:before {
+    content: "\fb9b";
+}
+.nxi.nxi-pp-package-duotone:before {
+    content: "\fb9c";
+}
+.nxi.nxi-pp-paint-brush-broad-duotone:before {
+    content: "\fb9d";
+}
+.nxi.nxi-pp-paint-brush-duotone:before {
+    content: "\fb9e";
+}
+.nxi.nxi-pp-paint-brush-household-duotone:before {
+    content: "\fb9f";
+}
+.nxi.nxi-pp-paint-bucket-duotone:before {
+    content: "\fba0";
+}
+.nxi.nxi-pp-paint-roller-duotone:before {
+    content: "\fba1";
+}
+.nxi.nxi-pp-palette-duotone:before {
+    content: "\fba2";
+}
+.nxi.nxi-pp-pants-duotone:before {
+    content: "\fba3";
+}
+.nxi.nxi-pp-paper-plane-duotone:before {
+    content: "\fba4";
+}
+.nxi.nxi-pp-paper-plane-right-duotone:before {
+    content: "\fba5";
+}
+.nxi.nxi-pp-paper-plane-tilt-duotone:before {
+    content: "\fba6";
+}
+.nxi.nxi-pp-paperclip-duotone:before {
+    content: "\fba7";
+}
+.nxi.nxi-pp-paperclip-horizontal-duotone:before {
+    content: "\fba8";
+}
+.nxi.nxi-pp-parachute-duotone:before {
+    content: "\fba9";
+}
+.nxi.nxi-pp-paragraph-duotone:before {
+    content: "\fbaa";
+}
+.nxi.nxi-pp-parallelogram-duotone:before {
+    content: "\fbab";
+}
+.nxi.nxi-pp-park-duotone:before {
+    content: "\fbac";
+}
+.nxi.nxi-pp-password-duotone:before {
+    content: "\fbad";
+}
+.nxi.nxi-pp-path-duotone:before {
+    content: "\fbae";
+}
+.nxi.nxi-pp-patreon-logo-duotone:before {
+    content: "\fbaf";
+}
+.nxi.nxi-pp-pause-circle-duotone:before {
+    content: "\fbb0";
+}
+.nxi.nxi-pp-pause-duotone:before {
+    content: "\fbb1";
+}
+.nxi.nxi-pp-paw-print-duotone:before {
+    content: "\fbb2";
+}
+.nxi.nxi-pp-paypal-logo-duotone:before {
+    content: "\fbb3";
+}
+.nxi.nxi-pp-peace-duotone:before {
+    content: "\fbb4";
+}
+.nxi.nxi-pp-pen-duotone:before {
+    content: "\fbb5";
+}
+.nxi.nxi-pp-pen-nib-duotone:before {
+    content: "\fbb6";
+}
+.nxi.nxi-pp-pen-nib-straight-duotone:before {
+    content: "\fbb7";
+}
+.nxi.nxi-pp-pencil-circle-duotone:before {
+    content: "\fbb8";
+}
+.nxi.nxi-pp-pencil-duotone:before {
+    content: "\fbb9";
+}
+.nxi.nxi-pp-pencil-line-duotone:before {
+    content: "\fbba";
+}
+.nxi.nxi-pp-pencil-simple-duotone:before {
+    content: "\fbbb";
+}
+.nxi.nxi-pp-pencil-simple-line-duotone:before {
+    content: "\fbbc";
+}
+.nxi.nxi-pp-pencil-simple-slash-duotone:before {
+    content: "\fbbd";
+}
+.nxi.nxi-pp-pencil-slash-duotone:before {
+    content: "\fbbe";
+}
+.nxi.nxi-pp-pentagram-duotone:before {
+    content: "\fbbf";
+}
+.nxi.nxi-pp-pepper-duotone:before {
+    content: "\fbc0";
+}
+.nxi.nxi-pp-percent-duotone:before {
+    content: "\fbc1";
+}
+.nxi.nxi-pp-person-arms-spread-duotone:before {
+    content: "\fbc2";
+}
+.nxi.nxi-pp-person-duotone:before {
+    content: "\fbc3";
+}
+.nxi.nxi-pp-person-simple-bike-duotone:before {
+    content: "\fbc4";
+}
+.nxi.nxi-pp-person-simple-duotone:before {
+    content: "\fbc5";
+}
+.nxi.nxi-pp-person-simple-run-duotone:before {
+    content: "\fbc6";
+}
+.nxi.nxi-pp-person-simple-throw-duotone:before {
+    content: "\fbc7";
+}
+.nxi.nxi-pp-person-simple-walk-duotone:before {
+    content: "\fbc8";
+}
+.nxi.nxi-pp-perspective-duotone:before {
+    content: "\fbc9";
+}
+.nxi.nxi-pp-phone-call-duotone:before {
+    content: "\fbca";
+}
+.nxi.nxi-pp-phone-disconnect-duotone:before {
+    content: "\fbcb";
+}
+.nxi.nxi-pp-phone-duotone:before {
+    content: "\fbcc";
+}
+.nxi.nxi-pp-phone-incoming-duotone:before {
+    content: "\fbcd";
+}
+.nxi.nxi-pp-phone-outgoing-duotone:before {
+    content: "\fbce";
+}
+.nxi.nxi-pp-phone-plus-duotone:before {
+    content: "\fbcf";
+}
+.nxi.nxi-pp-phone-slash-duotone:before {
+    content: "\fbd0";
+}
+.nxi.nxi-pp-phone-x-duotone:before {
+    content: "\fbd1";
+}
+.nxi.nxi-pp-phosphor-logo-duotone:before {
+    content: "\fbd2";
+}
+.nxi.nxi-pp-pi-duotone:before {
+    content: "\fbd3";
+}
+.nxi.nxi-pp-piano-keys-duotone:before {
+    content: "\fbd4";
+}
+.nxi.nxi-pp-picture-in-picture-duotone:before {
+    content: "\fbd5";
+}
+.nxi.nxi-pp-piggy-bank-duotone:before {
+    content: "\fbd6";
+}
+.nxi.nxi-pp-pill-duotone:before {
+    content: "\fbd7";
+}
+.nxi.nxi-pp-pinterest-logo-duotone:before {
+    content: "\fbd8";
+}
+.nxi.nxi-pp-pinwheel-duotone:before {
+    content: "\fbd9";
+}
+.nxi.nxi-pp-pizza-duotone:before {
+    content: "\fbda";
+}
+.nxi.nxi-pp-placeholder-duotone:before {
+    content: "\fbdb";
+}
+.nxi.nxi-pp-planet-duotone:before {
+    content: "\fbdc";
+}
+.nxi.nxi-pp-plant-duotone:before {
+    content: "\fbdd";
+}
+.nxi.nxi-pp-play-circle-duotone:before {
+    content: "\fbde";
+}
+.nxi.nxi-pp-play-duotone:before {
+    content: "\fbdf";
+}
+.nxi.nxi-pp-play-pause-duotone:before {
+    content: "\fbe0";
+}
+.nxi.nxi-pp-playlist-duotone:before {
+    content: "\fbe1";
+}
+.nxi.nxi-pp-plug-charging-duotone:before {
+    content: "\fbe2";
+}
+.nxi.nxi-pp-plug-duotone:before {
+    content: "\fbe3";
+}
+.nxi.nxi-pp-plugs-connected-duotone:before {
+    content: "\fbe4";
+}
+.nxi.nxi-pp-plugs-duotone:before {
+    content: "\fbe5";
+}
+.nxi.nxi-pp-plus-circle-duotone:before {
+    content: "\fbe6";
+}
+.nxi.nxi-pp-plus-duotone:before {
+    content: "\fbe7";
+}
+.nxi.nxi-pp-plus-minus-duotone:before {
+    content: "\fbe8";
+}
+.nxi.nxi-pp-plus-square-duotone:before {
+    content: "\fbe9";
+}
+.nxi.nxi-pp-poker-chip-duotone:before {
+    content: "\fbea";
+}
+.nxi.nxi-pp-police-car-duotone:before {
+    content: "\fbeb";
+}
+.nxi.nxi-pp-polygon-duotone:before {
+    content: "\fbec";
+}
+.nxi.nxi-pp-popcorn-duotone:before {
+    content: "\fbed";
+}
+.nxi.nxi-pp-potted-plant-duotone:before {
+    content: "\fbee";
+}
+.nxi.nxi-pp-power-duotone:before {
+    content: "\fbef";
+}
+.nxi.nxi-pp-prescription-duotone:before {
+    content: "\fbf0";
+}
+.nxi.nxi-pp-presentation-chart-duotone:before {
+    content: "\fbf1";
+}
+.nxi.nxi-pp-presentation-duotone:before {
+    content: "\fbf2";
+}
+.nxi.nxi-pp-printer-duotone:before {
+    content: "\fbf3";
+}
+.nxi.nxi-pp-prohibit-duotone:before {
+    content: "\fbf4";
+}
+.nxi.nxi-pp-prohibit-inset-duotone:before {
+    content: "\fbf5";
+}
+.nxi.nxi-pp-projector-screen-chart-duotone:before {
+    content: "\fbf6";
+}
+.nxi.nxi-pp-projector-screen-duotone:before {
+    content: "\fbf7";
+}
+.nxi.nxi-pp-pulse-duotone:before {
+    content: "\fbf8";
+}
+.nxi.nxi-pp-push-pin-duotone:before {
+    content: "\fbf9";
+}
+.nxi.nxi-pp-push-pin-simple-duotone:before {
+    content: "\fbfa";
+}
+.nxi.nxi-pp-push-pin-simple-slash-duotone:before {
+    content: "\fbfb";
+}
+.nxi.nxi-pp-push-pin-slash-duotone:before {
+    content: "\fbfc";
+}
+.nxi.nxi-pp-puzzle-piece-duotone:before {
+    content: "\fbfd";
+}
+.nxi.nxi-pp-qr-code-duotone:before {
+    content: "\fbfe";
+}
+.nxi.nxi-pp-question-duotone:before {
+    content: "\fbff";
+}
+.nxi.nxi-pp-queue-duotone:before {
+    content: "\fc00";
+}
+.nxi.nxi-pp-quotes-duotone:before {
+    content: "\fc01";
+}
+.nxi.nxi-pp-radical-duotone:before {
+    content: "\fc02";
+}
+.nxi.nxi-pp-radio-button-duotone:before {
+    content: "\fc03";
+}
+.nxi.nxi-pp-radio-duotone:before {
+    content: "\fc04";
+}
+.nxi.nxi-pp-radioactive-duotone:before {
+    content: "\fc05";
+}
+.nxi.nxi-pp-rainbow-cloud-duotone:before {
+    content: "\fc06";
+}
+.nxi.nxi-pp-rainbow-duotone:before {
+    content: "\fc07";
+}
+.nxi.nxi-pp-read-cv-logo-duotone:before {
+    content: "\fc08";
+}
+.nxi.nxi-pp-receipt-duotone:before {
+    content: "\fc09";
+}
+.nxi.nxi-pp-receipt-x-duotone:before {
+    content: "\fc0a";
+}
+.nxi.nxi-pp-record-duotone:before {
+    content: "\fc0b";
+}
+.nxi.nxi-pp-rectangle-duotone:before {
+    content: "\fc0c";
+}
+.nxi.nxi-pp-recycle-duotone:before {
+    content: "\fc0d";
+}
+.nxi.nxi-pp-reddit-logo-duotone:before {
+    content: "\fc0e";
+}
+.nxi.nxi-pp-repeat-duotone:before {
+    content: "\fc0f";
+}
+.nxi.nxi-pp-repeat-once-duotone:before {
+    content: "\fc10";
+}
+.nxi.nxi-pp-rewind-circle-duotone:before {
+    content: "\fc11";
+}
+.nxi.nxi-pp-rewind-duotone:before {
+    content: "\fc12";
+}
+.nxi.nxi-pp-road-horizon-duotone:before {
+    content: "\fc13";
+}
+.nxi.nxi-pp-robot-duotone:before {
+    content: "\fc14";
+}
+.nxi.nxi-pp-rocket-duotone:before {
+    content: "\fc15";
+}
+.nxi.nxi-pp-rocket-launch-duotone:before {
+    content: "\fc16";
+}
+.nxi.nxi-pp-rows-duotone:before {
+    content: "\fc17";
+}
+.nxi.nxi-pp-rss-duotone:before {
+    content: "\fc18";
+}
+.nxi.nxi-pp-rss-simple-duotone:before {
+    content: "\fc19";
+}
+.nxi.nxi-pp-rug-duotone:before {
+    content: "\fc1a";
+}
+.nxi.nxi-pp-ruler-duotone:before {
+    content: "\fc1b";
+}
+.nxi.nxi-pp-scales-duotone:before {
+    content: "\fc1c";
+}
+.nxi.nxi-pp-scan-duotone:before {
+    content: "\fc1d";
+}
+.nxi.nxi-pp-scissors-duotone:before {
+    content: "\fc1e";
+}
+.nxi.nxi-pp-scooter-duotone:before {
+    content: "\fc1f";
+}
+.nxi.nxi-pp-screencast-duotone:before {
+    content: "\fc20";
+}
+.nxi.nxi-pp-scribble-loop-duotone:before {
+    content: "\fc21";
+}
+.nxi.nxi-pp-scroll-duotone:before {
+    content: "\fc22";
+}
+.nxi.nxi-pp-seal-check-duotone:before {
+    content: "\fc23";
+}
+.nxi.nxi-pp-seal-duotone:before {
+    content: "\fc24";
+}
+.nxi.nxi-pp-seal-question-duotone:before {
+    content: "\fc25";
+}
+.nxi.nxi-pp-seal-warning-duotone:before {
+    content: "\fc26";
+}
+.nxi.nxi-pp-selection-all-duotone:before {
+    content: "\fc27";
+}
+.nxi.nxi-pp-selection-background-duotone:before {
+    content: "\fc28";
+}
+.nxi.nxi-pp-selection-duotone:before {
+    content: "\fc29";
+}
+.nxi.nxi-pp-selection-foreground-duotone:before {
+    content: "\fc2a";
+}
+.nxi.nxi-pp-selection-inverse-duotone:before {
+    content: "\fc2b";
+}
+.nxi.nxi-pp-selection-plus-duotone:before {
+    content: "\fc2c";
+}
+.nxi.nxi-pp-selection-slash-duotone:before {
+    content: "\fc2d";
+}
+.nxi.nxi-pp-shapes-duotone:before {
+    content: "\fc2e";
+}
+.nxi.nxi-pp-share-duotone:before {
+    content: "\fc2f";
+}
+.nxi.nxi-pp-share-fat-duotone:before {
+    content: "\fc30";
+}
+.nxi.nxi-pp-share-network-duotone:before {
+    content: "\fc31";
+}
+.nxi.nxi-pp-shield-check-duotone:before {
+    content: "\fc32";
+}
+.nxi.nxi-pp-shield-checkered-duotone:before {
+    content: "\fc33";
+}
+.nxi.nxi-pp-shield-chevron-duotone:before {
+    content: "\fc34";
+}
+.nxi.nxi-pp-shield-duotone:before {
+    content: "\fc35";
+}
+.nxi.nxi-pp-shield-plus-duotone:before {
+    content: "\fc36";
+}
+.nxi.nxi-pp-shield-slash-duotone:before {
+    content: "\fc37";
+}
+.nxi.nxi-pp-shield-star-duotone:before {
+    content: "\fc38";
+}
+.nxi.nxi-pp-shield-warning-duotone:before {
+    content: "\fc39";
+}
+.nxi.nxi-pp-shirt-folded-duotone:before {
+    content: "\fc3a";
+}
+.nxi.nxi-pp-shooting-star-duotone:before {
+    content: "\fc3b";
+}
+.nxi.nxi-pp-shopping-bag-duotone:before {
+    content: "\fc3c";
+}
+.nxi.nxi-pp-shopping-bag-open-duotone:before {
+    content: "\fc3d";
+}
+.nxi.nxi-pp-shopping-cart-duotone:before {
+    content: "\fc3e";
+}
+.nxi.nxi-pp-shopping-cart-simple-duotone:before {
+    content: "\fc3f";
+}
+.nxi.nxi-pp-shower-duotone:before {
+    content: "\fc40";
+}
+.nxi.nxi-pp-shrimp-duotone:before {
+    content: "\fc41";
+}
+.nxi.nxi-pp-shuffle-angular-duotone:before {
+    content: "\fc42";
+}
+.nxi.nxi-pp-shuffle-duotone:before {
+    content: "\fc43";
+}
+.nxi.nxi-pp-shuffle-simple-duotone:before {
+    content: "\fc44";
+}
+.nxi.nxi-pp-sidebar-duotone:before {
+    content: "\fc45";
+}
+.nxi.nxi-pp-sidebar-simple-duotone:before {
+    content: "\fc46";
+}
+.nxi.nxi-pp-sigma-duotone:before {
+    content: "\fc47";
+}
+.nxi.nxi-pp-sign-in-duotone:before {
+    content: "\fc48";
+}
+.nxi.nxi-pp-sign-out-duotone:before {
+    content: "\fc49";
+}
+.nxi.nxi-pp-signature-duotone:before {
+    content: "\fc4a";
+}
+.nxi.nxi-pp-signpost-duotone:before {
+    content: "\fc4b";
+}
+.nxi.nxi-pp-sim-card-duotone:before {
+    content: "\fc4c";
+}
+.nxi.nxi-pp-siren-duotone:before {
+    content: "\fc4d";
+}
+.nxi.nxi-pp-sketch-logo-duotone:before {
+    content: "\fc4e";
+}
+.nxi.nxi-pp-skip-back-circle-duotone:before {
+    content: "\fc4f";
+}
+.nxi.nxi-pp-skip-back-duotone:before {
+    content: "\fc50";
+}
+.nxi.nxi-pp-skip-forward-circle-duotone:before {
+    content: "\fc51";
+}
+.nxi.nxi-pp-skip-forward-duotone:before {
+    content: "\fc52";
+}
+.nxi.nxi-pp-skull-duotone:before {
+    content: "\fc53";
+}
+.nxi.nxi-pp-slack-logo-duotone:before {
+    content: "\fc54";
+}
+.nxi.nxi-pp-sliders-duotone:before {
+    content: "\fc55";
+}
+.nxi.nxi-pp-sliders-horizontal-duotone:before {
+    content: "\fc56";
+}
+.nxi.nxi-pp-slideshow-duotone:before {
+    content: "\fc57";
+}
+.nxi.nxi-pp-smiley-angry-duotone:before {
+    content: "\fc58";
+}
+.nxi.nxi-pp-smiley-blank-duotone:before {
+    content: "\fc59";
+}
+.nxi.nxi-pp-smiley-duotone:before {
+    content: "\fc5a";
+}
+.nxi.nxi-pp-smiley-meh-duotone:before {
+    content: "\fc5b";
+}
+.nxi.nxi-pp-smiley-nervous-duotone:before {
+    content: "\fc5c";
+}
+.nxi.nxi-pp-smiley-sad-duotone:before {
+    content: "\fc5d";
+}
+.nxi.nxi-pp-smiley-sticker-duotone:before {
+    content: "\fc5e";
+}
+.nxi.nxi-pp-smiley-wink-duotone:before {
+    content: "\fc5f";
+}
+.nxi.nxi-pp-smiley-x-eyes-duotone:before {
+    content: "\fc60";
+}
+.nxi.nxi-pp-snapchat-logo-duotone:before {
+    content: "\fc61";
+}
+.nxi.nxi-pp-sneaker-duotone:before {
+    content: "\fc62";
+}
+.nxi.nxi-pp-sneaker-move-duotone:before {
+    content: "\fc63";
+}
+.nxi.nxi-pp-snowflake-duotone:before {
+    content: "\fc64";
+}
+.nxi.nxi-pp-soccer-ball-duotone:before {
+    content: "\fc65";
+}
+.nxi.nxi-pp-sort-ascending-duotone:before {
+    content: "\fc66";
+}
+.nxi.nxi-pp-sort-descending-duotone:before {
+    content: "\fc67";
+}
+.nxi.nxi-pp-soundcloud-logo-duotone:before {
+    content: "\fc68";
+}
+.nxi.nxi-pp-spade-duotone:before {
+    content: "\fc69";
+}
+.nxi.nxi-pp-sparkle-duotone:before {
+    content: "\fc6a";
+}
+.nxi.nxi-pp-speaker-hifi-duotone:before {
+    content: "\fc6b";
+}
+.nxi.nxi-pp-speaker-high-duotone:before {
+    content: "\fc6c";
+}
+.nxi.nxi-pp-speaker-low-duotone:before {
+    content: "\fc6d";
+}
+.nxi.nxi-pp-speaker-none-duotone:before {
+    content: "\fc6e";
+}
+.nxi.nxi-pp-speaker-simple-high-duotone:before {
+    content: "\fc6f";
+}
+.nxi.nxi-pp-speaker-simple-low-duotone:before {
+    content: "\fc70";
+}
+.nxi.nxi-pp-speaker-simple-none-duotone:before {
+    content: "\fc71";
+}
+.nxi.nxi-pp-speaker-simple-slash-duotone:before {
+    content: "\fc72";
+}
+.nxi.nxi-pp-speaker-simple-x-duotone:before {
+    content: "\fc73";
+}
+.nxi.nxi-pp-speaker-slash-duotone:before {
+    content: "\fc74";
+}
+.nxi.nxi-pp-speaker-x-duotone:before {
+    content: "\fc75";
+}
+.nxi.nxi-pp-spinner-duotone:before {
+    content: "\fc76";
+}
+.nxi.nxi-pp-spinner-gap-duotone:before {
+    content: "\fc77";
+}
+.nxi.nxi-pp-spiral-duotone:before {
+    content: "\fc78";
+}
+.nxi.nxi-pp-split-horizontal-duotone:before {
+    content: "\fc79";
+}
+.nxi.nxi-pp-split-vertical-duotone:before {
+    content: "\fc7a";
+}
+.nxi.nxi-pp-spotify-logo-duotone:before {
+    content: "\fc7b";
+}
+.nxi.nxi-pp-square-duotone:before {
+    content: "\fc7c";
+}
+.nxi.nxi-pp-square-half-bottom-duotone:before {
+    content: "\fc7d";
+}
+.nxi.nxi-pp-square-half-duotone:before {
+    content: "\fc7e";
+}
+.nxi.nxi-pp-square-logo-duotone:before {
+    content: "\fc7f";
+}
+.nxi.nxi-pp-square-split-horizontal-duotone:before {
+    content: "\fc80";
+}
+.nxi.nxi-pp-square-split-vertical-duotone:before {
+    content: "\fc81";
+}
+.nxi.nxi-pp-squares-four-duotone:before {
+    content: "\fc82";
+}
+.nxi.nxi-pp-stack-duotone:before {
+    content: "\fc83";
+}
+.nxi.nxi-pp-stack-overflow-logo-duotone:before {
+    content: "\fc84";
+}
+.nxi.nxi-pp-stack-simple-duotone:before {
+    content: "\fc85";
+}
+.nxi.nxi-pp-stairs-duotone:before {
+    content: "\fc86";
+}
+.nxi.nxi-pp-stamp-duotone:before {
+    content: "\fc87";
+}
+.nxi.nxi-pp-star-and-crescent-duotone:before {
+    content: "\fc88";
+}
+.nxi.nxi-pp-star-duotone:before {
+    content: "\fc89";
+}
+.nxi.nxi-pp-star-four-duotone:before {
+    content: "\fc8a";
+}
+.nxi.nxi-pp-star-half-duotone:before {
+    content: "\fc8b";
+}
+.nxi.nxi-pp-star-of-david-duotone:before {
+    content: "\fc8c";
+}
+.nxi.nxi-pp-steering-wheel-duotone:before {
+    content: "\fc8d";
+}
+.nxi.nxi-pp-steps-duotone:before {
+    content: "\fc8e";
+}
+.nxi.nxi-pp-stethoscope-duotone:before {
+    content: "\fc8f";
+}
+.nxi.nxi-pp-sticker-duotone:before {
+    content: "\fc90";
+}
+.nxi.nxi-pp-stool-duotone:before {
+    content: "\fc91";
+}
+.nxi.nxi-pp-stop-circle-duotone:before {
+    content: "\fc92";
+}
+.nxi.nxi-pp-stop-duotone:before {
+    content: "\fc93";
+}
+.nxi.nxi-pp-storefront-duotone:before {
+    content: "\fc94";
+}
+.nxi.nxi-pp-strategy-duotone:before {
+    content: "\fc95";
+}
+.nxi.nxi-pp-stripe-logo-duotone:before {
+    content: "\fc96";
+}
+.nxi.nxi-pp-student-duotone:before {
+    content: "\fc97";
+}
+.nxi.nxi-pp-subtitles-duotone:before {
+    content: "\fc98";
+}
+.nxi.nxi-pp-subtract-duotone:before {
+    content: "\fc99";
+}
+.nxi.nxi-pp-subtract-square-duotone:before {
+    content: "\fc9a";
+}
+.nxi.nxi-pp-suitcase-duotone:before {
+    content: "\fc9b";
+}
+.nxi.nxi-pp-suitcase-rolling-duotone:before {
+    content: "\fc9c";
+}
+.nxi.nxi-pp-suitcase-simple-duotone:before {
+    content: "\fc9d";
+}
+.nxi.nxi-pp-sun-dim-duotone:before {
+    content: "\fc9e";
+}
+.nxi.nxi-pp-sun-duotone:before {
+    content: "\fc9f";
+}
+.nxi.nxi-pp-sun-horizon-duotone:before {
+    content: "\fca0";
+}
+.nxi.nxi-pp-sunglasses-duotone:before {
+    content: "\fca1";
+}
+.nxi.nxi-pp-swap-duotone:before {
+    content: "\fca2";
+}
+.nxi.nxi-pp-swatches-duotone:before {
+    content: "\fca3";
+}
+.nxi.nxi-pp-swimming-pool-duotone:before {
+    content: "\fca4";
+}
+.nxi.nxi-pp-sword-duotone:before {
+    content: "\fca5";
+}
+.nxi.nxi-pp-synagogue-duotone:before {
+    content: "\fca6";
+}
+.nxi.nxi-pp-syringe-duotone:before {
+    content: "\fca7";
+}
+.nxi.nxi-pp-t-shirt-duotone:before {
+    content: "\fca8";
+}
+.nxi.nxi-pp-table-duotone:before {
+    content: "\fca9";
+}
+.nxi.nxi-pp-tabs-duotone:before {
+    content: "\fcaa";
+}
+.nxi.nxi-pp-tag-chevron-duotone:before {
+    content: "\fcab";
+}
+.nxi.nxi-pp-tag-duotone:before {
+    content: "\fcac";
+}
+.nxi.nxi-pp-tag-simple-duotone:before {
+    content: "\fcad";
+}
+.nxi.nxi-pp-target-duotone:before {
+    content: "\fcae";
+}
+.nxi.nxi-pp-taxi-duotone:before {
+    content: "\fcaf";
+}
+.nxi.nxi-pp-telegram-logo-duotone:before {
+    content: "\fcb0";
+}
+.nxi.nxi-pp-television-duotone:before {
+    content: "\fcb1";
+}
+.nxi.nxi-pp-television-simple-duotone:before {
+    content: "\fcb2";
+}
+.nxi.nxi-pp-tennis-ball-duotone:before {
+    content: "\fcb3";
+}
+.nxi.nxi-pp-tent-duotone:before {
+    content: "\fcb4";
+}
+.nxi.nxi-pp-terminal-duotone:before {
+    content: "\fcb5";
+}
+.nxi.nxi-pp-terminal-window-duotone:before {
+    content: "\fcb6";
+}
+.nxi.nxi-pp-test-tube-duotone:before {
+    content: "\fcb7";
+}
+.nxi.nxi-pp-text-a-underline-duotone:before {
+    content: "\fcb8";
+}
+.nxi.nxi-pp-text-aa-duotone:before {
+    content: "\fcb9";
+}
+.nxi.nxi-pp-text-align-center-duotone:before {
+    content: "\fcba";
+}
+.nxi.nxi-pp-text-align-justify-duotone:before {
+    content: "\fcbb";
+}
+.nxi.nxi-pp-text-align-left-duotone:before {
+    content: "\fcbc";
+}
+.nxi.nxi-pp-text-align-right-duotone:before {
+    content: "\fcbd";
+}
+.nxi.nxi-pp-text-b-duotone:before {
+    content: "\fcbe";
+}
+.nxi.nxi-pp-text-columns-duotone:before {
+    content: "\fcbf";
+}
+.nxi.nxi-pp-text-h-duotone:before {
+    content: "\fcc0";
+}
+.nxi.nxi-pp-text-h-five-duotone:before {
+    content: "\fcc1";
+}
+.nxi.nxi-pp-text-h-four-duotone:before {
+    content: "\fcc2";
+}
+.nxi.nxi-pp-text-h-one-duotone:before {
+    content: "\fcc3";
+}
+.nxi.nxi-pp-text-h-six-duotone:before {
+    content: "\fcc4";
+}
+.nxi.nxi-pp-text-h-three-duotone:before {
+    content: "\fcc5";
+}
+.nxi.nxi-pp-text-h-two-duotone:before {
+    content: "\fcc6";
+}
+.nxi.nxi-pp-text-indent-duotone:before {
+    content: "\fcc7";
+}
+.nxi.nxi-pp-text-italic-duotone:before {
+    content: "\fcc8";
+}
+.nxi.nxi-pp-text-outdent-duotone:before {
+    content: "\fcc9";
+}
+.nxi.nxi-pp-text-strikethrough-duotone:before {
+    content: "\fcca";
+}
+.nxi.nxi-pp-text-t-duotone:before {
+    content: "\fccb";
+}
+.nxi.nxi-pp-text-underline-duotone:before {
+    content: "\fccc";
+}
+.nxi.nxi-pp-textbox-duotone:before {
+    content: "\fccd";
+}
+.nxi.nxi-pp-thermometer-cold-duotone:before {
+    content: "\fcce";
+}
+.nxi.nxi-pp-thermometer-duotone:before {
+    content: "\fccf";
+}
+.nxi.nxi-pp-thermometer-hot-duotone:before {
+    content: "\fcd0";
+}
+.nxi.nxi-pp-thermometer-simple-duotone:before {
+    content: "\fcd1";
+}
+.nxi.nxi-pp-thumbs-down-duotone:before {
+    content: "\fcd2";
+}
+.nxi.nxi-pp-thumbs-up-duotone:before {
+    content: "\fcd3";
+}
+.nxi.nxi-pp-ticket-duotone:before {
+    content: "\fcd4";
+}
+.nxi.nxi-pp-tidal-logo-duotone:before {
+    content: "\fcd5";
+}
+.nxi.nxi-pp-tiktok-logo-duotone:before {
+    content: "\fcd6";
+}
+.nxi.nxi-pp-timer-duotone:before {
+    content: "\fcd7";
+}
+.nxi.nxi-pp-tipi-duotone:before {
+    content: "\fcd8";
+}
+.nxi.nxi-pp-toggle-left-duotone:before {
+    content: "\fcd9";
+}
+.nxi.nxi-pp-toggle-right-duotone:before {
+    content: "\fcda";
+}
+.nxi.nxi-pp-toilet-duotone:before {
+    content: "\fcdb";
+}
+.nxi.nxi-pp-toilet-paper-duotone:before {
+    content: "\fcdc";
+}
+.nxi.nxi-pp-toolbox-duotone:before {
+    content: "\fcdd";
+}
+.nxi.nxi-pp-tooth-duotone:before {
+    content: "\fcde";
+}
+.nxi.nxi-pp-tote-duotone:before {
+    content: "\fcdf";
+}
+.nxi.nxi-pp-tote-simple-duotone:before {
+    content: "\fce0";
+}
+.nxi.nxi-pp-trademark-duotone:before {
+    content: "\fce1";
+}
+.nxi.nxi-pp-trademark-registered-duotone:before {
+    content: "\fce2";
+}
+.nxi.nxi-pp-traffic-cone-duotone:before {
+    content: "\fce3";
+}
+.nxi.nxi-pp-traffic-sign-duotone:before {
+    content: "\fce4";
+}
+.nxi.nxi-pp-traffic-signal-duotone:before {
+    content: "\fce5";
+}
+.nxi.nxi-pp-train-duotone:before {
+    content: "\fce6";
+}
+.nxi.nxi-pp-train-regional-duotone:before {
+    content: "\fce7";
+}
+.nxi.nxi-pp-train-simple-duotone:before {
+    content: "\fce8";
+}
+.nxi.nxi-pp-tram-duotone:before {
+    content: "\fce9";
+}
+.nxi.nxi-pp-translate-duotone:before {
+    content: "\fcea";
+}
+.nxi.nxi-pp-trash-duotone:before {
+    content: "\fceb";
+}
+.nxi.nxi-pp-trash-simple-duotone:before {
+    content: "\fcec";
+}
+.nxi.nxi-pp-tray-duotone:before {
+    content: "\fced";
+}
+.nxi.nxi-pp-tree-duotone:before {
+    content: "\fcee";
+}
+.nxi.nxi-pp-tree-evergreen-duotone:before {
+    content: "\fcef";
+}
+.nxi.nxi-pp-tree-palm-duotone:before {
+    content: "\fcf0";
+}
+.nxi.nxi-pp-tree-structure-duotone:before {
+    content: "\fcf1";
+}
+.nxi.nxi-pp-trend-down-duotone:before {
+    content: "\fcf2";
+}
+.nxi.nxi-pp-trend-up-duotone:before {
+    content: "\fcf3";
+}
+.nxi.nxi-pp-triangle-duotone:before {
+    content: "\fcf4";
+}
+.nxi.nxi-pp-trophy-duotone:before {
+    content: "\fcf5";
+}
+.nxi.nxi-pp-truck-duotone:before {
+    content: "\fcf6";
+}
+.nxi.nxi-pp-twitch-logo-duotone:before {
+    content: "\fcf7";
+}
+.nxi.nxi-pp-twitter-logo-duotone:before {
+    content: "\fcf8";
+}
+.nxi.nxi-pp-umbrella-duotone:before {
+    content: "\fcf9";
+}
+.nxi.nxi-pp-umbrella-simple-duotone:before {
+    content: "\fcfa";
+}
+.nxi.nxi-pp-unite-duotone:before {
+    content: "\fcfb";
+}
+.nxi.nxi-pp-unite-square-duotone:before {
+    content: "\fcfc";
+}
+.nxi.nxi-pp-upload-duotone:before {
+    content: "\fcfd";
+}
+.nxi.nxi-pp-upload-simple-duotone:before {
+    content: "\fcfe";
+}
+.nxi.nxi-pp-usb-duotone:before {
+    content: "\fcff";
+}
+.nxi.nxi-pp-user-circle-duotone:before {
+    content: "\fd00";
+}
+.nxi.nxi-pp-user-circle-gear-duotone:before {
+    content: "\fd01";
+}
+.nxi.nxi-pp-user-circle-minus-duotone:before {
+    content: "\fd02";
+}
+.nxi.nxi-pp-user-circle-plus-duotone:before {
+    content: "\fd03";
+}
+.nxi.nxi-pp-user-duotone:before {
+    content: "\fd04";
+}
+.nxi.nxi-pp-user-focus-duotone:before {
+    content: "\fd05";
+}
+.nxi.nxi-pp-user-gear-duotone:before {
+    content: "\fd06";
+}
+.nxi.nxi-pp-user-list-duotone:before {
+    content: "\fd07";
+}
+.nxi.nxi-pp-user-minus-duotone:before {
+    content: "\fd08";
+}
+.nxi.nxi-pp-user-plus-duotone:before {
+    content: "\fd09";
+}
+.nxi.nxi-pp-user-rectangle-duotone:before {
+    content: "\fd0a";
+}
+.nxi.nxi-pp-user-square-duotone:before {
+    content: "\fd0b";
+}
+.nxi.nxi-pp-user-switch-duotone:before {
+    content: "\fd0c";
+}
+.nxi.nxi-pp-users-duotone:before {
+    content: "\fd0d";
+}
+.nxi.nxi-pp-users-four-duotone:before {
+    content: "\fd0e";
+}
+.nxi.nxi-pp-users-three-duotone:before {
+    content: "\fd0f";
+}
+.nxi.nxi-pp-van-duotone:before {
+    content: "\fd10";
+}
+.nxi.nxi-pp-vault-duotone:before {
+    content: "\fd11";
+}
+.nxi.nxi-pp-vibrate-duotone:before {
+    content: "\fd12";
+}
+.nxi.nxi-pp-video-camera-duotone:before {
+    content: "\fd13";
+}
+.nxi.nxi-pp-video-camera-slash-duotone:before {
+    content: "\fd14";
+}
+.nxi.nxi-pp-video-duotone:before {
+    content: "\fd15";
+}
+.nxi.nxi-pp-vignette-duotone:before {
+    content: "\fd16";
+}
+.nxi.nxi-pp-vinyl-record-duotone:before {
+    content: "\fd17";
+}
+.nxi.nxi-pp-virtual-reality-duotone:before {
+    content: "\fd18";
+}
+.nxi.nxi-pp-virus-duotone:before {
+    content: "\fd19";
+}
+.nxi.nxi-pp-voicemail-duotone:before {
+    content: "\fd1a";
+}
+.nxi.nxi-pp-volleyball-duotone:before {
+    content: "\fd1b";
+}
+.nxi.nxi-pp-wall-duotone:before {
+    content: "\fd1c";
+}
+.nxi.nxi-pp-wallet-duotone:before {
+    content: "\fd1d";
+}
+.nxi.nxi-pp-warehouse-duotone:before {
+    content: "\fd1e";
+}
+.nxi.nxi-pp-warning-circle-duotone:before {
+    content: "\fd1f";
+}
+.nxi.nxi-pp-warning-diamond-duotone:before {
+    content: "\fd20";
+}
+.nxi.nxi-pp-warning-duotone:before {
+    content: "\fd21";
+}
+.nxi.nxi-pp-warning-octagon-duotone:before {
+    content: "\fd22";
+}
+.nxi.nxi-pp-watch-duotone:before {
+    content: "\fd23";
+}
+.nxi.nxi-pp-wave-sawtooth-duotone:before {
+    content: "\fd24";
+}
+.nxi.nxi-pp-wave-sine-duotone:before {
+    content: "\fd25";
+}
+.nxi.nxi-pp-wave-square-duotone:before {
+    content: "\fd26";
+}
+.nxi.nxi-pp-wave-triangle-duotone:before {
+    content: "\fd27";
+}
+.nxi.nxi-pp-waveform-duotone:before {
+    content: "\fd28";
+}
+.nxi.nxi-pp-waves-duotone:before {
+    content: "\fd29";
+}
+.nxi.nxi-pp-webcam-duotone:before {
+    content: "\fd2a";
+}
+.nxi.nxi-pp-webcam-slash-duotone:before {
+    content: "\fd2b";
+}
+.nxi.nxi-pp-webhooks-logo-duotone:before {
+    content: "\fd2c";
+}
+.nxi.nxi-pp-wechat-logo-duotone:before {
+    content: "\fd2d";
+}
+.nxi.nxi-pp-whatsapp-logo-duotone:before {
+    content: "\fd2e";
+}
+.nxi.nxi-pp-wheelchair-duotone:before {
+    content: "\fd2f";
+}
+.nxi.nxi-pp-wheelchair-motion-duotone:before {
+    content: "\fd30";
+}
+.nxi.nxi-pp-wifi-high-duotone:before {
+    content: "\fd31";
+}
+.nxi.nxi-pp-wifi-low-duotone:before {
+    content: "\fd32";
+}
+.nxi.nxi-pp-wifi-medium-duotone:before {
+    content: "\fd33";
+}
+.nxi.nxi-pp-wifi-none-duotone:before {
+    content: "\fd34";
+}
+.nxi.nxi-pp-wifi-slash-duotone:before {
+    content: "\fd35";
+}
+.nxi.nxi-pp-wifi-x-duotone:before {
+    content: "\fd36";
+}
+.nxi.nxi-pp-wind-duotone:before {
+    content: "\fd37";
+}
+.nxi.nxi-pp-windows-logo-duotone:before {
+    content: "\fd38";
+}
+.nxi.nxi-pp-wine-duotone:before {
+    content: "\fd39";
+}
+.nxi.nxi-pp-wrench-duotone:before {
+    content: "\fd3a";
+}
+.nxi.nxi-pp-x-circle-duotone:before {
+    content: "\fd3b";
+}
+.nxi.nxi-pp-x-duotone:before {
+    content: "\fd3c";
+}
+.nxi.nxi-pp-x-square-duotone:before {
+    content: "\fd3d";
+}
+.nxi.nxi-pp-yin-yang-duotone:before {
+    content: "\fd3e";
+}
+.nxi.nxi-pp-youtube-logo-duotone:before {
+    content: "\fd3f";
+}

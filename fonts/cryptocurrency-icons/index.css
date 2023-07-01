@@ -1,0 +1,1472 @@
+@font-face {
+    font-family: "index";
+    src: url("./index.ttf?7dd3e878f85653673e8472b922c75702") format("truetype"),
+url("./index.woff?7dd3e878f85653673e8472b922c75702") format("woff"),
+url("./index.woff2?7dd3e878f85653673e8472b922c75702") format("woff2"),
+url("./index.eot?7dd3e878f85653673e8472b922c75702#iefix") format("embedded-opentype");
+}
+.nxi {
+    font-size: 1.5rem;
+    display: inline-flex
+}
+
+.nxi:before {
+    font-family: 'index' !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.nxi.nxi-crp-dollarpac:before {
+    content: "\e000";
+}
+.nxi.nxi-crp-0xbtc:before {
+    content: "\e001";
+}
+.nxi.nxi-crp-1inch:before {
+    content: "\e002";
+}
+.nxi.nxi-crp-2give:before {
+    content: "\e003";
+}
+.nxi.nxi-crp-aave:before {
+    content: "\e004";
+}
+.nxi.nxi-crp-abt:before {
+    content: "\e005";
+}
+.nxi.nxi-crp-act:before {
+    content: "\e006";
+}
+.nxi.nxi-crp-actn:before {
+    content: "\e007";
+}
+.nxi.nxi-crp-ada:before {
+    content: "\e008";
+}
+.nxi.nxi-crp-add:before {
+    content: "\e009";
+}
+.nxi.nxi-crp-adx:before {
+    content: "\e00a";
+}
+.nxi.nxi-crp-ae:before {
+    content: "\e00b";
+}
+.nxi.nxi-crp-aeon:before {
+    content: "\e00c";
+}
+.nxi.nxi-crp-aeur:before {
+    content: "\e00d";
+}
+.nxi.nxi-crp-agi:before {
+    content: "\e00e";
+}
+.nxi.nxi-crp-agrs:before {
+    content: "\e00f";
+}
+.nxi.nxi-crp-aion:before {
+    content: "\e010";
+}
+.nxi.nxi-crp-algo:before {
+    content: "\e011";
+}
+.nxi.nxi-crp-amb:before {
+    content: "\e012";
+}
+.nxi.nxi-crp-amp:before {
+    content: "\e013";
+}
+.nxi.nxi-crp-ampl:before {
+    content: "\e014";
+}
+.nxi.nxi-crp-ankr:before {
+    content: "\e015";
+}
+.nxi.nxi-crp-ant:before {
+    content: "\e016";
+}
+.nxi.nxi-crp-ape:before {
+    content: "\e017";
+}
+.nxi.nxi-crp-apex:before {
+    content: "\e018";
+}
+.nxi.nxi-crp-appc:before {
+    content: "\e019";
+}
+.nxi.nxi-crp-ardr:before {
+    content: "\e01a";
+}
+.nxi.nxi-crp-arg:before {
+    content: "\e01b";
+}
+.nxi.nxi-crp-ark:before {
+    content: "\e01c";
+}
+.nxi.nxi-crp-arn:before {
+    content: "\e01d";
+}
+.nxi.nxi-crp-arnx:before {
+    content: "\e01e";
+}
+.nxi.nxi-crp-ary:before {
+    content: "\e01f";
+}
+.nxi.nxi-crp-ast:before {
+    content: "\e020";
+}
+.nxi.nxi-crp-atlas:before {
+    content: "\e021";
+}
+.nxi.nxi-crp-atm:before {
+    content: "\e022";
+}
+.nxi.nxi-crp-atom:before {
+    content: "\e023";
+}
+.nxi.nxi-crp-audr:before {
+    content: "\e024";
+}
+.nxi.nxi-crp-aury:before {
+    content: "\e025";
+}
+.nxi.nxi-crp-auto:before {
+    content: "\e026";
+}
+.nxi.nxi-crp-avax:before {
+    content: "\e027";
+}
+.nxi.nxi-crp-aywa:before {
+    content: "\e028";
+}
+.nxi.nxi-crp-bab:before {
+    content: "\e029";
+}
+.nxi.nxi-crp-bal:before {
+    content: "\e02a";
+}
+.nxi.nxi-crp-band:before {
+    content: "\e02b";
+}
+.nxi.nxi-crp-bat:before {
+    content: "\e02c";
+}
+.nxi.nxi-crp-bay:before {
+    content: "\e02d";
+}
+.nxi.nxi-crp-bcbc:before {
+    content: "\e02e";
+}
+.nxi.nxi-crp-bcc:before {
+    content: "\e02f";
+}
+.nxi.nxi-crp-bcd:before {
+    content: "\e030";
+}
+.nxi.nxi-crp-bch:before {
+    content: "\e031";
+}
+.nxi.nxi-crp-bcio:before {
+    content: "\e032";
+}
+.nxi.nxi-crp-bcn:before {
+    content: "\e033";
+}
+.nxi.nxi-crp-bco:before {
+    content: "\e034";
+}
+.nxi.nxi-crp-bcpt:before {
+    content: "\e035";
+}
+.nxi.nxi-crp-bdl:before {
+    content: "\e036";
+}
+.nxi.nxi-crp-beam:before {
+    content: "\e037";
+}
+.nxi.nxi-crp-bela:before {
+    content: "\e038";
+}
+.nxi.nxi-crp-bix:before {
+    content: "\e039";
+}
+.nxi.nxi-crp-blcn:before {
+    content: "\e03a";
+}
+.nxi.nxi-crp-blk:before {
+    content: "\e03b";
+}
+.nxi.nxi-crp-block:before {
+    content: "\e03c";
+}
+.nxi.nxi-crp-blz:before {
+    content: "\e03d";
+}
+.nxi.nxi-crp-bnb:before {
+    content: "\e03e";
+}
+.nxi.nxi-crp-bnt:before {
+    content: "\e03f";
+}
+.nxi.nxi-crp-bnty:before {
+    content: "\e040";
+}
+.nxi.nxi-crp-booty:before {
+    content: "\e041";
+}
+.nxi.nxi-crp-bos:before {
+    content: "\e042";
+}
+.nxi.nxi-crp-bpt:before {
+    content: "\e043";
+}
+.nxi.nxi-crp-bq:before {
+    content: "\e044";
+}
+.nxi.nxi-crp-brd:before {
+    content: "\e045";
+}
+.nxi.nxi-crp-bsd:before {
+    content: "\e046";
+}
+.nxi.nxi-crp-bsv:before {
+    content: "\e047";
+}
+.nxi.nxi-crp-btc:before {
+    content: "\e048";
+}
+.nxi.nxi-crp-btcd:before {
+    content: "\e049";
+}
+.nxi.nxi-crp-btch:before {
+    content: "\e04a";
+}
+.nxi.nxi-crp-btcp:before {
+    content: "\e04b";
+}
+.nxi.nxi-crp-btcz:before {
+    content: "\e04c";
+}
+.nxi.nxi-crp-btdx:before {
+    content: "\e04d";
+}
+.nxi.nxi-crp-btg:before {
+    content: "\e04e";
+}
+.nxi.nxi-crp-btm:before {
+    content: "\e04f";
+}
+.nxi.nxi-crp-bts:before {
+    content: "\e050";
+}
+.nxi.nxi-crp-btt:before {
+    content: "\e051";
+}
+.nxi.nxi-crp-btx:before {
+    content: "\e052";
+}
+.nxi.nxi-crp-burst:before {
+    content: "\e053";
+}
+.nxi.nxi-crp-bze:before {
+    content: "\e054";
+}
+.nxi.nxi-crp-call:before {
+    content: "\e055";
+}
+.nxi.nxi-crp-cc:before {
+    content: "\e056";
+}
+.nxi.nxi-crp-cdn:before {
+    content: "\e057";
+}
+.nxi.nxi-crp-cdt:before {
+    content: "\e058";
+}
+.nxi.nxi-crp-cenz:before {
+    content: "\e059";
+}
+.nxi.nxi-crp-chain:before {
+    content: "\e05a";
+}
+.nxi.nxi-crp-chat:before {
+    content: "\e05b";
+}
+.nxi.nxi-crp-chips:before {
+    content: "\e05c";
+}
+.nxi.nxi-crp-chsb:before {
+    content: "\e05d";
+}
+.nxi.nxi-crp-chz:before {
+    content: "\e05e";
+}
+.nxi.nxi-crp-cix:before {
+    content: "\e05f";
+}
+.nxi.nxi-crp-clam:before {
+    content: "\e060";
+}
+.nxi.nxi-crp-cloak:before {
+    content: "\e061";
+}
+.nxi.nxi-crp-cmm:before {
+    content: "\e062";
+}
+.nxi.nxi-crp-cmt:before {
+    content: "\e063";
+}
+.nxi.nxi-crp-cnd:before {
+    content: "\e064";
+}
+.nxi.nxi-crp-cnx:before {
+    content: "\e065";
+}
+.nxi.nxi-crp-cny:before {
+    content: "\e066";
+}
+.nxi.nxi-crp-cob:before {
+    content: "\e067";
+}
+.nxi.nxi-crp-colx:before {
+    content: "\e068";
+}
+.nxi.nxi-crp-comp:before {
+    content: "\e069";
+}
+.nxi.nxi-crp-coqui:before {
+    content: "\e06a";
+}
+.nxi.nxi-crp-cred:before {
+    content: "\e06b";
+}
+.nxi.nxi-crp-crpt:before {
+    content: "\e06c";
+}
+.nxi.nxi-crp-crv:before {
+    content: "\e06d";
+}
+.nxi.nxi-crp-crw:before {
+    content: "\e06e";
+}
+.nxi.nxi-crp-cs:before {
+    content: "\e06f";
+}
+.nxi.nxi-crp-ctr:before {
+    content: "\e070";
+}
+.nxi.nxi-crp-ctxc:before {
+    content: "\e071";
+}
+.nxi.nxi-crp-cvc:before {
+    content: "\e072";
+}
+.nxi.nxi-crp-d:before {
+    content: "\e073";
+}
+.nxi.nxi-crp-dai:before {
+    content: "\e074";
+}
+.nxi.nxi-crp-dash:before {
+    content: "\e075";
+}
+.nxi.nxi-crp-dat:before {
+    content: "\e076";
+}
+.nxi.nxi-crp-data:before {
+    content: "\e077";
+}
+.nxi.nxi-crp-dbc:before {
+    content: "\e078";
+}
+.nxi.nxi-crp-dcn:before {
+    content: "\e079";
+}
+.nxi.nxi-crp-dcr:before {
+    content: "\e07a";
+}
+.nxi.nxi-crp-deez:before {
+    content: "\e07b";
+}
+.nxi.nxi-crp-dent:before {
+    content: "\e07c";
+}
+.nxi.nxi-crp-dew:before {
+    content: "\e07d";
+}
+.nxi.nxi-crp-dgb:before {
+    content: "\e07e";
+}
+.nxi.nxi-crp-dgd:before {
+    content: "\e07f";
+}
+.nxi.nxi-crp-dlt:before {
+    content: "\e080";
+}
+.nxi.nxi-crp-dnt:before {
+    content: "\e081";
+}
+.nxi.nxi-crp-dock:before {
+    content: "\e082";
+}
+.nxi.nxi-crp-doge:before {
+    content: "\e083";
+}
+.nxi.nxi-crp-dot:before {
+    content: "\e084";
+}
+.nxi.nxi-crp-drgn:before {
+    content: "\e085";
+}
+.nxi.nxi-crp-drop:before {
+    content: "\e086";
+}
+.nxi.nxi-crp-dta:before {
+    content: "\e087";
+}
+.nxi.nxi-crp-dth:before {
+    content: "\e088";
+}
+.nxi.nxi-crp-dtr:before {
+    content: "\e089";
+}
+.nxi.nxi-crp-ebst:before {
+    content: "\e08a";
+}
+.nxi.nxi-crp-eca:before {
+    content: "\e08b";
+}
+.nxi.nxi-crp-edg:before {
+    content: "\e08c";
+}
+.nxi.nxi-crp-edo:before {
+    content: "\e08d";
+}
+.nxi.nxi-crp-edoge:before {
+    content: "\e08e";
+}
+.nxi.nxi-crp-ela:before {
+    content: "\e08f";
+}
+.nxi.nxi-crp-elec:before {
+    content: "\e090";
+}
+.nxi.nxi-crp-elf:before {
+    content: "\e091";
+}
+.nxi.nxi-crp-elix:before {
+    content: "\e092";
+}
+.nxi.nxi-crp-ella:before {
+    content: "\e093";
+}
+.nxi.nxi-crp-emb:before {
+    content: "\e094";
+}
+.nxi.nxi-crp-emc:before {
+    content: "\e095";
+}
+.nxi.nxi-crp-emc2:before {
+    content: "\e096";
+}
+.nxi.nxi-crp-eng:before {
+    content: "\e097";
+}
+.nxi.nxi-crp-enj:before {
+    content: "\e098";
+}
+.nxi.nxi-crp-entrp:before {
+    content: "\e099";
+}
+.nxi.nxi-crp-eon:before {
+    content: "\e09a";
+}
+.nxi.nxi-crp-eop:before {
+    content: "\e09b";
+}
+.nxi.nxi-crp-eos:before {
+    content: "\e09c";
+}
+.nxi.nxi-crp-eqli:before {
+    content: "\e09d";
+}
+.nxi.nxi-crp-equa:before {
+    content: "\e09e";
+}
+.nxi.nxi-crp-etc:before {
+    content: "\e09f";
+}
+.nxi.nxi-crp-eth:before {
+    content: "\e0a0";
+}
+.nxi.nxi-crp-ethos:before {
+    content: "\e0a1";
+}
+.nxi.nxi-crp-etn:before {
+    content: "\e0a2";
+}
+.nxi.nxi-crp-etp:before {
+    content: "\e0a3";
+}
+.nxi.nxi-crp-eur:before {
+    content: "\e0a4";
+}
+.nxi.nxi-crp-evx:before {
+    content: "\e0a5";
+}
+.nxi.nxi-crp-exmo:before {
+    content: "\e0a6";
+}
+.nxi.nxi-crp-exp:before {
+    content: "\e0a7";
+}
+.nxi.nxi-crp-fair:before {
+    content: "\e0a8";
+}
+.nxi.nxi-crp-fct:before {
+    content: "\e0a9";
+}
+.nxi.nxi-crp-fida:before {
+    content: "\e0aa";
+}
+.nxi.nxi-crp-fil:before {
+    content: "\e0ab";
+}
+.nxi.nxi-crp-fjc:before {
+    content: "\e0ac";
+}
+.nxi.nxi-crp-fldc:before {
+    content: "\e0ad";
+}
+.nxi.nxi-crp-flo:before {
+    content: "\e0ae";
+}
+.nxi.nxi-crp-flux:before {
+    content: "\e0af";
+}
+.nxi.nxi-crp-fsn:before {
+    content: "\e0b0";
+}
+.nxi.nxi-crp-ftc:before {
+    content: "\e0b1";
+}
+.nxi.nxi-crp-fuel:before {
+    content: "\e0b2";
+}
+.nxi.nxi-crp-fun:before {
+    content: "\e0b3";
+}
+.nxi.nxi-crp-game:before {
+    content: "\e0b4";
+}
+.nxi.nxi-crp-gas:before {
+    content: "\e0b5";
+}
+.nxi.nxi-crp-gbp:before {
+    content: "\e0b6";
+}
+.nxi.nxi-crp-gbx:before {
+    content: "\e0b7";
+}
+.nxi.nxi-crp-gbyte:before {
+    content: "\e0b8";
+}
+.nxi.nxi-crp-generic:before {
+    content: "\e0b9";
+}
+.nxi.nxi-crp-gin:before {
+    content: "\e0ba";
+}
+.nxi.nxi-crp-glxt:before {
+    content: "\e0bb";
+}
+.nxi.nxi-crp-gmr:before {
+    content: "\e0bc";
+}
+.nxi.nxi-crp-gmt:before {
+    content: "\e0bd";
+}
+.nxi.nxi-crp-gno:before {
+    content: "\e0be";
+}
+.nxi.nxi-crp-gnt:before {
+    content: "\e0bf";
+}
+.nxi.nxi-crp-gold:before {
+    content: "\e0c0";
+}
+.nxi.nxi-crp-grc:before {
+    content: "\e0c1";
+}
+.nxi.nxi-crp-grin:before {
+    content: "\e0c2";
+}
+.nxi.nxi-crp-grs:before {
+    content: "\e0c3";
+}
+.nxi.nxi-crp-grt:before {
+    content: "\e0c4";
+}
+.nxi.nxi-crp-gsc:before {
+    content: "\e0c5";
+}
+.nxi.nxi-crp-gto:before {
+    content: "\e0c6";
+}
+.nxi.nxi-crp-gup:before {
+    content: "\e0c7";
+}
+.nxi.nxi-crp-gusd:before {
+    content: "\e0c8";
+}
+.nxi.nxi-crp-gvt:before {
+    content: "\e0c9";
+}
+.nxi.nxi-crp-gxs:before {
+    content: "\e0ca";
+}
+.nxi.nxi-crp-gzr:before {
+    content: "\e0cb";
+}
+.nxi.nxi-crp-hight:before {
+    content: "\e0cc";
+}
+.nxi.nxi-crp-hns:before {
+    content: "\e0cd";
+}
+.nxi.nxi-crp-hodl:before {
+    content: "\e0ce";
+}
+.nxi.nxi-crp-hot:before {
+    content: "\e0cf";
+}
+.nxi.nxi-crp-hpb:before {
+    content: "\e0d0";
+}
+.nxi.nxi-crp-hsr:before {
+    content: "\e0d1";
+}
+.nxi.nxi-crp-ht:before {
+    content: "\e0d2";
+}
+.nxi.nxi-crp-html:before {
+    content: "\e0d3";
+}
+.nxi.nxi-crp-huc:before {
+    content: "\e0d4";
+}
+.nxi.nxi-crp-husd:before {
+    content: "\e0d5";
+}
+.nxi.nxi-crp-hush:before {
+    content: "\e0d6";
+}
+.nxi.nxi-crp-icn:before {
+    content: "\e0d7";
+}
+.nxi.nxi-crp-icp:before {
+    content: "\e0d8";
+}
+.nxi.nxi-crp-icx:before {
+    content: "\e0d9";
+}
+.nxi.nxi-crp-ignis:before {
+    content: "\e0da";
+}
+.nxi.nxi-crp-ilk:before {
+    content: "\e0db";
+}
+.nxi.nxi-crp-ink:before {
+    content: "\e0dc";
+}
+.nxi.nxi-crp-ins:before {
+    content: "\e0dd";
+}
+.nxi.nxi-crp-ion:before {
+    content: "\e0de";
+}
+.nxi.nxi-crp-iop:before {
+    content: "\e0df";
+}
+.nxi.nxi-crp-iost:before {
+    content: "\e0e0";
+}
+.nxi.nxi-crp-iotx:before {
+    content: "\e0e1";
+}
+.nxi.nxi-crp-iq:before {
+    content: "\e0e2";
+}
+.nxi.nxi-crp-itc:before {
+    content: "\e0e3";
+}
+.nxi.nxi-crp-jnt:before {
+    content: "\e0e4";
+}
+.nxi.nxi-crp-jpy:before {
+    content: "\e0e5";
+}
+.nxi.nxi-crp-kcs:before {
+    content: "\e0e6";
+}
+.nxi.nxi-crp-kin:before {
+    content: "\e0e7";
+}
+.nxi.nxi-crp-klown:before {
+    content: "\e0e8";
+}
+.nxi.nxi-crp-kmd:before {
+    content: "\e0e9";
+}
+.nxi.nxi-crp-knc:before {
+    content: "\e0ea";
+}
+.nxi.nxi-crp-krb:before {
+    content: "\e0eb";
+}
+.nxi.nxi-crp-ksm:before {
+    content: "\e0ec";
+}
+.nxi.nxi-crp-lbc:before {
+    content: "\e0ed";
+}
+.nxi.nxi-crp-lend:before {
+    content: "\e0ee";
+}
+.nxi.nxi-crp-leo:before {
+    content: "\e0ef";
+}
+.nxi.nxi-crp-link:before {
+    content: "\e0f0";
+}
+.nxi.nxi-crp-lkk:before {
+    content: "\e0f1";
+}
+.nxi.nxi-crp-loom:before {
+    content: "\e0f2";
+}
+.nxi.nxi-crp-lpt:before {
+    content: "\e0f3";
+}
+.nxi.nxi-crp-lrc:before {
+    content: "\e0f4";
+}
+.nxi.nxi-crp-lsk:before {
+    content: "\e0f5";
+}
+.nxi.nxi-crp-ltc:before {
+    content: "\e0f6";
+}
+.nxi.nxi-crp-lun:before {
+    content: "\e0f7";
+}
+.nxi.nxi-crp-maid:before {
+    content: "\e0f8";
+}
+.nxi.nxi-crp-mana:before {
+    content: "\e0f9";
+}
+.nxi.nxi-crp-matic:before {
+    content: "\e0fa";
+}
+.nxi.nxi-crp-max:before {
+    content: "\e0fb";
+}
+.nxi.nxi-crp-mcap:before {
+    content: "\e0fc";
+}
+.nxi.nxi-crp-mco:before {
+    content: "\e0fd";
+}
+.nxi.nxi-crp-mda:before {
+    content: "\e0fe";
+}
+.nxi.nxi-crp-mds:before {
+    content: "\e0ff";
+}
+.nxi.nxi-crp-med:before {
+    content: "\e100";
+}
+.nxi.nxi-crp-meetone:before {
+    content: "\e101";
+}
+.nxi.nxi-crp-mft:before {
+    content: "\e102";
+}
+.nxi.nxi-crp-miota:before {
+    content: "\e103";
+}
+.nxi.nxi-crp-mith:before {
+    content: "\e104";
+}
+.nxi.nxi-crp-mkr:before {
+    content: "\e105";
+}
+.nxi.nxi-crp-mln:before {
+    content: "\e106";
+}
+.nxi.nxi-crp-mnx:before {
+    content: "\e107";
+}
+.nxi.nxi-crp-mnz:before {
+    content: "\e108";
+}
+.nxi.nxi-crp-moac:before {
+    content: "\e109";
+}
+.nxi.nxi-crp-mod:before {
+    content: "\e10a";
+}
+.nxi.nxi-crp-mona:before {
+    content: "\e10b";
+}
+.nxi.nxi-crp-msr:before {
+    content: "\e10c";
+}
+.nxi.nxi-crp-mth:before {
+    content: "\e10d";
+}
+.nxi.nxi-crp-mtl:before {
+    content: "\e10e";
+}
+.nxi.nxi-crp-music:before {
+    content: "\e10f";
+}
+.nxi.nxi-crp-mzc:before {
+    content: "\e110";
+}
+.nxi.nxi-crp-nano:before {
+    content: "\e111";
+}
+.nxi.nxi-crp-nas:before {
+    content: "\e112";
+}
+.nxi.nxi-crp-nav:before {
+    content: "\e113";
+}
+.nxi.nxi-crp-ncash:before {
+    content: "\e114";
+}
+.nxi.nxi-crp-ndz:before {
+    content: "\e115";
+}
+.nxi.nxi-crp-nebl:before {
+    content: "\e116";
+}
+.nxi.nxi-crp-neo:before {
+    content: "\e117";
+}
+.nxi.nxi-crp-neos:before {
+    content: "\e118";
+}
+.nxi.nxi-crp-neu:before {
+    content: "\e119";
+}
+.nxi.nxi-crp-nexo:before {
+    content: "\e11a";
+}
+.nxi.nxi-crp-ngc:before {
+    content: "\e11b";
+}
+.nxi.nxi-crp-nio:before {
+    content: "\e11c";
+}
+.nxi.nxi-crp-nkn:before {
+    content: "\e11d";
+}
+.nxi.nxi-crp-nlc2:before {
+    content: "\e11e";
+}
+.nxi.nxi-crp-nlg:before {
+    content: "\e11f";
+}
+.nxi.nxi-crp-nmc:before {
+    content: "\e120";
+}
+.nxi.nxi-crp-nmr:before {
+    content: "\e121";
+}
+.nxi.nxi-crp-npxs:before {
+    content: "\e122";
+}
+.nxi.nxi-crp-ntbc:before {
+    content: "\e123";
+}
+.nxi.nxi-crp-nuls:before {
+    content: "\e124";
+}
+.nxi.nxi-crp-nxs:before {
+    content: "\e125";
+}
+.nxi.nxi-crp-nxt:before {
+    content: "\e126";
+}
+.nxi.nxi-crp-oax:before {
+    content: "\e127";
+}
+.nxi.nxi-crp-ok:before {
+    content: "\e128";
+}
+.nxi.nxi-crp-omg:before {
+    content: "\e129";
+}
+.nxi.nxi-crp-omni:before {
+    content: "\e12a";
+}
+.nxi.nxi-crp-one:before {
+    content: "\e12b";
+}
+.nxi.nxi-crp-ong:before {
+    content: "\e12c";
+}
+.nxi.nxi-crp-ont:before {
+    content: "\e12d";
+}
+.nxi.nxi-crp-oot:before {
+    content: "\e12e";
+}
+.nxi.nxi-crp-ost:before {
+    content: "\e12f";
+}
+.nxi.nxi-crp-ox:before {
+    content: "\e130";
+}
+.nxi.nxi-crp-oxt:before {
+    content: "\e131";
+}
+.nxi.nxi-crp-oxy:before {
+    content: "\e132";
+}
+.nxi.nxi-crp-part:before {
+    content: "\e133";
+}
+.nxi.nxi-crp-pasc:before {
+    content: "\e134";
+}
+.nxi.nxi-crp-pasl:before {
+    content: "\e135";
+}
+.nxi.nxi-crp-pax:before {
+    content: "\e136";
+}
+.nxi.nxi-crp-paxg:before {
+    content: "\e137";
+}
+.nxi.nxi-crp-pay:before {
+    content: "\e138";
+}
+.nxi.nxi-crp-payx:before {
+    content: "\e139";
+}
+.nxi.nxi-crp-pink:before {
+    content: "\e13a";
+}
+.nxi.nxi-crp-pirl:before {
+    content: "\e13b";
+}
+.nxi.nxi-crp-pivx:before {
+    content: "\e13c";
+}
+.nxi.nxi-crp-plr:before {
+    content: "\e13d";
+}
+.nxi.nxi-crp-poa:before {
+    content: "\e13e";
+}
+.nxi.nxi-crp-poe:before {
+    content: "\e13f";
+}
+.nxi.nxi-crp-polis:before {
+    content: "\e140";
+}
+.nxi.nxi-crp-poly:before {
+    content: "\e141";
+}
+.nxi.nxi-crp-pot:before {
+    content: "\e142";
+}
+.nxi.nxi-crp-powr:before {
+    content: "\e143";
+}
+.nxi.nxi-crp-ppc:before {
+    content: "\e144";
+}
+.nxi.nxi-crp-ppp:before {
+    content: "\e145";
+}
+.nxi.nxi-crp-ppt:before {
+    content: "\e146";
+}
+.nxi.nxi-crp-pre:before {
+    content: "\e147";
+}
+.nxi.nxi-crp-prl:before {
+    content: "\e148";
+}
+.nxi.nxi-crp-pungo:before {
+    content: "\e149";
+}
+.nxi.nxi-crp-pura:before {
+    content: "\e14a";
+}
+.nxi.nxi-crp-qash:before {
+    content: "\e14b";
+}
+.nxi.nxi-crp-qiwi:before {
+    content: "\e14c";
+}
+.nxi.nxi-crp-qlc:before {
+    content: "\e14d";
+}
+.nxi.nxi-crp-qnt:before {
+    content: "\e14e";
+}
+.nxi.nxi-crp-qrl:before {
+    content: "\e14f";
+}
+.nxi.nxi-crp-qsp:before {
+    content: "\e150";
+}
+.nxi.nxi-crp-qtum:before {
+    content: "\e151";
+}
+.nxi.nxi-crp-r:before {
+    content: "\e152";
+}
+.nxi.nxi-crp-rads:before {
+    content: "\e153";
+}
+.nxi.nxi-crp-rap:before {
+    content: "\e154";
+}
+.nxi.nxi-crp-ray:before {
+    content: "\e155";
+}
+.nxi.nxi-crp-rcn:before {
+    content: "\e156";
+}
+.nxi.nxi-crp-rdd:before {
+    content: "\e157";
+}
+.nxi.nxi-crp-rdn:before {
+    content: "\e158";
+}
+.nxi.nxi-crp-ren:before {
+    content: "\e159";
+}
+.nxi.nxi-crp-rep:before {
+    content: "\e15a";
+}
+.nxi.nxi-crp-repv2:before {
+    content: "\e15b";
+}
+.nxi.nxi-crp-req:before {
+    content: "\e15c";
+}
+.nxi.nxi-crp-rhoc:before {
+    content: "\e15d";
+}
+.nxi.nxi-crp-ric:before {
+    content: "\e15e";
+}
+.nxi.nxi-crp-rise:before {
+    content: "\e15f";
+}
+.nxi.nxi-crp-rlc:before {
+    content: "\e160";
+}
+.nxi.nxi-crp-rpx:before {
+    content: "\e161";
+}
+.nxi.nxi-crp-rub:before {
+    content: "\e162";
+}
+.nxi.nxi-crp-rvn:before {
+    content: "\e163";
+}
+.nxi.nxi-crp-ryo:before {
+    content: "\e164";
+}
+.nxi.nxi-crp-safe:before {
+    content: "\e165";
+}
+.nxi.nxi-crp-safemoon:before {
+    content: "\e166";
+}
+.nxi.nxi-crp-sai:before {
+    content: "\e167";
+}
+.nxi.nxi-crp-salt:before {
+    content: "\e168";
+}
+.nxi.nxi-crp-san:before {
+    content: "\e169";
+}
+.nxi.nxi-crp-sand:before {
+    content: "\e16a";
+}
+.nxi.nxi-crp-sbd:before {
+    content: "\e16b";
+}
+.nxi.nxi-crp-sberbank:before {
+    content: "\e16c";
+}
+.nxi.nxi-crp-sc:before {
+    content: "\e16d";
+}
+.nxi.nxi-crp-ser:before {
+    content: "\e16e";
+}
+.nxi.nxi-crp-shift:before {
+    content: "\e16f";
+}
+.nxi.nxi-crp-sib:before {
+    content: "\e170";
+}
+.nxi.nxi-crp-sin:before {
+    content: "\e171";
+}
+.nxi.nxi-crp-skl:before {
+    content: "\e172";
+}
+.nxi.nxi-crp-sky:before {
+    content: "\e173";
+}
+.nxi.nxi-crp-slr:before {
+    content: "\e174";
+}
+.nxi.nxi-crp-sls:before {
+    content: "\e175";
+}
+.nxi.nxi-crp-smart:before {
+    content: "\e176";
+}
+.nxi.nxi-crp-sngls:before {
+    content: "\e177";
+}
+.nxi.nxi-crp-snm:before {
+    content: "\e178";
+}
+.nxi.nxi-crp-snt:before {
+    content: "\e179";
+}
+.nxi.nxi-crp-snx:before {
+    content: "\e17a";
+}
+.nxi.nxi-crp-soc:before {
+    content: "\e17b";
+}
+.nxi.nxi-crp-sol:before {
+    content: "\e17c";
+}
+.nxi.nxi-crp-spacehbit:before {
+    content: "\e17d";
+}
+.nxi.nxi-crp-spank:before {
+    content: "\e17e";
+}
+.nxi.nxi-crp-sphtx:before {
+    content: "\e17f";
+}
+.nxi.nxi-crp-srn:before {
+    content: "\e180";
+}
+.nxi.nxi-crp-stak:before {
+    content: "\e181";
+}
+.nxi.nxi-crp-start:before {
+    content: "\e182";
+}
+.nxi.nxi-crp-steem:before {
+    content: "\e183";
+}
+.nxi.nxi-crp-storj:before {
+    content: "\e184";
+}
+.nxi.nxi-crp-storm:before {
+    content: "\e185";
+}
+.nxi.nxi-crp-stox:before {
+    content: "\e186";
+}
+.nxi.nxi-crp-stq:before {
+    content: "\e187";
+}
+.nxi.nxi-crp-strat:before {
+    content: "\e188";
+}
+.nxi.nxi-crp-stx:before {
+    content: "\e189";
+}
+.nxi.nxi-crp-sub:before {
+    content: "\e18a";
+}
+.nxi.nxi-crp-sumo:before {
+    content: "\e18b";
+}
+.nxi.nxi-crp-sushi:before {
+    content: "\e18c";
+}
+.nxi.nxi-crp-sys:before {
+    content: "\e18d";
+}
+.nxi.nxi-crp-taas:before {
+    content: "\e18e";
+}
+.nxi.nxi-crp-tau:before {
+    content: "\e18f";
+}
+.nxi.nxi-crp-tbx:before {
+    content: "\e190";
+}
+.nxi.nxi-crp-tel:before {
+    content: "\e191";
+}
+.nxi.nxi-crp-ten:before {
+    content: "\e192";
+}
+.nxi.nxi-crp-tern:before {
+    content: "\e193";
+}
+.nxi.nxi-crp-tgch:before {
+    content: "\e194";
+}
+.nxi.nxi-crp-theta:before {
+    content: "\e195";
+}
+.nxi.nxi-crp-tix:before {
+    content: "\e196";
+}
+.nxi.nxi-crp-tkn:before {
+    content: "\e197";
+}
+.nxi.nxi-crp-tks:before {
+    content: "\e198";
+}
+.nxi.nxi-crp-tnb:before {
+    content: "\e199";
+}
+.nxi.nxi-crp-tnc:before {
+    content: "\e19a";
+}
+.nxi.nxi-crp-tnt:before {
+    content: "\e19b";
+}
+.nxi.nxi-crp-tomo:before {
+    content: "\e19c";
+}
+.nxi.nxi-crp-tpay:before {
+    content: "\e19d";
+}
+.nxi.nxi-crp-trig:before {
+    content: "\e19e";
+}
+.nxi.nxi-crp-trtl:before {
+    content: "\e19f";
+}
+.nxi.nxi-crp-trx:before {
+    content: "\e1a0";
+}
+.nxi.nxi-crp-tusd:before {
+    content: "\e1a1";
+}
+.nxi.nxi-crp-tzc:before {
+    content: "\e1a2";
+}
+.nxi.nxi-crp-ubq:before {
+    content: "\e1a3";
+}
+.nxi.nxi-crp-uma:before {
+    content: "\e1a4";
+}
+.nxi.nxi-crp-uni:before {
+    content: "\e1a5";
+}
+.nxi.nxi-crp-unity:before {
+    content: "\e1a6";
+}
+.nxi.nxi-crp-usd:before {
+    content: "\e1a7";
+}
+.nxi.nxi-crp-usdc:before {
+    content: "\e1a8";
+}
+.nxi.nxi-crp-usdt:before {
+    content: "\e1a9";
+}
+.nxi.nxi-crp-utk:before {
+    content: "\e1aa";
+}
+.nxi.nxi-crp-veri:before {
+    content: "\e1ab";
+}
+.nxi.nxi-crp-vet:before {
+    content: "\e1ac";
+}
+.nxi.nxi-crp-via:before {
+    content: "\e1ad";
+}
+.nxi.nxi-crp-vib:before {
+    content: "\e1ae";
+}
+.nxi.nxi-crp-vibe:before {
+    content: "\e1af";
+}
+.nxi.nxi-crp-vivo:before {
+    content: "\e1b0";
+}
+.nxi.nxi-crp-vrc:before {
+    content: "\e1b1";
+}
+.nxi.nxi-crp-vrsc:before {
+    content: "\e1b2";
+}
+.nxi.nxi-crp-vtc:before {
+    content: "\e1b3";
+}
+.nxi.nxi-crp-vtho:before {
+    content: "\e1b4";
+}
+.nxi.nxi-crp-wabi:before {
+    content: "\e1b5";
+}
+.nxi.nxi-crp-wan:before {
+    content: "\e1b6";
+}
+.nxi.nxi-crp-waves:before {
+    content: "\e1b7";
+}
+.nxi.nxi-crp-wax:before {
+    content: "\e1b8";
+}
+.nxi.nxi-crp-wbtc:before {
+    content: "\e1b9";
+}
+.nxi.nxi-crp-wgr:before {
+    content: "\e1ba";
+}
+.nxi.nxi-crp-wicc:before {
+    content: "\e1bb";
+}
+.nxi.nxi-crp-wings:before {
+    content: "\e1bc";
+}
+.nxi.nxi-crp-wpr:before {
+    content: "\e1bd";
+}
+.nxi.nxi-crp-wtc:before {
+    content: "\e1be";
+}
+.nxi.nxi-crp-x:before {
+    content: "\e1bf";
+}
+.nxi.nxi-crp-xas:before {
+    content: "\e1c0";
+}
+.nxi.nxi-crp-xbc:before {
+    content: "\e1c1";
+}
+.nxi.nxi-crp-xbp:before {
+    content: "\e1c2";
+}
+.nxi.nxi-crp-xby:before {
+    content: "\e1c3";
+}
+.nxi.nxi-crp-xcp:before {
+    content: "\e1c4";
+}
+.nxi.nxi-crp-xdn:before {
+    content: "\e1c5";
+}
+.nxi.nxi-crp-xem:before {
+    content: "\e1c6";
+}
+.nxi.nxi-crp-xin:before {
+    content: "\e1c7";
+}
+.nxi.nxi-crp-xlm:before {
+    content: "\e1c8";
+}
+.nxi.nxi-crp-xmcc:before {
+    content: "\e1c9";
+}
+.nxi.nxi-crp-xmg:before {
+    content: "\e1ca";
+}
+.nxi.nxi-crp-xmo:before {
+    content: "\e1cb";
+}
+.nxi.nxi-crp-xmr:before {
+    content: "\e1cc";
+}
+.nxi.nxi-crp-xmy:before {
+    content: "\e1cd";
+}
+.nxi.nxi-crp-xp:before {
+    content: "\e1ce";
+}
+.nxi.nxi-crp-xpa:before {
+    content: "\e1cf";
+}
+.nxi.nxi-crp-xpm:before {
+    content: "\e1d0";
+}
+.nxi.nxi-crp-xpr:before {
+    content: "\e1d1";
+}
+.nxi.nxi-crp-xrp:before {
+    content: "\e1d2";
+}
+.nxi.nxi-crp-xsg:before {
+    content: "\e1d3";
+}
+.nxi.nxi-crp-xtz:before {
+    content: "\e1d4";
+}
+.nxi.nxi-crp-xuc:before {
+    content: "\e1d5";
+}
+.nxi.nxi-crp-xvc:before {
+    content: "\e1d6";
+}
+.nxi.nxi-crp-xvg:before {
+    content: "\e1d7";
+}
+.nxi.nxi-crp-xzc:before {
+    content: "\e1d8";
+}
+.nxi.nxi-crp-yfi:before {
+    content: "\e1d9";
+}
+.nxi.nxi-crp-yoyow:before {
+    content: "\e1da";
+}
+.nxi.nxi-crp-zcl:before {
+    content: "\e1db";
+}
+.nxi.nxi-crp-zec:before {
+    content: "\e1dc";
+}
+.nxi.nxi-crp-zel:before {
+    content: "\e1dd";
+}
+.nxi.nxi-crp-zen:before {
+    content: "\e1de";
+}
+.nxi.nxi-crp-zest:before {
+    content: "\e1df";
+}
+.nxi.nxi-crp-zil:before {
+    content: "\e1e0";
+}
+.nxi.nxi-crp-zilla:before {
+    content: "\e1e1";
+}
+.nxi.nxi-crp-zrx:before {
+    content: "\e1e2";
+}

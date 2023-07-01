@@ -1,0 +1,3767 @@
+@font-face {
+    font-family: "index";
+    src: url("./index.ttf?1ffcde404dbabcf41ab56e2e7301ae54") format("truetype"),
+url("./index.woff?1ffcde404dbabcf41ab56e2e7301ae54") format("woff"),
+url("./index.woff2?1ffcde404dbabcf41ab56e2e7301ae54") format("woff2"),
+url("./index.eot?1ffcde404dbabcf41ab56e2e7301ae54#iefix") format("embedded-opentype");
+}
+.nxi {
+    font-size: 1.5rem;
+    display: inline-flex
+}
+
+.nxi:before {
+    font-family: 'index' !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.nxi.nxi-pp-address-book-light:before {
+    content: "\e9c0";
+}
+.nxi.nxi-pp-air-traffic-control-light:before {
+    content: "\e9c1";
+}
+.nxi.nxi-pp-airplane-in-flight-light:before {
+    content: "\e9c2";
+}
+.nxi.nxi-pp-airplane-landing-light:before {
+    content: "\e9c3";
+}
+.nxi.nxi-pp-airplane-light:before {
+    content: "\e9c4";
+}
+.nxi.nxi-pp-airplane-takeoff-light:before {
+    content: "\e9c5";
+}
+.nxi.nxi-pp-airplane-tilt-light:before {
+    content: "\e9c6";
+}
+.nxi.nxi-pp-airplay-light:before {
+    content: "\e9c7";
+}
+.nxi.nxi-pp-alarm-light:before {
+    content: "\e9c8";
+}
+.nxi.nxi-pp-alien-light:before {
+    content: "\e9c9";
+}
+.nxi.nxi-pp-align-bottom-light:before {
+    content: "\e9ca";
+}
+.nxi.nxi-pp-align-bottom-simple-light:before {
+    content: "\e9cb";
+}
+.nxi.nxi-pp-align-center-horizontal-light:before {
+    content: "\e9cc";
+}
+.nxi.nxi-pp-align-center-horizontal-simple-light:before {
+    content: "\e9cd";
+}
+.nxi.nxi-pp-align-center-vertical-light:before {
+    content: "\e9ce";
+}
+.nxi.nxi-pp-align-center-vertical-simple-light:before {
+    content: "\e9cf";
+}
+.nxi.nxi-pp-align-left-light:before {
+    content: "\e9d0";
+}
+.nxi.nxi-pp-align-left-simple-light:before {
+    content: "\e9d1";
+}
+.nxi.nxi-pp-align-right-light:before {
+    content: "\e9d2";
+}
+.nxi.nxi-pp-align-right-simple-light:before {
+    content: "\e9d3";
+}
+.nxi.nxi-pp-align-top-light:before {
+    content: "\e9d4";
+}
+.nxi.nxi-pp-align-top-simple-light:before {
+    content: "\e9d5";
+}
+.nxi.nxi-pp-amazon-logo-light:before {
+    content: "\e9d6";
+}
+.nxi.nxi-pp-anchor-light:before {
+    content: "\e9d7";
+}
+.nxi.nxi-pp-anchor-simple-light:before {
+    content: "\e9d8";
+}
+.nxi.nxi-pp-android-logo-light:before {
+    content: "\e9d9";
+}
+.nxi.nxi-pp-angular-logo-light:before {
+    content: "\e9da";
+}
+.nxi.nxi-pp-aperture-light:before {
+    content: "\e9db";
+}
+.nxi.nxi-pp-app-store-logo-light:before {
+    content: "\e9dc";
+}
+.nxi.nxi-pp-app-window-light:before {
+    content: "\e9dd";
+}
+.nxi.nxi-pp-apple-logo-light:before {
+    content: "\e9de";
+}
+.nxi.nxi-pp-apple-podcasts-logo-light:before {
+    content: "\e9df";
+}
+.nxi.nxi-pp-archive-box-light:before {
+    content: "\e9e0";
+}
+.nxi.nxi-pp-archive-light:before {
+    content: "\e9e1";
+}
+.nxi.nxi-pp-archive-tray-light:before {
+    content: "\e9e2";
+}
+.nxi.nxi-pp-armchair-light:before {
+    content: "\e9e3";
+}
+.nxi.nxi-pp-arrow-arc-left-light:before {
+    content: "\e9e4";
+}
+.nxi.nxi-pp-arrow-arc-right-light:before {
+    content: "\e9e5";
+}
+.nxi.nxi-pp-arrow-bend-double-up-left-light:before {
+    content: "\e9e6";
+}
+.nxi.nxi-pp-arrow-bend-double-up-right-light:before {
+    content: "\e9e7";
+}
+.nxi.nxi-pp-arrow-bend-down-left-light:before {
+    content: "\e9e8";
+}
+.nxi.nxi-pp-arrow-bend-down-right-light:before {
+    content: "\e9e9";
+}
+.nxi.nxi-pp-arrow-bend-left-down-light:before {
+    content: "\e9ea";
+}
+.nxi.nxi-pp-arrow-bend-left-up-light:before {
+    content: "\e9eb";
+}
+.nxi.nxi-pp-arrow-bend-right-down-light:before {
+    content: "\e9ec";
+}
+.nxi.nxi-pp-arrow-bend-right-up-light:before {
+    content: "\e9ed";
+}
+.nxi.nxi-pp-arrow-bend-up-left-light:before {
+    content: "\e9ee";
+}
+.nxi.nxi-pp-arrow-bend-up-right-light:before {
+    content: "\e9ef";
+}
+.nxi.nxi-pp-arrow-circle-down-left-light:before {
+    content: "\e9f0";
+}
+.nxi.nxi-pp-arrow-circle-down-light:before {
+    content: "\e9f1";
+}
+.nxi.nxi-pp-arrow-circle-down-right-light:before {
+    content: "\e9f2";
+}
+.nxi.nxi-pp-arrow-circle-left-light:before {
+    content: "\e9f3";
+}
+.nxi.nxi-pp-arrow-circle-right-light:before {
+    content: "\e9f4";
+}
+.nxi.nxi-pp-arrow-circle-up-left-light:before {
+    content: "\e9f5";
+}
+.nxi.nxi-pp-arrow-circle-up-light:before {
+    content: "\e9f6";
+}
+.nxi.nxi-pp-arrow-circle-up-right-light:before {
+    content: "\e9f7";
+}
+.nxi.nxi-pp-arrow-clockwise-light:before {
+    content: "\e9f8";
+}
+.nxi.nxi-pp-arrow-counter-clockwise-light:before {
+    content: "\e9f9";
+}
+.nxi.nxi-pp-arrow-down-left-light:before {
+    content: "\e9fa";
+}
+.nxi.nxi-pp-arrow-down-light:before {
+    content: "\e9fb";
+}
+.nxi.nxi-pp-arrow-down-right-light:before {
+    content: "\e9fc";
+}
+.nxi.nxi-pp-arrow-elbow-down-left-light:before {
+    content: "\e9fd";
+}
+.nxi.nxi-pp-arrow-elbow-down-right-light:before {
+    content: "\e9fe";
+}
+.nxi.nxi-pp-arrow-elbow-left-down-light:before {
+    content: "\e9ff";
+}
+.nxi.nxi-pp-arrow-elbow-left-light:before {
+    content: "\ea00";
+}
+.nxi.nxi-pp-arrow-elbow-left-up-light:before {
+    content: "\ea01";
+}
+.nxi.nxi-pp-arrow-elbow-right-down-light:before {
+    content: "\ea02";
+}
+.nxi.nxi-pp-arrow-elbow-right-light:before {
+    content: "\ea03";
+}
+.nxi.nxi-pp-arrow-elbow-right-up-light:before {
+    content: "\ea04";
+}
+.nxi.nxi-pp-arrow-elbow-up-left-light:before {
+    content: "\ea05";
+}
+.nxi.nxi-pp-arrow-elbow-up-right-light:before {
+    content: "\ea06";
+}
+.nxi.nxi-pp-arrow-fat-down-light:before {
+    content: "\ea07";
+}
+.nxi.nxi-pp-arrow-fat-left-light:before {
+    content: "\ea08";
+}
+.nxi.nxi-pp-arrow-fat-line-down-light:before {
+    content: "\ea09";
+}
+.nxi.nxi-pp-arrow-fat-line-left-light:before {
+    content: "\ea0a";
+}
+.nxi.nxi-pp-arrow-fat-line-right-light:before {
+    content: "\ea0b";
+}
+.nxi.nxi-pp-arrow-fat-line-up-light:before {
+    content: "\ea0c";
+}
+.nxi.nxi-pp-arrow-fat-lines-down-light:before {
+    content: "\ea0d";
+}
+.nxi.nxi-pp-arrow-fat-lines-left-light:before {
+    content: "\ea0e";
+}
+.nxi.nxi-pp-arrow-fat-lines-right-light:before {
+    content: "\ea0f";
+}
+.nxi.nxi-pp-arrow-fat-lines-up-light:before {
+    content: "\ea10";
+}
+.nxi.nxi-pp-arrow-fat-right-light:before {
+    content: "\ea11";
+}
+.nxi.nxi-pp-arrow-fat-up-light:before {
+    content: "\ea12";
+}
+.nxi.nxi-pp-arrow-left-light:before {
+    content: "\ea13";
+}
+.nxi.nxi-pp-arrow-line-down-left-light:before {
+    content: "\ea14";
+}
+.nxi.nxi-pp-arrow-line-down-light:before {
+    content: "\ea15";
+}
+.nxi.nxi-pp-arrow-line-down-right-light:before {
+    content: "\ea16";
+}
+.nxi.nxi-pp-arrow-line-left-light:before {
+    content: "\ea17";
+}
+.nxi.nxi-pp-arrow-line-right-light:before {
+    content: "\ea18";
+}
+.nxi.nxi-pp-arrow-line-up-left-light:before {
+    content: "\ea19";
+}
+.nxi.nxi-pp-arrow-line-up-light:before {
+    content: "\ea1a";
+}
+.nxi.nxi-pp-arrow-line-up-right-light:before {
+    content: "\ea1b";
+}
+.nxi.nxi-pp-arrow-right-light:before {
+    content: "\ea1c";
+}
+.nxi.nxi-pp-arrow-square-down-left-light:before {
+    content: "\ea1d";
+}
+.nxi.nxi-pp-arrow-square-down-light:before {
+    content: "\ea1e";
+}
+.nxi.nxi-pp-arrow-square-down-right-light:before {
+    content: "\ea1f";
+}
+.nxi.nxi-pp-arrow-square-in-light:before {
+    content: "\ea20";
+}
+.nxi.nxi-pp-arrow-square-left-light:before {
+    content: "\ea21";
+}
+.nxi.nxi-pp-arrow-square-out-light:before {
+    content: "\ea22";
+}
+.nxi.nxi-pp-arrow-square-right-light:before {
+    content: "\ea23";
+}
+.nxi.nxi-pp-arrow-square-up-left-light:before {
+    content: "\ea24";
+}
+.nxi.nxi-pp-arrow-square-up-light:before {
+    content: "\ea25";
+}
+.nxi.nxi-pp-arrow-square-up-right-light:before {
+    content: "\ea26";
+}
+.nxi.nxi-pp-arrow-u-down-left-light:before {
+    content: "\ea27";
+}
+.nxi.nxi-pp-arrow-u-down-right-light:before {
+    content: "\ea28";
+}
+.nxi.nxi-pp-arrow-u-left-down-light:before {
+    content: "\ea29";
+}
+.nxi.nxi-pp-arrow-u-left-up-light:before {
+    content: "\ea2a";
+}
+.nxi.nxi-pp-arrow-u-right-down-light:before {
+    content: "\ea2b";
+}
+.nxi.nxi-pp-arrow-u-right-up-light:before {
+    content: "\ea2c";
+}
+.nxi.nxi-pp-arrow-u-up-left-light:before {
+    content: "\ea2d";
+}
+.nxi.nxi-pp-arrow-u-up-right-light:before {
+    content: "\ea2e";
+}
+.nxi.nxi-pp-arrow-up-left-light:before {
+    content: "\ea2f";
+}
+.nxi.nxi-pp-arrow-up-light:before {
+    content: "\ea30";
+}
+.nxi.nxi-pp-arrow-up-right-light:before {
+    content: "\ea31";
+}
+.nxi.nxi-pp-arrows-clockwise-light:before {
+    content: "\ea32";
+}
+.nxi.nxi-pp-arrows-counter-clockwise-light:before {
+    content: "\ea33";
+}
+.nxi.nxi-pp-arrows-down-up-light:before {
+    content: "\ea34";
+}
+.nxi.nxi-pp-arrows-horizontal-light:before {
+    content: "\ea35";
+}
+.nxi.nxi-pp-arrows-in-cardinal-light:before {
+    content: "\ea36";
+}
+.nxi.nxi-pp-arrows-in-light:before {
+    content: "\ea37";
+}
+.nxi.nxi-pp-arrows-in-line-horizontal-light:before {
+    content: "\ea38";
+}
+.nxi.nxi-pp-arrows-in-line-vertical-light:before {
+    content: "\ea39";
+}
+.nxi.nxi-pp-arrows-in-simple-light:before {
+    content: "\ea3a";
+}
+.nxi.nxi-pp-arrows-left-right-light:before {
+    content: "\ea3b";
+}
+.nxi.nxi-pp-arrows-merge-light:before {
+    content: "\ea3c";
+}
+.nxi.nxi-pp-arrows-out-cardinal-light:before {
+    content: "\ea3d";
+}
+.nxi.nxi-pp-arrows-out-light:before {
+    content: "\ea3e";
+}
+.nxi.nxi-pp-arrows-out-line-horizontal-light:before {
+    content: "\ea3f";
+}
+.nxi.nxi-pp-arrows-out-line-vertical-light:before {
+    content: "\ea40";
+}
+.nxi.nxi-pp-arrows-out-simple-light:before {
+    content: "\ea41";
+}
+.nxi.nxi-pp-arrows-split-light:before {
+    content: "\ea42";
+}
+.nxi.nxi-pp-arrows-vertical-light:before {
+    content: "\ea43";
+}
+.nxi.nxi-pp-article-light:before {
+    content: "\ea44";
+}
+.nxi.nxi-pp-article-medium-light:before {
+    content: "\ea45";
+}
+.nxi.nxi-pp-article-ny-times-light:before {
+    content: "\ea46";
+}
+.nxi.nxi-pp-asterisk-light:before {
+    content: "\ea47";
+}
+.nxi.nxi-pp-asterisk-simple-light:before {
+    content: "\ea48";
+}
+.nxi.nxi-pp-at-light:before {
+    content: "\ea49";
+}
+.nxi.nxi-pp-atom-light:before {
+    content: "\ea4a";
+}
+.nxi.nxi-pp-baby-light:before {
+    content: "\ea4b";
+}
+.nxi.nxi-pp-backpack-light:before {
+    content: "\ea4c";
+}
+.nxi.nxi-pp-backspace-light:before {
+    content: "\ea4d";
+}
+.nxi.nxi-pp-bag-light:before {
+    content: "\ea4e";
+}
+.nxi.nxi-pp-bag-simple-light:before {
+    content: "\ea4f";
+}
+.nxi.nxi-pp-balloon-light:before {
+    content: "\ea50";
+}
+.nxi.nxi-pp-bandaids-light:before {
+    content: "\ea51";
+}
+.nxi.nxi-pp-bank-light:before {
+    content: "\ea52";
+}
+.nxi.nxi-pp-barbell-light:before {
+    content: "\ea53";
+}
+.nxi.nxi-pp-barcode-light:before {
+    content: "\ea54";
+}
+.nxi.nxi-pp-barricade-light:before {
+    content: "\ea55";
+}
+.nxi.nxi-pp-baseball-cap-light:before {
+    content: "\ea56";
+}
+.nxi.nxi-pp-baseball-light:before {
+    content: "\ea57";
+}
+.nxi.nxi-pp-basket-light:before {
+    content: "\ea58";
+}
+.nxi.nxi-pp-basketball-light:before {
+    content: "\ea59";
+}
+.nxi.nxi-pp-bathtub-light:before {
+    content: "\ea5a";
+}
+.nxi.nxi-pp-battery-charging-light:before {
+    content: "\ea5b";
+}
+.nxi.nxi-pp-battery-charging-vertical-light:before {
+    content: "\ea5c";
+}
+.nxi.nxi-pp-battery-empty-light:before {
+    content: "\ea5d";
+}
+.nxi.nxi-pp-battery-full-light:before {
+    content: "\ea5e";
+}
+.nxi.nxi-pp-battery-high-light:before {
+    content: "\ea5f";
+}
+.nxi.nxi-pp-battery-low-light:before {
+    content: "\ea60";
+}
+.nxi.nxi-pp-battery-medium-light:before {
+    content: "\ea61";
+}
+.nxi.nxi-pp-battery-plus-light:before {
+    content: "\ea62";
+}
+.nxi.nxi-pp-battery-plus-vertical-light:before {
+    content: "\ea63";
+}
+.nxi.nxi-pp-battery-vertical-empty-light:before {
+    content: "\ea64";
+}
+.nxi.nxi-pp-battery-vertical-full-light:before {
+    content: "\ea65";
+}
+.nxi.nxi-pp-battery-vertical-high-light:before {
+    content: "\ea66";
+}
+.nxi.nxi-pp-battery-vertical-low-light:before {
+    content: "\ea67";
+}
+.nxi.nxi-pp-battery-vertical-medium-light:before {
+    content: "\ea68";
+}
+.nxi.nxi-pp-battery-warning-light:before {
+    content: "\ea69";
+}
+.nxi.nxi-pp-battery-warning-vertical-light:before {
+    content: "\ea6a";
+}
+.nxi.nxi-pp-bed-light:before {
+    content: "\ea6b";
+}
+.nxi.nxi-pp-beer-bottle-light:before {
+    content: "\ea6c";
+}
+.nxi.nxi-pp-beer-stein-light:before {
+    content: "\ea6d";
+}
+.nxi.nxi-pp-behance-logo-light:before {
+    content: "\ea6e";
+}
+.nxi.nxi-pp-bell-light:before {
+    content: "\ea6f";
+}
+.nxi.nxi-pp-bell-ringing-light:before {
+    content: "\ea70";
+}
+.nxi.nxi-pp-bell-simple-light:before {
+    content: "\ea71";
+}
+.nxi.nxi-pp-bell-simple-ringing-light:before {
+    content: "\ea72";
+}
+.nxi.nxi-pp-bell-simple-slash-light:before {
+    content: "\ea73";
+}
+.nxi.nxi-pp-bell-simple-z-light:before {
+    content: "\ea74";
+}
+.nxi.nxi-pp-bell-slash-light:before {
+    content: "\ea75";
+}
+.nxi.nxi-pp-bell-z-light:before {
+    content: "\ea76";
+}
+.nxi.nxi-pp-bezier-curve-light:before {
+    content: "\ea77";
+}
+.nxi.nxi-pp-bicycle-light:before {
+    content: "\ea78";
+}
+.nxi.nxi-pp-binoculars-light:before {
+    content: "\ea79";
+}
+.nxi.nxi-pp-bird-light:before {
+    content: "\ea7a";
+}
+.nxi.nxi-pp-bluetooth-connected-light:before {
+    content: "\ea7b";
+}
+.nxi.nxi-pp-bluetooth-light:before {
+    content: "\ea7c";
+}
+.nxi.nxi-pp-bluetooth-slash-light:before {
+    content: "\ea7d";
+}
+.nxi.nxi-pp-bluetooth-x-light:before {
+    content: "\ea7e";
+}
+.nxi.nxi-pp-boat-light:before {
+    content: "\ea7f";
+}
+.nxi.nxi-pp-bone-light:before {
+    content: "\ea80";
+}
+.nxi.nxi-pp-book-bookmark-light:before {
+    content: "\ea81";
+}
+.nxi.nxi-pp-book-light:before {
+    content: "\ea82";
+}
+.nxi.nxi-pp-book-open-light:before {
+    content: "\ea83";
+}
+.nxi.nxi-pp-book-open-text-light:before {
+    content: "\ea84";
+}
+.nxi.nxi-pp-bookmark-light:before {
+    content: "\ea85";
+}
+.nxi.nxi-pp-bookmark-simple-light:before {
+    content: "\ea86";
+}
+.nxi.nxi-pp-bookmarks-light:before {
+    content: "\ea87";
+}
+.nxi.nxi-pp-bookmarks-simple-light:before {
+    content: "\ea88";
+}
+.nxi.nxi-pp-books-light:before {
+    content: "\ea89";
+}
+.nxi.nxi-pp-boot-light:before {
+    content: "\ea8a";
+}
+.nxi.nxi-pp-bounding-box-light:before {
+    content: "\ea8b";
+}
+.nxi.nxi-pp-bowl-food-light:before {
+    content: "\ea8c";
+}
+.nxi.nxi-pp-brackets-angle-light:before {
+    content: "\ea8d";
+}
+.nxi.nxi-pp-brackets-curly-light:before {
+    content: "\ea8e";
+}
+.nxi.nxi-pp-brackets-round-light:before {
+    content: "\ea8f";
+}
+.nxi.nxi-pp-brackets-square-light:before {
+    content: "\ea90";
+}
+.nxi.nxi-pp-brain-light:before {
+    content: "\ea91";
+}
+.nxi.nxi-pp-brandy-light:before {
+    content: "\ea92";
+}
+.nxi.nxi-pp-bridge-light:before {
+    content: "\ea93";
+}
+.nxi.nxi-pp-briefcase-light:before {
+    content: "\ea94";
+}
+.nxi.nxi-pp-briefcase-metal-light:before {
+    content: "\ea95";
+}
+.nxi.nxi-pp-broadcast-light:before {
+    content: "\ea96";
+}
+.nxi.nxi-pp-broom-light:before {
+    content: "\ea97";
+}
+.nxi.nxi-pp-browser-light:before {
+    content: "\ea98";
+}
+.nxi.nxi-pp-browsers-light:before {
+    content: "\ea99";
+}
+.nxi.nxi-pp-bug-beetle-light:before {
+    content: "\ea9a";
+}
+.nxi.nxi-pp-bug-droid-light:before {
+    content: "\ea9b";
+}
+.nxi.nxi-pp-bug-light:before {
+    content: "\ea9c";
+}
+.nxi.nxi-pp-buildings-light:before {
+    content: "\ea9d";
+}
+.nxi.nxi-pp-bus-light:before {
+    content: "\ea9e";
+}
+.nxi.nxi-pp-butterfly-light:before {
+    content: "\ea9f";
+}
+.nxi.nxi-pp-cactus-light:before {
+    content: "\eaa0";
+}
+.nxi.nxi-pp-cake-light:before {
+    content: "\eaa1";
+}
+.nxi.nxi-pp-calculator-light:before {
+    content: "\eaa2";
+}
+.nxi.nxi-pp-calendar-blank-light:before {
+    content: "\eaa3";
+}
+.nxi.nxi-pp-calendar-check-light:before {
+    content: "\eaa4";
+}
+.nxi.nxi-pp-calendar-light:before {
+    content: "\eaa5";
+}
+.nxi.nxi-pp-calendar-plus-light:before {
+    content: "\eaa6";
+}
+.nxi.nxi-pp-calendar-x-light:before {
+    content: "\eaa7";
+}
+.nxi.nxi-pp-call-bell-light:before {
+    content: "\eaa8";
+}
+.nxi.nxi-pp-camera-light:before {
+    content: "\eaa9";
+}
+.nxi.nxi-pp-camera-plus-light:before {
+    content: "\eaaa";
+}
+.nxi.nxi-pp-camera-rotate-light:before {
+    content: "\eaab";
+}
+.nxi.nxi-pp-camera-slash-light:before {
+    content: "\eaac";
+}
+.nxi.nxi-pp-campfire-light:before {
+    content: "\eaad";
+}
+.nxi.nxi-pp-car-light:before {
+    content: "\eaae";
+}
+.nxi.nxi-pp-car-profile-light:before {
+    content: "\eaaf";
+}
+.nxi.nxi-pp-car-simple-light:before {
+    content: "\eab0";
+}
+.nxi.nxi-pp-cardholder-light:before {
+    content: "\eab1";
+}
+.nxi.nxi-pp-cards-light:before {
+    content: "\eab2";
+}
+.nxi.nxi-pp-caret-circle-double-down-light:before {
+    content: "\eab3";
+}
+.nxi.nxi-pp-caret-circle-double-left-light:before {
+    content: "\eab4";
+}
+.nxi.nxi-pp-caret-circle-double-right-light:before {
+    content: "\eab5";
+}
+.nxi.nxi-pp-caret-circle-double-up-light:before {
+    content: "\eab6";
+}
+.nxi.nxi-pp-caret-circle-down-light:before {
+    content: "\eab7";
+}
+.nxi.nxi-pp-caret-circle-left-light:before {
+    content: "\eab8";
+}
+.nxi.nxi-pp-caret-circle-right-light:before {
+    content: "\eab9";
+}
+.nxi.nxi-pp-caret-circle-up-down-light:before {
+    content: "\eaba";
+}
+.nxi.nxi-pp-caret-circle-up-light:before {
+    content: "\eabb";
+}
+.nxi.nxi-pp-caret-double-down-light:before {
+    content: "\eabc";
+}
+.nxi.nxi-pp-caret-double-left-light:before {
+    content: "\eabd";
+}
+.nxi.nxi-pp-caret-double-right-light:before {
+    content: "\eabe";
+}
+.nxi.nxi-pp-caret-double-up-light:before {
+    content: "\eabf";
+}
+.nxi.nxi-pp-caret-down-light:before {
+    content: "\eac0";
+}
+.nxi.nxi-pp-caret-left-light:before {
+    content: "\eac1";
+}
+.nxi.nxi-pp-caret-right-light:before {
+    content: "\eac2";
+}
+.nxi.nxi-pp-caret-up-down-light:before {
+    content: "\eac3";
+}
+.nxi.nxi-pp-caret-up-light:before {
+    content: "\eac4";
+}
+.nxi.nxi-pp-carrot-light:before {
+    content: "\eac5";
+}
+.nxi.nxi-pp-cassette-tape-light:before {
+    content: "\eac6";
+}
+.nxi.nxi-pp-castle-turret-light:before {
+    content: "\eac7";
+}
+.nxi.nxi-pp-cat-light:before {
+    content: "\eac8";
+}
+.nxi.nxi-pp-cell-signal-full-light:before {
+    content: "\eac9";
+}
+.nxi.nxi-pp-cell-signal-high-light:before {
+    content: "\eaca";
+}
+.nxi.nxi-pp-cell-signal-low-light:before {
+    content: "\eacb";
+}
+.nxi.nxi-pp-cell-signal-medium-light:before {
+    content: "\eacc";
+}
+.nxi.nxi-pp-cell-signal-none-light:before {
+    content: "\eacd";
+}
+.nxi.nxi-pp-cell-signal-slash-light:before {
+    content: "\eace";
+}
+.nxi.nxi-pp-cell-signal-x-light:before {
+    content: "\eacf";
+}
+.nxi.nxi-pp-certificate-light:before {
+    content: "\ead0";
+}
+.nxi.nxi-pp-chair-light:before {
+    content: "\ead1";
+}
+.nxi.nxi-pp-chalkboard-light:before {
+    content: "\ead2";
+}
+.nxi.nxi-pp-chalkboard-simple-light:before {
+    content: "\ead3";
+}
+.nxi.nxi-pp-chalkboard-teacher-light:before {
+    content: "\ead4";
+}
+.nxi.nxi-pp-champagne-light:before {
+    content: "\ead5";
+}
+.nxi.nxi-pp-charging-station-light:before {
+    content: "\ead6";
+}
+.nxi.nxi-pp-chart-bar-horizontal-light:before {
+    content: "\ead7";
+}
+.nxi.nxi-pp-chart-bar-light:before {
+    content: "\ead8";
+}
+.nxi.nxi-pp-chart-donut-light:before {
+    content: "\ead9";
+}
+.nxi.nxi-pp-chart-line-down-light:before {
+    content: "\eada";
+}
+.nxi.nxi-pp-chart-line-light:before {
+    content: "\eadb";
+}
+.nxi.nxi-pp-chart-line-up-light:before {
+    content: "\eadc";
+}
+.nxi.nxi-pp-chart-pie-light:before {
+    content: "\eadd";
+}
+.nxi.nxi-pp-chart-pie-slice-light:before {
+    content: "\eade";
+}
+.nxi.nxi-pp-chart-polar-light:before {
+    content: "\eadf";
+}
+.nxi.nxi-pp-chart-scatter-light:before {
+    content: "\eae0";
+}
+.nxi.nxi-pp-chat-centered-dots-light:before {
+    content: "\eae1";
+}
+.nxi.nxi-pp-chat-centered-light:before {
+    content: "\eae2";
+}
+.nxi.nxi-pp-chat-centered-text-light:before {
+    content: "\eae3";
+}
+.nxi.nxi-pp-chat-circle-dots-light:before {
+    content: "\eae4";
+}
+.nxi.nxi-pp-chat-circle-light:before {
+    content: "\eae5";
+}
+.nxi.nxi-pp-chat-circle-text-light:before {
+    content: "\eae6";
+}
+.nxi.nxi-pp-chat-dots-light:before {
+    content: "\eae7";
+}
+.nxi.nxi-pp-chat-light:before {
+    content: "\eae8";
+}
+.nxi.nxi-pp-chat-teardrop-dots-light:before {
+    content: "\eae9";
+}
+.nxi.nxi-pp-chat-teardrop-light:before {
+    content: "\eaea";
+}
+.nxi.nxi-pp-chat-teardrop-text-light:before {
+    content: "\eaeb";
+}
+.nxi.nxi-pp-chat-text-light:before {
+    content: "\eaec";
+}
+.nxi.nxi-pp-chats-circle-light:before {
+    content: "\eaed";
+}
+.nxi.nxi-pp-chats-light:before {
+    content: "\eaee";
+}
+.nxi.nxi-pp-chats-teardrop-light:before {
+    content: "\eaef";
+}
+.nxi.nxi-pp-check-circle-light:before {
+    content: "\eaf0";
+}
+.nxi.nxi-pp-check-fat-light:before {
+    content: "\eaf1";
+}
+.nxi.nxi-pp-check-light:before {
+    content: "\eaf2";
+}
+.nxi.nxi-pp-check-square-light:before {
+    content: "\eaf3";
+}
+.nxi.nxi-pp-check-square-offset-light:before {
+    content: "\eaf4";
+}
+.nxi.nxi-pp-checks-light:before {
+    content: "\eaf5";
+}
+.nxi.nxi-pp-church-light:before {
+    content: "\eaf6";
+}
+.nxi.nxi-pp-circle-dashed-light:before {
+    content: "\eaf7";
+}
+.nxi.nxi-pp-circle-half-light:before {
+    content: "\eaf8";
+}
+.nxi.nxi-pp-circle-half-tilt-light:before {
+    content: "\eaf9";
+}
+.nxi.nxi-pp-circle-light:before {
+    content: "\eafa";
+}
+.nxi.nxi-pp-circle-notch-light:before {
+    content: "\eafb";
+}
+.nxi.nxi-pp-circles-four-light:before {
+    content: "\eafc";
+}
+.nxi.nxi-pp-circles-three-light:before {
+    content: "\eafd";
+}
+.nxi.nxi-pp-circles-three-plus-light:before {
+    content: "\eafe";
+}
+.nxi.nxi-pp-circuitry-light:before {
+    content: "\eaff";
+}
+.nxi.nxi-pp-clipboard-light:before {
+    content: "\eb00";
+}
+.nxi.nxi-pp-clipboard-text-light:before {
+    content: "\eb01";
+}
+.nxi.nxi-pp-clock-afternoon-light:before {
+    content: "\eb02";
+}
+.nxi.nxi-pp-clock-clockwise-light:before {
+    content: "\eb03";
+}
+.nxi.nxi-pp-clock-countdown-light:before {
+    content: "\eb04";
+}
+.nxi.nxi-pp-clock-counter-clockwise-light:before {
+    content: "\eb05";
+}
+.nxi.nxi-pp-clock-light:before {
+    content: "\eb06";
+}
+.nxi.nxi-pp-closed-captioning-light:before {
+    content: "\eb07";
+}
+.nxi.nxi-pp-cloud-arrow-down-light:before {
+    content: "\eb08";
+}
+.nxi.nxi-pp-cloud-arrow-up-light:before {
+    content: "\eb09";
+}
+.nxi.nxi-pp-cloud-check-light:before {
+    content: "\eb0a";
+}
+.nxi.nxi-pp-cloud-fog-light:before {
+    content: "\eb0b";
+}
+.nxi.nxi-pp-cloud-light:before {
+    content: "\eb0c";
+}
+.nxi.nxi-pp-cloud-lightning-light:before {
+    content: "\eb0d";
+}
+.nxi.nxi-pp-cloud-moon-light:before {
+    content: "\eb0e";
+}
+.nxi.nxi-pp-cloud-rain-light:before {
+    content: "\eb0f";
+}
+.nxi.nxi-pp-cloud-slash-light:before {
+    content: "\eb10";
+}
+.nxi.nxi-pp-cloud-snow-light:before {
+    content: "\eb11";
+}
+.nxi.nxi-pp-cloud-sun-light:before {
+    content: "\eb12";
+}
+.nxi.nxi-pp-cloud-warning-light:before {
+    content: "\eb13";
+}
+.nxi.nxi-pp-cloud-x-light:before {
+    content: "\eb14";
+}
+.nxi.nxi-pp-club-light:before {
+    content: "\eb15";
+}
+.nxi.nxi-pp-coat-hanger-light:before {
+    content: "\eb16";
+}
+.nxi.nxi-pp-coda-logo-light:before {
+    content: "\eb17";
+}
+.nxi.nxi-pp-code-block-light:before {
+    content: "\eb18";
+}
+.nxi.nxi-pp-code-light:before {
+    content: "\eb19";
+}
+.nxi.nxi-pp-code-simple-light:before {
+    content: "\eb1a";
+}
+.nxi.nxi-pp-codepen-logo-light:before {
+    content: "\eb1b";
+}
+.nxi.nxi-pp-codesandbox-logo-light:before {
+    content: "\eb1c";
+}
+.nxi.nxi-pp-coffee-light:before {
+    content: "\eb1d";
+}
+.nxi.nxi-pp-coin-light:before {
+    content: "\eb1e";
+}
+.nxi.nxi-pp-coin-vertical-light:before {
+    content: "\eb1f";
+}
+.nxi.nxi-pp-coins-light:before {
+    content: "\eb20";
+}
+.nxi.nxi-pp-columns-light:before {
+    content: "\eb21";
+}
+.nxi.nxi-pp-command-light:before {
+    content: "\eb22";
+}
+.nxi.nxi-pp-compass-light:before {
+    content: "\eb23";
+}
+.nxi.nxi-pp-compass-tool-light:before {
+    content: "\eb24";
+}
+.nxi.nxi-pp-computer-tower-light:before {
+    content: "\eb25";
+}
+.nxi.nxi-pp-confetti-light:before {
+    content: "\eb26";
+}
+.nxi.nxi-pp-contactless-payment-light:before {
+    content: "\eb27";
+}
+.nxi.nxi-pp-control-light:before {
+    content: "\eb28";
+}
+.nxi.nxi-pp-cookie-light:before {
+    content: "\eb29";
+}
+.nxi.nxi-pp-cooking-pot-light:before {
+    content: "\eb2a";
+}
+.nxi.nxi-pp-copy-light:before {
+    content: "\eb2b";
+}
+.nxi.nxi-pp-copy-simple-light:before {
+    content: "\eb2c";
+}
+.nxi.nxi-pp-copyleft-light:before {
+    content: "\eb2d";
+}
+.nxi.nxi-pp-copyright-light:before {
+    content: "\eb2e";
+}
+.nxi.nxi-pp-corners-in-light:before {
+    content: "\eb2f";
+}
+.nxi.nxi-pp-corners-out-light:before {
+    content: "\eb30";
+}
+.nxi.nxi-pp-couch-light:before {
+    content: "\eb31";
+}
+.nxi.nxi-pp-cpu-light:before {
+    content: "\eb32";
+}
+.nxi.nxi-pp-credit-card-light:before {
+    content: "\eb33";
+}
+.nxi.nxi-pp-crop-light:before {
+    content: "\eb34";
+}
+.nxi.nxi-pp-cross-light:before {
+    content: "\eb35";
+}
+.nxi.nxi-pp-crosshair-light:before {
+    content: "\eb36";
+}
+.nxi.nxi-pp-crosshair-simple-light:before {
+    content: "\eb37";
+}
+.nxi.nxi-pp-crown-light:before {
+    content: "\eb38";
+}
+.nxi.nxi-pp-crown-simple-light:before {
+    content: "\eb39";
+}
+.nxi.nxi-pp-cube-focus-light:before {
+    content: "\eb3a";
+}
+.nxi.nxi-pp-cube-light:before {
+    content: "\eb3b";
+}
+.nxi.nxi-pp-cube-transparent-light:before {
+    content: "\eb3c";
+}
+.nxi.nxi-pp-currency-btc-light:before {
+    content: "\eb3d";
+}
+.nxi.nxi-pp-currency-circle-dollar-light:before {
+    content: "\eb3e";
+}
+.nxi.nxi-pp-currency-cny-light:before {
+    content: "\eb3f";
+}
+.nxi.nxi-pp-currency-dollar-light:before {
+    content: "\eb40";
+}
+.nxi.nxi-pp-currency-dollar-simple-light:before {
+    content: "\eb41";
+}
+.nxi.nxi-pp-currency-eth-light:before {
+    content: "\eb42";
+}
+.nxi.nxi-pp-currency-eur-light:before {
+    content: "\eb43";
+}
+.nxi.nxi-pp-currency-gbp-light:before {
+    content: "\eb44";
+}
+.nxi.nxi-pp-currency-inr-light:before {
+    content: "\eb45";
+}
+.nxi.nxi-pp-currency-jpy-light:before {
+    content: "\eb46";
+}
+.nxi.nxi-pp-currency-krw-light:before {
+    content: "\eb47";
+}
+.nxi.nxi-pp-currency-kzt-light:before {
+    content: "\eb48";
+}
+.nxi.nxi-pp-currency-ngn-light:before {
+    content: "\eb49";
+}
+.nxi.nxi-pp-currency-rub-light:before {
+    content: "\eb4a";
+}
+.nxi.nxi-pp-cursor-click-light:before {
+    content: "\eb4b";
+}
+.nxi.nxi-pp-cursor-light:before {
+    content: "\eb4c";
+}
+.nxi.nxi-pp-cursor-text-light:before {
+    content: "\eb4d";
+}
+.nxi.nxi-pp-cylinder-light:before {
+    content: "\eb4e";
+}
+.nxi.nxi-pp-database-light:before {
+    content: "\eb4f";
+}
+.nxi.nxi-pp-desktop-light:before {
+    content: "\eb50";
+}
+.nxi.nxi-pp-desktop-tower-light:before {
+    content: "\eb51";
+}
+.nxi.nxi-pp-detective-light:before {
+    content: "\eb52";
+}
+.nxi.nxi-pp-dev-to-logo-light:before {
+    content: "\eb53";
+}
+.nxi.nxi-pp-device-mobile-camera-light:before {
+    content: "\eb54";
+}
+.nxi.nxi-pp-device-mobile-light:before {
+    content: "\eb55";
+}
+.nxi.nxi-pp-device-mobile-speaker-light:before {
+    content: "\eb56";
+}
+.nxi.nxi-pp-device-tablet-camera-light:before {
+    content: "\eb57";
+}
+.nxi.nxi-pp-device-tablet-light:before {
+    content: "\eb58";
+}
+.nxi.nxi-pp-device-tablet-speaker-light:before {
+    content: "\eb59";
+}
+.nxi.nxi-pp-devices-light:before {
+    content: "\eb5a";
+}
+.nxi.nxi-pp-diamond-light:before {
+    content: "\eb5b";
+}
+.nxi.nxi-pp-diamonds-four-light:before {
+    content: "\eb5c";
+}
+.nxi.nxi-pp-dice-five-light:before {
+    content: "\eb5d";
+}
+.nxi.nxi-pp-dice-four-light:before {
+    content: "\eb5e";
+}
+.nxi.nxi-pp-dice-one-light:before {
+    content: "\eb5f";
+}
+.nxi.nxi-pp-dice-six-light:before {
+    content: "\eb60";
+}
+.nxi.nxi-pp-dice-three-light:before {
+    content: "\eb61";
+}
+.nxi.nxi-pp-dice-two-light:before {
+    content: "\eb62";
+}
+.nxi.nxi-pp-disc-light:before {
+    content: "\eb63";
+}
+.nxi.nxi-pp-discord-logo-light:before {
+    content: "\eb64";
+}
+.nxi.nxi-pp-divide-light:before {
+    content: "\eb65";
+}
+.nxi.nxi-pp-dna-light:before {
+    content: "\eb66";
+}
+.nxi.nxi-pp-dog-light:before {
+    content: "\eb67";
+}
+.nxi.nxi-pp-door-light:before {
+    content: "\eb68";
+}
+.nxi.nxi-pp-door-open-light:before {
+    content: "\eb69";
+}
+.nxi.nxi-pp-dot-light:before {
+    content: "\eb6a";
+}
+.nxi.nxi-pp-dot-outline-light:before {
+    content: "\eb6b";
+}
+.nxi.nxi-pp-dots-nine-light:before {
+    content: "\eb6c";
+}
+.nxi.nxi-pp-dots-six-light:before {
+    content: "\eb6d";
+}
+.nxi.nxi-pp-dots-six-vertical-light:before {
+    content: "\eb6e";
+}
+.nxi.nxi-pp-dots-three-circle-light:before {
+    content: "\eb6f";
+}
+.nxi.nxi-pp-dots-three-circle-vertical-light:before {
+    content: "\eb70";
+}
+.nxi.nxi-pp-dots-three-light:before {
+    content: "\eb71";
+}
+.nxi.nxi-pp-dots-three-outline-light:before {
+    content: "\eb72";
+}
+.nxi.nxi-pp-dots-three-outline-vertical-light:before {
+    content: "\eb73";
+}
+.nxi.nxi-pp-dots-three-vertical-light:before {
+    content: "\eb74";
+}
+.nxi.nxi-pp-download-light:before {
+    content: "\eb75";
+}
+.nxi.nxi-pp-download-simple-light:before {
+    content: "\eb76";
+}
+.nxi.nxi-pp-dress-light:before {
+    content: "\eb77";
+}
+.nxi.nxi-pp-dribbble-logo-light:before {
+    content: "\eb78";
+}
+.nxi.nxi-pp-drop-half-bottom-light:before {
+    content: "\eb79";
+}
+.nxi.nxi-pp-drop-half-light:before {
+    content: "\eb7a";
+}
+.nxi.nxi-pp-drop-light:before {
+    content: "\eb7b";
+}
+.nxi.nxi-pp-dropbox-logo-light:before {
+    content: "\eb7c";
+}
+.nxi.nxi-pp-ear-light:before {
+    content: "\eb7d";
+}
+.nxi.nxi-pp-ear-slash-light:before {
+    content: "\eb7e";
+}
+.nxi.nxi-pp-egg-crack-light:before {
+    content: "\eb7f";
+}
+.nxi.nxi-pp-egg-light:before {
+    content: "\eb80";
+}
+.nxi.nxi-pp-eject-light:before {
+    content: "\eb81";
+}
+.nxi.nxi-pp-eject-simple-light:before {
+    content: "\eb82";
+}
+.nxi.nxi-pp-elevator-light:before {
+    content: "\eb83";
+}
+.nxi.nxi-pp-engine-light:before {
+    content: "\eb84";
+}
+.nxi.nxi-pp-envelope-light:before {
+    content: "\eb85";
+}
+.nxi.nxi-pp-envelope-open-light:before {
+    content: "\eb86";
+}
+.nxi.nxi-pp-envelope-simple-light:before {
+    content: "\eb87";
+}
+.nxi.nxi-pp-envelope-simple-open-light:before {
+    content: "\eb88";
+}
+.nxi.nxi-pp-equalizer-light:before {
+    content: "\eb89";
+}
+.nxi.nxi-pp-equals-light:before {
+    content: "\eb8a";
+}
+.nxi.nxi-pp-eraser-light:before {
+    content: "\eb8b";
+}
+.nxi.nxi-pp-escalator-down-light:before {
+    content: "\eb8c";
+}
+.nxi.nxi-pp-escalator-up-light:before {
+    content: "\eb8d";
+}
+.nxi.nxi-pp-exam-light:before {
+    content: "\eb8e";
+}
+.nxi.nxi-pp-exclude-light:before {
+    content: "\eb8f";
+}
+.nxi.nxi-pp-exclude-square-light:before {
+    content: "\eb90";
+}
+.nxi.nxi-pp-export-light:before {
+    content: "\eb91";
+}
+.nxi.nxi-pp-eye-closed-light:before {
+    content: "\eb92";
+}
+.nxi.nxi-pp-eye-light:before {
+    content: "\eb93";
+}
+.nxi.nxi-pp-eye-slash-light:before {
+    content: "\eb94";
+}
+.nxi.nxi-pp-eyedropper-light:before {
+    content: "\eb95";
+}
+.nxi.nxi-pp-eyedropper-sample-light:before {
+    content: "\eb96";
+}
+.nxi.nxi-pp-eyeglasses-light:before {
+    content: "\eb97";
+}
+.nxi.nxi-pp-face-mask-light:before {
+    content: "\eb98";
+}
+.nxi.nxi-pp-facebook-logo-light:before {
+    content: "\eb99";
+}
+.nxi.nxi-pp-factory-light:before {
+    content: "\eb9a";
+}
+.nxi.nxi-pp-faders-horizontal-light:before {
+    content: "\eb9b";
+}
+.nxi.nxi-pp-faders-light:before {
+    content: "\eb9c";
+}
+.nxi.nxi-pp-fan-light:before {
+    content: "\eb9d";
+}
+.nxi.nxi-pp-fast-forward-circle-light:before {
+    content: "\eb9e";
+}
+.nxi.nxi-pp-fast-forward-light:before {
+    content: "\eb9f";
+}
+.nxi.nxi-pp-feather-light:before {
+    content: "\eba0";
+}
+.nxi.nxi-pp-figma-logo-light:before {
+    content: "\eba1";
+}
+.nxi.nxi-pp-file-archive-light:before {
+    content: "\eba2";
+}
+.nxi.nxi-pp-file-arrow-down-light:before {
+    content: "\eba3";
+}
+.nxi.nxi-pp-file-arrow-up-light:before {
+    content: "\eba4";
+}
+.nxi.nxi-pp-file-audio-light:before {
+    content: "\eba5";
+}
+.nxi.nxi-pp-file-cloud-light:before {
+    content: "\eba6";
+}
+.nxi.nxi-pp-file-code-light:before {
+    content: "\eba7";
+}
+.nxi.nxi-pp-file-css-light:before {
+    content: "\eba8";
+}
+.nxi.nxi-pp-file-csv-light:before {
+    content: "\eba9";
+}
+.nxi.nxi-pp-file-dashed-light:before {
+    content: "\ebaa";
+}
+.nxi.nxi-pp-file-doc-light:before {
+    content: "\ebab";
+}
+.nxi.nxi-pp-file-html-light:before {
+    content: "\ebac";
+}
+.nxi.nxi-pp-file-image-light:before {
+    content: "\ebad";
+}
+.nxi.nxi-pp-file-jpg-light:before {
+    content: "\ebae";
+}
+.nxi.nxi-pp-file-js-light:before {
+    content: "\ebaf";
+}
+.nxi.nxi-pp-file-jsx-light:before {
+    content: "\ebb0";
+}
+.nxi.nxi-pp-file-light:before {
+    content: "\ebb1";
+}
+.nxi.nxi-pp-file-lock-light:before {
+    content: "\ebb2";
+}
+.nxi.nxi-pp-file-magnifying-glass-light:before {
+    content: "\ebb3";
+}
+.nxi.nxi-pp-file-minus-light:before {
+    content: "\ebb4";
+}
+.nxi.nxi-pp-file-pdf-light:before {
+    content: "\ebb5";
+}
+.nxi.nxi-pp-file-plus-light:before {
+    content: "\ebb6";
+}
+.nxi.nxi-pp-file-png-light:before {
+    content: "\ebb7";
+}
+.nxi.nxi-pp-file-ppt-light:before {
+    content: "\ebb8";
+}
+.nxi.nxi-pp-file-rs-light:before {
+    content: "\ebb9";
+}
+.nxi.nxi-pp-file-sql-light:before {
+    content: "\ebba";
+}
+.nxi.nxi-pp-file-svg-light:before {
+    content: "\ebbb";
+}
+.nxi.nxi-pp-file-text-light:before {
+    content: "\ebbc";
+}
+.nxi.nxi-pp-file-ts-light:before {
+    content: "\ebbd";
+}
+.nxi.nxi-pp-file-tsx-light:before {
+    content: "\ebbe";
+}
+.nxi.nxi-pp-file-video-light:before {
+    content: "\ebbf";
+}
+.nxi.nxi-pp-file-vue-light:before {
+    content: "\ebc0";
+}
+.nxi.nxi-pp-file-x-light:before {
+    content: "\ebc1";
+}
+.nxi.nxi-pp-file-xls-light:before {
+    content: "\ebc2";
+}
+.nxi.nxi-pp-file-zip-light:before {
+    content: "\ebc3";
+}
+.nxi.nxi-pp-files-light:before {
+    content: "\ebc4";
+}
+.nxi.nxi-pp-film-reel-light:before {
+    content: "\ebc5";
+}
+.nxi.nxi-pp-film-script-light:before {
+    content: "\ebc6";
+}
+.nxi.nxi-pp-film-slate-light:before {
+    content: "\ebc7";
+}
+.nxi.nxi-pp-film-strip-light:before {
+    content: "\ebc8";
+}
+.nxi.nxi-pp-fingerprint-light:before {
+    content: "\ebc9";
+}
+.nxi.nxi-pp-fingerprint-simple-light:before {
+    content: "\ebca";
+}
+.nxi.nxi-pp-finn-the-human-light:before {
+    content: "\ebcb";
+}
+.nxi.nxi-pp-fire-extinguisher-light:before {
+    content: "\ebcc";
+}
+.nxi.nxi-pp-fire-light:before {
+    content: "\ebcd";
+}
+.nxi.nxi-pp-fire-simple-light:before {
+    content: "\ebce";
+}
+.nxi.nxi-pp-first-aid-kit-light:before {
+    content: "\ebcf";
+}
+.nxi.nxi-pp-first-aid-light:before {
+    content: "\ebd0";
+}
+.nxi.nxi-pp-fish-light:before {
+    content: "\ebd1";
+}
+.nxi.nxi-pp-fish-simple-light:before {
+    content: "\ebd2";
+}
+.nxi.nxi-pp-flag-banner-light:before {
+    content: "\ebd3";
+}
+.nxi.nxi-pp-flag-checkered-light:before {
+    content: "\ebd4";
+}
+.nxi.nxi-pp-flag-light:before {
+    content: "\ebd5";
+}
+.nxi.nxi-pp-flag-pennant-light:before {
+    content: "\ebd6";
+}
+.nxi.nxi-pp-flame-light:before {
+    content: "\ebd7";
+}
+.nxi.nxi-pp-flashlight-light:before {
+    content: "\ebd8";
+}
+.nxi.nxi-pp-flask-light:before {
+    content: "\ebd9";
+}
+.nxi.nxi-pp-floppy-disk-back-light:before {
+    content: "\ebda";
+}
+.nxi.nxi-pp-floppy-disk-light:before {
+    content: "\ebdb";
+}
+.nxi.nxi-pp-flow-arrow-light:before {
+    content: "\ebdc";
+}
+.nxi.nxi-pp-flower-light:before {
+    content: "\ebdd";
+}
+.nxi.nxi-pp-flower-lotus-light:before {
+    content: "\ebde";
+}
+.nxi.nxi-pp-flower-tulip-light:before {
+    content: "\ebdf";
+}
+.nxi.nxi-pp-flying-saucer-light:before {
+    content: "\ebe0";
+}
+.nxi.nxi-pp-folder-dashed-light:before {
+    content: "\ebe1";
+}
+.nxi.nxi-pp-folder-light:before {
+    content: "\ebe2";
+}
+.nxi.nxi-pp-folder-lock-light:before {
+    content: "\ebe3";
+}
+.nxi.nxi-pp-folder-minus-light:before {
+    content: "\ebe4";
+}
+.nxi.nxi-pp-folder-notch-light:before {
+    content: "\ebe5";
+}
+.nxi.nxi-pp-folder-notch-minus-light:before {
+    content: "\ebe6";
+}
+.nxi.nxi-pp-folder-notch-open-light:before {
+    content: "\ebe7";
+}
+.nxi.nxi-pp-folder-notch-plus-light:before {
+    content: "\ebe8";
+}
+.nxi.nxi-pp-folder-open-light:before {
+    content: "\ebe9";
+}
+.nxi.nxi-pp-folder-plus-light:before {
+    content: "\ebea";
+}
+.nxi.nxi-pp-folder-simple-dashed-light:before {
+    content: "\ebeb";
+}
+.nxi.nxi-pp-folder-simple-light:before {
+    content: "\ebec";
+}
+.nxi.nxi-pp-folder-simple-lock-light:before {
+    content: "\ebed";
+}
+.nxi.nxi-pp-folder-simple-minus-light:before {
+    content: "\ebee";
+}
+.nxi.nxi-pp-folder-simple-plus-light:before {
+    content: "\ebef";
+}
+.nxi.nxi-pp-folder-simple-star-light:before {
+    content: "\ebf0";
+}
+.nxi.nxi-pp-folder-simple-user-light:before {
+    content: "\ebf1";
+}
+.nxi.nxi-pp-folder-star-light:before {
+    content: "\ebf2";
+}
+.nxi.nxi-pp-folder-user-light:before {
+    content: "\ebf3";
+}
+.nxi.nxi-pp-folders-light:before {
+    content: "\ebf4";
+}
+.nxi.nxi-pp-football-light:before {
+    content: "\ebf5";
+}
+.nxi.nxi-pp-footprints-light:before {
+    content: "\ebf6";
+}
+.nxi.nxi-pp-fork-knife-light:before {
+    content: "\ebf7";
+}
+.nxi.nxi-pp-frame-corners-light:before {
+    content: "\ebf8";
+}
+.nxi.nxi-pp-framer-logo-light:before {
+    content: "\ebf9";
+}
+.nxi.nxi-pp-function-light:before {
+    content: "\ebfa";
+}
+.nxi.nxi-pp-funnel-light:before {
+    content: "\ebfb";
+}
+.nxi.nxi-pp-funnel-simple-light:before {
+    content: "\ebfc";
+}
+.nxi.nxi-pp-game-controller-light:before {
+    content: "\ebfd";
+}
+.nxi.nxi-pp-garage-light:before {
+    content: "\ebfe";
+}
+.nxi.nxi-pp-gas-can-light:before {
+    content: "\ebff";
+}
+.nxi.nxi-pp-gas-pump-light:before {
+    content: "\ec00";
+}
+.nxi.nxi-pp-gauge-light:before {
+    content: "\ec01";
+}
+.nxi.nxi-pp-gavel-light:before {
+    content: "\ec02";
+}
+.nxi.nxi-pp-gear-fine-light:before {
+    content: "\ec03";
+}
+.nxi.nxi-pp-gear-light:before {
+    content: "\ec04";
+}
+.nxi.nxi-pp-gear-six-light:before {
+    content: "\ec05";
+}
+.nxi.nxi-pp-gender-female-light:before {
+    content: "\ec06";
+}
+.nxi.nxi-pp-gender-intersex-light:before {
+    content: "\ec07";
+}
+.nxi.nxi-pp-gender-male-light:before {
+    content: "\ec08";
+}
+.nxi.nxi-pp-gender-neuter-light:before {
+    content: "\ec09";
+}
+.nxi.nxi-pp-gender-nonbinary-light:before {
+    content: "\ec0a";
+}
+.nxi.nxi-pp-gender-transgender-light:before {
+    content: "\ec0b";
+}
+.nxi.nxi-pp-ghost-light:before {
+    content: "\ec0c";
+}
+.nxi.nxi-pp-gif-light:before {
+    content: "\ec0d";
+}
+.nxi.nxi-pp-gift-light:before {
+    content: "\ec0e";
+}
+.nxi.nxi-pp-git-branch-light:before {
+    content: "\ec0f";
+}
+.nxi.nxi-pp-git-commit-light:before {
+    content: "\ec10";
+}
+.nxi.nxi-pp-git-diff-light:before {
+    content: "\ec11";
+}
+.nxi.nxi-pp-git-fork-light:before {
+    content: "\ec12";
+}
+.nxi.nxi-pp-git-merge-light:before {
+    content: "\ec13";
+}
+.nxi.nxi-pp-git-pull-request-light:before {
+    content: "\ec14";
+}
+.nxi.nxi-pp-github-logo-light:before {
+    content: "\ec15";
+}
+.nxi.nxi-pp-gitlab-logo-light:before {
+    content: "\ec16";
+}
+.nxi.nxi-pp-gitlab-logo-simple-light:before {
+    content: "\ec17";
+}
+.nxi.nxi-pp-globe-hemisphere-east-light:before {
+    content: "\ec18";
+}
+.nxi.nxi-pp-globe-hemisphere-west-light:before {
+    content: "\ec19";
+}
+.nxi.nxi-pp-globe-light:before {
+    content: "\ec1a";
+}
+.nxi.nxi-pp-globe-simple-light:before {
+    content: "\ec1b";
+}
+.nxi.nxi-pp-globe-stand-light:before {
+    content: "\ec1c";
+}
+.nxi.nxi-pp-goggles-light:before {
+    content: "\ec1d";
+}
+.nxi.nxi-pp-goodreads-logo-light:before {
+    content: "\ec1e";
+}
+.nxi.nxi-pp-google-cardboard-logo-light:before {
+    content: "\ec1f";
+}
+.nxi.nxi-pp-google-chrome-logo-light:before {
+    content: "\ec20";
+}
+.nxi.nxi-pp-google-drive-logo-light:before {
+    content: "\ec21";
+}
+.nxi.nxi-pp-google-logo-light:before {
+    content: "\ec22";
+}
+.nxi.nxi-pp-google-photos-logo-light:before {
+    content: "\ec23";
+}
+.nxi.nxi-pp-google-play-logo-light:before {
+    content: "\ec24";
+}
+.nxi.nxi-pp-google-podcasts-logo-light:before {
+    content: "\ec25";
+}
+.nxi.nxi-pp-gradient-light:before {
+    content: "\ec26";
+}
+.nxi.nxi-pp-graduation-cap-light:before {
+    content: "\ec27";
+}
+.nxi.nxi-pp-grains-light:before {
+    content: "\ec28";
+}
+.nxi.nxi-pp-grains-slash-light:before {
+    content: "\ec29";
+}
+.nxi.nxi-pp-graph-light:before {
+    content: "\ec2a";
+}
+.nxi.nxi-pp-grid-four-light:before {
+    content: "\ec2b";
+}
+.nxi.nxi-pp-grid-nine-light:before {
+    content: "\ec2c";
+}
+.nxi.nxi-pp-guitar-light:before {
+    content: "\ec2d";
+}
+.nxi.nxi-pp-hamburger-light:before {
+    content: "\ec2e";
+}
+.nxi.nxi-pp-hammer-light:before {
+    content: "\ec2f";
+}
+.nxi.nxi-pp-hand-coins-light:before {
+    content: "\ec30";
+}
+.nxi.nxi-pp-hand-eye-light:before {
+    content: "\ec31";
+}
+.nxi.nxi-pp-hand-fist-light:before {
+    content: "\ec32";
+}
+.nxi.nxi-pp-hand-grabbing-light:before {
+    content: "\ec33";
+}
+.nxi.nxi-pp-hand-heart-light:before {
+    content: "\ec34";
+}
+.nxi.nxi-pp-hand-light:before {
+    content: "\ec35";
+}
+.nxi.nxi-pp-hand-palm-light:before {
+    content: "\ec36";
+}
+.nxi.nxi-pp-hand-pointing-light:before {
+    content: "\ec37";
+}
+.nxi.nxi-pp-hand-soap-light:before {
+    content: "\ec38";
+}
+.nxi.nxi-pp-hand-swipe-left-light:before {
+    content: "\ec39";
+}
+.nxi.nxi-pp-hand-swipe-right-light:before {
+    content: "\ec3a";
+}
+.nxi.nxi-pp-hand-tap-light:before {
+    content: "\ec3b";
+}
+.nxi.nxi-pp-hand-waving-light:before {
+    content: "\ec3c";
+}
+.nxi.nxi-pp-handbag-light:before {
+    content: "\ec3d";
+}
+.nxi.nxi-pp-handbag-simple-light:before {
+    content: "\ec3e";
+}
+.nxi.nxi-pp-hands-clapping-light:before {
+    content: "\ec3f";
+}
+.nxi.nxi-pp-hands-praying-light:before {
+    content: "\ec40";
+}
+.nxi.nxi-pp-handshake-light:before {
+    content: "\ec41";
+}
+.nxi.nxi-pp-hard-drive-light:before {
+    content: "\ec42";
+}
+.nxi.nxi-pp-hard-drives-light:before {
+    content: "\ec43";
+}
+.nxi.nxi-pp-hash-light:before {
+    content: "\ec44";
+}
+.nxi.nxi-pp-hash-straight-light:before {
+    content: "\ec45";
+}
+.nxi.nxi-pp-headlights-light:before {
+    content: "\ec46";
+}
+.nxi.nxi-pp-headphones-light:before {
+    content: "\ec47";
+}
+.nxi.nxi-pp-headset-light:before {
+    content: "\ec48";
+}
+.nxi.nxi-pp-heart-break-light:before {
+    content: "\ec49";
+}
+.nxi.nxi-pp-heart-half-light:before {
+    content: "\ec4a";
+}
+.nxi.nxi-pp-heart-light:before {
+    content: "\ec4b";
+}
+.nxi.nxi-pp-heart-straight-break-light:before {
+    content: "\ec4c";
+}
+.nxi.nxi-pp-heart-straight-light:before {
+    content: "\ec4d";
+}
+.nxi.nxi-pp-heartbeat-light:before {
+    content: "\ec4e";
+}
+.nxi.nxi-pp-hexagon-light:before {
+    content: "\ec4f";
+}
+.nxi.nxi-pp-high-heel-light:before {
+    content: "\ec50";
+}
+.nxi.nxi-pp-highlighter-circle-light:before {
+    content: "\ec51";
+}
+.nxi.nxi-pp-hoodie-light:before {
+    content: "\ec52";
+}
+.nxi.nxi-pp-horse-light:before {
+    content: "\ec53";
+}
+.nxi.nxi-pp-hourglass-high-light:before {
+    content: "\ec54";
+}
+.nxi.nxi-pp-hourglass-light:before {
+    content: "\ec55";
+}
+.nxi.nxi-pp-hourglass-low-light:before {
+    content: "\ec56";
+}
+.nxi.nxi-pp-hourglass-medium-light:before {
+    content: "\ec57";
+}
+.nxi.nxi-pp-hourglass-simple-high-light:before {
+    content: "\ec58";
+}
+.nxi.nxi-pp-hourglass-simple-light:before {
+    content: "\ec59";
+}
+.nxi.nxi-pp-hourglass-simple-low-light:before {
+    content: "\ec5a";
+}
+.nxi.nxi-pp-hourglass-simple-medium-light:before {
+    content: "\ec5b";
+}
+.nxi.nxi-pp-house-light:before {
+    content: "\ec5c";
+}
+.nxi.nxi-pp-house-line-light:before {
+    content: "\ec5d";
+}
+.nxi.nxi-pp-house-simple-light:before {
+    content: "\ec5e";
+}
+.nxi.nxi-pp-ice-cream-light:before {
+    content: "\ec5f";
+}
+.nxi.nxi-pp-identification-badge-light:before {
+    content: "\ec60";
+}
+.nxi.nxi-pp-identification-card-light:before {
+    content: "\ec61";
+}
+.nxi.nxi-pp-image-light:before {
+    content: "\ec62";
+}
+.nxi.nxi-pp-image-square-light:before {
+    content: "\ec63";
+}
+.nxi.nxi-pp-images-light:before {
+    content: "\ec64";
+}
+.nxi.nxi-pp-images-square-light:before {
+    content: "\ec65";
+}
+.nxi.nxi-pp-infinity-light:before {
+    content: "\ec66";
+}
+.nxi.nxi-pp-info-light:before {
+    content: "\ec67";
+}
+.nxi.nxi-pp-instagram-logo-light:before {
+    content: "\ec68";
+}
+.nxi.nxi-pp-intersect-light:before {
+    content: "\ec69";
+}
+.nxi.nxi-pp-intersect-square-light:before {
+    content: "\ec6a";
+}
+.nxi.nxi-pp-intersect-three-light:before {
+    content: "\ec6b";
+}
+.nxi.nxi-pp-jeep-light:before {
+    content: "\ec6c";
+}
+.nxi.nxi-pp-kanban-light:before {
+    content: "\ec6d";
+}
+.nxi.nxi-pp-key-light:before {
+    content: "\ec6e";
+}
+.nxi.nxi-pp-key-return-light:before {
+    content: "\ec6f";
+}
+.nxi.nxi-pp-keyboard-light:before {
+    content: "\ec70";
+}
+.nxi.nxi-pp-keyhole-light:before {
+    content: "\ec71";
+}
+.nxi.nxi-pp-knife-light:before {
+    content: "\ec72";
+}
+.nxi.nxi-pp-ladder-light:before {
+    content: "\ec73";
+}
+.nxi.nxi-pp-ladder-simple-light:before {
+    content: "\ec74";
+}
+.nxi.nxi-pp-lamp-light:before {
+    content: "\ec75";
+}
+.nxi.nxi-pp-laptop-light:before {
+    content: "\ec76";
+}
+.nxi.nxi-pp-layout-light:before {
+    content: "\ec77";
+}
+.nxi.nxi-pp-leaf-light:before {
+    content: "\ec78";
+}
+.nxi.nxi-pp-lifebuoy-light:before {
+    content: "\ec79";
+}
+.nxi.nxi-pp-lightbulb-filament-light:before {
+    content: "\ec7a";
+}
+.nxi.nxi-pp-lightbulb-light:before {
+    content: "\ec7b";
+}
+.nxi.nxi-pp-lighthouse-light:before {
+    content: "\ec7c";
+}
+.nxi.nxi-pp-lightning-a-light:before {
+    content: "\ec7d";
+}
+.nxi.nxi-pp-lightning-light:before {
+    content: "\ec7e";
+}
+.nxi.nxi-pp-lightning-slash-light:before {
+    content: "\ec7f";
+}
+.nxi.nxi-pp-line-segment-light:before {
+    content: "\ec80";
+}
+.nxi.nxi-pp-line-segments-light:before {
+    content: "\ec81";
+}
+.nxi.nxi-pp-link-break-light:before {
+    content: "\ec82";
+}
+.nxi.nxi-pp-link-light:before {
+    content: "\ec83";
+}
+.nxi.nxi-pp-link-simple-break-light:before {
+    content: "\ec84";
+}
+.nxi.nxi-pp-link-simple-horizontal-break-light:before {
+    content: "\ec85";
+}
+.nxi.nxi-pp-link-simple-horizontal-light:before {
+    content: "\ec86";
+}
+.nxi.nxi-pp-link-simple-light:before {
+    content: "\ec87";
+}
+.nxi.nxi-pp-linkedin-logo-light:before {
+    content: "\ec88";
+}
+.nxi.nxi-pp-linux-logo-light:before {
+    content: "\ec89";
+}
+.nxi.nxi-pp-list-bullets-light:before {
+    content: "\ec8a";
+}
+.nxi.nxi-pp-list-checks-light:before {
+    content: "\ec8b";
+}
+.nxi.nxi-pp-list-dashes-light:before {
+    content: "\ec8c";
+}
+.nxi.nxi-pp-list-light:before {
+    content: "\ec8d";
+}
+.nxi.nxi-pp-list-magnifying-glass-light:before {
+    content: "\ec8e";
+}
+.nxi.nxi-pp-list-numbers-light:before {
+    content: "\ec8f";
+}
+.nxi.nxi-pp-list-plus-light:before {
+    content: "\ec90";
+}
+.nxi.nxi-pp-lock-key-light:before {
+    content: "\ec91";
+}
+.nxi.nxi-pp-lock-key-open-light:before {
+    content: "\ec92";
+}
+.nxi.nxi-pp-lock-laminated-light:before {
+    content: "\ec93";
+}
+.nxi.nxi-pp-lock-laminated-open-light:before {
+    content: "\ec94";
+}
+.nxi.nxi-pp-lock-light:before {
+    content: "\ec95";
+}
+.nxi.nxi-pp-lock-open-light:before {
+    content: "\ec96";
+}
+.nxi.nxi-pp-lock-simple-light:before {
+    content: "\ec97";
+}
+.nxi.nxi-pp-lock-simple-open-light:before {
+    content: "\ec98";
+}
+.nxi.nxi-pp-lockers-light:before {
+    content: "\ec99";
+}
+.nxi.nxi-pp-magic-wand-light:before {
+    content: "\ec9a";
+}
+.nxi.nxi-pp-magnet-light:before {
+    content: "\ec9b";
+}
+.nxi.nxi-pp-magnet-straight-light:before {
+    content: "\ec9c";
+}
+.nxi.nxi-pp-magnifying-glass-light:before {
+    content: "\ec9d";
+}
+.nxi.nxi-pp-magnifying-glass-minus-light:before {
+    content: "\ec9e";
+}
+.nxi.nxi-pp-magnifying-glass-plus-light:before {
+    content: "\ec9f";
+}
+.nxi.nxi-pp-map-pin-light:before {
+    content: "\eca0";
+}
+.nxi.nxi-pp-map-pin-line-light:before {
+    content: "\eca1";
+}
+.nxi.nxi-pp-map-trifold-light:before {
+    content: "\eca2";
+}
+.nxi.nxi-pp-marker-circle-light:before {
+    content: "\eca3";
+}
+.nxi.nxi-pp-martini-light:before {
+    content: "\eca4";
+}
+.nxi.nxi-pp-mask-happy-light:before {
+    content: "\eca5";
+}
+.nxi.nxi-pp-mask-sad-light:before {
+    content: "\eca6";
+}
+.nxi.nxi-pp-math-operations-light:before {
+    content: "\eca7";
+}
+.nxi.nxi-pp-medal-light:before {
+    content: "\eca8";
+}
+.nxi.nxi-pp-medal-military-light:before {
+    content: "\eca9";
+}
+.nxi.nxi-pp-medium-logo-light:before {
+    content: "\ecaa";
+}
+.nxi.nxi-pp-megaphone-light:before {
+    content: "\ecab";
+}
+.nxi.nxi-pp-megaphone-simple-light:before {
+    content: "\ecac";
+}
+.nxi.nxi-pp-messenger-logo-light:before {
+    content: "\ecad";
+}
+.nxi.nxi-pp-meta-logo-light:before {
+    content: "\ecae";
+}
+.nxi.nxi-pp-metronome-light:before {
+    content: "\ecaf";
+}
+.nxi.nxi-pp-microphone-light:before {
+    content: "\ecb0";
+}
+.nxi.nxi-pp-microphone-slash-light:before {
+    content: "\ecb1";
+}
+.nxi.nxi-pp-microphone-stage-light:before {
+    content: "\ecb2";
+}
+.nxi.nxi-pp-microsoft-excel-logo-light:before {
+    content: "\ecb3";
+}
+.nxi.nxi-pp-microsoft-outlook-logo-light:before {
+    content: "\ecb4";
+}
+.nxi.nxi-pp-microsoft-powerpoint-logo-light:before {
+    content: "\ecb5";
+}
+.nxi.nxi-pp-microsoft-teams-logo-light:before {
+    content: "\ecb6";
+}
+.nxi.nxi-pp-microsoft-word-logo-light:before {
+    content: "\ecb7";
+}
+.nxi.nxi-pp-minus-circle-light:before {
+    content: "\ecb8";
+}
+.nxi.nxi-pp-minus-light:before {
+    content: "\ecb9";
+}
+.nxi.nxi-pp-minus-square-light:before {
+    content: "\ecba";
+}
+.nxi.nxi-pp-money-light:before {
+    content: "\ecbb";
+}
+.nxi.nxi-pp-monitor-light:before {
+    content: "\ecbc";
+}
+.nxi.nxi-pp-monitor-play-light:before {
+    content: "\ecbd";
+}
+.nxi.nxi-pp-moon-light:before {
+    content: "\ecbe";
+}
+.nxi.nxi-pp-moon-stars-light:before {
+    content: "\ecbf";
+}
+.nxi.nxi-pp-moped-front-light:before {
+    content: "\ecc0";
+}
+.nxi.nxi-pp-moped-light:before {
+    content: "\ecc1";
+}
+.nxi.nxi-pp-mosque-light:before {
+    content: "\ecc2";
+}
+.nxi.nxi-pp-motorcycle-light:before {
+    content: "\ecc3";
+}
+.nxi.nxi-pp-mountains-light:before {
+    content: "\ecc4";
+}
+.nxi.nxi-pp-mouse-light:before {
+    content: "\ecc5";
+}
+.nxi.nxi-pp-mouse-simple-light:before {
+    content: "\ecc6";
+}
+.nxi.nxi-pp-music-note-light:before {
+    content: "\ecc7";
+}
+.nxi.nxi-pp-music-note-simple-light:before {
+    content: "\ecc8";
+}
+.nxi.nxi-pp-music-notes-light:before {
+    content: "\ecc9";
+}
+.nxi.nxi-pp-music-notes-plus-light:before {
+    content: "\ecca";
+}
+.nxi.nxi-pp-music-notes-simple-light:before {
+    content: "\eccb";
+}
+.nxi.nxi-pp-navigation-arrow-light:before {
+    content: "\eccc";
+}
+.nxi.nxi-pp-needle-light:before {
+    content: "\eccd";
+}
+.nxi.nxi-pp-newspaper-clipping-light:before {
+    content: "\ecce";
+}
+.nxi.nxi-pp-newspaper-light:before {
+    content: "\eccf";
+}
+.nxi.nxi-pp-notches-light:before {
+    content: "\ecd0";
+}
+.nxi.nxi-pp-note-blank-light:before {
+    content: "\ecd1";
+}
+.nxi.nxi-pp-note-light:before {
+    content: "\ecd2";
+}
+.nxi.nxi-pp-note-pencil-light:before {
+    content: "\ecd3";
+}
+.nxi.nxi-pp-notebook-light:before {
+    content: "\ecd4";
+}
+.nxi.nxi-pp-notepad-light:before {
+    content: "\ecd5";
+}
+.nxi.nxi-pp-notification-light:before {
+    content: "\ecd6";
+}
+.nxi.nxi-pp-notion-logo-light:before {
+    content: "\ecd7";
+}
+.nxi.nxi-pp-number-circle-eight-light:before {
+    content: "\ecd8";
+}
+.nxi.nxi-pp-number-circle-five-light:before {
+    content: "\ecd9";
+}
+.nxi.nxi-pp-number-circle-four-light:before {
+    content: "\ecda";
+}
+.nxi.nxi-pp-number-circle-nine-light:before {
+    content: "\ecdb";
+}
+.nxi.nxi-pp-number-circle-one-light:before {
+    content: "\ecdc";
+}
+.nxi.nxi-pp-number-circle-seven-light:before {
+    content: "\ecdd";
+}
+.nxi.nxi-pp-number-circle-six-light:before {
+    content: "\ecde";
+}
+.nxi.nxi-pp-number-circle-three-light:before {
+    content: "\ecdf";
+}
+.nxi.nxi-pp-number-circle-two-light:before {
+    content: "\ece0";
+}
+.nxi.nxi-pp-number-circle-zero-light:before {
+    content: "\ece1";
+}
+.nxi.nxi-pp-number-eight-light:before {
+    content: "\ece2";
+}
+.nxi.nxi-pp-number-five-light:before {
+    content: "\ece3";
+}
+.nxi.nxi-pp-number-four-light:before {
+    content: "\ece4";
+}
+.nxi.nxi-pp-number-nine-light:before {
+    content: "\ece5";
+}
+.nxi.nxi-pp-number-one-light:before {
+    content: "\ece6";
+}
+.nxi.nxi-pp-number-seven-light:before {
+    content: "\ece7";
+}
+.nxi.nxi-pp-number-six-light:before {
+    content: "\ece8";
+}
+.nxi.nxi-pp-number-square-eight-light:before {
+    content: "\ece9";
+}
+.nxi.nxi-pp-number-square-five-light:before {
+    content: "\ecea";
+}
+.nxi.nxi-pp-number-square-four-light:before {
+    content: "\eceb";
+}
+.nxi.nxi-pp-number-square-nine-light:before {
+    content: "\ecec";
+}
+.nxi.nxi-pp-number-square-one-light:before {
+    content: "\eced";
+}
+.nxi.nxi-pp-number-square-seven-light:before {
+    content: "\ecee";
+}
+.nxi.nxi-pp-number-square-six-light:before {
+    content: "\ecef";
+}
+.nxi.nxi-pp-number-square-three-light:before {
+    content: "\ecf0";
+}
+.nxi.nxi-pp-number-square-two-light:before {
+    content: "\ecf1";
+}
+.nxi.nxi-pp-number-square-zero-light:before {
+    content: "\ecf2";
+}
+.nxi.nxi-pp-number-three-light:before {
+    content: "\ecf3";
+}
+.nxi.nxi-pp-number-two-light:before {
+    content: "\ecf4";
+}
+.nxi.nxi-pp-number-zero-light:before {
+    content: "\ecf5";
+}
+.nxi.nxi-pp-nut-light:before {
+    content: "\ecf6";
+}
+.nxi.nxi-pp-ny-times-logo-light:before {
+    content: "\ecf7";
+}
+.nxi.nxi-pp-octagon-light:before {
+    content: "\ecf8";
+}
+.nxi.nxi-pp-office-chair-light:before {
+    content: "\ecf9";
+}
+.nxi.nxi-pp-option-light:before {
+    content: "\ecfa";
+}
+.nxi.nxi-pp-orange-slice-light:before {
+    content: "\ecfb";
+}
+.nxi.nxi-pp-package-light:before {
+    content: "\ecfc";
+}
+.nxi.nxi-pp-paint-brush-broad-light:before {
+    content: "\ecfd";
+}
+.nxi.nxi-pp-paint-brush-household-light:before {
+    content: "\ecfe";
+}
+.nxi.nxi-pp-paint-brush-light:before {
+    content: "\ecff";
+}
+.nxi.nxi-pp-paint-bucket-light:before {
+    content: "\ed00";
+}
+.nxi.nxi-pp-paint-roller-light:before {
+    content: "\ed01";
+}
+.nxi.nxi-pp-palette-light:before {
+    content: "\ed02";
+}
+.nxi.nxi-pp-pants-light:before {
+    content: "\ed03";
+}
+.nxi.nxi-pp-paper-plane-light:before {
+    content: "\ed04";
+}
+.nxi.nxi-pp-paper-plane-right-light:before {
+    content: "\ed05";
+}
+.nxi.nxi-pp-paper-plane-tilt-light:before {
+    content: "\ed06";
+}
+.nxi.nxi-pp-paperclip-horizontal-light:before {
+    content: "\ed07";
+}
+.nxi.nxi-pp-paperclip-light:before {
+    content: "\ed08";
+}
+.nxi.nxi-pp-parachute-light:before {
+    content: "\ed09";
+}
+.nxi.nxi-pp-paragraph-light:before {
+    content: "\ed0a";
+}
+.nxi.nxi-pp-parallelogram-light:before {
+    content: "\ed0b";
+}
+.nxi.nxi-pp-park-light:before {
+    content: "\ed0c";
+}
+.nxi.nxi-pp-password-light:before {
+    content: "\ed0d";
+}
+.nxi.nxi-pp-path-light:before {
+    content: "\ed0e";
+}
+.nxi.nxi-pp-patreon-logo-light:before {
+    content: "\ed0f";
+}
+.nxi.nxi-pp-pause-circle-light:before {
+    content: "\ed10";
+}
+.nxi.nxi-pp-pause-light:before {
+    content: "\ed11";
+}
+.nxi.nxi-pp-paw-print-light:before {
+    content: "\ed12";
+}
+.nxi.nxi-pp-paypal-logo-light:before {
+    content: "\ed13";
+}
+.nxi.nxi-pp-peace-light:before {
+    content: "\ed14";
+}
+.nxi.nxi-pp-pen-light:before {
+    content: "\ed15";
+}
+.nxi.nxi-pp-pen-nib-light:before {
+    content: "\ed16";
+}
+.nxi.nxi-pp-pen-nib-straight-light:before {
+    content: "\ed17";
+}
+.nxi.nxi-pp-pencil-circle-light:before {
+    content: "\ed18";
+}
+.nxi.nxi-pp-pencil-light:before {
+    content: "\ed19";
+}
+.nxi.nxi-pp-pencil-line-light:before {
+    content: "\ed1a";
+}
+.nxi.nxi-pp-pencil-simple-light:before {
+    content: "\ed1b";
+}
+.nxi.nxi-pp-pencil-simple-line-light:before {
+    content: "\ed1c";
+}
+.nxi.nxi-pp-pencil-simple-slash-light:before {
+    content: "\ed1d";
+}
+.nxi.nxi-pp-pencil-slash-light:before {
+    content: "\ed1e";
+}
+.nxi.nxi-pp-pentagram-light:before {
+    content: "\ed1f";
+}
+.nxi.nxi-pp-pepper-light:before {
+    content: "\ed20";
+}
+.nxi.nxi-pp-percent-light:before {
+    content: "\ed21";
+}
+.nxi.nxi-pp-person-arms-spread-light:before {
+    content: "\ed22";
+}
+.nxi.nxi-pp-person-light:before {
+    content: "\ed23";
+}
+.nxi.nxi-pp-person-simple-bike-light:before {
+    content: "\ed24";
+}
+.nxi.nxi-pp-person-simple-light:before {
+    content: "\ed25";
+}
+.nxi.nxi-pp-person-simple-run-light:before {
+    content: "\ed26";
+}
+.nxi.nxi-pp-person-simple-throw-light:before {
+    content: "\ed27";
+}
+.nxi.nxi-pp-person-simple-walk-light:before {
+    content: "\ed28";
+}
+.nxi.nxi-pp-perspective-light:before {
+    content: "\ed29";
+}
+.nxi.nxi-pp-phone-call-light:before {
+    content: "\ed2a";
+}
+.nxi.nxi-pp-phone-disconnect-light:before {
+    content: "\ed2b";
+}
+.nxi.nxi-pp-phone-incoming-light:before {
+    content: "\ed2c";
+}
+.nxi.nxi-pp-phone-light:before {
+    content: "\ed2d";
+}
+.nxi.nxi-pp-phone-outgoing-light:before {
+    content: "\ed2e";
+}
+.nxi.nxi-pp-phone-plus-light:before {
+    content: "\ed2f";
+}
+.nxi.nxi-pp-phone-slash-light:before {
+    content: "\ed30";
+}
+.nxi.nxi-pp-phone-x-light:before {
+    content: "\ed31";
+}
+.nxi.nxi-pp-phosphor-logo-light:before {
+    content: "\ed32";
+}
+.nxi.nxi-pp-pi-light:before {
+    content: "\ed33";
+}
+.nxi.nxi-pp-piano-keys-light:before {
+    content: "\ed34";
+}
+.nxi.nxi-pp-picture-in-picture-light:before {
+    content: "\ed35";
+}
+.nxi.nxi-pp-piggy-bank-light:before {
+    content: "\ed36";
+}
+.nxi.nxi-pp-pill-light:before {
+    content: "\ed37";
+}
+.nxi.nxi-pp-pinterest-logo-light:before {
+    content: "\ed38";
+}
+.nxi.nxi-pp-pinwheel-light:before {
+    content: "\ed39";
+}
+.nxi.nxi-pp-pizza-light:before {
+    content: "\ed3a";
+}
+.nxi.nxi-pp-placeholder-light:before {
+    content: "\ed3b";
+}
+.nxi.nxi-pp-planet-light:before {
+    content: "\ed3c";
+}
+.nxi.nxi-pp-plant-light:before {
+    content: "\ed3d";
+}
+.nxi.nxi-pp-play-circle-light:before {
+    content: "\ed3e";
+}
+.nxi.nxi-pp-play-light:before {
+    content: "\ed3f";
+}
+.nxi.nxi-pp-play-pause-light:before {
+    content: "\ed40";
+}
+.nxi.nxi-pp-playlist-light:before {
+    content: "\ed41";
+}
+.nxi.nxi-pp-plug-charging-light:before {
+    content: "\ed42";
+}
+.nxi.nxi-pp-plug-light:before {
+    content: "\ed43";
+}
+.nxi.nxi-pp-plugs-connected-light:before {
+    content: "\ed44";
+}
+.nxi.nxi-pp-plugs-light:before {
+    content: "\ed45";
+}
+.nxi.nxi-pp-plus-circle-light:before {
+    content: "\ed46";
+}
+.nxi.nxi-pp-plus-light:before {
+    content: "\ed47";
+}
+.nxi.nxi-pp-plus-minus-light:before {
+    content: "\ed48";
+}
+.nxi.nxi-pp-plus-square-light:before {
+    content: "\ed49";
+}
+.nxi.nxi-pp-poker-chip-light:before {
+    content: "\ed4a";
+}
+.nxi.nxi-pp-police-car-light:before {
+    content: "\ed4b";
+}
+.nxi.nxi-pp-polygon-light:before {
+    content: "\ed4c";
+}
+.nxi.nxi-pp-popcorn-light:before {
+    content: "\ed4d";
+}
+.nxi.nxi-pp-potted-plant-light:before {
+    content: "\ed4e";
+}
+.nxi.nxi-pp-power-light:before {
+    content: "\ed4f";
+}
+.nxi.nxi-pp-prescription-light:before {
+    content: "\ed50";
+}
+.nxi.nxi-pp-presentation-chart-light:before {
+    content: "\ed51";
+}
+.nxi.nxi-pp-presentation-light:before {
+    content: "\ed52";
+}
+.nxi.nxi-pp-printer-light:before {
+    content: "\ed53";
+}
+.nxi.nxi-pp-prohibit-inset-light:before {
+    content: "\ed54";
+}
+.nxi.nxi-pp-prohibit-light:before {
+    content: "\ed55";
+}
+.nxi.nxi-pp-projector-screen-chart-light:before {
+    content: "\ed56";
+}
+.nxi.nxi-pp-projector-screen-light:before {
+    content: "\ed57";
+}
+.nxi.nxi-pp-pulse-light:before {
+    content: "\ed58";
+}
+.nxi.nxi-pp-push-pin-light:before {
+    content: "\ed59";
+}
+.nxi.nxi-pp-push-pin-simple-light:before {
+    content: "\ed5a";
+}
+.nxi.nxi-pp-push-pin-simple-slash-light:before {
+    content: "\ed5b";
+}
+.nxi.nxi-pp-push-pin-slash-light:before {
+    content: "\ed5c";
+}
+.nxi.nxi-pp-puzzle-piece-light:before {
+    content: "\ed5d";
+}
+.nxi.nxi-pp-qr-code-light:before {
+    content: "\ed5e";
+}
+.nxi.nxi-pp-question-light:before {
+    content: "\ed5f";
+}
+.nxi.nxi-pp-queue-light:before {
+    content: "\ed60";
+}
+.nxi.nxi-pp-quotes-light:before {
+    content: "\ed61";
+}
+.nxi.nxi-pp-radical-light:before {
+    content: "\ed62";
+}
+.nxi.nxi-pp-radio-button-light:before {
+    content: "\ed63";
+}
+.nxi.nxi-pp-radio-light:before {
+    content: "\ed64";
+}
+.nxi.nxi-pp-radioactive-light:before {
+    content: "\ed65";
+}
+.nxi.nxi-pp-rainbow-cloud-light:before {
+    content: "\ed66";
+}
+.nxi.nxi-pp-rainbow-light:before {
+    content: "\ed67";
+}
+.nxi.nxi-pp-read-cv-logo-light:before {
+    content: "\ed68";
+}
+.nxi.nxi-pp-receipt-light:before {
+    content: "\ed69";
+}
+.nxi.nxi-pp-receipt-x-light:before {
+    content: "\ed6a";
+}
+.nxi.nxi-pp-record-light:before {
+    content: "\ed6b";
+}
+.nxi.nxi-pp-rectangle-light:before {
+    content: "\ed6c";
+}
+.nxi.nxi-pp-recycle-light:before {
+    content: "\ed6d";
+}
+.nxi.nxi-pp-reddit-logo-light:before {
+    content: "\ed6e";
+}
+.nxi.nxi-pp-repeat-light:before {
+    content: "\ed6f";
+}
+.nxi.nxi-pp-repeat-once-light:before {
+    content: "\ed70";
+}
+.nxi.nxi-pp-rewind-circle-light:before {
+    content: "\ed71";
+}
+.nxi.nxi-pp-rewind-light:before {
+    content: "\ed72";
+}
+.nxi.nxi-pp-road-horizon-light:before {
+    content: "\ed73";
+}
+.nxi.nxi-pp-robot-light:before {
+    content: "\ed74";
+}
+.nxi.nxi-pp-rocket-launch-light:before {
+    content: "\ed75";
+}
+.nxi.nxi-pp-rocket-light:before {
+    content: "\ed76";
+}
+.nxi.nxi-pp-rows-light:before {
+    content: "\ed77";
+}
+.nxi.nxi-pp-rss-light:before {
+    content: "\ed78";
+}
+.nxi.nxi-pp-rss-simple-light:before {
+    content: "\ed79";
+}
+.nxi.nxi-pp-rug-light:before {
+    content: "\ed7a";
+}
+.nxi.nxi-pp-ruler-light:before {
+    content: "\ed7b";
+}
+.nxi.nxi-pp-scales-light:before {
+    content: "\ed7c";
+}
+.nxi.nxi-pp-scan-light:before {
+    content: "\ed7d";
+}
+.nxi.nxi-pp-scissors-light:before {
+    content: "\ed7e";
+}
+.nxi.nxi-pp-scooter-light:before {
+    content: "\ed7f";
+}
+.nxi.nxi-pp-screencast-light:before {
+    content: "\ed80";
+}
+.nxi.nxi-pp-scribble-loop-light:before {
+    content: "\ed81";
+}
+.nxi.nxi-pp-scroll-light:before {
+    content: "\ed82";
+}
+.nxi.nxi-pp-seal-check-light:before {
+    content: "\ed83";
+}
+.nxi.nxi-pp-seal-light:before {
+    content: "\ed84";
+}
+.nxi.nxi-pp-seal-question-light:before {
+    content: "\ed85";
+}
+.nxi.nxi-pp-seal-warning-light:before {
+    content: "\ed86";
+}
+.nxi.nxi-pp-selection-all-light:before {
+    content: "\ed87";
+}
+.nxi.nxi-pp-selection-background-light:before {
+    content: "\ed88";
+}
+.nxi.nxi-pp-selection-foreground-light:before {
+    content: "\ed89";
+}
+.nxi.nxi-pp-selection-inverse-light:before {
+    content: "\ed8a";
+}
+.nxi.nxi-pp-selection-light:before {
+    content: "\ed8b";
+}
+.nxi.nxi-pp-selection-plus-light:before {
+    content: "\ed8c";
+}
+.nxi.nxi-pp-selection-slash-light:before {
+    content: "\ed8d";
+}
+.nxi.nxi-pp-shapes-light:before {
+    content: "\ed8e";
+}
+.nxi.nxi-pp-share-fat-light:before {
+    content: "\ed8f";
+}
+.nxi.nxi-pp-share-light:before {
+    content: "\ed90";
+}
+.nxi.nxi-pp-share-network-light:before {
+    content: "\ed91";
+}
+.nxi.nxi-pp-shield-check-light:before {
+    content: "\ed92";
+}
+.nxi.nxi-pp-shield-checkered-light:before {
+    content: "\ed93";
+}
+.nxi.nxi-pp-shield-chevron-light:before {
+    content: "\ed94";
+}
+.nxi.nxi-pp-shield-light:before {
+    content: "\ed95";
+}
+.nxi.nxi-pp-shield-plus-light:before {
+    content: "\ed96";
+}
+.nxi.nxi-pp-shield-slash-light:before {
+    content: "\ed97";
+}
+.nxi.nxi-pp-shield-star-light:before {
+    content: "\ed98";
+}
+.nxi.nxi-pp-shield-warning-light:before {
+    content: "\ed99";
+}
+.nxi.nxi-pp-shirt-folded-light:before {
+    content: "\ed9a";
+}
+.nxi.nxi-pp-shooting-star-light:before {
+    content: "\ed9b";
+}
+.nxi.nxi-pp-shopping-bag-light:before {
+    content: "\ed9c";
+}
+.nxi.nxi-pp-shopping-bag-open-light:before {
+    content: "\ed9d";
+}
+.nxi.nxi-pp-shopping-cart-light:before {
+    content: "\ed9e";
+}
+.nxi.nxi-pp-shopping-cart-simple-light:before {
+    content: "\ed9f";
+}
+.nxi.nxi-pp-shower-light:before {
+    content: "\eda0";
+}
+.nxi.nxi-pp-shrimp-light:before {
+    content: "\eda1";
+}
+.nxi.nxi-pp-shuffle-angular-light:before {
+    content: "\eda2";
+}
+.nxi.nxi-pp-shuffle-light:before {
+    content: "\eda3";
+}
+.nxi.nxi-pp-shuffle-simple-light:before {
+    content: "\eda4";
+}
+.nxi.nxi-pp-sidebar-light:before {
+    content: "\eda5";
+}
+.nxi.nxi-pp-sidebar-simple-light:before {
+    content: "\eda6";
+}
+.nxi.nxi-pp-sigma-light:before {
+    content: "\eda7";
+}
+.nxi.nxi-pp-sign-in-light:before {
+    content: "\eda8";
+}
+.nxi.nxi-pp-sign-out-light:before {
+    content: "\eda9";
+}
+.nxi.nxi-pp-signature-light:before {
+    content: "\edaa";
+}
+.nxi.nxi-pp-signpost-light:before {
+    content: "\edab";
+}
+.nxi.nxi-pp-sim-card-light:before {
+    content: "\edac";
+}
+.nxi.nxi-pp-siren-light:before {
+    content: "\edad";
+}
+.nxi.nxi-pp-sketch-logo-light:before {
+    content: "\edae";
+}
+.nxi.nxi-pp-skip-back-circle-light:before {
+    content: "\edaf";
+}
+.nxi.nxi-pp-skip-back-light:before {
+    content: "\edb0";
+}
+.nxi.nxi-pp-skip-forward-circle-light:before {
+    content: "\edb1";
+}
+.nxi.nxi-pp-skip-forward-light:before {
+    content: "\edb2";
+}
+.nxi.nxi-pp-skull-light:before {
+    content: "\edb3";
+}
+.nxi.nxi-pp-slack-logo-light:before {
+    content: "\edb4";
+}
+.nxi.nxi-pp-sliders-horizontal-light:before {
+    content: "\edb5";
+}
+.nxi.nxi-pp-sliders-light:before {
+    content: "\edb6";
+}
+.nxi.nxi-pp-slideshow-light:before {
+    content: "\edb7";
+}
+.nxi.nxi-pp-smiley-angry-light:before {
+    content: "\edb8";
+}
+.nxi.nxi-pp-smiley-blank-light:before {
+    content: "\edb9";
+}
+.nxi.nxi-pp-smiley-light:before {
+    content: "\edba";
+}
+.nxi.nxi-pp-smiley-meh-light:before {
+    content: "\edbb";
+}
+.nxi.nxi-pp-smiley-nervous-light:before {
+    content: "\edbc";
+}
+.nxi.nxi-pp-smiley-sad-light:before {
+    content: "\edbd";
+}
+.nxi.nxi-pp-smiley-sticker-light:before {
+    content: "\edbe";
+}
+.nxi.nxi-pp-smiley-wink-light:before {
+    content: "\edbf";
+}
+.nxi.nxi-pp-smiley-x-eyes-light:before {
+    content: "\edc0";
+}
+.nxi.nxi-pp-snapchat-logo-light:before {
+    content: "\edc1";
+}
+.nxi.nxi-pp-sneaker-light:before {
+    content: "\edc2";
+}
+.nxi.nxi-pp-sneaker-move-light:before {
+    content: "\edc3";
+}
+.nxi.nxi-pp-snowflake-light:before {
+    content: "\edc4";
+}
+.nxi.nxi-pp-soccer-ball-light:before {
+    content: "\edc5";
+}
+.nxi.nxi-pp-sort-ascending-light:before {
+    content: "\edc6";
+}
+.nxi.nxi-pp-sort-descending-light:before {
+    content: "\edc7";
+}
+.nxi.nxi-pp-soundcloud-logo-light:before {
+    content: "\edc8";
+}
+.nxi.nxi-pp-spade-light:before {
+    content: "\edc9";
+}
+.nxi.nxi-pp-sparkle-light:before {
+    content: "\edca";
+}
+.nxi.nxi-pp-speaker-hifi-light:before {
+    content: "\edcb";
+}
+.nxi.nxi-pp-speaker-high-light:before {
+    content: "\edcc";
+}
+.nxi.nxi-pp-speaker-low-light:before {
+    content: "\edcd";
+}
+.nxi.nxi-pp-speaker-none-light:before {
+    content: "\edce";
+}
+.nxi.nxi-pp-speaker-simple-high-light:before {
+    content: "\edcf";
+}
+.nxi.nxi-pp-speaker-simple-low-light:before {
+    content: "\edd0";
+}
+.nxi.nxi-pp-speaker-simple-none-light:before {
+    content: "\edd1";
+}
+.nxi.nxi-pp-speaker-simple-slash-light:before {
+    content: "\edd2";
+}
+.nxi.nxi-pp-speaker-simple-x-light:before {
+    content: "\edd3";
+}
+.nxi.nxi-pp-speaker-slash-light:before {
+    content: "\edd4";
+}
+.nxi.nxi-pp-speaker-x-light:before {
+    content: "\edd5";
+}
+.nxi.nxi-pp-spinner-gap-light:before {
+    content: "\edd6";
+}
+.nxi.nxi-pp-spinner-light:before {
+    content: "\edd7";
+}
+.nxi.nxi-pp-spiral-light:before {
+    content: "\edd8";
+}
+.nxi.nxi-pp-split-horizontal-light:before {
+    content: "\edd9";
+}
+.nxi.nxi-pp-split-vertical-light:before {
+    content: "\edda";
+}
+.nxi.nxi-pp-spotify-logo-light:before {
+    content: "\eddb";
+}
+.nxi.nxi-pp-square-half-bottom-light:before {
+    content: "\eddc";
+}
+.nxi.nxi-pp-square-half-light:before {
+    content: "\eddd";
+}
+.nxi.nxi-pp-square-light:before {
+    content: "\edde";
+}
+.nxi.nxi-pp-square-logo-light:before {
+    content: "\eddf";
+}
+.nxi.nxi-pp-square-split-horizontal-light:before {
+    content: "\ede0";
+}
+.nxi.nxi-pp-square-split-vertical-light:before {
+    content: "\ede1";
+}
+.nxi.nxi-pp-squares-four-light:before {
+    content: "\ede2";
+}
+.nxi.nxi-pp-stack-light:before {
+    content: "\ede3";
+}
+.nxi.nxi-pp-stack-overflow-logo-light:before {
+    content: "\ede4";
+}
+.nxi.nxi-pp-stack-simple-light:before {
+    content: "\ede5";
+}
+.nxi.nxi-pp-stairs-light:before {
+    content: "\ede6";
+}
+.nxi.nxi-pp-stamp-light:before {
+    content: "\ede7";
+}
+.nxi.nxi-pp-star-and-crescent-light:before {
+    content: "\ede8";
+}
+.nxi.nxi-pp-star-four-light:before {
+    content: "\ede9";
+}
+.nxi.nxi-pp-star-half-light:before {
+    content: "\edea";
+}
+.nxi.nxi-pp-star-light:before {
+    content: "\edeb";
+}
+.nxi.nxi-pp-star-of-david-light:before {
+    content: "\edec";
+}
+.nxi.nxi-pp-steering-wheel-light:before {
+    content: "\eded";
+}
+.nxi.nxi-pp-steps-light:before {
+    content: "\edee";
+}
+.nxi.nxi-pp-stethoscope-light:before {
+    content: "\edef";
+}
+.nxi.nxi-pp-sticker-light:before {
+    content: "\edf0";
+}
+.nxi.nxi-pp-stool-light:before {
+    content: "\edf1";
+}
+.nxi.nxi-pp-stop-circle-light:before {
+    content: "\edf2";
+}
+.nxi.nxi-pp-stop-light:before {
+    content: "\edf3";
+}
+.nxi.nxi-pp-storefront-light:before {
+    content: "\edf4";
+}
+.nxi.nxi-pp-strategy-light:before {
+    content: "\edf5";
+}
+.nxi.nxi-pp-stripe-logo-light:before {
+    content: "\edf6";
+}
+.nxi.nxi-pp-student-light:before {
+    content: "\edf7";
+}
+.nxi.nxi-pp-subtitles-light:before {
+    content: "\edf8";
+}
+.nxi.nxi-pp-subtract-light:before {
+    content: "\edf9";
+}
+.nxi.nxi-pp-subtract-square-light:before {
+    content: "\edfa";
+}
+.nxi.nxi-pp-suitcase-light:before {
+    content: "\edfb";
+}
+.nxi.nxi-pp-suitcase-rolling-light:before {
+    content: "\edfc";
+}
+.nxi.nxi-pp-suitcase-simple-light:before {
+    content: "\edfd";
+}
+.nxi.nxi-pp-sun-dim-light:before {
+    content: "\edfe";
+}
+.nxi.nxi-pp-sun-horizon-light:before {
+    content: "\edff";
+}
+.nxi.nxi-pp-sun-light:before {
+    content: "\ee00";
+}
+.nxi.nxi-pp-sunglasses-light:before {
+    content: "\ee01";
+}
+.nxi.nxi-pp-swap-light:before {
+    content: "\ee02";
+}
+.nxi.nxi-pp-swatches-light:before {
+    content: "\ee03";
+}
+.nxi.nxi-pp-swimming-pool-light:before {
+    content: "\ee04";
+}
+.nxi.nxi-pp-sword-light:before {
+    content: "\ee05";
+}
+.nxi.nxi-pp-synagogue-light:before {
+    content: "\ee06";
+}
+.nxi.nxi-pp-syringe-light:before {
+    content: "\ee07";
+}
+.nxi.nxi-pp-t-shirt-light:before {
+    content: "\ee08";
+}
+.nxi.nxi-pp-table-light:before {
+    content: "\ee09";
+}
+.nxi.nxi-pp-tabs-light:before {
+    content: "\ee0a";
+}
+.nxi.nxi-pp-tag-chevron-light:before {
+    content: "\ee0b";
+}
+.nxi.nxi-pp-tag-light:before {
+    content: "\ee0c";
+}
+.nxi.nxi-pp-tag-simple-light:before {
+    content: "\ee0d";
+}
+.nxi.nxi-pp-target-light:before {
+    content: "\ee0e";
+}
+.nxi.nxi-pp-taxi-light:before {
+    content: "\ee0f";
+}
+.nxi.nxi-pp-telegram-logo-light:before {
+    content: "\ee10";
+}
+.nxi.nxi-pp-television-light:before {
+    content: "\ee11";
+}
+.nxi.nxi-pp-television-simple-light:before {
+    content: "\ee12";
+}
+.nxi.nxi-pp-tennis-ball-light:before {
+    content: "\ee13";
+}
+.nxi.nxi-pp-tent-light:before {
+    content: "\ee14";
+}
+.nxi.nxi-pp-terminal-light:before {
+    content: "\ee15";
+}
+.nxi.nxi-pp-terminal-window-light:before {
+    content: "\ee16";
+}
+.nxi.nxi-pp-test-tube-light:before {
+    content: "\ee17";
+}
+.nxi.nxi-pp-text-a-underline-light:before {
+    content: "\ee18";
+}
+.nxi.nxi-pp-text-aa-light:before {
+    content: "\ee19";
+}
+.nxi.nxi-pp-text-align-center-light:before {
+    content: "\ee1a";
+}
+.nxi.nxi-pp-text-align-justify-light:before {
+    content: "\ee1b";
+}
+.nxi.nxi-pp-text-align-left-light:before {
+    content: "\ee1c";
+}
+.nxi.nxi-pp-text-align-right-light:before {
+    content: "\ee1d";
+}
+.nxi.nxi-pp-text-b-light:before {
+    content: "\ee1e";
+}
+.nxi.nxi-pp-text-columns-light:before {
+    content: "\ee1f";
+}
+.nxi.nxi-pp-text-h-five-light:before {
+    content: "\ee20";
+}
+.nxi.nxi-pp-text-h-four-light:before {
+    content: "\ee21";
+}
+.nxi.nxi-pp-text-h-light:before {
+    content: "\ee22";
+}
+.nxi.nxi-pp-text-h-one-light:before {
+    content: "\ee23";
+}
+.nxi.nxi-pp-text-h-six-light:before {
+    content: "\ee24";
+}
+.nxi.nxi-pp-text-h-three-light:before {
+    content: "\ee25";
+}
+.nxi.nxi-pp-text-h-two-light:before {
+    content: "\ee26";
+}
+.nxi.nxi-pp-text-indent-light:before {
+    content: "\ee27";
+}
+.nxi.nxi-pp-text-italic-light:before {
+    content: "\ee28";
+}
+.nxi.nxi-pp-text-outdent-light:before {
+    content: "\ee29";
+}
+.nxi.nxi-pp-text-strikethrough-light:before {
+    content: "\ee2a";
+}
+.nxi.nxi-pp-text-t-light:before {
+    content: "\ee2b";
+}
+.nxi.nxi-pp-text-underline-light:before {
+    content: "\ee2c";
+}
+.nxi.nxi-pp-textbox-light:before {
+    content: "\ee2d";
+}
+.nxi.nxi-pp-thermometer-cold-light:before {
+    content: "\ee2e";
+}
+.nxi.nxi-pp-thermometer-hot-light:before {
+    content: "\ee2f";
+}
+.nxi.nxi-pp-thermometer-light:before {
+    content: "\ee30";
+}
+.nxi.nxi-pp-thermometer-simple-light:before {
+    content: "\ee31";
+}
+.nxi.nxi-pp-thumbs-down-light:before {
+    content: "\ee32";
+}
+.nxi.nxi-pp-thumbs-up-light:before {
+    content: "\ee33";
+}
+.nxi.nxi-pp-ticket-light:before {
+    content: "\ee34";
+}
+.nxi.nxi-pp-tidal-logo-light:before {
+    content: "\ee35";
+}
+.nxi.nxi-pp-tiktok-logo-light:before {
+    content: "\ee36";
+}
+.nxi.nxi-pp-timer-light:before {
+    content: "\ee37";
+}
+.nxi.nxi-pp-tipi-light:before {
+    content: "\ee38";
+}
+.nxi.nxi-pp-toggle-left-light:before {
+    content: "\ee39";
+}
+.nxi.nxi-pp-toggle-right-light:before {
+    content: "\ee3a";
+}
+.nxi.nxi-pp-toilet-light:before {
+    content: "\ee3b";
+}
+.nxi.nxi-pp-toilet-paper-light:before {
+    content: "\ee3c";
+}
+.nxi.nxi-pp-toolbox-light:before {
+    content: "\ee3d";
+}
+.nxi.nxi-pp-tooth-light:before {
+    content: "\ee3e";
+}
+.nxi.nxi-pp-tote-light:before {
+    content: "\ee3f";
+}
+.nxi.nxi-pp-tote-simple-light:before {
+    content: "\ee40";
+}
+.nxi.nxi-pp-trademark-light:before {
+    content: "\ee41";
+}
+.nxi.nxi-pp-trademark-registered-light:before {
+    content: "\ee42";
+}
+.nxi.nxi-pp-traffic-cone-light:before {
+    content: "\ee43";
+}
+.nxi.nxi-pp-traffic-sign-light:before {
+    content: "\ee44";
+}
+.nxi.nxi-pp-traffic-signal-light:before {
+    content: "\ee45";
+}
+.nxi.nxi-pp-train-light:before {
+    content: "\ee46";
+}
+.nxi.nxi-pp-train-regional-light:before {
+    content: "\ee47";
+}
+.nxi.nxi-pp-train-simple-light:before {
+    content: "\ee48";
+}
+.nxi.nxi-pp-tram-light:before {
+    content: "\ee49";
+}
+.nxi.nxi-pp-translate-light:before {
+    content: "\ee4a";
+}
+.nxi.nxi-pp-trash-light:before {
+    content: "\ee4b";
+}
+.nxi.nxi-pp-trash-simple-light:before {
+    content: "\ee4c";
+}
+.nxi.nxi-pp-tray-light:before {
+    content: "\ee4d";
+}
+.nxi.nxi-pp-tree-evergreen-light:before {
+    content: "\ee4e";
+}
+.nxi.nxi-pp-tree-light:before {
+    content: "\ee4f";
+}
+.nxi.nxi-pp-tree-palm-light:before {
+    content: "\ee50";
+}
+.nxi.nxi-pp-tree-structure-light:before {
+    content: "\ee51";
+}
+.nxi.nxi-pp-trend-down-light:before {
+    content: "\ee52";
+}
+.nxi.nxi-pp-trend-up-light:before {
+    content: "\ee53";
+}
+.nxi.nxi-pp-triangle-light:before {
+    content: "\ee54";
+}
+.nxi.nxi-pp-trophy-light:before {
+    content: "\ee55";
+}
+.nxi.nxi-pp-truck-light:before {
+    content: "\ee56";
+}
+.nxi.nxi-pp-twitch-logo-light:before {
+    content: "\ee57";
+}
+.nxi.nxi-pp-twitter-logo-light:before {
+    content: "\ee58";
+}
+.nxi.nxi-pp-umbrella-light:before {
+    content: "\ee59";
+}
+.nxi.nxi-pp-umbrella-simple-light:before {
+    content: "\ee5a";
+}
+.nxi.nxi-pp-unite-light:before {
+    content: "\ee5b";
+}
+.nxi.nxi-pp-unite-square-light:before {
+    content: "\ee5c";
+}
+.nxi.nxi-pp-upload-light:before {
+    content: "\ee5d";
+}
+.nxi.nxi-pp-upload-simple-light:before {
+    content: "\ee5e";
+}
+.nxi.nxi-pp-usb-light:before {
+    content: "\ee5f";
+}
+.nxi.nxi-pp-user-circle-gear-light:before {
+    content: "\ee60";
+}
+.nxi.nxi-pp-user-circle-light:before {
+    content: "\ee61";
+}
+.nxi.nxi-pp-user-circle-minus-light:before {
+    content: "\ee62";
+}
+.nxi.nxi-pp-user-circle-plus-light:before {
+    content: "\ee63";
+}
+.nxi.nxi-pp-user-focus-light:before {
+    content: "\ee64";
+}
+.nxi.nxi-pp-user-gear-light:before {
+    content: "\ee65";
+}
+.nxi.nxi-pp-user-light:before {
+    content: "\ee66";
+}
+.nxi.nxi-pp-user-list-light:before {
+    content: "\ee67";
+}
+.nxi.nxi-pp-user-minus-light:before {
+    content: "\ee68";
+}
+.nxi.nxi-pp-user-plus-light:before {
+    content: "\ee69";
+}
+.nxi.nxi-pp-user-rectangle-light:before {
+    content: "\ee6a";
+}
+.nxi.nxi-pp-user-square-light:before {
+    content: "\ee6b";
+}
+.nxi.nxi-pp-user-switch-light:before {
+    content: "\ee6c";
+}
+.nxi.nxi-pp-users-four-light:before {
+    content: "\ee6d";
+}
+.nxi.nxi-pp-users-light:before {
+    content: "\ee6e";
+}
+.nxi.nxi-pp-users-three-light:before {
+    content: "\ee6f";
+}
+.nxi.nxi-pp-van-light:before {
+    content: "\ee70";
+}
+.nxi.nxi-pp-vault-light:before {
+    content: "\ee71";
+}
+.nxi.nxi-pp-vibrate-light:before {
+    content: "\ee72";
+}
+.nxi.nxi-pp-video-camera-light:before {
+    content: "\ee73";
+}
+.nxi.nxi-pp-video-camera-slash-light:before {
+    content: "\ee74";
+}
+.nxi.nxi-pp-video-light:before {
+    content: "\ee75";
+}
+.nxi.nxi-pp-vignette-light:before {
+    content: "\ee76";
+}
+.nxi.nxi-pp-vinyl-record-light:before {
+    content: "\ee77";
+}
+.nxi.nxi-pp-virtual-reality-light:before {
+    content: "\ee78";
+}
+.nxi.nxi-pp-virus-light:before {
+    content: "\ee79";
+}
+.nxi.nxi-pp-voicemail-light:before {
+    content: "\ee7a";
+}
+.nxi.nxi-pp-volleyball-light:before {
+    content: "\ee7b";
+}
+.nxi.nxi-pp-wall-light:before {
+    content: "\ee7c";
+}
+.nxi.nxi-pp-wallet-light:before {
+    content: "\ee7d";
+}
+.nxi.nxi-pp-warehouse-light:before {
+    content: "\ee7e";
+}
+.nxi.nxi-pp-warning-circle-light:before {
+    content: "\ee7f";
+}
+.nxi.nxi-pp-warning-diamond-light:before {
+    content: "\ee80";
+}
+.nxi.nxi-pp-warning-light:before {
+    content: "\ee81";
+}
+.nxi.nxi-pp-warning-octagon-light:before {
+    content: "\ee82";
+}
+.nxi.nxi-pp-watch-light:before {
+    content: "\ee83";
+}
+.nxi.nxi-pp-wave-sawtooth-light:before {
+    content: "\ee84";
+}
+.nxi.nxi-pp-wave-sine-light:before {
+    content: "\ee85";
+}
+.nxi.nxi-pp-wave-square-light:before {
+    content: "\ee86";
+}
+.nxi.nxi-pp-wave-triangle-light:before {
+    content: "\ee87";
+}
+.nxi.nxi-pp-waveform-light:before {
+    content: "\ee88";
+}
+.nxi.nxi-pp-waves-light:before {
+    content: "\ee89";
+}
+.nxi.nxi-pp-webcam-light:before {
+    content: "\ee8a";
+}
+.nxi.nxi-pp-webcam-slash-light:before {
+    content: "\ee8b";
+}
+.nxi.nxi-pp-webhooks-logo-light:before {
+    content: "\ee8c";
+}
+.nxi.nxi-pp-wechat-logo-light:before {
+    content: "\ee8d";
+}
+.nxi.nxi-pp-whatsapp-logo-light:before {
+    content: "\ee8e";
+}
+.nxi.nxi-pp-wheelchair-light:before {
+    content: "\ee8f";
+}
+.nxi.nxi-pp-wheelchair-motion-light:before {
+    content: "\ee90";
+}
+.nxi.nxi-pp-wifi-high-light:before {
+    content: "\ee91";
+}
+.nxi.nxi-pp-wifi-low-light:before {
+    content: "\ee92";
+}
+.nxi.nxi-pp-wifi-medium-light:before {
+    content: "\ee93";
+}
+.nxi.nxi-pp-wifi-none-light:before {
+    content: "\ee94";
+}
+.nxi.nxi-pp-wifi-slash-light:before {
+    content: "\ee95";
+}
+.nxi.nxi-pp-wifi-x-light:before {
+    content: "\ee96";
+}
+.nxi.nxi-pp-wind-light:before {
+    content: "\ee97";
+}
+.nxi.nxi-pp-windows-logo-light:before {
+    content: "\ee98";
+}
+.nxi.nxi-pp-wine-light:before {
+    content: "\ee99";
+}
+.nxi.nxi-pp-wrench-light:before {
+    content: "\ee9a";
+}
+.nxi.nxi-pp-x-circle-light:before {
+    content: "\ee9b";
+}
+.nxi.nxi-pp-x-light:before {
+    content: "\ee9c";
+}
+.nxi.nxi-pp-x-square-light:before {
+    content: "\ee9d";
+}
+.nxi.nxi-pp-yin-yang-light:before {
+    content: "\ee9e";
+}
+.nxi.nxi-pp-youtube-logo-light:before {
+    content: "\ee9f";
+}

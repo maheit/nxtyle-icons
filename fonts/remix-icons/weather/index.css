@@ -1,0 +1,263 @@
+@font-face {
+    font-family: "index";
+    src: url("./index.ttf?a2ba2783939439a5f314cbbcd54ce037") format("truetype"),
+url("./index.woff?a2ba2783939439a5f314cbbcd54ce037") format("woff"),
+url("./index.woff2?a2ba2783939439a5f314cbbcd54ce037") format("woff2"),
+url("./index.eot?a2ba2783939439a5f314cbbcd54ce037#iefix") format("embedded-opentype");
+}
+.nxi {
+    font-size: 1.5rem;
+    display: inline-flex
+}
+
+.nxi:before {
+    font-family: 'index' !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.nxi.nxi-rmx-weather-blaze-fill:before {
+    content: "\e96e";
+}
+.nxi.nxi-rmx-weather-blaze-line:before {
+    content: "\e96f";
+}
+.nxi.nxi-rmx-weather-celsius-fill:before {
+    content: "\e970";
+}
+.nxi.nxi-rmx-weather-celsius-line:before {
+    content: "\e971";
+}
+.nxi.nxi-rmx-weather-cloud-windy-fill:before {
+    content: "\e972";
+}
+.nxi.nxi-rmx-weather-cloud-windy-line:before {
+    content: "\e973";
+}
+.nxi.nxi-rmx-weather-cloudy-2-fill:before {
+    content: "\e974";
+}
+.nxi.nxi-rmx-weather-cloudy-2-line:before {
+    content: "\e975";
+}
+.nxi.nxi-rmx-weather-cloudy-fill:before {
+    content: "\e976";
+}
+.nxi.nxi-rmx-weather-cloudy-line:before {
+    content: "\e977";
+}
+.nxi.nxi-rmx-weather-drizzle-fill:before {
+    content: "\e978";
+}
+.nxi.nxi-rmx-weather-drizzle-line:before {
+    content: "\e979";
+}
+.nxi.nxi-rmx-weather-earthquake-fill:before {
+    content: "\e97a";
+}
+.nxi.nxi-rmx-weather-earthquake-line:before {
+    content: "\e97b";
+}
+.nxi.nxi-rmx-weather-fahrenheit-fill:before {
+    content: "\e97c";
+}
+.nxi.nxi-rmx-weather-fahrenheit-line:before {
+    content: "\e97d";
+}
+.nxi.nxi-rmx-weather-fire-fill:before {
+    content: "\e97e";
+}
+.nxi.nxi-rmx-weather-fire-line:before {
+    content: "\e97f";
+}
+.nxi.nxi-rmx-weather-flashlight-fill:before {
+    content: "\e980";
+}
+.nxi.nxi-rmx-weather-flashlight-line:before {
+    content: "\e981";
+}
+.nxi.nxi-rmx-weather-flood-fill:before {
+    content: "\e982";
+}
+.nxi.nxi-rmx-weather-flood-line:before {
+    content: "\e983";
+}
+.nxi.nxi-rmx-weather-foggy-fill:before {
+    content: "\e984";
+}
+.nxi.nxi-rmx-weather-foggy-line:before {
+    content: "\e985";
+}
+.nxi.nxi-rmx-weather-hail-fill:before {
+    content: "\e986";
+}
+.nxi.nxi-rmx-weather-hail-line:before {
+    content: "\e987";
+}
+.nxi.nxi-rmx-weather-haze-2-fill:before {
+    content: "\e988";
+}
+.nxi.nxi-rmx-weather-haze-2-line:before {
+    content: "\e989";
+}
+.nxi.nxi-rmx-weather-haze-fill:before {
+    content: "\e98a";
+}
+.nxi.nxi-rmx-weather-haze-line:before {
+    content: "\e98b";
+}
+.nxi.nxi-rmx-weather-heavy-showers-fill:before {
+    content: "\e98c";
+}
+.nxi.nxi-rmx-weather-heavy-showers-line:before {
+    content: "\e98d";
+}
+.nxi.nxi-rmx-weather-meteor-fill:before {
+    content: "\e98e";
+}
+.nxi.nxi-rmx-weather-meteor-line:before {
+    content: "\e98f";
+}
+.nxi.nxi-rmx-weather-mist-fill:before {
+    content: "\e990";
+}
+.nxi.nxi-rmx-weather-mist-line:before {
+    content: "\e991";
+}
+.nxi.nxi-rmx-weather-moon-clear-fill:before {
+    content: "\e992";
+}
+.nxi.nxi-rmx-weather-moon-clear-line:before {
+    content: "\e993";
+}
+.nxi.nxi-rmx-weather-moon-cloudy-fill:before {
+    content: "\e994";
+}
+.nxi.nxi-rmx-weather-moon-cloudy-line:before {
+    content: "\e995";
+}
+.nxi.nxi-rmx-weather-moon-fill:before {
+    content: "\e996";
+}
+.nxi.nxi-rmx-weather-moon-foggy-fill:before {
+    content: "\e997";
+}
+.nxi.nxi-rmx-weather-moon-foggy-line:before {
+    content: "\e998";
+}
+.nxi.nxi-rmx-weather-moon-line:before {
+    content: "\e999";
+}
+.nxi.nxi-rmx-weather-rainbow-fill:before {
+    content: "\e99a";
+}
+.nxi.nxi-rmx-weather-rainbow-line:before {
+    content: "\e99b";
+}
+.nxi.nxi-rmx-weather-rainy-fill:before {
+    content: "\e99c";
+}
+.nxi.nxi-rmx-weather-rainy-line:before {
+    content: "\e99d";
+}
+.nxi.nxi-rmx-weather-shining-2-fill:before {
+    content: "\e99e";
+}
+.nxi.nxi-rmx-weather-shining-2-line:before {
+    content: "\e99f";
+}
+.nxi.nxi-rmx-weather-shining-fill:before {
+    content: "\e9a0";
+}
+.nxi.nxi-rmx-weather-shining-line:before {
+    content: "\e9a1";
+}
+.nxi.nxi-rmx-weather-showers-fill:before {
+    content: "\e9a2";
+}
+.nxi.nxi-rmx-weather-showers-line:before {
+    content: "\e9a3";
+}
+.nxi.nxi-rmx-weather-snowy-fill:before {
+    content: "\e9a4";
+}
+.nxi.nxi-rmx-weather-snowy-line:before {
+    content: "\e9a5";
+}
+.nxi.nxi-rmx-weather-sparkling-2-fill:before {
+    content: "\e9a6";
+}
+.nxi.nxi-rmx-weather-sparkling-2-line:before {
+    content: "\e9a7";
+}
+.nxi.nxi-rmx-weather-sparkling-fill:before {
+    content: "\e9a8";
+}
+.nxi.nxi-rmx-weather-sparkling-line:before {
+    content: "\e9a9";
+}
+.nxi.nxi-rmx-weather-sun-cloudy-fill:before {
+    content: "\e9aa";
+}
+.nxi.nxi-rmx-weather-sun-cloudy-line:before {
+    content: "\e9ab";
+}
+.nxi.nxi-rmx-weather-sun-fill:before {
+    content: "\e9ac";
+}
+.nxi.nxi-rmx-weather-sun-foggy-fill:before {
+    content: "\e9ad";
+}
+.nxi.nxi-rmx-weather-sun-foggy-line:before {
+    content: "\e9ae";
+}
+.nxi.nxi-rmx-weather-sun-line:before {
+    content: "\e9af";
+}
+.nxi.nxi-rmx-weather-temp-cold-fill:before {
+    content: "\e9b0";
+}
+.nxi.nxi-rmx-weather-temp-cold-line:before {
+    content: "\e9b1";
+}
+.nxi.nxi-rmx-weather-temp-hot-fill:before {
+    content: "\e9b2";
+}
+.nxi.nxi-rmx-weather-temp-hot-line:before {
+    content: "\e9b3";
+}
+.nxi.nxi-rmx-weather-thunderstorms-fill:before {
+    content: "\e9b4";
+}
+.nxi.nxi-rmx-weather-thunderstorms-line:before {
+    content: "\e9b5";
+}
+.nxi.nxi-rmx-weather-tornado-fill:before {
+    content: "\e9b6";
+}
+.nxi.nxi-rmx-weather-tornado-line:before {
+    content: "\e9b7";
+}
+.nxi.nxi-rmx-weather-typhoon-fill:before {
+    content: "\e9b8";
+}
+.nxi.nxi-rmx-weather-typhoon-line:before {
+    content: "\e9b9";
+}
+.nxi.nxi-rmx-weather-water-percent-fill:before {
+    content: "\e9ba";
+}
+.nxi.nxi-rmx-weather-water-percent-line:before {
+    content: "\e9bb";
+}
+.nxi.nxi-rmx-weather-windy-fill:before {
+    content: "\e9bc";
+}
+.nxi.nxi-rmx-weather-windy-line:before {
+    content: "\e9bd";
+}

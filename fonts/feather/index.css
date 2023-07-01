@@ -1,13 +1,17 @@
 @font-face {
     font-family: "index";
-    src: url("./index.ttf?d7c1b93b9f3e23903913387b0002ab61") format("truetype"),
-url("./index.woff?d7c1b93b9f3e23903913387b0002ab61") format("woff"),
-url("./index.woff2?d7c1b93b9f3e23903913387b0002ab61") format("woff2"),
-url("./index.eot?d7c1b93b9f3e23903913387b0002ab61#iefix") format("embedded-opentype");
+    src: url("./index.ttf?a17faa1e83f6da9ffca8d2d0857bb26f") format("truetype"),
+url("./index.woff?a17faa1e83f6da9ffca8d2d0857bb26f") format("woff"),
+url("./index.woff2?a17faa1e83f6da9ffca8d2d0857bb26f") format("woff2"),
+url("./index.eot?a17faa1e83f6da9ffca8d2d0857bb26f#iefix") format("embedded-opentype");
+}
+.nxi {
+    font-size: 1.5rem;
+    display: inline-flex
 }
 
 .nxi:before {
-    font-family: index !important;
+    font-family: 'index' !important;
     font-style: normal;
     font-weight: normal !important;
     font-variant: normal;
@@ -18,863 +22,863 @@ url("./index.eot?d7c1b93b9f3e23903913387b0002ab61#iefix") format("embedded-opent
 }
 
 .nxi.nxi-fe-activity:before {
-    content: "\f101";
+    content: "\e000";
 }
 .nxi.nxi-fe-airplay:before {
-    content: "\f102";
+    content: "\e001";
 }
 .nxi.nxi-fe-alert-circle:before {
-    content: "\f103";
+    content: "\e002";
 }
 .nxi.nxi-fe-alert-octagon:before {
-    content: "\f104";
+    content: "\e003";
 }
 .nxi.nxi-fe-alert-triangle:before {
-    content: "\f105";
+    content: "\e004";
 }
 .nxi.nxi-fe-align-center:before {
-    content: "\f106";
+    content: "\e005";
 }
 .nxi.nxi-fe-align-justify:before {
-    content: "\f107";
+    content: "\e006";
 }
 .nxi.nxi-fe-align-left:before {
-    content: "\f108";
+    content: "\e007";
 }
 .nxi.nxi-fe-align-right:before {
-    content: "\f109";
+    content: "\e008";
 }
 .nxi.nxi-fe-anchor:before {
-    content: "\f10a";
+    content: "\e009";
 }
 .nxi.nxi-fe-aperture:before {
-    content: "\f10b";
+    content: "\e00a";
 }
 .nxi.nxi-fe-archive:before {
-    content: "\f10c";
+    content: "\e00b";
 }
 .nxi.nxi-fe-arrow-down-circle:before {
-    content: "\f10d";
+    content: "\e00c";
 }
 .nxi.nxi-fe-arrow-down-left:before {
-    content: "\f10e";
+    content: "\e00d";
 }
 .nxi.nxi-fe-arrow-down-right:before {
-    content: "\f10f";
+    content: "\e00e";
 }
 .nxi.nxi-fe-arrow-down:before {
-    content: "\f110";
+    content: "\e00f";
 }
 .nxi.nxi-fe-arrow-left-circle:before {
-    content: "\f111";
+    content: "\e010";
 }
 .nxi.nxi-fe-arrow-left:before {
-    content: "\f112";
+    content: "\e011";
 }
 .nxi.nxi-fe-arrow-right-circle:before {
-    content: "\f113";
+    content: "\e012";
 }
 .nxi.nxi-fe-arrow-right:before {
-    content: "\f114";
+    content: "\e013";
 }
 .nxi.nxi-fe-arrow-up-circle:before {
-    content: "\f115";
+    content: "\e014";
 }
 .nxi.nxi-fe-arrow-up-left:before {
-    content: "\f116";
+    content: "\e015";
 }
 .nxi.nxi-fe-arrow-up-right:before {
-    content: "\f117";
+    content: "\e016";
 }
 .nxi.nxi-fe-arrow-up:before {
-    content: "\f118";
+    content: "\e017";
 }
 .nxi.nxi-fe-at-sign:before {
-    content: "\f119";
+    content: "\e018";
 }
 .nxi.nxi-fe-award:before {
-    content: "\f11a";
+    content: "\e019";
 }
 .nxi.nxi-fe-bar-chart-2:before {
-    content: "\f11b";
+    content: "\e01a";
 }
 .nxi.nxi-fe-bar-chart:before {
-    content: "\f11c";
+    content: "\e01b";
 }
 .nxi.nxi-fe-battery-charging:before {
-    content: "\f11d";
+    content: "\e01c";
 }
 .nxi.nxi-fe-battery:before {
-    content: "\f11e";
+    content: "\e01d";
 }
 .nxi.nxi-fe-bell-off:before {
-    content: "\f11f";
+    content: "\e01e";
 }
 .nxi.nxi-fe-bell:before {
-    content: "\f120";
+    content: "\e01f";
 }
 .nxi.nxi-fe-bluetooth:before {
-    content: "\f121";
+    content: "\e020";
 }
 .nxi.nxi-fe-bold:before {
-    content: "\f122";
+    content: "\e021";
 }
 .nxi.nxi-fe-book-open:before {
-    content: "\f123";
+    content: "\e022";
 }
 .nxi.nxi-fe-book:before {
-    content: "\f124";
+    content: "\e023";
 }
 .nxi.nxi-fe-bookmark:before {
-    content: "\f125";
+    content: "\e024";
 }
 .nxi.nxi-fe-box:before {
-    content: "\f126";
+    content: "\e025";
 }
 .nxi.nxi-fe-briefcase:before {
-    content: "\f127";
+    content: "\e026";
 }
 .nxi.nxi-fe-calendar:before {
-    content: "\f128";
+    content: "\e027";
 }
 .nxi.nxi-fe-camera-off:before {
-    content: "\f129";
+    content: "\e028";
 }
 .nxi.nxi-fe-camera:before {
-    content: "\f12a";
+    content: "\e029";
 }
 .nxi.nxi-fe-cast:before {
-    content: "\f12b";
+    content: "\e02a";
 }
 .nxi.nxi-fe-check-circle:before {
-    content: "\f12c";
+    content: "\e02b";
 }
 .nxi.nxi-fe-check-square:before {
-    content: "\f12d";
+    content: "\e02c";
 }
 .nxi.nxi-fe-check:before {
-    content: "\f12e";
+    content: "\e02d";
 }
 .nxi.nxi-fe-chevron-down:before {
-    content: "\f12f";
+    content: "\e02e";
 }
 .nxi.nxi-fe-chevron-left:before {
-    content: "\f130";
+    content: "\e02f";
 }
 .nxi.nxi-fe-chevron-right:before {
-    content: "\f131";
+    content: "\e030";
 }
 .nxi.nxi-fe-chevron-up:before {
-    content: "\f132";
+    content: "\e031";
 }
 .nxi.nxi-fe-chevrons-down:before {
-    content: "\f133";
+    content: "\e032";
 }
 .nxi.nxi-fe-chevrons-left:before {
-    content: "\f134";
+    content: "\e033";
 }
 .nxi.nxi-fe-chevrons-right:before {
-    content: "\f135";
+    content: "\e034";
 }
 .nxi.nxi-fe-chevrons-up:before {
-    content: "\f136";
+    content: "\e035";
 }
 .nxi.nxi-fe-chrome:before {
-    content: "\f137";
+    content: "\e036";
 }
 .nxi.nxi-fe-circle:before {
-    content: "\f138";
+    content: "\e037";
 }
 .nxi.nxi-fe-clipboard:before {
-    content: "\f139";
+    content: "\e038";
 }
 .nxi.nxi-fe-clock:before {
-    content: "\f13a";
+    content: "\e039";
 }
 .nxi.nxi-fe-cloud-drizzle:before {
-    content: "\f13b";
+    content: "\e03a";
 }
 .nxi.nxi-fe-cloud-lightning:before {
-    content: "\f13c";
+    content: "\e03b";
 }
 .nxi.nxi-fe-cloud-off:before {
-    content: "\f13d";
+    content: "\e03c";
 }
 .nxi.nxi-fe-cloud-rain:before {
-    content: "\f13e";
+    content: "\e03d";
 }
 .nxi.nxi-fe-cloud-snow:before {
-    content: "\f13f";
+    content: "\e03e";
 }
 .nxi.nxi-fe-cloud:before {
-    content: "\f140";
+    content: "\e03f";
 }
 .nxi.nxi-fe-code:before {
-    content: "\f141";
+    content: "\e040";
 }
 .nxi.nxi-fe-codepen:before {
-    content: "\f142";
+    content: "\e041";
 }
 .nxi.nxi-fe-codesandbox:before {
-    content: "\f143";
+    content: "\e042";
 }
 .nxi.nxi-fe-coffee:before {
-    content: "\f144";
+    content: "\e043";
 }
 .nxi.nxi-fe-columns:before {
-    content: "\f145";
+    content: "\e044";
 }
 .nxi.nxi-fe-command:before {
-    content: "\f146";
+    content: "\e045";
 }
 .nxi.nxi-fe-compass:before {
-    content: "\f147";
+    content: "\e046";
 }
 .nxi.nxi-fe-copy:before {
-    content: "\f148";
+    content: "\e047";
 }
 .nxi.nxi-fe-corner-down-left:before {
-    content: "\f149";
+    content: "\e048";
 }
 .nxi.nxi-fe-corner-down-right:before {
-    content: "\f14a";
+    content: "\e049";
 }
 .nxi.nxi-fe-corner-left-down:before {
-    content: "\f14b";
+    content: "\e04a";
 }
 .nxi.nxi-fe-corner-left-up:before {
-    content: "\f14c";
+    content: "\e04b";
 }
 .nxi.nxi-fe-corner-right-down:before {
-    content: "\f14d";
+    content: "\e04c";
 }
 .nxi.nxi-fe-corner-right-up:before {
-    content: "\f14e";
+    content: "\e04d";
 }
 .nxi.nxi-fe-corner-up-left:before {
-    content: "\f14f";
+    content: "\e04e";
 }
 .nxi.nxi-fe-corner-up-right:before {
-    content: "\f150";
+    content: "\e04f";
 }
 .nxi.nxi-fe-cpu:before {
-    content: "\f151";
+    content: "\e050";
 }
 .nxi.nxi-fe-credit-card:before {
-    content: "\f152";
+    content: "\e051";
 }
 .nxi.nxi-fe-crop:before {
-    content: "\f153";
+    content: "\e052";
 }
 .nxi.nxi-fe-crosshair:before {
-    content: "\f154";
+    content: "\e053";
 }
 .nxi.nxi-fe-database:before {
-    content: "\f155";
+    content: "\e054";
 }
 .nxi.nxi-fe-delete:before {
-    content: "\f156";
+    content: "\e055";
 }
 .nxi.nxi-fe-disc:before {
-    content: "\f157";
+    content: "\e056";
 }
 .nxi.nxi-fe-divide-circle:before {
-    content: "\f158";
+    content: "\e057";
 }
 .nxi.nxi-fe-divide-square:before {
-    content: "\f159";
+    content: "\e058";
 }
 .nxi.nxi-fe-divide:before {
-    content: "\f15a";
+    content: "\e059";
 }
 .nxi.nxi-fe-dollar-sign:before {
-    content: "\f15b";
+    content: "\e05a";
 }
 .nxi.nxi-fe-download-cloud:before {
-    content: "\f15c";
+    content: "\e05b";
 }
 .nxi.nxi-fe-download:before {
-    content: "\f15d";
+    content: "\e05c";
 }
 .nxi.nxi-fe-dribbble:before {
-    content: "\f15e";
+    content: "\e05d";
 }
 .nxi.nxi-fe-droplet:before {
-    content: "\f15f";
+    content: "\e05e";
 }
 .nxi.nxi-fe-edit-2:before {
-    content: "\f160";
+    content: "\e05f";
 }
 .nxi.nxi-fe-edit-3:before {
-    content: "\f161";
+    content: "\e060";
 }
 .nxi.nxi-fe-edit:before {
-    content: "\f162";
+    content: "\e061";
 }
 .nxi.nxi-fe-external-link:before {
-    content: "\f163";
+    content: "\e062";
 }
 .nxi.nxi-fe-eye-off:before {
-    content: "\f164";
+    content: "\e063";
 }
 .nxi.nxi-fe-eye:before {
-    content: "\f165";
+    content: "\e064";
 }
 .nxi.nxi-fe-facebook:before {
-    content: "\f166";
+    content: "\e065";
 }
 .nxi.nxi-fe-fast-forward:before {
-    content: "\f167";
+    content: "\e066";
 }
 .nxi.nxi-fe-feather:before {
-    content: "\f168";
+    content: "\e067";
 }
 .nxi.nxi-fe-figma:before {
-    content: "\f169";
+    content: "\e068";
 }
 .nxi.nxi-fe-file-minus:before {
-    content: "\f16a";
+    content: "\e069";
 }
 .nxi.nxi-fe-file-plus:before {
-    content: "\f16b";
+    content: "\e06a";
 }
 .nxi.nxi-fe-file-text:before {
-    content: "\f16c";
+    content: "\e06b";
 }
 .nxi.nxi-fe-file:before {
-    content: "\f16d";
+    content: "\e06c";
 }
 .nxi.nxi-fe-film:before {
-    content: "\f16e";
+    content: "\e06d";
 }
 .nxi.nxi-fe-filter:before {
-    content: "\f16f";
+    content: "\e06e";
 }
 .nxi.nxi-fe-flag:before {
-    content: "\f170";
+    content: "\e06f";
 }
 .nxi.nxi-fe-folder-minus:before {
-    content: "\f171";
+    content: "\e070";
 }
 .nxi.nxi-fe-folder-plus:before {
-    content: "\f172";
+    content: "\e071";
 }
 .nxi.nxi-fe-folder:before {
-    content: "\f173";
+    content: "\e072";
 }
 .nxi.nxi-fe-framer:before {
-    content: "\f174";
+    content: "\e073";
 }
 .nxi.nxi-fe-frown:before {
-    content: "\f175";
+    content: "\e074";
 }
 .nxi.nxi-fe-gift:before {
-    content: "\f176";
+    content: "\e075";
 }
 .nxi.nxi-fe-git-branch:before {
-    content: "\f177";
+    content: "\e076";
 }
 .nxi.nxi-fe-git-commit:before {
-    content: "\f178";
+    content: "\e077";
 }
 .nxi.nxi-fe-git-merge:before {
-    content: "\f179";
+    content: "\e078";
 }
 .nxi.nxi-fe-git-pull-request:before {
-    content: "\f17a";
+    content: "\e079";
 }
 .nxi.nxi-fe-github:before {
-    content: "\f17b";
+    content: "\e07a";
 }
 .nxi.nxi-fe-gitlab:before {
-    content: "\f17c";
+    content: "\e07b";
 }
 .nxi.nxi-fe-globe:before {
-    content: "\f17d";
+    content: "\e07c";
 }
 .nxi.nxi-fe-grid:before {
-    content: "\f17e";
+    content: "\e07d";
 }
 .nxi.nxi-fe-hard-drive:before {
-    content: "\f17f";
+    content: "\e07e";
 }
 .nxi.nxi-fe-hash:before {
-    content: "\f180";
+    content: "\e07f";
 }
 .nxi.nxi-fe-headphones:before {
-    content: "\f181";
+    content: "\e080";
 }
 .nxi.nxi-fe-heart:before {
-    content: "\f182";
+    content: "\e081";
 }
 .nxi.nxi-fe-help-circle:before {
-    content: "\f183";
+    content: "\e082";
 }
 .nxi.nxi-fe-hexagon:before {
-    content: "\f184";
+    content: "\e083";
 }
 .nxi.nxi-fe-home:before {
-    content: "\f185";
+    content: "\e084";
 }
 .nxi.nxi-fe-image:before {
-    content: "\f186";
+    content: "\e085";
 }
 .nxi.nxi-fe-inbox:before {
-    content: "\f187";
+    content: "\e086";
 }
 .nxi.nxi-fe-info:before {
-    content: "\f188";
+    content: "\e087";
 }
 .nxi.nxi-fe-instagram:before {
-    content: "\f189";
+    content: "\e088";
 }
 .nxi.nxi-fe-italic:before {
-    content: "\f18a";
+    content: "\e089";
 }
 .nxi.nxi-fe-key:before {
-    content: "\f18b";
+    content: "\e08a";
 }
 .nxi.nxi-fe-layers:before {
-    content: "\f18c";
+    content: "\e08b";
 }
 .nxi.nxi-fe-layout:before {
-    content: "\f18d";
+    content: "\e08c";
 }
 .nxi.nxi-fe-life-buoy:before {
-    content: "\f18e";
+    content: "\e08d";
 }
 .nxi.nxi-fe-link-2:before {
-    content: "\f18f";
+    content: "\e08e";
 }
 .nxi.nxi-fe-link:before {
-    content: "\f190";
+    content: "\e08f";
 }
 .nxi.nxi-fe-linkedin:before {
-    content: "\f191";
+    content: "\e090";
 }
 .nxi.nxi-fe-list:before {
-    content: "\f192";
+    content: "\e091";
 }
 .nxi.nxi-fe-loader:before {
-    content: "\f193";
+    content: "\e092";
 }
 .nxi.nxi-fe-lock:before {
-    content: "\f194";
+    content: "\e093";
 }
 .nxi.nxi-fe-log-in:before {
-    content: "\f195";
+    content: "\e094";
 }
 .nxi.nxi-fe-log-out:before {
-    content: "\f196";
+    content: "\e095";
 }
 .nxi.nxi-fe-mail:before {
-    content: "\f197";
+    content: "\e096";
 }
 .nxi.nxi-fe-map-pin:before {
-    content: "\f198";
+    content: "\e097";
 }
 .nxi.nxi-fe-map:before {
-    content: "\f199";
+    content: "\e098";
 }
 .nxi.nxi-fe-maximize-2:before {
-    content: "\f19a";
+    content: "\e099";
 }
 .nxi.nxi-fe-maximize:before {
-    content: "\f19b";
+    content: "\e09a";
 }
 .nxi.nxi-fe-meh:before {
-    content: "\f19c";
+    content: "\e09b";
 }
 .nxi.nxi-fe-menu:before {
-    content: "\f19d";
+    content: "\e09c";
 }
 .nxi.nxi-fe-message-circle:before {
-    content: "\f19e";
+    content: "\e09d";
 }
 .nxi.nxi-fe-message-square:before {
-    content: "\f19f";
+    content: "\e09e";
 }
 .nxi.nxi-fe-mic-off:before {
-    content: "\f1a0";
+    content: "\e09f";
 }
 .nxi.nxi-fe-mic:before {
-    content: "\f1a1";
+    content: "\e0a0";
 }
 .nxi.nxi-fe-minimize-2:before {
-    content: "\f1a2";
+    content: "\e0a1";
 }
 .nxi.nxi-fe-minimize:before {
-    content: "\f1a3";
+    content: "\e0a2";
 }
 .nxi.nxi-fe-minus-circle:before {
-    content: "\f1a4";
+    content: "\e0a3";
 }
 .nxi.nxi-fe-minus-square:before {
-    content: "\f1a5";
+    content: "\e0a4";
 }
 .nxi.nxi-fe-minus:before {
-    content: "\f1a6";
+    content: "\e0a5";
 }
 .nxi.nxi-fe-monitor:before {
-    content: "\f1a7";
+    content: "\e0a6";
 }
 .nxi.nxi-fe-moon:before {
-    content: "\f1a8";
+    content: "\e0a7";
 }
 .nxi.nxi-fe-more-horizontal:before {
-    content: "\f1a9";
+    content: "\e0a8";
 }
 .nxi.nxi-fe-more-vertical:before {
-    content: "\f1aa";
+    content: "\e0a9";
 }
 .nxi.nxi-fe-mouse-pointer:before {
-    content: "\f1ab";
+    content: "\e0aa";
 }
 .nxi.nxi-fe-move:before {
-    content: "\f1ac";
+    content: "\e0ab";
 }
 .nxi.nxi-fe-music:before {
-    content: "\f1ad";
+    content: "\e0ac";
 }
 .nxi.nxi-fe-navigation-2:before {
-    content: "\f1ae";
+    content: "\e0ad";
 }
 .nxi.nxi-fe-navigation:before {
-    content: "\f1af";
+    content: "\e0ae";
 }
 .nxi.nxi-fe-octagon:before {
-    content: "\f1b0";
+    content: "\e0af";
 }
 .nxi.nxi-fe-package:before {
-    content: "\f1b1";
+    content: "\e0b0";
 }
 .nxi.nxi-fe-paperclip:before {
-    content: "\f1b2";
+    content: "\e0b1";
 }
 .nxi.nxi-fe-pause-circle:before {
-    content: "\f1b3";
+    content: "\e0b2";
 }
 .nxi.nxi-fe-pause:before {
-    content: "\f1b4";
+    content: "\e0b3";
 }
 .nxi.nxi-fe-pen-tool:before {
-    content: "\f1b5";
+    content: "\e0b4";
 }
 .nxi.nxi-fe-percent:before {
-    content: "\f1b6";
+    content: "\e0b5";
 }
 .nxi.nxi-fe-phone-call:before {
-    content: "\f1b7";
+    content: "\e0b6";
 }
 .nxi.nxi-fe-phone-forwarded:before {
-    content: "\f1b8";
+    content: "\e0b7";
 }
 .nxi.nxi-fe-phone-incoming:before {
-    content: "\f1b9";
+    content: "\e0b8";
 }
 .nxi.nxi-fe-phone-missed:before {
-    content: "\f1ba";
+    content: "\e0b9";
 }
 .nxi.nxi-fe-phone-off:before {
-    content: "\f1bb";
+    content: "\e0ba";
 }
 .nxi.nxi-fe-phone-outgoing:before {
-    content: "\f1bc";
+    content: "\e0bb";
 }
 .nxi.nxi-fe-phone:before {
-    content: "\f1bd";
+    content: "\e0bc";
 }
 .nxi.nxi-fe-pie-chart:before {
-    content: "\f1be";
+    content: "\e0bd";
 }
 .nxi.nxi-fe-play-circle:before {
-    content: "\f1bf";
+    content: "\e0be";
 }
 .nxi.nxi-fe-play:before {
-    content: "\f1c0";
+    content: "\e0bf";
 }
 .nxi.nxi-fe-plus-circle:before {
-    content: "\f1c1";
+    content: "\e0c0";
 }
 .nxi.nxi-fe-plus-square:before {
-    content: "\f1c2";
+    content: "\e0c1";
 }
 .nxi.nxi-fe-plus:before {
-    content: "\f1c3";
+    content: "\e0c2";
 }
 .nxi.nxi-fe-pocket:before {
-    content: "\f1c4";
+    content: "\e0c3";
 }
 .nxi.nxi-fe-power:before {
-    content: "\f1c5";
+    content: "\e0c4";
 }
 .nxi.nxi-fe-printer:before {
-    content: "\f1c6";
+    content: "\e0c5";
 }
 .nxi.nxi-fe-radio:before {
-    content: "\f1c7";
+    content: "\e0c6";
 }
 .nxi.nxi-fe-refresh-ccw:before {
-    content: "\f1c8";
+    content: "\e0c7";
 }
 .nxi.nxi-fe-refresh-cw:before {
-    content: "\f1c9";
+    content: "\e0c8";
 }
 .nxi.nxi-fe-repeat:before {
-    content: "\f1ca";
+    content: "\e0c9";
 }
 .nxi.nxi-fe-rewind:before {
-    content: "\f1cb";
+    content: "\e0ca";
 }
 .nxi.nxi-fe-rotate-ccw:before {
-    content: "\f1cc";
+    content: "\e0cb";
 }
 .nxi.nxi-fe-rotate-cw:before {
-    content: "\f1cd";
+    content: "\e0cc";
 }
 .nxi.nxi-fe-rss:before {
-    content: "\f1ce";
+    content: "\e0cd";
 }
 .nxi.nxi-fe-save:before {
-    content: "\f1cf";
+    content: "\e0ce";
 }
 .nxi.nxi-fe-scissors:before {
-    content: "\f1d0";
+    content: "\e0cf";
 }
 .nxi.nxi-fe-search:before {
-    content: "\f1d1";
+    content: "\e0d0";
 }
 .nxi.nxi-fe-send:before {
-    content: "\f1d2";
+    content: "\e0d1";
 }
 .nxi.nxi-fe-server:before {
-    content: "\f1d3";
+    content: "\e0d2";
 }
 .nxi.nxi-fe-settings:before {
-    content: "\f1d4";
+    content: "\e0d3";
 }
 .nxi.nxi-fe-share-2:before {
-    content: "\f1d5";
+    content: "\e0d4";
 }
 .nxi.nxi-fe-share:before {
-    content: "\f1d6";
+    content: "\e0d5";
 }
 .nxi.nxi-fe-shield-off:before {
-    content: "\f1d7";
+    content: "\e0d6";
 }
 .nxi.nxi-fe-shield:before {
-    content: "\f1d8";
+    content: "\e0d7";
 }
 .nxi.nxi-fe-shopping-bag:before {
-    content: "\f1d9";
+    content: "\e0d8";
 }
 .nxi.nxi-fe-shopping-cart:before {
-    content: "\f1da";
+    content: "\e0d9";
 }
 .nxi.nxi-fe-shuffle:before {
-    content: "\f1db";
+    content: "\e0da";
 }
 .nxi.nxi-fe-sidebar:before {
-    content: "\f1dc";
+    content: "\e0db";
 }
 .nxi.nxi-fe-skip-back:before {
-    content: "\f1dd";
+    content: "\e0dc";
 }
 .nxi.nxi-fe-skip-forward:before {
-    content: "\f1de";
+    content: "\e0dd";
 }
 .nxi.nxi-fe-slack:before {
-    content: "\f1df";
+    content: "\e0de";
 }
 .nxi.nxi-fe-slash:before {
-    content: "\f1e0";
+    content: "\e0df";
 }
 .nxi.nxi-fe-sliders:before {
-    content: "\f1e1";
+    content: "\e0e0";
 }
 .nxi.nxi-fe-smartphone:before {
-    content: "\f1e2";
+    content: "\e0e1";
 }
 .nxi.nxi-fe-smile:before {
-    content: "\f1e3";
+    content: "\e0e2";
 }
 .nxi.nxi-fe-speaker:before {
-    content: "\f1e4";
+    content: "\e0e3";
 }
 .nxi.nxi-fe-square:before {
-    content: "\f1e5";
+    content: "\e0e4";
 }
 .nxi.nxi-fe-star:before {
-    content: "\f1e6";
+    content: "\e0e5";
 }
 .nxi.nxi-fe-stop-circle:before {
-    content: "\f1e7";
+    content: "\e0e6";
 }
 .nxi.nxi-fe-sun:before {
-    content: "\f1e8";
+    content: "\e0e7";
 }
 .nxi.nxi-fe-sunrise:before {
-    content: "\f1e9";
+    content: "\e0e8";
 }
 .nxi.nxi-fe-sunset:before {
-    content: "\f1ea";
+    content: "\e0e9";
 }
 .nxi.nxi-fe-table:before {
-    content: "\f1eb";
+    content: "\e0ea";
 }
 .nxi.nxi-fe-tablet:before {
-    content: "\f1ec";
+    content: "\e0eb";
 }
 .nxi.nxi-fe-tag:before {
-    content: "\f1ed";
+    content: "\e0ec";
 }
 .nxi.nxi-fe-target:before {
-    content: "\f1ee";
+    content: "\e0ed";
 }
 .nxi.nxi-fe-terminal:before {
-    content: "\f1ef";
+    content: "\e0ee";
 }
 .nxi.nxi-fe-thermometer:before {
-    content: "\f1f0";
+    content: "\e0ef";
 }
 .nxi.nxi-fe-thumbs-down:before {
-    content: "\f1f1";
+    content: "\e0f0";
 }
 .nxi.nxi-fe-thumbs-up:before {
-    content: "\f1f2";
+    content: "\e0f1";
 }
 .nxi.nxi-fe-toggle-left:before {
-    content: "\f1f3";
+    content: "\e0f2";
 }
 .nxi.nxi-fe-toggle-right:before {
-    content: "\f1f4";
+    content: "\e0f3";
 }
 .nxi.nxi-fe-tool:before {
-    content: "\f1f5";
+    content: "\e0f4";
 }
 .nxi.nxi-fe-trash-2:before {
-    content: "\f1f6";
+    content: "\e0f5";
 }
 .nxi.nxi-fe-trash:before {
-    content: "\f1f7";
+    content: "\e0f6";
 }
 .nxi.nxi-fe-trello:before {
-    content: "\f1f8";
+    content: "\e0f7";
 }
 .nxi.nxi-fe-trending-down:before {
-    content: "\f1f9";
+    content: "\e0f8";
 }
 .nxi.nxi-fe-trending-up:before {
-    content: "\f1fa";
+    content: "\e0f9";
 }
 .nxi.nxi-fe-triangle:before {
-    content: "\f1fb";
+    content: "\e0fa";
 }
 .nxi.nxi-fe-truck:before {
-    content: "\f1fc";
+    content: "\e0fb";
 }
 .nxi.nxi-fe-tv:before {
-    content: "\f1fd";
+    content: "\e0fc";
 }
 .nxi.nxi-fe-twitch:before {
-    content: "\f1fe";
+    content: "\e0fd";
 }
 .nxi.nxi-fe-twitter:before {
-    content: "\f1ff";
+    content: "\e0fe";
 }
 .nxi.nxi-fe-type:before {
-    content: "\f200";
+    content: "\e0ff";
 }
 .nxi.nxi-fe-umbrella:before {
-    content: "\f201";
+    content: "\e100";
 }
 .nxi.nxi-fe-underline:before {
-    content: "\f202";
+    content: "\e101";
 }
 .nxi.nxi-fe-unlock:before {
-    content: "\f203";
+    content: "\e102";
 }
 .nxi.nxi-fe-upload-cloud:before {
-    content: "\f204";
+    content: "\e103";
 }
 .nxi.nxi-fe-upload:before {
-    content: "\f205";
+    content: "\e104";
 }
 .nxi.nxi-fe-user-check:before {
-    content: "\f206";
+    content: "\e105";
 }
 .nxi.nxi-fe-user-minus:before {
-    content: "\f207";
+    content: "\e106";
 }
 .nxi.nxi-fe-user-plus:before {
-    content: "\f208";
+    content: "\e107";
 }
 .nxi.nxi-fe-user-x:before {
-    content: "\f209";
+    content: "\e108";
 }
 .nxi.nxi-fe-user:before {
-    content: "\f20a";
+    content: "\e109";
 }
 .nxi.nxi-fe-users:before {
-    content: "\f20b";
+    content: "\e10a";
 }
 .nxi.nxi-fe-video-off:before {
-    content: "\f20c";
+    content: "\e10b";
 }
 .nxi.nxi-fe-video:before {
-    content: "\f20d";
+    content: "\e10c";
 }
 .nxi.nxi-fe-voicemail:before {
-    content: "\f20e";
+    content: "\e10d";
 }
 .nxi.nxi-fe-volume-1:before {
-    content: "\f20f";
+    content: "\e10e";
 }
 .nxi.nxi-fe-volume-2:before {
-    content: "\f210";
+    content: "\e10f";
 }
 .nxi.nxi-fe-volume-x:before {
-    content: "\f211";
+    content: "\e110";
 }
 .nxi.nxi-fe-volume:before {
-    content: "\f212";
+    content: "\e111";
 }
 .nxi.nxi-fe-watch:before {
-    content: "\f213";
+    content: "\e112";
 }
 .nxi.nxi-fe-wifi-off:before {
-    content: "\f214";
+    content: "\e113";
 }
 .nxi.nxi-fe-wifi:before {
-    content: "\f215";
+    content: "\e114";
 }
 .nxi.nxi-fe-wind:before {
-    content: "\f216";
+    content: "\e115";
 }
 .nxi.nxi-fe-x-circle:before {
-    content: "\f217";
+    content: "\e116";
 }
 .nxi.nxi-fe-x-octagon:before {
-    content: "\f218";
+    content: "\e117";
 }
 .nxi.nxi-fe-x-square:before {
-    content: "\f219";
+    content: "\e118";
 }
 .nxi.nxi-fe-x:before {
-    content: "\f21a";
+    content: "\e119";
 }
 .nxi.nxi-fe-youtube:before {
-    content: "\f21b";
+    content: "\e11a";
 }
 .nxi.nxi-fe-zap-off:before {
-    content: "\f21c";
+    content: "\e11b";
 }
 .nxi.nxi-fe-zap:before {
-    content: "\f21d";
+    content: "\e11c";
 }
 .nxi.nxi-fe-zoom-in:before {
-    content: "\f21e";
+    content: "\e11d";
 }
 .nxi.nxi-fe-zoom-out:before {
-    content: "\f21f";
+    content: "\e11e";
 }

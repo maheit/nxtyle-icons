@@ -1,0 +1,515 @@
+@font-face {
+    font-family: "index";
+    src: url("./index.ttf?4c4cee29e33a1ce12c21dc54787e4555") format("truetype"),
+url("./index.woff?4c4cee29e33a1ce12c21dc54787e4555") format("woff"),
+url("./index.woff2?4c4cee29e33a1ce12c21dc54787e4555") format("woff2"),
+url("./index.eot?4c4cee29e33a1ce12c21dc54787e4555#iefix") format("embedded-opentype");
+}
+.nxi {
+    font-size: 1.5rem;
+    display: inline-flex
+}
+
+.nxi:before {
+    font-family: 'index' !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.nxi.nxi-rmx-design-anticlockwise-2-fill:before {
+    content: "\e1a6";
+}
+.nxi.nxi-rmx-design-anticlockwise-2-line:before {
+    content: "\e1a7";
+}
+.nxi.nxi-rmx-design-anticlockwise-fill:before {
+    content: "\e1a8";
+}
+.nxi.nxi-rmx-design-anticlockwise-line:before {
+    content: "\e1a9";
+}
+.nxi.nxi-rmx-design-artboard-2-fill:before {
+    content: "\e1aa";
+}
+.nxi.nxi-rmx-design-artboard-2-line:before {
+    content: "\e1ab";
+}
+.nxi.nxi-rmx-design-artboard-fill:before {
+    content: "\e1ac";
+}
+.nxi.nxi-rmx-design-artboard-line:before {
+    content: "\e1ad";
+}
+.nxi.nxi-rmx-design-ball-pen-fill:before {
+    content: "\e1ae";
+}
+.nxi.nxi-rmx-design-ball-pen-line:before {
+    content: "\e1af";
+}
+.nxi.nxi-rmx-design-blur-off-fill:before {
+    content: "\e1b0";
+}
+.nxi.nxi-rmx-design-blur-off-line:before {
+    content: "\e1b1";
+}
+.nxi.nxi-rmx-design-brush-2-fill:before {
+    content: "\e1b2";
+}
+.nxi.nxi-rmx-design-brush-2-line:before {
+    content: "\e1b3";
+}
+.nxi.nxi-rmx-design-brush-3-fill:before {
+    content: "\e1b4";
+}
+.nxi.nxi-rmx-design-brush-3-line:before {
+    content: "\e1b5";
+}
+.nxi.nxi-rmx-design-brush-4-fill:before {
+    content: "\e1b6";
+}
+.nxi.nxi-rmx-design-brush-4-line:before {
+    content: "\e1b7";
+}
+.nxi.nxi-rmx-design-brush-fill:before {
+    content: "\e1b8";
+}
+.nxi.nxi-rmx-design-brush-line:before {
+    content: "\e1b9";
+}
+.nxi.nxi-rmx-design-clockwise-2-fill:before {
+    content: "\e1ba";
+}
+.nxi.nxi-rmx-design-clockwise-2-line:before {
+    content: "\e1bb";
+}
+.nxi.nxi-rmx-design-clockwise-fill:before {
+    content: "\e1bc";
+}
+.nxi.nxi-rmx-design-clockwise-line:before {
+    content: "\e1bd";
+}
+.nxi.nxi-rmx-design-collage-fill:before {
+    content: "\e1be";
+}
+.nxi.nxi-rmx-design-collage-line:before {
+    content: "\e1bf";
+}
+.nxi.nxi-rmx-design-compasses-2-fill:before {
+    content: "\e1c0";
+}
+.nxi.nxi-rmx-design-compasses-2-line:before {
+    content: "\e1c1";
+}
+.nxi.nxi-rmx-design-compasses-fill:before {
+    content: "\e1c2";
+}
+.nxi.nxi-rmx-design-compasses-line:before {
+    content: "\e1c3";
+}
+.nxi.nxi-rmx-design-contrast-2-fill:before {
+    content: "\e1c4";
+}
+.nxi.nxi-rmx-design-contrast-2-line:before {
+    content: "\e1c5";
+}
+.nxi.nxi-rmx-design-contrast-drop-2-fill:before {
+    content: "\e1c6";
+}
+.nxi.nxi-rmx-design-contrast-drop-2-line:before {
+    content: "\e1c7";
+}
+.nxi.nxi-rmx-design-contrast-drop-fill:before {
+    content: "\e1c8";
+}
+.nxi.nxi-rmx-design-contrast-drop-line:before {
+    content: "\e1c9";
+}
+.nxi.nxi-rmx-design-contrast-fill:before {
+    content: "\e1ca";
+}
+.nxi.nxi-rmx-design-contrast-line:before {
+    content: "\e1cb";
+}
+.nxi.nxi-rmx-design-crop-2-fill:before {
+    content: "\e1cc";
+}
+.nxi.nxi-rmx-design-crop-2-line:before {
+    content: "\e1cd";
+}
+.nxi.nxi-rmx-design-crop-fill:before {
+    content: "\e1ce";
+}
+.nxi.nxi-rmx-design-crop-line:before {
+    content: "\e1cf";
+}
+.nxi.nxi-rmx-design-crosshair-2-fill:before {
+    content: "\e1d0";
+}
+.nxi.nxi-rmx-design-crosshair-2-line:before {
+    content: "\e1d1";
+}
+.nxi.nxi-rmx-design-crosshair-fill:before {
+    content: "\e1d2";
+}
+.nxi.nxi-rmx-design-crosshair-line:before {
+    content: "\e1d3";
+}
+.nxi.nxi-rmx-design-drag-drop-fill:before {
+    content: "\e1d4";
+}
+.nxi.nxi-rmx-design-drag-drop-line:before {
+    content: "\e1d5";
+}
+.nxi.nxi-rmx-design-drop-fill:before {
+    content: "\e1d6";
+}
+.nxi.nxi-rmx-design-drop-line:before {
+    content: "\e1d7";
+}
+.nxi.nxi-rmx-design-edit-2-fill:before {
+    content: "\e1d8";
+}
+.nxi.nxi-rmx-design-edit-2-line:before {
+    content: "\e1d9";
+}
+.nxi.nxi-rmx-design-edit-box-fill:before {
+    content: "\e1da";
+}
+.nxi.nxi-rmx-design-edit-box-line:before {
+    content: "\e1db";
+}
+.nxi.nxi-rmx-design-edit-circle-fill:before {
+    content: "\e1dc";
+}
+.nxi.nxi-rmx-design-edit-circle-line:before {
+    content: "\e1dd";
+}
+.nxi.nxi-rmx-design-edit-fill:before {
+    content: "\e1de";
+}
+.nxi.nxi-rmx-design-edit-line:before {
+    content: "\e1df";
+}
+.nxi.nxi-rmx-design-eraser-fill:before {
+    content: "\e1e0";
+}
+.nxi.nxi-rmx-design-eraser-line:before {
+    content: "\e1e1";
+}
+.nxi.nxi-rmx-design-focus-2-fill:before {
+    content: "\e1e2";
+}
+.nxi.nxi-rmx-design-focus-2-line:before {
+    content: "\e1e3";
+}
+.nxi.nxi-rmx-design-focus-3-fill:before {
+    content: "\e1e4";
+}
+.nxi.nxi-rmx-design-focus-3-line:before {
+    content: "\e1e5";
+}
+.nxi.nxi-rmx-design-focus-fill:before {
+    content: "\e1e6";
+}
+.nxi.nxi-rmx-design-focus-line:before {
+    content: "\e1e7";
+}
+.nxi.nxi-rmx-design-grid-fill:before {
+    content: "\e1e8";
+}
+.nxi.nxi-rmx-design-grid-line:before {
+    content: "\e1e9";
+}
+.nxi.nxi-rmx-design-hammer-fill:before {
+    content: "\e1ea";
+}
+.nxi.nxi-rmx-design-hammer-line:before {
+    content: "\e1eb";
+}
+.nxi.nxi-rmx-design-ink-bottle-fill:before {
+    content: "\e1ec";
+}
+.nxi.nxi-rmx-design-ink-bottle-line:before {
+    content: "\e1ed";
+}
+.nxi.nxi-rmx-design-input-method-fill:before {
+    content: "\e1ee";
+}
+.nxi.nxi-rmx-design-input-method-line:before {
+    content: "\e1ef";
+}
+.nxi.nxi-rmx-design-layout-2-fill:before {
+    content: "\e1f0";
+}
+.nxi.nxi-rmx-design-layout-2-line:before {
+    content: "\e1f1";
+}
+.nxi.nxi-rmx-design-layout-3-fill:before {
+    content: "\e1f2";
+}
+.nxi.nxi-rmx-design-layout-3-line:before {
+    content: "\e1f3";
+}
+.nxi.nxi-rmx-design-layout-4-fill:before {
+    content: "\e1f4";
+}
+.nxi.nxi-rmx-design-layout-4-line:before {
+    content: "\e1f5";
+}
+.nxi.nxi-rmx-design-layout-5-fill:before {
+    content: "\e1f6";
+}
+.nxi.nxi-rmx-design-layout-5-line:before {
+    content: "\e1f7";
+}
+.nxi.nxi-rmx-design-layout-6-fill:before {
+    content: "\e1f8";
+}
+.nxi.nxi-rmx-design-layout-6-line:before {
+    content: "\e1f9";
+}
+.nxi.nxi-rmx-design-layout-bottom-2-fill:before {
+    content: "\e1fa";
+}
+.nxi.nxi-rmx-design-layout-bottom-2-line:before {
+    content: "\e1fb";
+}
+.nxi.nxi-rmx-design-layout-bottom-fill:before {
+    content: "\e1fc";
+}
+.nxi.nxi-rmx-design-layout-bottom-line:before {
+    content: "\e1fd";
+}
+.nxi.nxi-rmx-design-layout-column-fill:before {
+    content: "\e1fe";
+}
+.nxi.nxi-rmx-design-layout-column-line:before {
+    content: "\e1ff";
+}
+.nxi.nxi-rmx-design-layout-fill:before {
+    content: "\e200";
+}
+.nxi.nxi-rmx-design-layout-grid-fill:before {
+    content: "\e201";
+}
+.nxi.nxi-rmx-design-layout-grid-line:before {
+    content: "\e202";
+}
+.nxi.nxi-rmx-design-layout-left-2-fill:before {
+    content: "\e203";
+}
+.nxi.nxi-rmx-design-layout-left-2-line:before {
+    content: "\e204";
+}
+.nxi.nxi-rmx-design-layout-left-fill:before {
+    content: "\e205";
+}
+.nxi.nxi-rmx-design-layout-left-line:before {
+    content: "\e206";
+}
+.nxi.nxi-rmx-design-layout-line:before {
+    content: "\e207";
+}
+.nxi.nxi-rmx-design-layout-masonry-fill:before {
+    content: "\e208";
+}
+.nxi.nxi-rmx-design-layout-masonry-line:before {
+    content: "\e209";
+}
+.nxi.nxi-rmx-design-layout-right-2-fill:before {
+    content: "\e20a";
+}
+.nxi.nxi-rmx-design-layout-right-2-line:before {
+    content: "\e20b";
+}
+.nxi.nxi-rmx-design-layout-right-fill:before {
+    content: "\e20c";
+}
+.nxi.nxi-rmx-design-layout-right-line:before {
+    content: "\e20d";
+}
+.nxi.nxi-rmx-design-layout-row-fill:before {
+    content: "\e20e";
+}
+.nxi.nxi-rmx-design-layout-row-line:before {
+    content: "\e20f";
+}
+.nxi.nxi-rmx-design-layout-top-2-fill:before {
+    content: "\e210";
+}
+.nxi.nxi-rmx-design-layout-top-2-line:before {
+    content: "\e211";
+}
+.nxi.nxi-rmx-design-layout-top-fill:before {
+    content: "\e212";
+}
+.nxi.nxi-rmx-design-layout-top-line:before {
+    content: "\e213";
+}
+.nxi.nxi-rmx-design-magic-fill:before {
+    content: "\e214";
+}
+.nxi.nxi-rmx-design-magic-line:before {
+    content: "\e215";
+}
+.nxi.nxi-rmx-design-mark-pen-fill:before {
+    content: "\e216";
+}
+.nxi.nxi-rmx-design-mark-pen-line:before {
+    content: "\e217";
+}
+.nxi.nxi-rmx-design-markup-fill:before {
+    content: "\e218";
+}
+.nxi.nxi-rmx-design-markup-line:before {
+    content: "\e219";
+}
+.nxi.nxi-rmx-design-paint-brush-fill:before {
+    content: "\e21a";
+}
+.nxi.nxi-rmx-design-paint-brush-line:before {
+    content: "\e21b";
+}
+.nxi.nxi-rmx-design-paint-fill:before {
+    content: "\e21c";
+}
+.nxi.nxi-rmx-design-paint-line:before {
+    content: "\e21d";
+}
+.nxi.nxi-rmx-design-palette-fill:before {
+    content: "\e21e";
+}
+.nxi.nxi-rmx-design-palette-line:before {
+    content: "\e21f";
+}
+.nxi.nxi-rmx-design-pantone-fill:before {
+    content: "\e220";
+}
+.nxi.nxi-rmx-design-pantone-line:before {
+    content: "\e221";
+}
+.nxi.nxi-rmx-design-pen-nib-fill:before {
+    content: "\e222";
+}
+.nxi.nxi-rmx-design-pen-nib-line:before {
+    content: "\e223";
+}
+.nxi.nxi-rmx-design-pencil-fill:before {
+    content: "\e224";
+}
+.nxi.nxi-rmx-design-pencil-line:before {
+    content: "\e225";
+}
+.nxi.nxi-rmx-design-pencil-ruler-2-fill:before {
+    content: "\e226";
+}
+.nxi.nxi-rmx-design-pencil-ruler-2-line:before {
+    content: "\e227";
+}
+.nxi.nxi-rmx-design-pencil-ruler-fill:before {
+    content: "\e228";
+}
+.nxi.nxi-rmx-design-pencil-ruler-line:before {
+    content: "\e229";
+}
+.nxi.nxi-rmx-design-quill-pen-fill:before {
+    content: "\e22a";
+}
+.nxi.nxi-rmx-design-quill-pen-line:before {
+    content: "\e22b";
+}
+.nxi.nxi-rmx-design-ruler-2-fill:before {
+    content: "\e22c";
+}
+.nxi.nxi-rmx-design-ruler-2-line:before {
+    content: "\e22d";
+}
+.nxi.nxi-rmx-design-ruler-fill:before {
+    content: "\e22e";
+}
+.nxi.nxi-rmx-design-ruler-line:before {
+    content: "\e22f";
+}
+.nxi.nxi-rmx-design-scissors-2-fill:before {
+    content: "\e230";
+}
+.nxi.nxi-rmx-design-scissors-2-line:before {
+    content: "\e231";
+}
+.nxi.nxi-rmx-design-scissors-cut-fill:before {
+    content: "\e232";
+}
+.nxi.nxi-rmx-design-scissors-cut-line:before {
+    content: "\e233";
+}
+.nxi.nxi-rmx-design-scissors-fill:before {
+    content: "\e234";
+}
+.nxi.nxi-rmx-design-scissors-line:before {
+    content: "\e235";
+}
+.nxi.nxi-rmx-design-screenshot-2-fill:before {
+    content: "\e236";
+}
+.nxi.nxi-rmx-design-screenshot-2-line:before {
+    content: "\e237";
+}
+.nxi.nxi-rmx-design-screenshot-fill:before {
+    content: "\e238";
+}
+.nxi.nxi-rmx-design-screenshot-line:before {
+    content: "\e239";
+}
+.nxi.nxi-rmx-design-shape-2-fill:before {
+    content: "\e23a";
+}
+.nxi.nxi-rmx-design-shape-2-line:before {
+    content: "\e23b";
+}
+.nxi.nxi-rmx-design-shape-fill:before {
+    content: "\e23c";
+}
+.nxi.nxi-rmx-design-shape-line:before {
+    content: "\e23d";
+}
+.nxi.nxi-rmx-design-sip-fill:before {
+    content: "\e23e";
+}
+.nxi.nxi-rmx-design-sip-line:before {
+    content: "\e23f";
+}
+.nxi.nxi-rmx-design-slice-fill:before {
+    content: "\e240";
+}
+.nxi.nxi-rmx-design-slice-line:before {
+    content: "\e241";
+}
+.nxi.nxi-rmx-design-t-box-fill:before {
+    content: "\e242";
+}
+.nxi.nxi-rmx-design-t-box-line:before {
+    content: "\e243";
+}
+.nxi.nxi-rmx-design-table-alt-fill:before {
+    content: "\e244";
+}
+.nxi.nxi-rmx-design-table-alt-line:before {
+    content: "\e245";
+}
+.nxi.nxi-rmx-design-table-fill:before {
+    content: "\e246";
+}
+.nxi.nxi-rmx-design-table-line:before {
+    content: "\e247";
+}
+.nxi.nxi-rmx-design-tools-fill:before {
+    content: "\e248";
+}
+.nxi.nxi-rmx-design-tools-line:before {
+    content: "\e249";
+}
